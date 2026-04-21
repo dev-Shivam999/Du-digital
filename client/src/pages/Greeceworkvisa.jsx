@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { CheckCircle, ChevronDown, ChevronUp, Check, XCircle, Loader2, ChevronLeft, ChevronRight } from "lucide-react";
 import LoadingState from "../components/reusable/LoadingState";
 import ErrorState from "../components/reusable/ErrorState";
+import SEO from "../components/reusable/SEO";
 
 const BackendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
 const BackendImagesURL = import.meta.env.VITE_BACKEND_IMAGES_URL || 'http://localhost:5000/api';
@@ -164,7 +165,7 @@ const GreeceWorkVisa = () => {
 
   return (
     <div className="bg-white  ">
-
+   <SEO />
       {/* ===== HERO SECTION ===== */}
       <section id="hero-section" className="relative w-full min-h-[800px] lg:h-[800px] overflow-hidden">
         <img

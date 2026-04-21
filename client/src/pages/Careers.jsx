@@ -8,6 +8,7 @@ import WorkingAt from "../components/careers/WorkingAt";
 import CareerOpportunities from "../components/careers/CareerOpportunities";
 import ApplyModal from "../components/careers/ApplyModal";
 import JobDescriptionModal from "../components/careers/JobDescriptionModal";
+import SEO from "../components/reusable/SEO";
 
 const Careers = () => {
     const dispatch = useDispatch();
@@ -20,11 +21,12 @@ const Careers = () => {
         dispatch(fetchCareers());
     }, [dispatch]);
     useEffect(() => {
-       dispatch(clearCareersState())
+        dispatch(clearCareersState())
     }, [jobs])
 
     return (
         <>
+            <SEO />
             <CareersHero data={data.hero} />
             <WorkingAt data={data.working} />
 

@@ -58,26 +58,26 @@ async function apiFetch(apiPath) {
 
 // ─── Route → API data to prefetch ────────────────────────────────────────────
 async function prefetchForRoute(url) {
-    const pathname = url.split('?')[0];
+    const rawPathname = new URL(url, 'http://localhost').pathname;
+    const pathname = rawPathname.length > 1 ? rawPathname.replace(/\/$/, '') : rawPathname;
+    const state = {};
 
-    // Some data is needed on EVERY page (e.g. Footer/OurOffices)
+    // 🔥 Common Data for ALL Routes (for Footer/Nav/Offices)
     const commonData = await Promise.all([
         apiFetch('/api/office/locations/grouped'),
         apiFetch('/api/partner/official'),
     ]);
 
-    const state = {
-        office: {
-            india: commonData[0]?.india || [],
-            international: commonData[0]?.international || [],
-            loading: false,
-            error: null
-        },
-        partner: {
-            officialPartners: commonData[1] || [],
-            loadingOfficialPartners: false,
-            error: null
-        }
+    state.office = {
+        india: commonData[0]?.india || [],
+        international: commonData[0]?.international || [],
+        loading: false,
+        error: null
+    };
+    state.partner = {
+        officialPartners: commonData[1] || [],
+        loadingOfficialPartners: false,
+        error: null
     };
 
     if (pathname === '/careers') {
@@ -89,22 +89,34 @@ async function prefetchForRoute(url) {
             success: true,
             success2: false
         };
-    } else if (pathname === '/events' || pathname.startsWith('/events/')) {
-        const eventsData = await apiFetch('/api/events/');
-        state.events = {
-            events: eventsData?.events || (Array.isArray(eventsData) ? eventsData : []),
-            loading: false,
-            error: null,
-            totalPages: eventsData?.totalPages || 0,
-            currentPage: eventsData?.currentPage || 1
-        };
     } else if (pathname === '/blogs' || pathname.startsWith('/blog/')) {
-        const blogsData = await apiFetch('/api/blogs/');
+        const parts = pathname.split('/');
+        const blogId = parts[2];
+        const [blogsData, singleBlogData] = await Promise.all([
+            apiFetch('/api/blogs/'),
+            blogId ? apiFetch(`/api/blogs/${blogId}`) : Promise.resolve(null)
+        ]);
         state.blog = {
             Blogs: blogsData?.data || (Array.isArray(blogsData) ? blogsData : []),
+            SingleBlog: singleBlogData || {},
             loading: false,
             error: null,
             totalPages: blogsData?.totalPages || 0
+        };
+    } else if (pathname === '/events' || pathname.startsWith('/events/')) {
+        const parts = pathname.split('/');
+        const eventId = parts[2];
+        const [eventsData, singleEventData] = await Promise.all([
+            apiFetch('/api/events/'),
+            eventId ? apiFetch(`/api/events/${eventId}`) : Promise.resolve(null)
+        ]);
+        state.events = {
+            events: eventsData?.data || (Array.isArray(eventsData) ? eventsData : []),
+            selectedEvent: singleEventData || null,
+            loading: false,
+            eventLoading: false,
+            error: null,
+            totalPages: eventsData?.totalPages || 0
         };
     } else if (pathname === '/news-and-media') {
         const newsData = await apiFetch('/api/news/');
@@ -122,13 +134,38 @@ async function prefetchForRoute(url) {
             loading: false,
             error: null
         };
+    } else if (pathname === '/investor-relation' || pathname.startsWith('/investor-relation/')) {
+        const parts = pathname.split('/');
+        const slug = parts[2] || 'investor-relations';
+        const investorData = await apiFetch(`/api/investor/category/${slug}`);
+        state.investor = {
+            category: investorData?.category || null,
+            reports: investorData?.reports || [],
+            loading: false,
+            error: null
+        };
     } else if (pathname === '/') {
-        const newsData = await apiFetch('/api/news/');
+        // Home page needs Blogs, News, and Events
+        const [newsData, blogsData, eventsData] = await Promise.all([
+            apiFetch('/api/news/'),
+            apiFetch('/api/blogs/'),
+            apiFetch('/api/events/')
+        ]);
         state.news = {
             news: newsData?.data || (Array.isArray(newsData) ? newsData : []),
             loading: false,
             error: null,
             totalPages: newsData?.totalPages || 0
+        };
+        state.blog = {
+            Blogs: blogsData?.data || (Array.isArray(blogsData) ? blogsData : []),
+            loading: false,
+            error: null
+        };
+        state.events = {
+            events: eventsData?.data || (Array.isArray(eventsData) ? eventsData : []),
+            loading: false,
+            error: null
         };
     }
     return state;
@@ -166,7 +203,9 @@ async function createApp() {
     // ── SSR catch-all ──────────────────────────────────────────────────────────
     app.use(async (req, res) => {
         const url = req.originalUrl;
-        const pathname = new URL(url, 'http://localhost').pathname;
+        const rawPathname = new URL(url, 'http://localhost').pathname;
+        const pathname = rawPathname.length > 1 ? rawPathname.replace(/\/$/, '') : rawPathname;
+
         console.log(`[SSR] Request for: ${url}`);
 
         try {
@@ -210,19 +249,19 @@ async function createApp() {
             const jsonState = JSON.stringify(finalState).replace(/</g, '\\u003c');
             const stateScript = `<script>window.__PRELOADED_STATE__ = ${jsonState}</script>`;
 
+
             // 4️⃣  SEO Metadata Mapping 
-            const metaMap = {
-                '/': { title: 'DU Digital Global | Visa & Travel Services', desc: 'Comprehensive visa, immigration, and travel services for Indians and expatriates worldwide.' },
-                '/about-us': { title: 'About Us | DU Digital Global', desc: 'Learn about our journey, leadership team, and global footprint in visa processing.' },
-                '/careers': { title: 'Careers | DU Digital Global', desc: 'Join our growing global team. Explore career opportunities at DU Digital Global.' },
-                '/contact-us': { title: 'Contact Us | DU Digital Global', desc: 'Get in touch with our global offices for visa and travel assistance.' },
-                '/news-and-media': { title: 'News & Media | DU Digital Global', desc: 'Stay updated with the latest news, updates, and media coverage from DU Digital Global.' },
-                '/events': { title: 'Events | DU Digital Global', desc: 'Discover upcoming events and global travel summits hosted by DU Digital Global.' },
-                '/blogs': { title: 'Blogs | DU Digital Global', desc: 'Expert insights, travel guides, and visa news from our official blog.' },
-                '/our-capabilities': { title: 'Our Capabilities | DU Digital Global', desc: 'Discover our wide range of services including visa processing and recruitment.' },
-                '/investor-relation': { title: 'Investor Relations | DU Digital Global', desc: 'Performance reports, financial updates, and investor news for DU Digital Global.' },
-            };
-            const routeMeta = metaMap[pathname] || metaMap['/'];
+            const metaFile = path.resolve(__dirname, 'src/data/meta-data.json');
+            let metaMap = {};
+            if (fs.existsSync(metaFile)) {
+                try {
+                    metaMap = JSON.parse(fs.readFileSync(metaFile, 'utf8'));
+                } catch (err) {
+                    console.error('[SSR] Failed to parse meta-data.json:', err);
+                }
+            }
+
+            const routeMeta = metaMap[pathname] || metaMap['/'] || { title: 'DU Digital Global', desc: '' };
 
             // 5️⃣  JSON-LD Generation 
             const jsonLd = {

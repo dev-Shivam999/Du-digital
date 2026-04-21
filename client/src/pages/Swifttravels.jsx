@@ -1,9 +1,11 @@
 import CardData from "../components/swifttravels/CardData";
 import AboutSwifttravelSection from "../components/swifttravels/TravelAboutSection";
 import data from "../data/swifttravels.json";
+import SEO from "../components/reusable/SEO";
 export const Swifttravels = () => {
   return (
     <>
+      <SEO />
       <section className="relative w-full h-[550px] overflow-hidden">
         {/* IMAGE (Right → Left) */}
         <img

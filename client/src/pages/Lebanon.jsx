@@ -3,6 +3,7 @@ import { MapPin, Phone, Mail, ChevronDown, Loader2 } from "lucide-react";
 import LoadingState from "../components/reusable/LoadingState";
 import ErrorState from "../components/reusable/ErrorState";
 import DynamicFormField from "../components/reusable/DynamicFormField";
+import SEO from "../components/reusable/SEO";
 
 const BackendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
 const BackendImagesURL = import.meta.env.VITE_BACKEND_IMAGES_URL || 'http://localhost:5000/api';
@@ -77,6 +78,7 @@ const Lebanon = () => {
 
     return (
       <div className="overflow-x-auto mb-8">
+           <SEO />
         <table className="w-full border-collapse">
           <thead>
             <tr className="bg-gray-700 text-white">

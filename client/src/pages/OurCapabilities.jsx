@@ -10,6 +10,7 @@ import {
     FaShieldAlt,
     FaHome
 } from "react-icons/fa";
+import SEO from "../components/reusable/SEO";
 
 const OurCapabilities = () => {
     // ICON MAP (LOCAL)
@@ -27,6 +28,7 @@ const OurCapabilities = () => {
 
     return (
         <section className="bg-gray-50">
+            <SEO />
             {/* HERO */}
             <div className="relative sm:h-[800px] min-h-[800px] flex items-center justify-center overflow-hidden">
                 {/* Background Image */}

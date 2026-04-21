@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 import OurStrengths from '../components/reusable/OurStrengths';
 import ConnectWithUs from '../components/reusable/ConnectWithUs';
 import OurFootprints from '../components/home/OurFootprints';
+import SEO from '../components/reusable/SEO';
 
 const ForGovernmentEmbassies = () => {
     const dispatch = useDispatch();
@@ -36,6 +37,7 @@ const ForGovernmentEmbassies = () => {
 
     return (
         <div>
+               <SEO />
             <GovernmentEmbHero data={data.hero} />
             <WhoWeAre data={data.whoWeAre} />
             <Timeline data={sortedPartners} />

@@ -5,6 +5,7 @@ import { fetchEventById, clearSelectedEvent } from '../redux/slices/eventsSlice'
 import { ArrowLeft } from 'lucide-react';
 import ImageGalleryModal from '../components/reusable/ImageGalleryModal';
 import LazyImage from '../components/reusable/LazyImage';
+import SEO from '../components/reusable/SEO';
 
 const EventDetail = () => {
     const { id } = useParams();
@@ -57,6 +58,10 @@ const EventDetail = () => {
 
     return (
         <div className="min-h-screen bg-white">
+            <SEO
+                title={`${selectedEvent.title} | DU Digital Global Events`}
+                description={selectedEvent.description || `Join us for ${selectedEvent.title}. Discover more events from DU Digital Global.`}
+            />
             {/* Hero Section */}
             <div className="relative h-[800px]">
                 <img

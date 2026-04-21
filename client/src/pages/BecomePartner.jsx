@@ -5,10 +5,12 @@ import PartnerFAQ from "../components/become-partner/PartnerFAQ";
 // import OurFootprints from "../components/become-partner/OurFootprints";
 import Gallery from "../components/become-partner/Gallery";
 import ContactExperts from "../components/become-partner/ContactExperts";
+import SEO from "../components/reusable/SEO";
 
 const BecomePartner = () => {
     return (
         <>
+            <SEO />
             <HeroSection data={data.partnerHero} />
             <WhyDuGlobal data={data.whyUs} />
             <PartnerFAQ data={data.faq} />

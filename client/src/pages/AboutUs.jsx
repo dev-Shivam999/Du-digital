@@ -9,6 +9,7 @@ import VisionMission from "../components/about-us/VisionMission";
 import WhoWeAre from "../components/reusable/WhoWeAre";
 import { fetchTeamMembers } from "../redux/slices/teamSlice";
 import { fetchOfficialPartners } from "../redux/slices/partnerSlice";
+import SEO from "../components/reusable/SEO";
 import data from "../data/aboutPage.json";
 
 
@@ -71,6 +72,7 @@ const AboutUs = () => {
 
   return (
     <>
+      <SEO />
       <AboutHero data={data.hero} />
       <WhoWeAre data={data.whoWeAre} />
       <Timeline data={sortedPartners} />

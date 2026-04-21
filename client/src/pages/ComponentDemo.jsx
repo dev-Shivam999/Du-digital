@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { LoadingState, ErrorState } from '../components/reusable';
+import SEO from '../components/reusable/SEO';
 
 /**
  * Demo page to showcase reusable state components
@@ -17,6 +18,7 @@ const ComponentDemo = () => {
 
     return (
         <div className="min-h-screen bg-gray-50 py-12">
+               <SEO />
             <div className="max-w-6xl mx-auto px-6 md:px-20">
                 <h1 className="text-4xl font-bold text-gray-900 mb-8">
                     Reusable Components Demo

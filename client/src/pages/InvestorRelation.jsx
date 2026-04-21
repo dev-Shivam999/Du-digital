@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchInvestorCategoryBySlug } from "../redux/slices/investorSlice";
+import SEO from "../components/reusable/SEO";
 // import investorData from "../data/investorRelation.json";
 
 const InvestorRelation = () => {
@@ -54,6 +55,10 @@ const InvestorRelation = () => {
 
     return (
         <div className="w-full">
+            <SEO 
+                title={`${displayData.hero.title} | Investor Relations | DU Digital Global`} 
+                description={`Access ${displayData.hero.title} and other investor relations documents for DU Digital Global.`}
+            />
             {/* ===== HERO ===== */}
             <section className="relative h-[600px]  flex items-center justify-center overflow-hidden">
                 <img

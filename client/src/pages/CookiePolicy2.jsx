@@ -1,8 +1,10 @@
+import SEO from "../components/reusable/SEO";
 import data from "../data/ePolicy2.json";
 
 const Policy2 = () => {
     return (
         <section className="bg-white">
+               <SEO />
             {/* HERO */}
             <div className="relative h-[800px] flex items-center justify-center overflow-hidden">
                 <img

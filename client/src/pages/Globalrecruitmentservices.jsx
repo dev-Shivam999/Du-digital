@@ -27,6 +27,7 @@ import LoadingState from "../components/reusable/LoadingState";
 import ErrorState from "../components/reusable/ErrorState";
 import connectData from "../data/globalRecruitment.json";
 import ConnectWithUs from "../components/reusable/ConnectWithUs";
+import SEO from "../components/reusable/SEO";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
@@ -147,8 +148,8 @@ const Globalrecruitmentservices = () => {
         const res = await response.json();
         if (response.ok) {
           setSubmitSuccess(true);
-           setSubmitMessage('Thank you! Your eVisa application has been submitted successfully. Our team will contact you shortly.');
-         
+          setSubmitMessage('Thank you! Your eVisa application has been submitted successfully. Our team will contact you shortly.');
+
           // Reset form
 
         } else {
@@ -209,6 +210,7 @@ const Globalrecruitmentservices = () => {
 
   return (
     <div className="  antialiased text-gray-900">
+      <SEO />
 
 
       {/* ===== HERO SECTION ===== */}

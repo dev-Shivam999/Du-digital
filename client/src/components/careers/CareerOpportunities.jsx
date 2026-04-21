@@ -15,7 +15,7 @@ const CareerOpportunities = ({ jobs, onApply, onView }) => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {Array.isArray(jobs) && jobs.map((job) => (
                         <div
-                            key={job.id}
+                            key={job._id || job.id}
                             className="bg-white rounded-2xl p-6  transition flex flex-col justify-between"
                         >
                             {/* Header */}

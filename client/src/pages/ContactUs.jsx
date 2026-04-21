@@ -1,6 +1,7 @@
 import contactData from "../data/contactData.json";
 import Offices from "../components/contact-us/Offices";
 import ContactForm from "../components/contact-us/ContactForm";
+import SEO from "../components/reusable/SEO";
 
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -17,6 +18,7 @@ const ContactUs = () => {
 
     return (
         <div className="w-full">
+            <SEO />
 
             {/* Hero */}
             <section

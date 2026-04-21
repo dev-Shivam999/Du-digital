@@ -3,6 +3,7 @@ import { Check, CheckCircle, Loader2, Mail, Phone } from "lucide-react";
 import LoadingState from "../components/reusable/LoadingState";
 import ErrorState from "../components/reusable/ErrorState";
 import DynamicFormField from "../components/reusable/DynamicFormField";
+import SEO from "../components/reusable/SEO";
 
 const BackendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
 const BackendImagesURL = import.meta.env.VITE_BACKEND_IMAGES_URL || 'http://localhost:5000/api';
@@ -68,8 +69,8 @@ const Duverify = () => {
 
       if (response.ok) {
         setSubmitStatus('success');
- setSubmitMessage('Thank you! Your  application has been submitted successfully. Our team will contact you shortly.');
-           setFormValues({});
+        setSubmitMessage('Thank you! Your  application has been submitted successfully. Our team will contact you shortly.');
+        setFormValues({});
       } else {
         setSubmitStatus('error');
         setSubmitMessage(res.message || 'Something went wrong.');
@@ -94,6 +95,7 @@ const Duverify = () => {
 
   return (
     <div className="bg-white  ">
+      <SEO />
 
       {/* ===== HERO SECTION ===== */}
       <section className="relative w-full sm:h-[800px] min-h-[800px] overflow-hidden">

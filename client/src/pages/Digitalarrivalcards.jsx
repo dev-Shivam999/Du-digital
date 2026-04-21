@@ -3,6 +3,7 @@ import { Check, CheckCircle, XCircle, FileText, File, CreditCard } from "lucide-
 import LoadingState from "../components/reusable/LoadingState";
 import ErrorState from "../components/reusable/ErrorState";
 import DigitalArrivalForm from "../components/DigitalArrivalCards/DigitalArrivalForm";
+import SEO from "../components/reusable/SEO";
 
 const BackendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
 const BackendImagesURL = import.meta.env.VITE_BACKEND_IMAGES_URL || 'http://localhost:5000/api';
@@ -62,9 +63,7 @@ const Digitalarrivalcards = () => {
 
     
     try {
-      console.log(finalData);
-      
-      return
+    
 
       if (otpSent) {
         const response = await fetch(`${BackendURL}/api/form-submissions/slug/digital-arrival-cards`, {
@@ -142,7 +141,7 @@ const Digitalarrivalcards = () => {
 
   return (
     <div className="bg-white  ">
-
+   <SEO />
       {/* ===== HERO SECTION ===== */}
       <section className="relative w-full sm:h-[800px] min-h-[800px]overflow-hidden">
         <img

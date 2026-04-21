@@ -1,3 +1,4 @@
+import SEO from "../components/reusable/SEO";
 import data from "../data/TermsConditions.json";
 
 const TermsAndConditions = () => {
@@ -9,6 +10,7 @@ const TermsAndConditions = () => {
                 className="h-[800px] flex items-center justify-center relative overflow-hidden"
             // style={{ backgroundImage: `url(${hero.backgroundImage})` }}
             >
+                   <SEO />
                 <img
                     src={hero.backgroundImage}
                     alt="Terms and Conditions"

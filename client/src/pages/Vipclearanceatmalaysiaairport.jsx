@@ -3,6 +3,7 @@ import LoadingState from "../components/reusable/LoadingState";
 import ErrorState from "../components/reusable/ErrorState";
 import DynamicFormField from "../components/reusable/DynamicFormField";
 import { Loader2, Check, Users, Plane, ArrowRight, MapPin, FileText } from "lucide-react";
+import SEO from "../components/reusable/SEO";
 
 const BackendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
 const BackendImagesURL = import.meta.env.VITE_BACKEND_IMAGES_URL || 'http://localhost:5000/api';
@@ -94,6 +95,7 @@ const Vipclearanceatmalaysiaairport = () => {
 
     return (
         <div className="bg-white  ">
+               <SEO />
             {/* ===== HERO SECTION ===== */}
             <section className="relative w-full h-[800px] sm:h-[800px] flex items-end justify-end text-center bg-gray-900">
                 <img

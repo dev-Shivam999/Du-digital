@@ -13,6 +13,7 @@ import {
   FaHandshake
 } from "react-icons/fa";
 import splitText from "../utils/splitText";
+import SEO from "../components/reusable/SEO";
 
 const iconMap2 = {
   process: FaCogs,
@@ -173,7 +174,7 @@ const Companysetup = () => {
 
   return (
     <div className="bg-white">
-
+   <SEO />
       {/* ===== HERO SECTION ===== */}
       <section className="relative w-full md:h-[800px] min-h-[800px] py-12 pb-16 overflow-hidden">
         <img

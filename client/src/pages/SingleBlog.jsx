@@ -2,6 +2,7 @@ import { useEffect, lazy, Suspense } from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchSingleBlog } from "../redux/slices/BlogsSlice";
+import SEO from "../components/reusable/SEO";
 
 const MarkdownPreview = lazy(() => import("@uiw/react-markdown-preview"));
 
@@ -30,6 +31,12 @@ const SingleBlog = () => {
   };
   return (
     <div>
+      {SingleBlog && (
+        <SEO
+          title={`${SingleBlog.title} | DU Digital Global`}
+          description={SingleBlog.summary || `Read about ${SingleBlog.title} on DU Digital Global.`}
+        />
+      )}
       {loading ? <div>loading</div> : error ? <div>error</div> : SingleBlog &&
         <article className="blog-container">
           {/* Header */}

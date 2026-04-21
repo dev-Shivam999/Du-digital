@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import VideoCard from "../components/video-gallery/VideoCard";
 import { fetchVideos } from "../redux/slices/videoSlice";
+import SEO from "../components/reusable/SEO";
 
 const VideoGallery = () => {
     const dispatch = useDispatch();
@@ -33,6 +34,7 @@ const VideoGallery = () => {
     if (loading) {
         return (
             <div className="w-full">
+                   <SEO />
                 <section className="h-[600px] relative flex items-center justify-center">
                     <img
                         src="/assets/video-gallery/video-gallery-bg.jpg"
@@ -57,6 +59,7 @@ const VideoGallery = () => {
     if (error) {
         return (
             <div className="w-full">
+   <SEO />
                 <section className="h-[600px] relative flex items-center justify-center">
                     <img
                         src="/assets/video-gallery/video-gallery-bg.jpg"
@@ -106,6 +109,7 @@ const VideoGallery = () => {
 
     return (
         <div className="w-full">
+               <SEO />
             {/* ===== Hero ===== */}
             <section className="h-[600px] relative flex items-center justify-center">
                 <img

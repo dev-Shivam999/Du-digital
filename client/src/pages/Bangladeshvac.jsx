@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Check, ChevronDown, MapPin, Phone, Mail, CheckCircle, XCircle, Loader2 } from "lucide-react";
 import LoadingState from "../components/reusable/LoadingState";
 import ErrorState from "../components/reusable/ErrorState";
+import SEO from "../components/reusable/SEO";
 
 const BackendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000';
 const BackendImagesURL = import.meta.env.VITE_BACKEND_IMAGES_URL || 'http://localhost:5000/api';
@@ -105,7 +106,7 @@ const BangladeshVac = () => {
 
   return (
     <div className="bg-white  ">
-
+   <SEO />
       {/* ===== HERO BANNER ===== */}
       <section className="relative w-full py-20 h-[800px] flex items-center">
         <img

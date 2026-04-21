@@ -17,6 +17,7 @@ import { Link } from "react-router-dom";
 import OurBusinesses from "../components/home/OurBusinesses";
 import useIntersectionObserver from "../hooks/useIntersectionObserver";
 import WhyUsSection from "../components/reusable/WhyUsSection";
+import SEO from "../components/reusable/SEO";
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -51,6 +52,7 @@ const Home = () => {
     }, [eventsVisible, dispatch, events.length]);
     return (
         <div className="relative">
+            <SEO />
 
             {/* HERO SLIDER */}
             <HomeSlider data={homeData.slider} />
@@ -124,7 +126,7 @@ const Home = () => {
                 </Link>
             </div>
 
-        </div>
+        </div >
     );
 };
 
