@@ -224,13 +224,27 @@ async function createApp() {
             };
             const routeMeta = metaMap[pathname] || metaMap['/'];
 
-            // 5️⃣  Assemble the full page
+            // 5️⃣  JSON-LD Generation 
+            const jsonLd = {
+                "@context": "https://schema.org",
+                "@type": pathname === '/about-us' ? "AboutPage" : (pathname === '/careers' ? "ItemList" : "Organization"),
+                "name": routeMeta.title,
+                "description": routeMeta.desc,
+                "url": `https://dudigitalglobal.com${pathname}`,
+                "logo": "https://dudigitalglobal.com/favicon.ico"
+            };
+            const jsonLdScript = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`;
+
+            // 6️⃣  Assemble the full page
             const rootDiv = '<div id="root"></div>';
 
-            // Inject Dynamic Title & Description
+            // Inject Dynamic Title, Description and JSON-LD
             let processedTemplate = template
                 .replace('<title>DU Digital Global</title>', `<title>${routeMeta.title}</title>`)
                 .replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${routeMeta.desc}">`);
+
+            // Inject JSON-LD at the end of <head>
+            processedTemplate = processedTemplate.replace('</head>', `${jsonLdScript}</head>`);
 
             const [htmlHead, htmlTail] = processedTemplate.split(rootDiv);
             const fullHtml = `${htmlHead}<div id="root">${appHtml}</div>${stateScript}${htmlTail}`;
