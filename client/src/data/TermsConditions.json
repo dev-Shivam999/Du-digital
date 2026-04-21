@@ -1,0 +1,75 @@
+{
+    "hero": {
+        "title": "Terms and Conditions",
+        "backgroundImage": "/assets/terms-condition/terms-banner.jpg"
+    },
+    "content": [
+        {
+            "heading": "Instruction",
+            "text": "Please read the terms and conditions carefully. By using this website, you acknowledge and agree to the terms and conditions below:"
+        },
+        {
+            "heading": "DU DIGITAL GLOBAL",
+            "text": "means DU DIGITAL GLOBAL LLC with its registered address at 19th Floor Conrad Dubai, Sheikh Zayed Road, PO Box 5610, Dubai, UAE."
+        },
+        {
+            "heading": "Affiliate",
+            "text": "means a person, includes a natural person, corporate, organization, or unincorporated body who has completed the Affiliate application and successfully registered himself / itself as Du's Affiliate."
+        },
+        {
+            "heading": "DU DIGITAL GLOBAL Website",
+            "text": "means the DU DIGITAL GLOBAL's online website known as DuDigitalGlobal including its full desktop version website, phone version website and applications owned or operated by DU DIGITAL GLOBAL."
+        },
+        {
+            "heading": "Loss",
+            "text": "mentioned herein after includes but not limited to loss of profit, loss of production, loss of revenue, loss of contract and loss of claim."
+        },
+        {
+            "heading": "Damages",
+            "text": "mentioned hereinafter includes but not limited to direct, indirect, exemplary, incidental, special, compensatory, consequential or punitive damages."
+        },
+        {
+            "heading": "Liability Disclaimer",
+            "paragraphs": [
+                "In upholding our data protection and storage security, DU DIGITAL GLOBAL uses leading technologies and strict security standards to safeguard your personal data and to prevent unauthorised access.",
+                "However, DU DIGITAL GLOBAL does not guarantee the accuracy of any information, content or materials that are provided in DU DIGITAL GLOBAL Website.",
+                "All products and services are provided on an 'as is' basis without warranty of any kind, be it express or implied.",
+                "To the maximum extent allowed by law, user of DU DIGITAL GLOBAL Website shall use this website at user's own risk."
+            ]
+        },
+        {
+            "heading": "Force Majeure",
+            "text": "In no event shall DU DIGITAL GLOBAL be liable for any breach, fault or delay in performance of its obligations if it is attributable to any circumstances beyond the control of DU DIGITAL GLOBAL including but not limited to acts of God, war, riots, strikes or governmental actions."
+        },
+        {
+            "heading": "Copyright",
+            "paragraphs": [
+                "All editorial content, graphics and multimedia works on this site are protected by copyright laws.",
+                "Permission to reproduce content may be granted on a case-by-case basis by DU DIGITAL GLOBAL."
+            ]
+        },
+        {
+            "heading": "Privacy Policy",
+            "paragraphs": [
+                "We do not collect any personal information without consent.",
+                "Personal information collected is used solely to provide services and communicate offers."
+            ]
+        },
+        {
+            "heading": "No Return Or Refund Policy",
+            "text": "DU DIGITAL GLOBAL maintains a strict no-return or refund policy once a product has been purchased except under exceptional circumstances."
+        },
+        {
+            "heading": "Governing Law and Jurisdiction",
+            "text": "These terms shall be governed and construed in accordance with the laws of India."
+        },
+        {
+            "heading": "Severability",
+            "text": "If any provision of these terms is held invalid, the remaining provisions shall continue in full force."
+        },
+        {
+            "heading": "Waiver",
+            "text": "No delay or failure by DU DIGITAL GLOBAL to enforce any right shall constitute a waiver."
+        }
+    ]
+}

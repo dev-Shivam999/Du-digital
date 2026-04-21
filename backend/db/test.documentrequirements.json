@@ -1,0 +1,462 @@
+[{
+  "_id": {
+    "$oid": "695692a4ec4619b22ce7ad56"
+  },
+  "formId": {
+    "$oid": "695690d37cbfa68326df0ed8"
+  },
+  "title": "titel",
+  "description": "dmvns,\ndsvsV\nsVf\nv\nvdf\nv",
+  "applicableFor": "evivsa",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T15:28:36.662Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T15:28:36.662Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695692b2ec4619b22ce7ad5d"
+  },
+  "formId": {
+    "$oid": "695690d37cbfa68326df0ed8"
+  },
+  "title": "dde",
+  "description": "eferv",
+  "applicableFor": "fewfefwe",
+  "isMandatory": true,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T15:28:50.039Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T15:28:50.039Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a05611f525706b59449c"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "title": "For e-Tourist Visa",
+  "description": "\nScanned Bio Page of the passport showing the Photograph and Details *\nFor short term courses, copy of letter from the institute/organization/hospital etc. concerned on its letter-head *\nFor voluntary work of short duration, copy of letter from the organization concerned on its letter-head *",
+  "applicableFor": "evisa",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:27:02.608Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:27:02.608Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a09c11f525706b5944a3"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "title": "For e-Business Visa",
+  "description": "\nScanned Bio Page of the passport showing the Photograph and Details*.\nCopy of Business Card.\nAny letter of invitation if applicable from Indian parties which wish you conduct the business (optional).\nFor Sports Related Activity\nCopy of Passport page containing personal particulars *.\nApproval of the Government of India in the Ministry of Youth Affairs and Sports (Department of Sports).\nInvitation Letter to foreign sports teams and sports persons to visit India by the concerned Sports Federation/Association in India.\nIf the applicant had participated in any commercial sports event during his/her previous visit to India, then documents regarding Tax compliance for the said visit are to be furnished\nIf the sports event entails visit to Restricted or Protected Areas in India, below mentioned additional documents are also to be submitted\nClearance for holding the event from the Ministry of Home Affairs, Government of India.\nPolitical Clearance for holding the event from the Ministry of external Affairs, Government of India.\nRequisite clearance from the Ministry of Youth Affairs & Sports.\nFor e-Business Visa visiting “To deliver lecture/s under Global Initiative for Academic Networks (GIAN)”\n\nScanned Bio Page of the passport showing the Photograph and Details*\nInvitation of the host institute to the foreign faculty\nCopy of the sanction order under GIAN issued by the National Coordinating Institute viz. IIT Kharagpur\nCopy of the synopsis of the courses to be taken up by the faculty",
+  "applicableFor": "evisa",
+  "isMandatory": true,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:28:12.184Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:28:12.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a300ece523d8d30d84c6"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "title": "Documents Required for Company Setup in the UAE",
+  "description": "\nPassport copies of shareholders and managers (with photographs)\nProposed trade names\nAttested copies of incorporation/registration certificates and MOA/AOA (for branch setup)\nOriginal board resolution confirming financial commitment (for branch setup)\nPassport copy + photo of the shareholder(s)",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:02:56.268Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:02:56.268Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a73dece523d8d30d85c5"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "title": "Documents Required",
+  "description": "Passport (with 6 months validity)",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:21:01.109Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:21:01.109Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a74cece523d8d30d85cc"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "title": "Documents Required",
+  "description": "Hotel booking confirmation",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:21:16.367Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:21:16.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a75bece523d8d30d85d3"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "title": "Documents Required",
+  "description": "Return flight\ntickets",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:21:31.867Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:21:31.867Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d18dece523d8d30d8788"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "title": "List of documents for single entry visa",
+  "description": " Passport copy (both sides)\n Photo (JPG format and white background with head spacing)\n Round trip flight ticket\n Hotel confirmation\n Bank statement",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:21:33.986Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:21:33.986Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d1a2ece523d8d30d878f"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "title": "Mandatory documents required for multi-visit visa",
+  "description": " Passport with six months validation.\n 3 months bank statement\n Verified itinerary with agency stamp\n Photo with white background\n Hotel confirmation/cruise confirmation\nFlight confirmation\n Invitation letter and ID card",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:21:54.464Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:21:54.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d1b3ece523d8d30d8796"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "title": " Fly and Cruise visa",
+  "description": " Passport and photo\n Flight ticket with cruise ticket and itinerary with verified stamp of the company\n Hotel and accommodation confirmation\n Bank statement (recent 3 months)\n Invitation letter and ID card of resident",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:22:11.789Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:22:11.789Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d35fece523d8d30d8845"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "title": "Requirements for Tourist Visa",
+  "description": "Entry visa application form into the Kingdom of Morocco.\nTwo identity photographs in colour on white background (4 X 3 cm) showing the features of the face clearly.\nIdentity card or residence permit or any document that proves the address.\nValid passport: The validity of the passport or the travel document must be longer than the duration of stay.\nA photocopy of the passport (pages indicating the identity & the validity).\n6 Months Bank statement attested from the bank.\nOriginal Covering letter from the applicant /profession details.\n",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:29:19.918Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:29:19.918Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d380ece523d8d30d884c"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "title": "Requirements for Business Visa",
+  "description": "\nEntry visa application form into the Kingdom of Morocco.\n2 identity photos in colour on a white background (4x3cm) showing the features of the face clearly.\nIdentity card or residence permit or any document showing current address.\nValid passport: The validity of the passport or the travel document must be longer than the duration of the stay.\nA photocopy of the passport (pages indicating the identity and the validity).\nOriginal Invitation letter from any Moroccan Company, the signature on the invitation should be legalized by local authorities in Morocco and attested by the bureau of legalization of the Ministry of Foreign Affairs, Morocco, or certified Apostille.",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:29:52.278Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:29:52.278Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d542ece523d8d30d8927"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "title": "Below are the requirements for your South Korean Visa.",
+  "description": "\nPassport: Your passport must be valid for six months with three blank pages.\nVisa Application Form: This form must be duly filled out and signed by the applicant.\nPhotographs: Two passport-sized colour photographs with a white background.\nCover Letter: This letter includes the reason for your visit.\nHealth Condition Form: Available at Visa Application Centre and Online.\nDeclaration Form: Available at Visa Application Centre and Online.\nBank Statement: Either original or stamped copy of the last six months.\nIncome Tax Returns:\n1. Individual Income Tax Return (2 Years)\n2.Business Personal ITR (3 Years), Company's ITR - 3 Years (Optional)\nFlight Tickets: Show proof of your confirmed return tickets.\nProof of Accommodation: Show proof of your hotel reservation in South Korea.",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:37:22.791Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:37:22.791Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d711ece523d8d30d8a39"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "title": "Eligibility and Documents Required for UAE 5-year Tourist Visa",
+  "description": "\nRequired Valid Hotel Bookings and Return Flight Tickets\nThe first visit must be made within 60 days after receiving the Approved Visa\nDigital colour copy of your passport size photograph with white background\nScanned colour copy of first and last page of your valid Passport\nLast 6 months Bank statements to prove your liquidity and sufficiency of funds- minimum 4000 USD\nA letter from bank certifying balance in USD\nProof of health insurance Travel (minimum 1-year)\nReference of a person in UAE (name, contact details and address)",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:45:05.360Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:45:05.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a77251d2f97626206164a"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "title": "Documents required for Australia Tourist Visa",
+  "description": "\nPassport Copy – Front and back.\nRecent Passport-Sized Photograph: Clear and recent.\nContact Number and Email ID\nParents' Details: Date of Birth (DOB) and Place of Birth (POB).\nTravel Itinerary (Group name list if traveling with a group.)\nBank Statement: Last 6 months, original, sealed, and stamped.\nFixed Deposit Proof (Optional)\nMutual Fund Statement (Optional)\nIncome Tax Returns (ITR): Last 3 years.\nPayslips: Last 3 months (if employed).\nProperty Deed: (Optional)\nProvident Fund (PF) Statement: (Optional)",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:20:21.762Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T14:20:21.762Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ab3bcdde0cecedd94d79d"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "title": "Documents for Indian Citizens: 30/60 Day Japan Tourist Visa",
+  "description": "Valid National Passport (with old passport, if any)\n  Issued within the last 10 years.\n  At least 6 months validity after the scheduled return.\n  At least two blank pages.\n  No handwritten passports or passports with observations on the       2 Passport-sized Photographsfront page (bio data).\n  2 Passport-sized Photographs\n  White background, matte finish, not older than 3 months (size   2 X 2 inches).\n  1st picture pasted on the application.\n  2nd picture clipped on the last page of the passport (stapled  or pinned pictures not accepted).\nVisa Application Form\n  Duly filled and signed by the applicant (signature as per passport).\n  For minors: Signed twice by legal guardian, with applicable documents (custody proof, divorce papers, death certificate, etc.).\nPersonal Covering Letter\n  Original letter with travel plans, addressed to “The Visa Officer, Embassy of Japan\n  Include a copy of the covering letter if submitting  applications for family members.\nEmployment Letter\n  Original on business letterhead, signed and stamped by HR or directorate.\n  Mention position, duration of service, \"No objection statement,\" trip dates, and purpose.\nDay-to-Day Schedule Plan of Travel\n  Flight Reservation: Include names of all travelers.\n  Proof of Accommodation in Japan: Hotel reservation, package tour confirmation, or advance payment proof.\nCovid Vaccination Certificate\n  Financial Documents\n     If employed:\n         Last 6 months personal bank statements (stamped and signed, not older than 7 days).\n         Personal ITR for the last 2 assessment years (Acknowledgement page copy).\n     If self-employed/company owner:\n         Business registration certificate / GST Registration / Partnership Deed / Proof of ownership.\n         Last 6 months personal and business bank statements (stamped and signed).\n         Company and personal ITR for the last 2 assessment years (Acknowledgement page copy).\n     If retired:\n         Personal pension bank statement for the last 6 months (stamped and signed, not older than 7 days).\n         Retirement proof.\n         Proof of regular income from property or business   ownership.\n     If student/unemployed:\n         Parents/legal guardians' personal bank statements for the last 6 months.\n         Personal ITR for the last 2 assessment years (ITR-V or Acknowledgement).\n         Confirmation letter of financial support and a copy of parents/legal guardians' passports.",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T18:38:52.889Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T18:14:02.705Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1dbcb35f8f599de4d405"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "title": "Documents Required for Egypt Tourist Visa for Indians",
+  "description": "\nOriginal Passport valid at least for 6 months\nPhotocopy of the first and last page of the Passport having the details of the applicant\nDuly filled Visa Form\n(2) Passport size colored photographs on white background with 60% face size\nRequest letter from the applicant specifying the purpose of visit along with passport detail\nDetailed tour program (Travel Itinerary) with all contact details of the Egyptian Travel Agent on the letter head with the authorized signature and stamp of the Egyptian travel agent\nEgypt Travel Agent National ID copy\nConfirmed return complete-route Air ticket\nConfirmed Hotel Booking/Accommodation Voucher\nLast 6 months personal bank statement of the applicant with original signature and stamp of the Bank",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:11:08.044Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:11:08.044Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1dd3b35f8f599de4d40c"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "title": "Documents Required for Egypt Business Visa for Indians",
+  "description": "\nOriginal Passport valid at least for 6 months\nPhotocopy of the first and last page of the Passport having the details of the applicant\nDuly filled Visa Form\n2 Passport size-colored photographs on white background with 60% face size\nRequest letter from the applicant specifying the purpose of visit along with passport detail\nInvitation letter from an Egypt-based entity with full address and contact details of the host\nID copy of the Invitee\nConfirmed return complete-route Air ticket\nLast 6 months personal bank statement of the applicant with original signature and stamp of the Bank",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:11:31.115Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:11:31.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1de8b35f8f599de4d413"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "title": "Documents Required for Egypt Entry Visa for Indian Citizens",
+  "description": "\nOriginal Passport valid at least for 6 months\nPhotocopy of the first and last page of the Passport having the details of the applicant\nDuly filled Visa Form\n2 Passport size colored photographs on white background with 60% face size\nRequest letter from the applicant specifying the purpose of visit along with passport detail\nInvitation letter from an Egypt-based host with proof of relationship with the invitee\nResidence permit for work of the host (if foreigner) with at least 6 months validity\nConfirmed return complete-route Air ticket\nLast 6 months personal bank statement of the applicant with original signature and stamp of the Bank",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:11:52.292Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:11:52.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d1da10fc4633e5776be6c"
+  },
+  "formId": {
+    "$oid": "695d1c940fc4633e5776bc4b"
+  },
+  "title": "Documents Required",
+  "description": "A scanned colour copy of the first and last page of your valid Passport\nScanned colour copy of the confirmed return air ticket\nScanned colour copy of the hotel booking confirmation",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T14:35:13.389Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-06T14:35:13.389Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d33a617a7ffe259b40894"
+  },
+  "formId": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "title": "Our system is capable to address the following services:",
+  "description": "Indian nationality verification\nIdentity verification\nPassport validation and authenticity\nTravel history validation\nBanking Financial history and data\nIncome tax data\nCriminal check data",
+  "applicableFor": "",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T16:09:10.576Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-06T16:09:10.576Z"
+  },
+  "__v": 0
+}]

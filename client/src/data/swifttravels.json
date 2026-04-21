@@ -1,0 +1,38 @@
+{
+    "hero": {
+        "title": "Welcome to Swifttravel International",
+        "description": "Your Gateway to Unforgettable Holiday Experiences",
+        "image": "/assets/swifttravels/Swift-Travels.jpg"
+    },
+    "aboutSwifttravelSection": {
+        "badge": "DU GLOBAL",
+        "title": "About Swifttravel International",
+        "description": "At Swifttravel, we specialize in turning your travel dreams into reality. Our meticulously crafted travel packages are designed to cater to every preference and budget, offering seamless, memorable journeys tailored just for you. Whether you’re seeking adventure, relaxation, or a perfect mix of both, we have the ideal itinerary waiting for you.",
+        "features": [
+            {
+                "id": 1,
+                "icon": "rupee",
+                "title": "Effortless Booking, Endless Possibilities",
+                "description": "Enjoy a smooth, hassle-free booking experience with our user-friendly platform. Browse a wide variety of carefully curated trip packages – from serene beach retreats to thrilling mountain adventures – all just a few clicks away."
+            },
+            {
+                "id": 2,
+                "icon": "thumbs-up",
+                "title": "Exclusive Savings & Unmatched Value",
+                "description": "Make your next getaway both luxurious and affordable. With exclusive discounts on holiday packages, we ensure that you enjoy the best of both worlds: exceptional experiences at unbeatable prices."
+            },
+            {
+                "id": 3,
+                "icon": "train",
+                "title": "Personalized Travel Solutions",
+                "description": "No two travelers are alike — and neither are our travel packages. We specialize in creating bespoke itineraries that match your unique preferences, whether you’re traveling solo, with family, or as part of a group."
+            },
+            {
+                "id": 4,
+                "icon": "headset",
+                "title": "Comprehensive 24/7 Support",
+                "description": "Our dedicated support team is available around the clock to assist with every aspect of your journey. From planning to execution, we ensure your travel experience is smooth and worry-free."
+            }
+        ]
+    }
+}

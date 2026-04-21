@@ -1,0 +1,344 @@
+/* Helvetica Neue Font Family */
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueUltraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueUltraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueLight.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueLightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueRoman.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueItalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueMedium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueMediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueBold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueBoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueHeavy.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueHeavyItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueBlack.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/helvetica-neue-5/HelveticaNeueBlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@import "tailwindcss";
+
+/* Brand Color Palette */
+:root {
+    /* Primary Colors */
+    --color-black: #000000;
+    --color-gold: #ffd071;
+    --color-dark-green: #004032;
+    --color-navy: #162b56;
+    --color-maroon: #511313;
+
+    /* Secondary Colors */
+    --color-gray: #969696;
+    --color-beige: #ffedd2;
+    --color-mint: #00ab63;
+    --color-blue: #4a7edb;
+    --color-brand-red: #FF1033;
+
+    /* Tertiary Colors */
+    --color-light-gray: #d6d8d8;
+    --color-cream: #fffdf5;
+    --color-light-green: #b7edb7;
+    --color-light-blue: #c7e6f9;
+    --color-bright-red: #ff1033;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+/* Swiper Navigation Arrows */
+.timeline-swiper .swiper-button-prev,
+.timeline-swiper .swiper-button-next {
+    top: 8px;
+    transform: translateY(0);
+    color: #FF1033;
+}
+
+.timeline-swiper .swiper-button-prev::after,
+.timeline-swiper .swiper-button-next::after {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.become-partner-swiper .swiper-button-prev,
+.become-partner-swiper .swiper-button-next {
+    top: 8px;
+    transform: translateY(0);
+    color: #FF1033;
+}
+
+
+.industry-dots .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: #d1d5db;
+    opacity: 1;
+}
+
+.industry-dots .swiper-pagination-bullet-active {
+    background: #000;
+}
+
+
+
+/* Move swiper dots below slider */
+.swiper-pagination {
+    position: relative !important;
+    margin-top: 16px;
+}
+
+.swiper-pagination-bullet {
+    background: #FF1033;
+    opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #FF1033;
+}
+
+
+
+/* Scrollbar Hide */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+/* Firefox */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+
+/* Chrome, Edge, Safari */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.blog-container {
+
+    margin: 40px auto;
+    padding: 0 16px;
+    font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-category {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #777;
+}
+
+.blog-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 12px 0;
+}
+
+.blog-meta {
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.blog-image img {
+    width: 90%;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 30px 0;
+    margin-inline: auto;
+}
+
+.blog-content {
+    font-size: 16px;
+    width: 80%;
+    margin-inline: auto;
+    line-height: 1.8;
+    color: #333;
+}
+
+.blog-content b {
+    font-size: 18px;
+}
+
+.blog-content ul {
+    padding-left: 20px;
+}
+
+.blog-content img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.swiper-pagination-bullet {
+    background: #ff1033 !important;
+    /* red */
+    opacity: 0.4;
+}
+
+.swiper-pagination-bullet-active {
+    background: #ff1033 !important;
+    /* active red */
+    opacity: 1;
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes bounceSubtle {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-3px); }
+}
+
+.animate-bounce-subtle {
+    animation: bounceSubtle 2s infinite ease-in-out;
+}
+woot-widget--standard_small, .woot-widget--standard_medium, .woot-widget--standard_large {
+    box-shadow: none !important;
+    border: none;
+    margin-right: 100px !important
+}

@@ -1,0 +1,69 @@
+[{
+  "_id": {
+    "$oid": "69557724b03402717970245b"
+  },
+  "name": "shivam 7852008477",
+  "email": "shivamswami982@gmail.com",
+  "mobileNumber": "07852008477",
+  "adult": "1",
+  "child": "0",
+  "infant": "0",
+  "travelDate": "2026-01-23",
+  "packageId": {
+    "$oid": "6955710b51f56ac2e7ef0b98"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-31T19:19:00.343Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-31T19:19:00.343Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69557808b034027179702465"
+  },
+  "name": "shivam 7852008477",
+  "email": "shivamswami982@gmail.com",
+  "mobileNumber": "07852008477",
+  "adult": "1",
+  "child": "10",
+  "infant": "20",
+  "travelDate": "2026-01-23",
+  "packageId": {
+    "$oid": "695559bd728cc4cacf18ee6d"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2025-12-31T19:22:48.832Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-31T19:22:48.832Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a741cd81cd774d65949ae"
+  },
+  "name": "shivam 7852008477",
+  "email": "shivamswami982@gmail.com",
+  "mobileNumber": "07852008477",
+  "adult": "1",
+  "child": "0",
+  "infant": "0",
+  "travelDate": "2026-01-07",
+  "packageId": {
+    "$oid": "6955710b51f56ac2e7ef0b98"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:07:24.419Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T14:07:24.419Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "695694e85a71b2f4b6a90b25"
+  },
+  "formId": {
+    "$oid": "695690d37cbfa68326df0ed8"
+  },
+  "question": "kndw",
+  "answer": "asnckleac;",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T15:38:16.722Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T15:38:16.722Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a0de11f525706b5944b9"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "question": "Who is eligible for e-Visa Services?",
+  "answer": "The following are the eligibility conditions for availing e-Visa services–\n\nNationals of countries listed are eligible to apply for e-Visa Services.\nForeigners whose sole objective for visiting India is\nRecreation and sightseeing\nCasual visit to meet friends and relatives\nAttending short term yoga programme or short term courses on local languages, music, dance, arts & crafts, cooking, medicine etc. which should not be a formal or structured course/programme\n(courses not exceeding 6 months duration and not issuing a qualifying certificate/diploma etc. to the participants)\nVoluntary work of short duration (for a maximum period of one month, which do not involve any monetary payment or consideration of any kind in return)\nMedical treatment, including treatment under Indian systems of medicine\nAs attendant to e-Medical visa holder\nBusiness purpose\nAttending a conference/ seminar/ workshop.\nPassport should have at least six months validity at the time of making application for grant of e-Visa and a re-entry permit, if that is required under the law of the country of nationality of the applicant.\nThe passport should have at least two blank pages for stamping by the Immigration Officer.\nThe foreigner should have return ticket or onward journey ticket, with sufficient money to spend during his/her stay in India.\nForeigners of Pakistani origin or having Pakistani Passport are not eligible for e-Visa. Foreigners who are not Pakistani nationals, but whose parents or grandparents (either paternal or maternal) was born\nin, or was permanently resident in Pakistan, are also not eligible for e-Visa. They may apply for regular Visa at Indian Mission.\nNot available to Diplomatic/Official Passport Holders or Laissez-passer/ international travel document holders.\nNot available to individuals endorsed on Parent’s/Spouse’s Passport i.e. each individual should have a separate passport.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:29:18.967Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:29:18.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a5b111f525706b594577"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "question": "How long does the verification process take?",
+  "answer": "\nOnce the required documents are submitted, our DuVerify platform promptly initiates the necessary authentication checks. The Verification Report will be shared within 4–6 hours from the date of payment and document submission.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:49:53.148Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:49:53.148Z"
+  },
+  "__v": 0
+}]

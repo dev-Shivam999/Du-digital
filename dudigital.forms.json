@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "name": "india-evisa",
+  "slug": "india-evisa",
+  "description": "Streamlined and Effortless Visa Processing",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:21:41.791Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T14:25:24.525Z"
+  },
+  "__v": 0,
+  "image": "/uploads/form-1767363924462.webp"
+},
+{
+  "_id": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "name": "tenant-and-domestic-help-verification",
+  "slug": "tenant-and-domestic-help-verification",
+  "description": "Comprehensive Verification for Tenants, Drivers, Maids, and Nannies by DU Verify logo\r\n\r\nSecure your Home & Loved Ones with Instant Background Verification",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:37:02.430Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T15:53:26.130Z"
+  },
+  "__v": 0,
+  "image": "/uploads/form-1767369206038.avif"
+},
+{
+  "_id": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "name": "Global Recruitment Services- Apply Now! Connecting Skilled Talents from India to Abroad",
+  "slug": "global-recruitment-services",
+  "image": "/uploads/form-1767374493684.jpg",
+  "description": "DU Global is a global recruitment agency that specializes in connecting employers worldwide with highly skilled Indian professionals across various sectors. We offer tailored recruitment solutions for both blue-collar roles (e.g., fabricators, electricians, crane operators, factory workers) and white-collar positions (e.g., technical, healthcare, and administrative roles).\r\n\r\nIn today’s competitive market, selecting the right talent is more critical than ever. At Du Global, we deliver trusted, end-to-end global staffing solutions for companies across the globe.\r\n\r\nWe help you hire skilled, job-ready professionals across the Middle East, Europe, the UK, Canada, Russia, and Serbia—sourcing top talent from India, Bangladesh, Nepal, Sri Lanka, and the Philippines—efficiently, ethically, and with full compliance.",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:21:33.833Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:24:28.264Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "name": "DuVerify – Revolutionizing Document Verification for Visa Processes",
+  "slug": "duverify",
+  "image": "/uploads/form-1767375769403.jpg",
+  "description": "\r\nTrusted by Governments, Embassies, and Consulates Worldwide",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:42:49.449Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:42:49.449Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,357 @@
+[{
+  "_id": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "name": "india-evisa",
+  "slug": "india-evisa",
+  "description": "Streamlined and Effortless Visa Processing",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:21:41.791Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.829Z"
+  },
+  "__v": 0,
+  "image": "/uploads/form-1767363924462.webp"
+},
+{
+  "_id": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "name": "tenant-and-domestic-help-verification",
+  "slug": "tenant-and-domestic-help-verification",
+  "description": "Comprehensive Verification for Tenants, Drivers, Maids, and Nannies by DU Verify logo\r\n\r\nSecure your Home & Loved Ones with Instant Background Verification",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:37:02.430Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:15:39.403Z"
+  },
+  "__v": 0,
+  "image": "/uploads/form-1767369206038.avif"
+},
+{
+  "_id": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "name": "Global Recruitment Services- Apply Now! Connecting Skilled Talents from India to Abroad",
+  "slug": "global-recruitment-services",
+  "image": "/uploads/form-1767374493684.jpg",
+  "description": "DU Global is a global recruitment agency that specializes in connecting employers worldwide with highly skilled Indian professionals across various sectors. We offer tailored recruitment solutions for both blue-collar roles (e.g., fabricators, electricians, crane operators, factory workers) and white-collar positions (e.g., technical, healthcare, and administrative roles).\r\n\r\nIn today’s competitive market, selecting the right talent is more critical than ever. At Du Global, we deliver trusted, end-to-end global staffing solutions for companies across the globe.\r\n\r\nWe help you hire skilled, job-ready professionals across the Middle East, Europe, the UK, Canada, Russia, and Serbia—sourcing top talent from India, Bangladesh, Nepal, Sri Lanka, and the Philippines—efficiently, ethically, and with full compliance.",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:21:33.833Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T16:43:07.020Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "name": "DuVerify – Revolutionizing Document Verification for Visa Processes",
+  "slug": "duverify",
+  "image": "/uploads/form-1767933908527.jpg",
+  "description": "\r\nTrusted by Governments, Embassies, and Consulates Worldwide",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:42:49.449Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T04:45:08.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "name": "Company Formation in Dubai UAE",
+  "slug": "company-setup-in-the-uae",
+  "image": "/uploads/form-1767415322938.jpg",
+  "description": "100% Ownership\r\nTax Efficient Structure\r\nFree Consultation",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:42:03.077Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:38:47.123Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "name": "DuVisas->greece-work-visa",
+  "slug": "greece-work-visa",
+  "image": "/uploads/form-1767416818026.webp",
+  "description": "\r\nWork in Greece: Secure Your National D‑Type\r\n– Visa with DU Global LLC\r\nAuthorized Recruitment Partner for Greece Hospitality Careers\r\nApply via DUDigital Global LLC – Premium Hospitality & Support Roles in Greece",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:06:58.827Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T18:14:45.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "name": "duvisas->digital-arrival-cards",
+  "slug": "digital-arrival-cards",
+  "image": "/uploads/form-1767981877824.webp",
+  "description": "One Platform for All Your Mandatory Digital Arrival Cards – Thailand, Malaysia, Indonesia, Singapore, South Korea & Taiwan\r\n\r\nIt’s mandatory for all travellers to apply before flying.",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:18:40.324Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T18:04:37.827Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "name": "DuVisas->serbia-work-permit-vis",
+  "slug": "serbia-work-permit-visa",
+  "image": "/uploads/form-1767983868856.jpg",
+  "description": "Work in Serbia: Secure Your D-Type Visa with\r\n– DU Global\r\nAuthorized by the Embassy of the Republic of Serbia",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:24:26.951Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:14:53.741Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "name": "duvisa->malaysia-visa-for-indians",
+  "slug": "malaysia-visa-for-indians",
+  "image": "/uploads/form-1767871967398.jpg",
+  "description": "Apply For Malaysia Visa",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:43:02.995Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T09:12:16.685Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "name": "DUVISA->morocco-visa",
+  "slug": "morocco-visa",
+  "image": "/uploads/form-1767428659996.jpg",
+  "description": "Apply For Morocco Visa",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:24:20.918Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T10:42:08.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "name": "duvisa->south-korea-visa-for-indians",
+  "slug": "south-korea-visa-for-indians",
+  "image": "/uploads/form-1767429200172.png",
+  "description": "South Korea Visa For Indians – Apply Now!\r\nDesignated Travel Agency for the Korea Tourism Organization (KTO)\r\nDesignated Travel Agency by the Embassy of the Republic of Korea in India",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:33:20.769Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:39:57.339Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "name": "duvisa->dubai-5year-tourist-visa",
+  "slug": "dubai-5year-tourist-visa",
+  "image": "/uploads/form-1767983985993.jpeg",
+  "description": "\r\nApply For\r\nUAE/Dubai Tourist Visa\r\nRequired Valid Hotel Bookings and Return Flight Tickets\r\nThe first visit must be made within 60 days after receiving the Approved Visa",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:43:23.749Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T04:51:46.777Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "name": "Duvisa->australia-tourist-visa",
+  "slug": "australia-tourist-visa",
+  "image": "/uploads/form-1767536241663.jpg",
+  "description": "Apply for Australia Tourist Visa",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:17:21.692Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T08:20:20.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a920d0fe3b9e54722d89c"
+  },
+  "name": "Duvisa->bangladesh-vac",
+  "slug": "bangladesh-vac",
+  "image": "/uploads/form-1767543309447.jpg",
+  "description": "Bangladesh VAC",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T16:15:09.533Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T16:15:09.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "name": "duvisa->apply-for-any-visa",
+  "slug": "apply-for-any-visa",
+  "image": "/uploads/form-1767546130814.jpg",
+  "description": "Welcome to\r\nDU Global",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:02:10.887Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:56:28.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "name": "duvisa->japan-tourist-visa-for-indians",
+  "slug": "japan-tourist-visa-for-indians",
+  "image": "/uploads/form-1767551136490.jpg",
+  "description": "\r\nApply for Japan Tourist Visa",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T18:25:36.828Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T12:05:39.481Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "name": "duvisa->egypt-visa-for-indians",
+  "slug": "egypt-visa-for-indians",
+  "image": "/uploads/form-1767578762725.jpg",
+  "description": "Apply For\r\nEgypt Visa",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:06:02.751Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T11:50:50.327Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b2827252e850548926a67"
+  },
+  "name": "Duvisa->lebanon",
+  "slug": "lebanon",
+  "image": "/uploads/form-1767581735355.jpg",
+  "description": "lebanon",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:55:35.628Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:55:35.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "name": "Duvisa->bangladesh-visas-for-uae-singapore",
+  "slug": "bangladesh-visas-for-uae-singapore",
+  "image": "/uploads/form-1767633739968.jpg",
+  "description": "\r\nUAE, Ireland & Singapore Visas for Bangladeshi Citizens",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T17:22:20.214Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:32:07.468Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d1c940fc4633e5776bc4b"
+  },
+  "name": "Duvisa->vip-clearance-at-malaysia-airport",
+  "slug": "vip-clearance-at-malaysia-airport",
+  "image": "/uploads/form-1767709844359.jpg",
+  "description": "\r\nSay goodbye to long airport lines and hello to a seamless journey with our exclusive",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T14:30:44.407Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-06T14:31:10.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "name": "duvisa->Georgia eVisa for Indians",
+  "slug": "georgia-evisa",
+  "image": "/uploads/form-1768022779823.jpg",
+  "description": "Georgia eVisa for Indians",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T16:07:21.398Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:41:59.722Z"
+  },
+  "__v": 0
+}]

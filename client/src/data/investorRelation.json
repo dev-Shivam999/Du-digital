@@ -1,0 +1,26 @@
+{
+    "hero": {
+        "title": "Investor Relation",
+        "backgroundImage": "/assets/contact/contact-hero.jpg"
+    },
+    "reports": [
+        {
+            "title": "Email address for grievance redressal and other relevant details.",
+            "description": "Email: cs@dudigitalglobal.com",
+            "buttonText": "Download Report",
+            "file": "/assets/investor/grievance.pdf"
+        },
+        {
+            "title": "Contact details of the designated official of the listed entity who is responsible for assisting and handling investor grievances.",
+            "description": "Email: cs@dudigitalglobal.com",
+            "buttonText": "Download Report",
+            "file": "/assets/investor/contact-details.pdf"
+        },
+        {
+            "title": "New Name and old name of the listed entity for a continuous period of year from the date of last name change.",
+            "description": "DU DIGITAL GLOBAL Limited (Formerly Known as Du Du Digital Technologies Limited).",
+            "buttonText": "Download Report",
+            "file": "/assets/investor/name-change.pdf"
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "6961350e664a633903a11112"
+  },
+  "fullName": "Rohit Sharma",
+  "email": "rohit.sharma@example.com",
+  "phone": "+919876543210",
+  "lookingFor": "Travel Agent - Becoming a Partner",
+  "businessName": "Sharma Travels",
+  "status": "Complete",
+  "city": "Bangalore",
+  "isMsg": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:04:14.228Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:06:33.724Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961362e664a633903a1112a"
+  },
+  "fullName": "Anjali Verma",
+  "email": "anjali.verma@example.com",
+  "phone": "+919812345678",
+  "lookingFor": "Travel Agent - Becoming a Partner",
+  "businessName": "Verma Tours & Holidays",
+  "status": "Complete",
+  "city": "Delhi NCR",
+  "isMsg": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:09:02.511Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:18:50.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69613661664a633903a1112d"
+  },
+  "fullName": "Sneha Kulkarni",
+  "email": "sneha.kulkarni@example.com",
+  "phone": "+919988776655",
+  "lookingFor": "Travel Agent - Becoming a Partner",
+  "businessName": "Kulkarni Visa Services",
+  "status": "Complete",
+  "city": "Chandigarh",
+  "isMsg": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:09:53.723Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:23:44.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69613689664a633903a11130"
+  },
+  "fullName": "Harpreet Singh",
+  "email": "harpreet.singh@example.com",
+  "phone": "+919911223344",
+  "lookingFor": "Travel Agent - Becoming a Partner",
+  "businessName": "Punjab Travel Hub",
+  "status": "Complete",
+  "city": "Chennai",
+  "isMsg": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:10:33.542Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:25:10.263Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696136b2664a633903a1113c"
+  },
+  "fullName": "Neha Gupta",
+  "email": "neha.gupta@example.com",
+  "phone": "+919933445566",
+  "lookingFor": "Travel Agent - Becoming a Partner",
+  "businessName": "Gupta Overseas Consultancy",
+  "status": "Complete",
+  "city": "Jammu & Kashmir",
+  "isMsg": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:11:14.598Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:26:05.339Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69613a956a531c09f94a5fac"
+  },
+  "fullName": "Niraj Ahlawat",
+  "email": "niraf@eaxample.com",
+  "phone": "",
+  "lookingFor": "Travel Agent - Becoming a Partner",
+  "businessName": "Ahlawat Travels",
+  "status": "Complete",
+  "city": "Kolkata",
+  "isMsg": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:27:49.125Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:28:37.081Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "695692a4ec4619b22ce7ad56"
+  },
+  "formId": {
+    "$oid": "695690d37cbfa68326df0ed8"
+  },
+  "title": "titel",
+  "description": "dmvns,\ndsvsV\nsVf\nv\nvdf\nv",
+  "applicableFor": "evivsa",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T15:28:36.662Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T15:28:36.662Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695692b2ec4619b22ce7ad5d"
+  },
+  "formId": {
+    "$oid": "695690d37cbfa68326df0ed8"
+  },
+  "title": "dde",
+  "description": "eferv",
+  "applicableFor": "fewfefwe",
+  "isMandatory": true,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T15:28:50.039Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T15:28:50.039Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a05611f525706b59449c"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "title": "For e-Tourist Visa",
+  "description": "\nScanned Bio Page of the passport showing the Photograph and Details *\nFor short term courses, copy of letter from the institute/organization/hospital etc. concerned on its letter-head *\nFor voluntary work of short duration, copy of letter from the organization concerned on its letter-head *",
+  "applicableFor": "evisa",
+  "isMandatory": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:27:02.608Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:27:02.608Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a09c11f525706b5944a3"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "title": "For e-Business Visa",
+  "description": "\nScanned Bio Page of the passport showing the Photograph and Details*.\nCopy of Business Card.\nAny letter of invitation if applicable from Indian parties which wish you conduct the business (optional).\nFor Sports Related Activity\nCopy of Passport page containing personal particulars *.\nApproval of the Government of India in the Ministry of Youth Affairs and Sports (Department of Sports).\nInvitation Letter to foreign sports teams and sports persons to visit India by the concerned Sports Federation/Association in India.\nIf the applicant had participated in any commercial sports event during his/her previous visit to India, then documents regarding Tax compliance for the said visit are to be furnished\nIf the sports event entails visit to Restricted or Protected Areas in India, below mentioned additional documents are also to be submitted\nClearance for holding the event from the Ministry of Home Affairs, Government of India.\nPolitical Clearance for holding the event from the Ministry of external Affairs, Government of India.\nRequisite clearance from the Ministry of Youth Affairs & Sports.\nFor e-Business Visa visiting “To deliver lecture/s under Global Initiative for Academic Networks (GIAN)”\n\nScanned Bio Page of the passport showing the Photograph and Details*\nInvitation of the host institute to the foreign faculty\nCopy of the sanction order under GIAN issued by the National Coordinating Institute viz. IIT Kharagpur\nCopy of the synopsis of the courses to be taken up by the faculty",
+  "applicableFor": "evisa",
+  "isMandatory": true,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:28:12.184Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:28:12.184Z"
+  },
+  "__v": 0
+}]

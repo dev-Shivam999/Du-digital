@@ -1,0 +1,185 @@
+{
+    "hero": {
+        "title": "Global Expertise in Visa and Identity Solutions",
+        "subtitle": "With a proven track record in managing secure visa and identity programs, we partner with governments and embassies to streamline application processes, enhance security, and improve citizen experiences. Our end-to-end solutions are tailored to meet the evolving needs of public institutions, ensuring efficiency, compliance, and trust at every step.",
+        "backgroundImage": "/assets/government-embassies/hero/New-Banner.jpg",
+        "button": {
+            "text": "Connect with Us",
+            "link": "#connectwithus"
+        }
+    },
+    "whoWeAre": {
+        "title": "DU GLOBAL",
+        "heading": "Who We Are?",
+        "content": [
+            "DU GLOBAL Limited, founded in 2015, stands as a testament to India’s prowess in the global technology and outsourcing landscape. Emerging from the vibrant ecosystem of Indian innovation and entrepreneurship, our company has rapidly grown to become a key player in providing specialized.",
+            "Solutions to governments and diplomatic missions worldwide. With a strong emphasis on leveraging technology and a deep understanding of client needs, we have earned a reputation for excellence in managing non-administrative and non-judgemental tasks related to visa processing and consular services of governments.",
+            "Our journey reflects the spirit of India’s tech industry, characterized by innovation, adaptability, and a commitment to delivering world-class solutions. As a homegrown company, we take pride in our Indian roots while embracing a global outlook. Our ability to combine indigenous expertise with international standards has enabled us to consistently meet and exceed the expectations of our diverse clientele. In an ever evolving global landscape, DU GLOBAL remains dedicated to driving innovation and excellence, showcasing the immense potential of Indian businesses on the global stage."
+        ]
+    },
+    "timeline": [
+        {
+            "year": "2018",
+            "title": "Company Founded",
+            "subtitle": "Established operations in India",
+            "flags": [
+                "/assets/about-us/timeline/india-flag.jpg"
+            ]
+        },
+        {
+            "year": "2019",
+            "title": "Expansion to Middle East",
+            "subtitle": "Opened first international office",
+            "flags": [
+                "/assets/about-us/timeline/logo-300x83.png"
+            ]
+        },
+        {
+            "year": "2021",
+            "title": "Global Partnerships",
+            "subtitle": "Incorporated DU GLOBAL LLC in Sharjah, UAE",
+            "flags": [
+                "/assets/about-us/timeline/Georgia.png",
+                "/assets/about-us/timeline/logo-300x83.png",
+                "/assets/about-us/timeline/Georgia.png"
+            ]
+        },
+        {
+            "year": "2022",
+            "title": "Visa Operations Scale-up",
+            "subtitle": "Multiple government contracts secured",
+            "flags": [
+                "/assets/about-us/timeline/Greece.png"
+            ]
+        },
+        {
+            "year": "2023",
+            "title": "Partnership with Government of Thailand",
+            "subtitle": "Designated Service Provider for Thailand Visa Application Centers",
+            "flags": [
+                "/assets/about-us/timeline/Flag-Malaysia.png"
+            ]
+        },
+        {
+            "year": "2018",
+            "title": "Company Founded",
+            "subtitle": "Established operations in India",
+            "flags": [
+                "/assets/about-us/timeline/india-flag.jpg"
+            ]
+        },
+        {
+            "year": "2019",
+            "title": "Expansion to Middle East",
+            "subtitle": "Opened first international office",
+            "flags": [
+                "/assets/about-us/timeline/logo-300x83.png"
+            ]
+        },
+        {
+            "year": "2021",
+            "title": "Global Partnerships",
+            "subtitle": "Incorporated DU GLOBAL LLC in Sharjah, UAE",
+            "flags": [
+                "/assets/about-us/timeline/Georgia.png",
+                "/assets/about-us/timeline/logo-300x83.png",
+                "/assets/about-us/timeline/Georgia.png"
+            ]
+        },
+        {
+            "year": "2022",
+            "title": "Visa Operations Scale-up",
+            "subtitle": "Multiple government contracts secured",
+            "flags": [
+                "/assets/about-us/timeline/Greece.png"
+            ]
+        },
+        {
+            "year": "2023",
+            "title": "Partnership with Government of Thailand",
+            "subtitle": "Designated Service Provider for Thailand Visa Application Centers",
+            "flags": [
+                "/assets/about-us/timeline/Flag-Malaysia.png"
+            ]
+        }
+    ],
+    "strengths": {
+        "heading": "Our Strengths",
+        "items": [
+            {
+                "title": "Streamlined Visa Processing",
+                "description": "Du Global excels in simplifying the visa application process, leveraging advanced technology and expertise to ensure swift and efficient processing, saving applicants valuable time and effort.",
+                "icon": "process"
+            },
+            {
+                "title": "Exceptional Customer Experience",
+                "description": "With a customer-centric approach at its core, Du Global goes above and beyond to provide personalized assistance, expert guidance and support throughout the visa application journey, ensuring maximum satisfaction and peace of mind for every applicant.",
+                "icon": "customer"
+            },
+            {
+                "title": "Innovative Value Added Services",
+                "description": "Du Global sets itself apart with a range of innovative value-added services, including Mobile Biometrics, Premium Lounge access and Visa @ your Doorstep convenience.",
+                "icon": "value"
+            },
+            {
+                "title": "Global Network and Partnership",
+                "description": "Trusted visa application and verification partner to several embassies and consulates worldwide including UAE, Bangladesh, Thailand, Georgia, South Korea and Malaysia.",
+                "icon": "network"
+            },
+            {
+                "title": "Cost-Effective Solutions",
+                "description": "Optimized solutions that reduce processing costs while maintaining service excellence and compliance.",
+                "icon": "cost"
+            },
+            {
+                "title": "Reliability and Trust",
+                "description": "With years of experience and a proven track record of excellence, Du Global has earned a reputation for reliability, integrity and professionalism.",
+                "icon": "trust"
+            }
+        ]
+    },
+    "aboutSection": {
+        "title": "Our Footprints",
+        "description": "Over our 35 centres operating in 6 countries and with an additional 1300 centres available globally with our partner offices, we have the ability to fulfill a wide range of dynamic requirements for our Governmental clients and business partners alike.",
+        "video": {
+            "embedUrl": "https://www.youtube.com/embed/uoKM7PFNlRg?si=IS1oLd8GU_dnHqxE",
+            "thumbnail": "/assets/home/about-video-thumb.jpg"
+        }
+    },
+    "footprints": {
+        "description": [
+            "Over our 35 centres operating in 6 countries and with an additional 1300 centres available globally with our partner offices, we have the ability to fulfill a wide range of dynamic requirements for our Governmental clients and business partners alike.",
+            "Supporting governmental and business partners globally."
+        ],
+        "stats": [
+            {
+                "value": "35",
+                "suffix": "+",
+                "label": "Office Locations"
+            },
+            {
+                "value": "17 L",
+                "suffix": "+",
+                "label": "Applications"
+            },
+            {
+                "value": "200",
+                "suffix": "+",
+                "label": "Employees"
+            }
+        ],
+        "video": {
+            "youtubeId": "https://www.youtube.com/embed/uoKM7PFNlRg?si=gH_xFRBDkdbtKrap"
+        }
+    },
+    "connect": {
+        "heading": "Connect with us",
+        "backgroundImage": "/assets/government-embassies/contact/verified-certified-duVerify.jpg",
+        "card": {
+            "name": "Dhruv Handa",
+            "designation": "Associate Vice President – Business Development",
+            "email": "dhruv@dudigitalglobal.com",
+            "phone": "+91-9873584442"
+        }
+    }
+}

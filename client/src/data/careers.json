@@ -1,0 +1,103 @@
+{
+    "hero": {
+        "title": "Careers",
+        "background": "/assets/careers/careers.jpg"
+    },
+    "working": {
+        "title": "Working At DU GLOBAL",
+        "background": "/assets/careers/career-page-bg.jpg",
+        "description": [
+            "We have a worldwide presence and are specialized for administrative and non-judgmental tasks cognate to visa, passport, identity management, and other citizen services for its client governments.",
+            "With over 35 centres operating in 6 countries, DU GLOBAL has successfully processed over 1.5 million+ applications since its inception and planning to expand to over 100 centers countrywide within the next 2 years.",
+            "At DU GLOBAL we are always seeking to hire the best talent in the industry.",
+            "We are always recruiting for all verticals of Sales, Marketing, Finance, Technology, Business Development and more.",
+            "If you think you can contribute to our success please drop your CVs at hr@dudigitalglobal.com"
+        ]
+    },
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Submission Officer",
+            "location": "Seoul, South Korea",
+            "department": "Visa Operations",
+            "experience": "Fresher",
+            "jobType": "Full Time",
+            "description": "Freshers can also apply.\n\nAs a Visa Submission Officer, you will be responsible for handling visa applications and ensuring that all documentation is accurately prepared and submitted according to the requirements of various embassies and consulates.",
+            "responsibilities": [
+                "Receive and review visa applications to ensure completeness and accuracy",
+                "Verify supporting documents such as passports, photographs, and financial statements",
+                "Enter applicant information into the visa application system and embassy portals",
+                "Communicate effectively with applicants regarding visa requirements",
+                "Coordinate appointments and interviews at embassies and consulates",
+                "Maintain records of visa applications and payments",
+                "Stay updated on changes in visa regulations"
+            ],
+            "qualifications": [
+                "Bachelor’s degree in any discipline preferred",
+                "Good communication and interpersonal skills",
+                "Basic computer knowledge and documentation skills",
+                "Ability to work in a fast-paced environment"
+            ],
+            "postedDate": "2025-01-01",
+            "isActive": true
+        },
+        {
+            "id": 2,
+            "title": "Country Manager (Thailand)",
+            "location": "Bangkok, Thailand",
+            "department": "Operations & Management",
+            "experience": "8+ Years",
+            "jobType": "Full Time",
+            "description": "8+ years of experience required. Thailand citizen preferred (Indian origin acceptable).\n\nAs a Country Manager, you will be responsible for leading and managing overall operations in Thailand. The role involves strategic planning, team leadership, client and stakeholder management, operational excellence, and driving sustainable business growth while ensuring compliance with regulatory requirements.",
+            "responsibilities": [
+                "Develop and implement strategic operational plans aligned with organizational goals",
+                "Identify opportunities for operational improvement, cost reduction, and efficiency gains",
+                "Lead and manage large operational teams to ensure high performance and engagement",
+                "Establish KPIs and performance metrics to monitor operational effectiveness",
+                "Analyze operational data and implement corrective actions where required",
+                "Build and maintain strong relationships with clients, stakeholders, and government partners",
+                "Ensure compliance with regulatory requirements, policies, and procedures",
+                "Implement quality assurance measures to maintain high service standards",
+                "Identify operational risks and develop mitigation strategies to ensure business continuity",
+                "Develop and manage operational budgets while optimizing resource allocation",
+                "Drive continuous improvement initiatives and innovation using technology and best practices",
+                "Lead change management initiatives to support organizational growth",
+                "Manage vendor relationships to ensure effective partnerships and service delivery"
+            ],
+            "qualifications": [
+                "Bachelor’s or Master’s degree in Business, Management, or related field",
+                "8+ years of leadership or operations experience",
+                "Strong strategic and analytical skills",
+                "Excellent communication and stakeholder management skills"
+            ],
+            "postedDate": "2025-01-01",
+            "isActive": true
+        },
+        {
+            "id": 3,
+            "title": "Customer Support Officer",
+            "location": "Seoul, South Korea",
+            "department": "Customer Support",
+            "experience": "Fresher",
+            "jobType": "Full Time",
+            "description": "Freshers can also apply.\n\nAs a Customer Support Officer, you will be responsible for handling customer queries and ensuring that all documentation is accurately prepared and submitted according to the requirements of various embassies and consulates.",
+            "responsibilities": [
+                "Receive and review customer queries to ensure completeness and accuracy",
+                "Verify supporting documents such as passports, photographs, and financial statements",
+                "Enter applicant information into the visa application system and embassy portals",
+                "Communicate effectively with applicants regarding visa requirements",
+                "Coordinate appointments and interviews at embassies and consulates",
+                "Maintain records of visa applications and payments",
+                "Stay updated on changes in visa regulations"
+            ],
+            "qualifications": [
+                "Graduate in any discipline",
+                "Strong verbal and written communication skills",
+                "Customer-focused attitude",
+                "Basic knowledge of documentation processes"
+            ],
+            "postedDate": "2025-01-01",
+            "isActive": true
+        }
+    ]
+}

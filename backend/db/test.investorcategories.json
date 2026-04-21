@@ -1,0 +1,306 @@
+[{
+  "_id": {
+    "$oid": "6950e778b9ddded714702558"
+  },
+  "slug": "postal-ballot",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.123Z"
+  },
+  "isActive": true,
+  "name": "Postal Ballot",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "slug": "financial-statement",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.138Z"
+  },
+  "isActive": true,
+  "name": "Financial Statement",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.790Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded71470255c"
+  },
+  "slug": "annual-returns",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.142Z"
+  },
+  "isActive": true,
+  "name": "Annual Returns",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.792Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded71470255e"
+  },
+  "slug": "reconciliation-of-share-capital-audit-report",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.146Z"
+  },
+  "isActive": true,
+  "name": "Reconciliation of Share Capital Audit Report",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.795Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702560"
+  },
+  "slug": "annual-reports",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.151Z"
+  },
+  "isActive": true,
+  "name": "Annual Reports",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.798Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "slug": "shareholding-pattern",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.154Z"
+  },
+  "isActive": true,
+  "name": "Shareholding Pattern",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702564"
+  },
+  "slug": "dp-certificate",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.158Z"
+  },
+  "isActive": true,
+  "name": "DP Certificate",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.805Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702566"
+  },
+  "slug": "statement-of-utilization-of-fund",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.162Z"
+  },
+  "isActive": true,
+  "name": "Statement of Utilization of Fund",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.808Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702568"
+  },
+  "slug": "reg-40-9-pcs-compliance-certificate",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.166Z"
+  },
+  "isActive": true,
+  "name": "Reg 40 (9) PCS Compliance Certificate",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.811Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded71470256a"
+  },
+  "slug": "reg-7-3-rta-compliance-certificate",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.170Z"
+  },
+  "isActive": true,
+  "name": "Reg 7 (3) RTA Compliance Certificate",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded71470256c"
+  },
+  "slug": "statements-of-investor-complaints",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.174Z"
+  },
+  "isActive": true,
+  "name": "Statements of Investor Complaints",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.817Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded71470256e"
+  },
+  "slug": "nse-filings",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.180Z"
+  },
+  "isActive": true,
+  "name": "NSE Filings",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.822Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "slug": "policies-of-the-companies",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.184Z"
+  },
+  "isActive": true,
+  "name": "Policies of the Companies",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.825Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702572"
+  },
+  "slug": "miscellaneous",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.187Z"
+  },
+  "isActive": true,
+  "name": "Miscellaneous",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.828Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "slug": "subsidiary-financials",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.192Z"
+  },
+  "isActive": true,
+  "name": "Subsidiary Financials",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.831Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702576"
+  },
+  "slug": "integrated-filing-financial",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.196Z"
+  },
+  "isActive": true,
+  "name": "Integrated Filing – Financial",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.833Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702578"
+  },
+  "slug": "integrated-filing-governance",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.200Z"
+  },
+  "isActive": true,
+  "name": "Integrated Filing – Governance",
+  "sildeImage": "",
+  "title": "",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.836Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "695fc2930f1c890801e86c23"
+  },
+  "name": "Investor Relations",
+  "slug": "investor-relations",
+  "title": "investor-relations",
+  "sildeImage": "",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T14:43:31.101Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T14:43:31.101Z"
+  },
+  "__v": 0
+}]

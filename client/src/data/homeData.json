@@ -1,0 +1,248 @@
+{
+    "slider": {
+        "autoplay": true,
+        "interval": 4000,
+        "slides": [
+            {
+                "title": "Your Trusted Partner for India e-Visas",
+                "description": "Simplifying your visa experience",
+                "buttonText": "Get Your e-Visa",
+                "buttonLink": "/india-evisa",
+                "image": "/assets/home/slider/india-gate.jpg"
+            },
+            {
+                "title": "Official Partner to Governments and Embassies globally",
+                "description": "Delivering trusted visa and identity solutions worldwide",
+                "buttonText": "Learn more about DU GLOBAL",
+                "buttonLink": "/embassy-government-partners",
+                "image": "/assets/home/slider/government-partner.jpg"
+            },
+            {
+                "title": "Apply For Any Visa",
+                "description": "From seamless applications to swift approvals, we make your global travels hassle-free",
+                "buttonText": "Get Your Visa Today",
+                "buttonLink": "/apply-for-any-visa",
+                "image": "/assets/home/slider/apply-visa.avif"
+            },
+            {
+                "title": "Company Setup in UAE",
+                "description": "Empowering Your Business Journey in the UAE – From trade licenses to corporate banking, we handle it all.",
+                "buttonText": "Apply Now",
+                "buttonLink": "/company-setup-in-the-uae",
+                "image": "/assets/home/slider/company-uae.avif"
+            }
+        ]
+    },
+    "visaServiceSection": {
+        "title": "Visa Services",
+        "fromLabel": "I’m applying visa from -",
+        "toLabel": "I’m going to -",
+        "fromPlaceholder": "select location",
+        "toPlaceholder": "select location",
+        "buttonText": "Go to Website",
+        "buttonLink": "#",
+        "locations": [
+            "India",
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "UAE"
+        ]
+    },
+    "ourBusinessesSection": {
+        "title": "Our Businesses",
+        "subtitle": "Official Visa Application Partners to the Embassies of",
+        "countries": [
+            {
+                "name": "India",
+                "flag": "/assets/home/flags/india-flag.png"
+            },
+            {
+                "name": "UAE eVisa",
+                "flag": "/assets/home/flags/UAE-Flag.png"
+            },
+            {
+                "name": "Bangladesh",
+                "flag": "/assets/home/flags/bangladesh-flag.png"
+            },
+            {
+                "name": "Thailand",
+                "flag": "/assets/home/flags/Thailand-flag.png"
+            },
+            {
+                "name": "South Korea",
+                "flag": "/assets/home/flags/South-Korea-Logo.webp"
+            },
+            {
+                "name": "Morocco",
+                "flag": "/assets/home/flags/Marcho.png"
+            }
+        ],
+        "cta": {
+            "text": "Other Countries",
+            "link": "/apply-for-any-visa"
+        },
+        "cards": [
+            {
+                "title": "Global Company Formation",
+                "description": "Business Setup in UAE",
+                "image": "/assets/home/bussinesses/Business-Setup-in-dubai-1-e1758531203300.jpg",
+                "link": "/company-setup-in-the-uae"
+            },
+            {
+                "title": "Global Recruitment",
+                "description": "Manpower & Immigration Services",
+                "image": "/assets/home/bussinesses/Immigration-Services.jpg",
+                "link": "/global-recruitment-services"
+            },
+            {
+                "title": "DuVerify",
+                "description": "Document Verification for Visa Processes",
+                "image": "/assets/home/bussinesses/DuVerify-–-Document-Verification-for-Visa-Processes-e1758531139227.jpg",
+                "link": "/duverify"
+            },
+            {
+                "title": "India eVisa",
+                "description": "Streamlined and Effortless Visa Processing",
+                "image": "/assets/home/bussinesses/explore-india.jpg",
+                "link": "/india-evisa"
+            }
+        ]
+    },
+    "aboutSection": {
+        "title": "The World.\nMade Possible.",
+        "description": "DU DIGITAL GLOBAL Ltd is a company listed on the National Stock Exchange (NSE) of India. It operates in the digital services and technology sector, specializing in services such as document verification, visa facilitation, and other innovative solutions catering to both government and private sectors.",
+        "video": {
+            "embedUrl": "https://www.youtube.com/embed/uoKM7PFNlRg?si=IS1oLd8GU_dnHqxE",
+            "thumbnail": "/assets/home/about-video-thumb.jpg"
+        }
+    },
+    "ourFootprintsSection": {
+        "stats": [
+            {
+                "value": "35",
+                "suffix": "+",
+                "label": "Office Locations"
+            },
+            {
+                "value": "17 L",
+                "suffix": "+",
+                "label": "Applications"
+            },
+            {
+                "value": "200",
+                "suffix": "+",
+                "label": "Employees"
+            }
+        ]
+    },
+    "testimonials": {
+        "title": "What our clients are saying?",
+        "subtitle": "Discover what our clients say about our seamless services and expert support.\n Their success is our pride.",
+        "buttonText": "Reviews us on",
+        "buttonLink": "https://search.google.com/local/writereview?placeid=ChIJodMavDbjDDkR1TtffPiCv1s",
+        "testimonials": [
+            {
+                "message": "DU GLOBAL provided outstanding guidance and demonstrated thorough understanding of our business requirements. Their expertise in the matter and their professional approach are highly commendable. They collaborate closely and offer tailored advice that perfectly suits our needs. Thanks to their direction as we have optimized operations, boosted productivity and attained growth.",
+                "name": "Gaurav Abrol",
+                "designation": "Pronounce sports and event management",
+                "image": "/assets/home/testimonials/gaurav.png"
+            },
+            {
+                "message": "We wanted to set up a company in Dubai. We took services from DU GLOBAL, and I must tell you and appreciate what DU GLOBAL did. It was a seamless process from initiation to completion and setting up my company. It was flawless. Their support was immense, and they were able to complete my process in less than a month.",
+                "name": "Piyush Patodia",
+                "designation": "Firestorm Advisory Services",
+                "image": "/assets/home/testimonials/piyush.png"
+            },
+            {
+                "message": "DU GLOBAL provided outstanding guidance and demonstrated thorough understanding of our business requirements. Their expertise in the matter and their professional approach are highly commendable. They collaborate closely and offer tailored advice that perfectly suits our needs. Thanks to their direction as we have optimized operations, boosted productivity and attained growth.",
+                "name": "Gaurav Abrol",
+                "designation": "Pronounce sports and event management",
+                "image": "/assets/home/testimonials/gaurav.png"
+            },
+            {
+                "message": "We wanted to set up a company in Dubai. We took services from DU GLOBAL, and I must tell you and appreciate what DU GLOBAL did. It was a seamless process from initiation to completion and setting up my company. It was flawless. Their support was immense, and they were able to complete my process in less than a month.",
+                "name": "Piyush Patodia",
+                "designation": "Firestorm Advisory Services",
+                "image": "/assets/home/testimonials/piyush.png"
+            },
+            {
+                "message": "DU GLOBAL provided outstanding guidance and demonstrated thorough understanding of our business requirements. Their expertise in the matter and their professional approach are highly commendable. They collaborate closely and offer tailored advice that perfectly suits our needs. Thanks to their direction as we have optimized operations, boosted productivity and attained growth.",
+                "name": "Gaurav Abrol",
+                "designation": "Pronounce sports and event management",
+                "image": "/assets/home/testimonials/gaurav.png"
+            },
+            {
+                "message": "We wanted to set up a company in Dubai. We took services from DU GLOBAL, and I must tell you and appreciate what DU GLOBAL did. It was a seamless process from initiation to completion and setting up my company. It was flawless. Their support was immense, and they were able to complete my process in less than a month.",
+                "name": "Piyush Patodia",
+                "designation": "Firestorm Advisory Services",
+                "image": "/assets/home/testimonials/piyush.png"
+            }
+        ]
+    },
+    "certificationsSection": {
+        "label": "OUR CERTIFICATIONS",
+        "title": "ISO Certificates",
+        "certificates": [
+            {
+                "image": "/assets/home/certifications/iso-one.png",
+                "title": "ISO/IEC 27701:2019",
+                "description": "Privacy Information Management System"
+            },
+            {
+                "image": "/assets/home/certifications/iso-two.png",
+                "title": "ISO/IEC 27001-2022",
+                "description": "Information Security Management System"
+            },
+            {
+                "image": "/assets/home/certifications/iso-three.png",
+                "title": "ISO/IEC 23026:2015",
+                "description": "Certified Systems and Software Engineering"
+            },
+            {
+                "image": "/assets/home/certifications/iso-four.png",
+                "title": "ISO 14001:2015",
+                "description": "Certified Environmental Management System"
+            },
+            {
+                "image": "/assets/home/certifications/iso-five.png",
+                "title": "ISO 9001:2015",
+                "description": "Certified Quality Management System"
+            }
+        ]
+    },
+    "whyUsSection": {
+        "title": "Why DU GLOBAL is your trusted partner",
+        "description": "Experience unmatched expertise, reliable support, and tailored solutions with DU GLOBAL. We simplify complex processes and deliver results you can trust, making us the preferred choice for thousands worldwide.",
+        "cta": {
+            "text": "About Us",
+            "link": "/about-us"
+        },
+        "backgroundImage": "/assets/home/why-us/why-us.jpg",
+        "features": [
+            {
+                "icon": "BadgeCheck",
+                "title": "Quality and Value",
+                "text": "Quality beyond compromise, value that is unmatched."
+            },
+            {
+                "icon": "Handshake",
+                "title": "Services",
+                "text": "Service that exceeds expectations."
+            },
+            {
+                "icon": "ShieldCheck",
+                "title": "Security",
+                "text": "The utmost security of our clients' data is paramount for us."
+            },
+            {
+                "icon": "Cpu",
+                "title": "Technology",
+                "text": "Optimum use of evolving technology to strengthen our portfolio."
+            }
+        ]
+    }
+}

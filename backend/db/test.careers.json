@@ -1,0 +1,87 @@
+[{
+  "_id": {
+    "$oid": "695ec4e3fbb3b976ef439b61"
+  },
+  "title": "Submission Officer",
+  "location": "Seoul, South Korea",
+  "department": "",
+  "experience": "Freshers can also apply.",
+  "jobType": "Full Time",
+  "description": "As a Visa Submission Officer, you will be responsible for handling visa applications and ensuring that all documentation is accurately prepared and submitted according to the requirements of various embassies and consulates. You will work closely with applicants to gather necessary information, provide guidance on visa application procedures, and maintain communication throughout the process.",
+  "responsibilities": [
+    "Receive and review visa applications to ensure completeness and accuracy.",
+    "Verify supporting documents such as passports, photographs, and financial statements.",
+    "Enter applicant information into the visa application system and embassy portals.",
+    "Communicate effectively with applicants to explain visa requirements and procedures.",
+    "Respond to inquiries from clients regarding visa status and application processes.",
+    "Coordinate appointments and interviews at embassies and consulates.",
+    "Maintain records of visa applications and payments.",
+    "Follow up on pending applications and escalate issues as needed.",
+    "Stay updated on changes in visa regulations and embassy procedures.",
+    "Provide administrative support as needed, including filing and data entry."
+  ],
+  "qualifications": [],
+  "postedDate": {
+    "$date": "2026-01-07T20:41:07.017Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-07T20:41:07.020Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T20:41:07.020Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ec579fbb3b976ef439b68"
+  },
+  "title": "Country Manager (Thailand)",
+  "location": "Bangkok, Thailand",
+  "department": "",
+  "experience": "8+ years of experience, Thailand Citizen preferably from India.",
+  "jobType": "Full Time",
+  "description": "",
+  "responsibilities": [
+    "1.     Operational Strategy and Planning:",
+    "o    Develop and implement strategic operational plans aligned with the organization’s objectives and business goals.",
+    "o    Identify opportunities for operational improvement, cost reduction, and efficiency gains.",
+    "2.     Team Leadership and Management:",
+    "o    Lead and manage a large operational team, providing direction, guidance, and support to ensure high performance and employee engagement.",
+    "o    Foster a culture of continuous improvement, collaboration, and accountability within the operations team.",
+    "3.     Performance Management:",
+    "o    Establish key performance indicators (KPIs) and metrics to measure operational performance.",
+    "o    Monitor and analyze operational performance data, identifying trends and areas for improvement.",
+    "o    Implement corrective actions and initiatives to enhance operational efficiency and service delivery.",
+    "4.     Client and Stakeholder Management:",
+    "o    Build and maintain strong relationships with key clients, stakeholders, and government partners.",
+    "o    Ensure service excellence and responsiveness to client needs and expectations.",
+    "5.     Quality Assurance and Compliance:",
+    "o    Ensure compliance with relevant regulatory requirements, policies, and procedures.",
+    "o    Implement quality assurance measures to maintain high standards of service delivery and operational integrity.",
+    "6.     Risk Management:",
+    "o    Identify operational risks and develop mitigation strategies to minimize risks and ensure business continuity.",
+    "o    Monitor and assess operational risk factors, implementing controls and measures as necessary.",
+    "7.     Budget and Resource Management:",
+    "o    Develop and manage the operational budget, monitoring expenditures and ensuring cost-effectiveness.",
+    "o    Optimize resource allocation to support operational objectives and meet business requirements.",
+    "8.     Continuous Improvement and Innovation:",
+    "o    Drive continuous improvement initiatives and innovation within operations, leveraging technology and best practices to enhance service delivery and efficiency.",
+    "o    Lead change management initiatives to support organizational growth",
+    "9.     Vendor Management:",
+    "o    Liaise with vendors to ensure effective partnerships and service delivery"
+  ],
+  "qualifications": [],
+  "postedDate": {
+    "$date": "2026-01-07T20:43:37.193Z"
+  },
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-07T20:43:37.194Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T20:43:37.194Z"
+  },
+  "__v": 0
+}]

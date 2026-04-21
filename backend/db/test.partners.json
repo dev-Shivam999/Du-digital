@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "69613599664a633903a11125"
+  },
+  "name": "Rohit Sharma",
+  "year": "2025",
+  "partnerProgramId": {
+    "$oid": "6961350e664a633903a11112"
+  },
+  "logo": "/uploads/logo-1767978393719.png",
+  "country": "India",
+  "BussnessName": "Sharma Travels",
+  "userImage": "/uploads/userImage-1767978393719.png",
+  "description": "Travel Agent - Becoming a Partner",
+  "isOfficial": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:06:33.748Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:06:33.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961387a6a531c09f94a5f3c"
+  },
+  "name": "Anjali Verma",
+  "year": "2025",
+  "partnerProgramId": {
+    "$oid": "6961362e664a633903a1112a"
+  },
+  "logo": "/uploads/logo-1767979130456.png",
+  "country": "Bangladesh",
+  "BussnessName": "Verma Tours & Holidays",
+  "userImage": "/uploads/userImage-1767979130456.png",
+  "description": "Travel Agent - Becoming a Partner",
+  "isOfficial": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:18:50.487Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:18:50.487Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696139a06a531c09f94a5f47"
+  },
+  "name": "Sneha Kulkarni",
+  "year": "2024",
+  "partnerProgramId": {
+    "$oid": "69613661664a633903a1112d"
+  },
+  "logo": "/uploads/logo-1767979424682.png",
+  "country": "Marcho",
+  "BussnessName": "Kulkarni Visa Services",
+  "userImage": "/uploads/userImage-1767979424684.png",
+  "description": "Travel Agent - Becoming a Partner",
+  "isOfficial": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:23:44.709Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:23:44.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696139f66a531c09f94a5f56"
+  },
+  "name": "Harpreet Singh",
+  "year": "2023",
+  "partnerProgramId": {
+    "$oid": "69613689664a633903a11130"
+  },
+  "logo": "/uploads/logo-1767979510262.webp",
+  "country": "South Korea",
+  "BussnessName": "Punjab Travel Hub",
+  "userImage": "/uploads/userImage-1767979510262.webp",
+  "description": "Travel Agent - Becoming a Partner",
+  "isOfficial": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:25:10.270Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:25:10.270Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69613a2d6a531c09f94a5f8b"
+  },
+  "name": "Neha Gupta",
+  "year": "2022",
+  "partnerProgramId": {
+    "$oid": "696136b2664a633903a1113c"
+  },
+  "logo": "/uploads/logo-1767979565337.png",
+  "country": "Thailand",
+  "BussnessName": "Gupta Overseas Consultancy",
+  "userImage": "/uploads/userImage-1767979565337.png",
+  "description": "Travel Agent - Becoming a Partner",
+  "isOfficial": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:26:05.357Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:26:05.357Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69613ac56a531c09f94a5fc0"
+  },
+  "name": "Niraj Ahlawat",
+  "year": "2021",
+  "partnerProgramId": {
+    "$oid": "69613a956a531c09f94a5fac"
+  },
+  "logo": "/uploads/logo-1767979717080.png",
+  "country": "UAE",
+  "BussnessName": "Ahlawat Travels",
+  "userImage": "/uploads/userImage-1767979717080.png",
+  "description": "Travel Agent - Becoming a Partner",
+  "isOfficial": false,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:28:37.100Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:28:37.100Z"
+  },
+  "__v": 0
+}]

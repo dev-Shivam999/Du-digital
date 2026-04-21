@@ -1,0 +1,480 @@
+[{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290bdc"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023eb"
+  },
+  "officeName": "Chennai Office",
+  "address": {
+    "line1": "3rd Floor, Alsa Mall, T-11/12, Egmore",
+    "line2": "Red Cross Road, Chennai, Tamil Nadu – 600008",
+    "city": "Chennai",
+    "state": "",
+    "country": "India",
+    "pincode": "600008"
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.061Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-07T14:40:09.947Z"
+  },
+  "googleMapLink": "https://www.google.com/maps?q=Seoul&output=embed"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290bdd"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023eb"
+  },
+  "officeName": "Guwahati Office",
+  "address": {
+    "line1": "Exotica Greens, 4th Floor",
+    "line2": "RG Baruah Road, Guwahati, Assam, P.S – Geetanagar, P.O – Japorigog Post Office, Kamrup (Metro), Assam – 781005",
+    "city": "Guwahati",
+    "state": "",
+    "country": "India",
+    "pincode": "781005"
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.061Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T15:02:54.524Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.963333806736!2d91.77646497499569!3d26.165323577100562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a590ec7a89fab%3A0xf1741682411decdc!2sExotica%20Greens!5e0!3m2!1sen!2sin!4v1767884503541!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290bde"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023eb"
+  },
+  "officeName": "Kolkata Office",
+  "address": {
+    "line1": "1st Floor, Plot No. 15 (Infinium Digi Space)",
+    "line2": "CP Block, Sector 5, Salt Lake, Kolkata – 700091",
+    "city": "Kolkata",
+    "state": "",
+    "country": "India",
+    "pincode": "700091"
+  },
+  "contact": {
+    "phone": "+91-7289000071",
+    "email": "info@bdvisa.com"
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.061Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T15:03:53.465Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.085677275813!2d88.43449757487032!3d22.5758986794894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275a884000001%3A0x62d5a1e6f68f3dfc!2sInfinium%20Digispace!5e0!3m2!1sen!2sin!4v1767884595538!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290bdf"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023eb"
+  },
+  "officeName": "Mumbai Office",
+  "address": {
+    "line1": "Unit no. 404-B, 4th Floor, Prathamesh Tower – B Wing",
+    "line2": "C.S. No. 107 – Lower Parel Division, Raghuvanshi Mill, 11, 12 Senapati Bapat Marg, Lower Parel, Mumbai – 400013",
+    "city": "Mumbai",
+    "state": "",
+    "country": "India",
+    "pincode": "400013"
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.061Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:29:48.557Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d22989.505630541375!2d72.80519810112948!3d18.991640171456346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sC.S.%20No.%20107%20%E2%80%93%20Lower%20Parel%20Division%2C%20Raghuvanshi%20Mill%2C%2011%2C%2012%20Senapati%20Bapat%20Marg%2C%20Lower%20Parel%2C%20Mumbai%20%E2%80%93%20400013!5e1!3m2!1sen!2sin!4v1767954559808!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290be0"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023eb"
+  },
+  "officeName": "Silchar Office",
+  "address": {
+    "line1": "Goldighi Municipality Mall",
+    "line2": "Shop No 105, 106 & 107, Near Premtola Point, Central Road, PO – Silchar, PS – Silchar Sadar, District – Cachar, Assam – 788001",
+    "city": "Silchar",
+    "state": "",
+    "country": "India",
+    "pincode": "788001"
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.061Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:30:38.032Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11033.240251272764!2d92.79099308076823!3d24.82399507242915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShop%20No%20105%2C%20106%20%26%20107%2C%20Near%20Premtola%20Point%2C%20Central%20Road%2C%20PO%20%E2%80%93%20Silchar%2C%20PS%20%E2%80%93%20Silchar%20Sadar%2C%20District%20%E2%80%93%20Cachar%2C%20Assam%20%E2%80%93%20788001!5e1!3m2!1sen!2sin!4v1767954611812!5m2!1sen!2si"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290be1"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023eb"
+  },
+  "officeName": "Siliguri Office",
+  "address": {
+    "line1": "Sonali Bank White House 304/3",
+    "line2": "Sevoke Road, P.S: Siliguri – 734001",
+    "city": "Siliguri",
+    "state": "",
+    "country": "India",
+    "pincode": "734001"
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.061Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:31:45.650Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.5923839137345!2d88.42385337401066!3d26.71971186836073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e441137a9bf0eb%3A0x52375a30f7204408!2sSonali%20Bank%20-%20Siliguri%20Branch!5e1!3m2!1sen!2sin!4v1767954681461!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290be2"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023eb"
+  },
+  "officeName": "Bongaigaon Office",
+  "address": {
+    "line1": "Third Floor, Arham Towers",
+    "line2": "Bongaigaon Town Part-V (Ward No. 6), Municipal Holding No. 81, Bongaigaon Revenue Circle, P.O. P.S & Sub-Registry Office – Bongaigaon, Assam – 781005",
+    "city": "Bongaigaon",
+    "state": "",
+    "country": "India",
+    "pincode": "781005"
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:32:34.489Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2714.5923839137345!2d88.42385337401066!3d26.71971186836073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e441137a9bf0eb%3A0x52375a30f7204408!2sSonali%20Bank%20-%20Siliguri%20Branch!5e1!3m2!1sen!2sin!4v1767954681461!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290be3"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023eb"
+  },
+  "officeName": "New Delhi Office",
+  "address": {
+    "line1": "C-4, Commercial Complex",
+    "line2": "Safdarjung Development Area, New Delhi - 110016",
+    "city": "New Delhi",
+    "state": "",
+    "country": "India",
+    "pincode": "110016"
+  },
+  "contact": {
+    "phone": "+91-7289000071",
+    "email": "info@dudigitalglobal.com"
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:33:38.732Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5339.2122574901105!2d77.19376788766937!3d28.54832437724508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce20bb8a83d6f%3A0x603eb4211fb64761!2sSafdarjung%20Development%20Area%2C%20Hauz%20Khas%2C%20New%20Delhi%2C%20Delhi%20110016!5e1!3m2!1sen!2sin!4v1767954781808!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290be4"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023ed"
+  },
+  "officeName": "Chittagong Office",
+  "address": {
+    "line1": "DUDigital Technologies Limited",
+    "line2": "Mostafa Center, 1102/A, Agrabad C/A, Chattogram",
+    "city": "Chittagong",
+    "state": "",
+    "country": "Bangladesh",
+    "pincode": ""
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:34:30.430Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2811.2574686465923!2d91.8113882738412!3d22.328072241891025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8b5b839cf7f%3A0x64901938d415a637!2sMostafa%20Center!5e1!3m2!1sen!2sin!4v1767954845995!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290be5"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023ed"
+  },
+  "officeName": "Kathmandu Office",
+  "address": {
+    "line1": "DUDigital Pvt Ltd.",
+    "line2": "Shop no. 233 & 234, 1st Floor, Chhaya Centre, Thamel, Kathmandu",
+    "city": "Kathmandu",
+    "state": "",
+    "country": "Nepal",
+    "pincode": ""
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:35:17.861Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2690.434354871047!2d85.31033037405345!3d27.71551367513382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sShop%20no.%20233%20%26%20234%2C%201st%20Floor%2C%20Chhaya%20Centre%2C%20Thamel%2C%20Kathmandu!5e1!3m2!1sen!2sin!4v1767954888260!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290be6"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023ed"
+  },
+  "officeName": "Nugegoda Office",
+  "address": {
+    "line1": "DUDigital Global (Lanka) (Pvt) Ltd.",
+    "line2": "No. 8, 1/2, Old Kesbewa Road, Delkanda, Nugegoda – 10250",
+    "city": "Nugegoda",
+    "state": "",
+    "country": "Sri Lanka",
+    "pincode": "10250"
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:36:15.617Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3017.34823249812!2d79.89798487350683!3d6.86221696913761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNo.%208%2C%201%2F2%2C%20Old%20Kesbewa%20Road%2C%20Delkanda%2C%20Nugegoda%20%E2%80%93%2010250!5e1!3m2!1sen!2sin!4v1767954948169!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290be7"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023ed"
+  },
+  "officeName": "Dhaka Office",
+  "address": {
+    "line1": "DUDigital Technologies Limited",
+    "line2": "PBL Tower (13th Floor), 17, Gulshan North C/A, Gulshan-2, Dhaka – 1212",
+    "city": "Dhaka",
+    "state": "",
+    "country": "Bangladesh",
+    "pincode": ""
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:37:06.685Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11123.150504042478!2d90.39473390633813!3d23.794583537136106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a76fa2e539%3A0x2baefcc5fa9e06f7!2s13th%20floor%2C%20PBL%20Tower%2C%2017%20(New%20Gulshan%20North%20Ave%2C%20Dhaka%201212%2C%20Bangladesh!5e1!3m2!1sen!2sin!4v1767955003252!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290be8"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023ed"
+  },
+  "officeName": "Sharjah Office",
+  "address": {
+    "line1": "Sharjah Media City (Shams)",
+    "line2": "P.O. Box: 515000, Sharjah, UAE",
+    "city": "Sharjah",
+    "state": "",
+    "country": "UAE",
+    "pincode": "515000"
+  },
+  "contact": {
+    "phone": "",
+    "email": ""
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:38:01.522Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d351638.4257078763!2d54.95525501251727!3d25.319387484392955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5f5fede7964b%3A0x2a830aa19c1f6d89!2sSharjah%20-%20United%20Arab%20Emirates!5e1!3m2!1sen!2sin!4v1767955055725!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290be9"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023ed"
+  },
+  "officeName": "Bangkok Office",
+  "address": {
+    "line1": "Unit No. 36/28, 10th Floor",
+    "line2": "P.S. Tower, Sukhumvit 21 (Asoke) Road, North Klongtoey Sub-district, Wattana District, Bangkok",
+    "city": "Bangkok",
+    "state": "",
+    "country": "Thailand",
+    "pincode": ""
+  },
+  "contact": {
+    "phone": "+6624606805",
+    "email": "icac.bangkok@dudigitalglobal.com"
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:38:43.088Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.1351210767934!2d100.55966007360406!3d13.74122709754123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29ee4dd4c832f%3A0x30798ea95ce35261!2sPS%20Tower!5e1!3m2!1sen!2sin!4v1767955100947!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290bea"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023ed"
+  },
+  "officeName": "Seoul Office",
+  "address": {
+    "line1": "4th Floor, 76-42, Namhan Building",
+    "line2": "Hannam-Dong, Yongsan-Gu, Seoul, South Korea - 04401",
+    "city": "Seoul",
+    "state": "",
+    "country": "South Korea",
+    "pincode": "04401"
+  },
+  "contact": {
+    "phone": "+82-220235847",
+    "email": "icac.seoul@dudigitalglobal.com"
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:39:32.404Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2409.970893797013!2d127.00186677455908!3d37.53481562594852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3b13d3666ef%3A0x7ec413b0953f9d1b!2sSouth%20Korea%2C%20Seoul%2C%20Yongsan%20District%2C%2004401!5e1!3m2!1sen!2sin!4v1767955143269!5m2!1sen!2sin"
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290beb"
+  },
+  "officeTypeId": {
+    "$oid": "694f5476b9ddded7147023ed"
+  },
+  "officeName": "Dubai Office",
+  "address": {
+    "line1": "Office #4001, 40th Floor",
+    "line2": "Aspin Commercials Tower, Sheikh Zayed Road, Dubai, UAE",
+    "city": "Dubai",
+    "state": "",
+    "country": "UAE",
+    "pincode": ""
+  },
+  "contact": {
+    "phone": "+971-585955766",
+    "email": "info@dudigitalglobal.com"
+  },
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.062Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T10:40:13.270Z"
+  },
+  "googleMapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2749.6749142453323!2d55.26992347394876!3d25.208967331226575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f428853023db3%3A0x6e63a9fe6b2d7cfe!2sAspin%20Commercial%20Tower%20-%20106%20Sheikh%20Zayed%20Rd%20-%20Trade%20Center%20First%20-%20Dubai%20-%20United%20Arab%20Emirates!5e1!3m2!1sen!2sin!4v1767955188593!5m2!1sen!2sin"
+}]

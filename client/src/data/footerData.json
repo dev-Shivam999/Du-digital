@@ -1,0 +1,101 @@
+{
+    "logo": {
+        "src": "/assets/footer/footer-logo.png",
+        "alt": "DU GLOBAL Footer Logo"
+    },
+    "newsletter": {
+        "text": "Subscribe to our newsletter to stay in touch with the latest.",
+        "placeholder": "Your Email Address",
+        "submitIcon": "/assets/footer/mail.png"
+    },
+    "socials": {
+        "title": "FOLLOW US HERE:",
+        "items": [
+            {
+                "name": "facebook",
+                "url": "https://www.facebook.com/DuGlobalOfficial/"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/du_global/"
+            },
+            {
+                "name": "youtube",
+                "url": "https://www.youtube.com/@Du_Global"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/company/du-global/"
+            },
+            {
+                "name": "x",
+                "url": "https://x.com/dudigitalglobal"
+            }
+        ]
+    },
+    "payments": {
+        "title": "WE ACCEPT :",
+        "image": "/assets/footer/master-card-visa-card-1.png"
+    },
+    "links": {
+        "title": "Links",
+        "items": [
+            {
+                "label": "Home",
+                "url": "/"
+            },
+            {
+                "label": "About Us",
+                "url": "/about-us"
+            },
+            {
+                "label": "TnH Magazine",
+                "url": "/tnh-magazine"
+            },
+            {
+                "label": "Our Capabilities",
+                "url": "/our-capabilities"
+            },
+            {
+                "label": "News and Media",
+                "url": "/news-and-media"
+            },
+            {
+                "label": "Careers",
+                "url": "/careers"
+            },
+            {
+                "label": "Blogs",
+                "url": "/blogs"
+            },
+            {
+                "label": "Contact Us",
+                "url": "/contact-us"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact Us",
+        "offices": [
+            {
+                "city": "New Delhi, India",
+                "type": "Registered Office",
+                "address": "C-4, Commercial Complex, Safdarjung Development Area, New Delhi – 110016"
+            },
+            {
+                "city": "New Delhi, India",
+                "type": "Corporate Office",
+                "address": "B-86, 2nd Floor, Defence Colony, Delhi-110024"
+            },
+            {
+                "phone": "+917289000071",
+                "email": "info@dudigitalglobal.com"
+            },
+            {
+                "city": "Dubai, UAE",
+                "address": "Office #4001, 40th Floor, Aspin Commercials Tower, Sheikh Zayed Road, Dubai, UAE",
+                "phone": "+971-585955766, +971-42556624"
+            }
+        ]
+    }
+}

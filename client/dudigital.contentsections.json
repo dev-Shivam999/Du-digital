@@ -1,0 +1,702 @@
+[{
+  "_id": {
+    "$oid": "69569851c70babe2803ced6d"
+  },
+  "formId": {
+    "$oid": "695690d37cbfa68326df0ed8"
+  },
+  "sectionKey": "expl-india",
+  "title": "xdfkl kwrn kda",
+  "contentHtml": "mnnd, jk,m sd",
+  "image": "http://localhost:5000/api/uploads/1767282769210.jpg",
+  "badge": {
+    "text": "klnfdk ",
+    "background": "#781a84"
+  },
+  "layout": "RIGHT_TEXT_LEFT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T15:52:49.233Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T15:52:49.233Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a15511f525706b5944ce"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "sectionKey": "hero",
+  "title": "Explore the Wonders of India with Ease",
+  "contentHtml": "India, a land of ancient traditions and modern marvels, offers an experience like no other. From the snow-capped peaks of the Himalayas to the sun-kissed beaches of Goa, the bustling streets of Mumbai to the serene backwaters of Kerala, India invites travelers on a journey through diverse landscapes, vibrant cultures, and rich heritage.\r\n\r\nAt DU Global, we understand that exploring India should be as seamless as possible. That’s why we offer a hassle-free eVisa service, designed to make your entry into this incredible country both smooth and efficient. Our streamlined process ensures that you can focus on planning your adventure while we take care of the paperwork.",
+  "image": "http://localhost:5000/api/uploads/1767285077310.webp",
+  "badge": {
+    "text": "mks sck cks ka k cakc lbcsic skc skac skcs jc ",
+    "background": "#007bff"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:31:17.388Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:31:17.388Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a30511f525706b59450f"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Why Choose DuVerify Platform?",
+  "title": "Why Choose DuVerify Platform?",
+  "contentHtml": "Protect your home and family with our tenant, maid, nanny and driver background screening\r\nRenting out your property or hiring domestic staff involves crucial decisions, as choosing the wrong tenant, driver, maid, or nanny can lead to financial loss, stress, and risks to your family's safety. DuVerify offers a reliable verification platform, providing comprehensive identity authentication and background checks for tenants, drivers, maids, and nannies. Ensure peace of mind by selecting trustworthy individuals for your home and loved ones.\r\n\r\n",
+  "image": "http://localhost:5000/api/uploads/1767285509624.png",
+  "badge": {
+    "text": "Tenants Domestic Helps Driver Nanny",
+    "background": "#ea2e2e"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:38:29.649Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:38:29.649Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a34f11f525706b59451a"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Key Benefits",
+  "title": "Peace of Mind",
+  "contentHtml": "Ensure tenants, drivers, maids, and nannies are thoroughly verified, reliable, and trustworthy.",
+  "image": "http://localhost:5000/api/uploads/1767285583256.jpg",
+  "layout": "RIGHT_TEXT_LEFT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:39:43.271Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:39:43.271Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a36a11f525706b594521"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Key Benefits",
+  "title": "Peace of Mind",
+  "contentHtml": "Ensure tenants, drivers, maids, and nannies are thoroughly verified, reliable, and trustworthy.",
+  "image": "http://localhost:5000/api/uploads/1767285610137.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:40:10.148Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:40:10.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a4fb11f525706b594555"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "How It Works?",
+  "title": "How It Works?",
+  "contentHtml": "Choose your preferred package and complete the payment.\r\n\r\nSubmit the details and documents via our secure portal.\r\n\r\nOur system conducts a comprehensive background check, including:\r\n\r\nIdentity Verification\r\nCriminal Records Check\r\nBank Statement/Income Verification\r\nITR Check\r\nInterpol Reference Checks\r\nReceive a detailed report with a verification score and recommendation.",
+  "image": "http://localhost:5000/api/uploads/1767286011186.jpg",
+  "badge": {
+    "text": " 4 streamlined verification steps",
+    "background": "#007bff"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:46:51.207Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:46:51.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a58011f525706b59455f"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Deliverables",
+  "title": "Verification Score",
+  "contentHtml": "\r\nA simple rating to help you make informed decisions.",
+  "image": "http://localhost:5000/api/uploads/1767286144558.jpg",
+  "badge": {
+    "text": " What you get with DuVerify verification platform?",
+    "background": "#007bff"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:49:04.573Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:49:04.573Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957d7154fb0cabf62f1e2ec"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "sectionKey": "E-VISA APPLICATION PROCESS",
+  "title": "Apply online ",
+  "contentHtml": "Upload Photo and Passport Page",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T14:32:53.706Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T14:32:53.706Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957d7524fb0cabf62f1e2f3"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "sectionKey": "E-VISA APPLICATION PROCESS",
+  "title": "Pay eVisa ",
+  "contentHtml": "fee online Using Credit / Debit card / Payment Walle",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T14:33:54.289Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T14:33:54.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957d7704fb0cabf62f1e2fa"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "sectionKey": "E-VISA APPLICATION PROCESS",
+  "title": "Receive ETA Online",
+  "contentHtml": " Electronic Travel Authorization/ETA Will be sent to your e-mail",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T14:34:24.894Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T14:34:24.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957ffb54fb0cabf62f1e541"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Global Presence",
+  "contentHtml": "\r\nOur international hiring agency has a vast network of offices and partners across multiple regions. This includes countries in the Middle East, Europe, and emerging economies in South Asia. Such coverage enables us to connect international and smaller businesses with top talent. It’s one of the key reasons why clients prefer our global recruitment services.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:26:13.252Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:26:13.252Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957ffdd4fb0cabf62f1e548"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Smart Recruitment",
+  "contentHtml": "\r\nOur global placement firm is one of the few international recruiting agencies that use advanced tools and systems to review applications and track desired candidates. It helps us hire faster and smarter without wrong judgments. We make hiring fast and simple from automated reviews to chatbot interviews at the initial stages.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:26:53.726Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:26:53.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695800004fb0cabf62f1e54f"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Skill-Based Hiring",
+  "contentHtml": "Smart Recruitment\r\nOur global placement firm is one of the few international recruiting agencies that use advanced tools and systems to review applications and track desired candidates. It helps us hire faster and smarter without wrong judgments. We make hiring fast and simple from automated reviews to chatbot interviews at the initial stages.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:27:28.440Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:27:28.440Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695800214fb0cabf62f1e556"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Diversity and Local Expertise",
+  "contentHtml": "\r\nOur global recruitment services help clients create diverse teams with different cultures. Plus, we ensure to follow local hiring rules to ensure a fair and ethical hiring process. All of this is possible due to our local knowledge. Such a commitment ensures an unbiased hiring every time.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:28:01.129Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:28:01.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958005a4fb0cabf62f1e55d"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Services",
+  "title": "Workforce Planning",
+  "contentHtml": "\r\nWe monitor job markets and help you predict how many people you will need to hire in different areas. It ensures your staffing plans are always aligned with market trends. It allows you to stay ahead in this competitive business world.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:28:58.205Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:28:58.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695800774fb0cabf62f1e564"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Services",
+  "title": "Talent Sourcing",
+  "contentHtml": "\r\nOur global recruitment services use innovative tools like social media and AI to identify the best candidates for your jobs. It allows us to quickly find top talent and ensure you get the right talent in time. Our experts connect with a vast pool of professionals to effectively meet your hiring needs.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:29:27.664Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:29:27.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958009a4fb0cabf62f1e56b"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Services",
+  "title": "Skill Assessment",
+  "contentHtml": "\r\nWe conduct practical assessments, trade tests, and behavioral interviews to ensure that candidates meet job-specific standards and can successfully adapt to your workplace environment.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:30:02.711Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:30:02.711Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695800b94fb0cabf62f1e572"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Services",
+  "title": "Onboarding & Compliance",
+  "contentHtml": "\r\nOur global recruitment services support new hires throughout their transition by managing orientation, documentation, payroll integration, and legal formalities. Every step is carried out in strict accordance with local labor laws and compliance standards, ensuring a smooth start for your employees and complete peace of mind for you.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:30:33.963Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:30:33.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695801794fb0cabf62f1e579"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Industries We Serve",
+  "title": "Manufacturing and Supply Chain",
+  "contentHtml": "CNC Machine Operator\r\n\r\nForklift Driver\r\n\r\nWarehouse Associate\r\n\r\nIndustrial Electrician\r\n\r\nWelders (TIG, MIG, ARC)\r\n\r\nProduction Supervisor\r\n\r\nMaintenance Technician\r\n\r\nLogistics Coordinator",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:33:45.678Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:33:45.678Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695801cd4fb0cabf62f1e580"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Industries We Serve",
+  "title": "Hospitality & Services",
+  "contentHtml": "Waiters / Waitresses\r\n\r\nHousekeeping Staff\r\n\r\nChefs (Indian, Continental, Tandoor, Pizza)\r\n\r\nFront Desk Executive\r\n\r\nBartender\r\n\r\nRoom Attendants\r\n\r\nKitchen Helpers\r\n\r\nSpa Therapist",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:35:09.909Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:35:09.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958020a4fb0cabf62f1e587"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Industries We Serve",
+  "title": "Industries We Serve",
+  "contentHtml": "Rig Technician\r\n\r\nInstrumentation Technician\r\n\r\nPetroleum Engineer\r\n\r\nOffshore Driller\r\n\r\nPipeline Welder\r\n\r\nHSE Officer (Health, Safety, and Environment)\r\n\r\nOilfield Electrician",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:36:10.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:36:10.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695802b04fb0cabf62f1e58e"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Ready to Build Your Team?",
+  "title": "Ready to Build Your Team?",
+  "contentHtml": "Partner with DU Global to stay ahead in international hiring. From data-driven talent sourcing to customized recruitment strategies, we help businesses across Europe, the UK, Canada, Russia, Serbia, and the Middle East connect with the right candidates — quickly, compliantly, and efficiently.\r\n\r\nWhether you’re scaling your workforce or expanding into new markets, our expert team delivers staffing solutions tailored to your goals.\r\n\r\nContact us today for a personalized recruitment plan that works for you.",
+  "image": "http://localhost:5000/api/uploads/1767375536508.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:38:56.758Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:38:56.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695802d74fb0cabf62f1e595"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Track Record",
+  "title": "Our Track Record",
+  "contentHtml": "\r\nWe reduce hiring times by 35% thanks to our innovative AI tools.\r\nOur team has seen a 50% jump in how well new hires fit their jobs.\r\nWe ensure our hiring follows all employment rules for a smooth recruiting experience.",
+  "image": "http://localhost:5000/api/uploads/1767375575016.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:39:35.024Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:39:35.024Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695804084fb0cabf62f1e5ec"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "About DuVerify",
+  "title": "DuVerify, a product by Du Global Ltd (NSE: DUGLOBAL), is an advanced digital platform designed to streamline the document verification process for embassies, consulates, and organizations. Leveraging cutting-edge technologies such as artificial intelligence and machine learning, DuVerify ensures:",
+  "contentHtml": "Authenticity of documents\r\nDetection of fraudulent activities\r\nPrevention of tampering\r\nReal-time results and seamless system integration",
+  "image": "http://localhost:5000/api/uploads/1767375880217.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:44:40.237Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:44:40.237Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695804334fb0cabf62f1e5f3"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Why Choose DuVerify?",
+  "title": " Lightning-Fast Verification",
+  "contentHtml": "\r\nAuthenticate documents in minutes with our efficient algorithms, minimizing delays.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:45:23.246Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:45:23.246Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958044e4fb0cabf62f1e5fa"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Why Choose DuVerify?",
+  "title": " Unmatched Accuracy",
+  "contentHtml": "\r\nAchieve close-to-100% accuracy using robust data sources and stringent quality checks.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:45:50.604Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:45:50.604Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695804864fb0cabf62f1e601"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "What DuVerify Can Do for You",
+  "title": "Passport Authentication",
+  "contentHtml": "\r\nCheck document authenticity and tampering.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:46:46.852Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:46:46.852Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695804a14fb0cabf62f1e608"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "What DuVerify Can Do for You",
+  "title": "Financial Data Validation",
+  "contentHtml": "\r\nVerify banking, income tax, and financial histories.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:47:13.942Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:47:13.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695804ec4fb0cabf62f1e60f"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Key Partnerships",
+  "title": " Embassy of Georgia in India",
+  "contentHtml": "DuVerify, in collaboration with Georgia's Ministry of Foreign Affairs, revolutionizes e-Visa applications for Indian travelers through its secure, user-friendly digital verification platform. DuVerify ensures efficient background checks, expediting the issuance of short-term visit visas while maintaining rigorous security standards. This innovation simplifies cross-border travel and enhances procedural transparency for applicants.",
+  "image": "http://localhost:5000/api/uploads/1767376108599.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:48:28.636Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:48:28.636Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958052c4fb0cabf62f1e616"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Key Partnerships",
+  "title": "Embassy of the Republic of South Korea in Delhi",
+  "contentHtml": "\r\nDuVerify supports the Embassy of the Republic of Korea in India to deliver a next-generation document authentication solution. Our advanced digital verification system streamlines visa processing by automatically validating applicant materials for accuracy and compliance. This tech-driven approach reduces administrative delays, improves decision consistency, and fosters greater trust in international travel protocols.",
+  "image": "http://localhost:5000/api/uploads/1767376172327.avif",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:49:32.398Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:49:32.398Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695805c14fb0cabf62f1e61d"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": " Request a Demo Today",
+  "title": " Request a Demo Today",
+  "contentHtml": "\r\nDiscover how DuVerify can transform your visa and document verification workflows.",
+  "image": "http://localhost:5000/api/uploads/1767376321171.webp",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:52:01.364Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:52:01.364Z"
+  },
+  "__v": 0
+}]

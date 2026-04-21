@@ -1,0 +1,33 @@
+{
+    "whyUsSection": {
+        "title": "Why DU GLOBAL is your trusted partner",
+        "description": "Experience unmatched expertise, reliable support, and tailored solutions with DU GLOBAL. We simplify complex processes and deliver results you can trust, making us the preferred choice for thousands worldwide.",
+        "cta": {
+            "text": "About Us",
+            "link": "/about-us"
+        },
+        "backgroundImage": "/assets/home/why-us/why-us.jpg",
+        "features": [
+            {
+                "icon": "BadgeCheck",
+                "title": "Quality and Value",
+                "text": "Quality beyond compromise, value that is unmatched."
+            },
+            {
+                "icon": "Handshake",
+                "title": "Services",
+                "text": "Service that exceeds expectations."
+            },
+            {
+                "icon": "ShieldCheck",
+                "title": "Security",
+                "text": "The utmost security of our clients' data is paramount for us."
+            },
+            {
+                "icon": "Cpu",
+                "title": "Technology",
+                "text": "Optimum use of evolving technology to strengthen our portfolio."
+            }
+        ]
+    }
+}

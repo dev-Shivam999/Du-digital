@@ -1,0 +1,305 @@
+{
+    "navbar": {
+        "logo": {
+            "src": "/du-global-logo.svg",
+            "alt": "DU Digital Global",
+            "link": "/"
+        },
+        "items": [
+            {
+                "label": "Home",
+                "link": "/"
+            },
+            {
+                "label": "About Us",
+                "link": "/about-us"
+            },
+            {
+                "label": "Our Businesses",
+                "children": [
+                    {
+                        "label": "For Government & Embassies",
+                        "link": "/embassy-government-partners"
+                    },
+                    {
+                        "label": "DuVisas",
+                        "children": [
+                            {
+                                "label": "Greece Work Visa",
+                                "link": "/greece-work-visa"
+                            },
+                            {
+                                "label": "Digital Arrival Cards",
+                                "link": "/digital-arrival-cards"
+                            },
+                            {
+                                "label": "Serbia Work Permit Visa",
+                                "link": "/serbia-work-permit-visa"
+                            },
+                            {
+                                "label": "UAE e-Visa",
+                                "link": "/dubai-5year-tourist-visa"
+                            },
+                            {
+                                "label": "South Korea Visa",
+                                "link": "/south-korea-visa-for-indians"
+                            },
+                            {
+                                "label": "Australia Tourist Visa",
+                                "link": "/australia-tourist-visa"
+                            },
+                            {
+                                "label": "Bangladesh VAC",
+                                "link": "/bangladesh-vac"
+                            },
+                            {
+                                "label": "Thailand Visa",
+                                "link": "/digital-arrival-cards"
+                            },
+                            {
+                                "label": "Malaysia VAC",
+                                "link": "/malaysia-visa-for-indians"
+                            },
+                            {
+                                "label": "Morocco Visa",
+                                "link": "/morocco-visa"
+                            },
+                            {
+                                "label": "Georgia eVisa",
+                                "link": "/georgia-evisa"
+                            },
+                            {
+                                "label": "Apply for Any Visa",
+                                "link": "/apply-for-any-visa"
+                            },
+                            {
+                                "label": "Lebanon VAC",
+                                "link": "/lebanon"
+                            },
+                            {
+                                "label": "Japan Tourist Visa",
+                                "link": "/japan-tourist-visa-for-indians"
+                            },
+                            {
+                                "label": "Egypt Visa",
+                                "link": "/egypt-visa-for-indians"
+                            },
+                            {
+                                "label": "Visas for Bangladeshi Citizens",
+                                "link": "/bangladesh-visas-for-uae-singapore"
+                            },
+                            {
+                                "label": "Malaysia VIP Clearance",
+                                "link": "/vip-clearance-at-malaysia-airport"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Company Setup in the UAE",
+                        "link": "/company-setup-in-the-uae"
+                    },
+                    {
+                        "label": "DuVerify",
+                        "link": "/duverify"
+                    },
+                    {
+                        "label": "Global Recruitment",
+                        "link": "/global-recruitment-services"
+                    },
+                    {
+                        "label": "Tenant Verification",
+                        "link": "/tenant-and-domestic-help-verification"
+                    },
+                    {
+                        "label": "India eVisa",
+                        "link": "/india-evisa"
+                    },
+                    {
+                        "label": "Travel Packages",
+                        "link": "/swifttravels"
+                    }
+                ]
+            },
+            {
+                "label": "Resources",
+                "children": [
+                    {
+                        "label": "News & Media",
+                        "link": "/news-and-media"
+                    },
+                    {
+                        "label": "Events",
+                        "link": "/events"
+                    },
+                    {
+                        "label": "Careers",
+                        "link": "/careers"
+                    },
+                    {
+                        "label": "Video Gallery",
+                        "link": "/video-gallery"
+                    },
+                    {
+                        "label": "Blogs",
+                        "link": "/blogs"
+                    }
+                ]
+            },
+            {
+                "label": "Investor Relation",
+                "link": "/investor-relation",
+                "children": [
+                    {
+                        "label": "Postal Ballot",
+                        "link": "/investor-relation/postal-ballot"
+                    },
+                    {
+                        "label": "Financial Statement",
+                        "link": "/investor-relation/financial-statement"
+                    },
+                    {
+                        "label": "Annual Returns",
+                        "link": "/investor-relation/annual-returns"
+                    },
+                    {
+                        "label": "Reconciliation of Share Capital Audit Report",
+                        "link": "/investor-relation/reconciliation-of-share-capital-audit-report"
+                    },
+                    {
+                        "label": "Annual Reports",
+                        "link": "/investor-relation/annual-reports"
+                    },
+                    {
+                        "label": "Shareholding Pattern",
+                        "link": "/investor-relation/shareholding-pattern"
+                    },
+                    {
+                        "label": "DP Certificate",
+                        "link": "/investor-relation/dp-certificate"
+                    },
+                    {
+                        "label": "Statement of Utilization of Fund",
+                        "link": "/investor-relation/statement-of-utilization-of-fund"
+                    },
+                    {
+                        "label": "Reg 40 (9) PCS Compliance Certificate",
+                        "link": "/investor-relation/reg-40-9-pcs-compliance-certificate"
+                    },
+                    {
+                        "label": "Reg 7 (3) RTA Compliance Certificate",
+                        "link": "/investor-relation/reg-7-3-rta-compliance-certificate"
+                    },
+                    {
+                        "label": "Statements of Investor Complaints",
+                        "link": "/investor-relation/statements-of-investor-complaints"
+                    },
+                    {
+                        "label": "NSE Filings",
+                        "link": "/investor-relation/nse-filings"
+                    },
+                    {
+                        "label": "Policies of the Companies",
+                        "link": "/investor-relation/policies-of-the-companies"
+                    },
+                    {
+                        "label": "Miscellaneous",
+                        "link": "/investor-relation/miscellaneous"
+                    },
+                    {
+                        "label": "Subsidiary Financials",
+                        "link": "/investor-relation/subsidiary-financials"
+                    },
+                    {
+                        "label": "Integrated Filing – Financial",
+                        "link": "/investor-relation/integrated-filing-financial"
+                    },
+                    {
+                        "label": "Integrated Filing – Governance",
+                        "link": "/investor-relation/integrated-filing-governance"
+                    }
+                ]
+            },
+            {
+                "label": "Become a Partner",
+                "link": "/b2b-partner-program"
+            },
+            {
+                "label": "Contact Us",
+                "link": "/contact-us"
+            }
+        ]
+    },
+    "footer": {
+        "columns": [
+            {
+                "title": "Company",
+                "links": [
+                    {
+                        "label": "About Us",
+                        "link": "/about-us"
+                    },
+                    {
+                        "label": "Careers",
+                        "link": "/careers"
+                    },
+                    {
+                        "label": "Contact Us",
+                        "link": "/contact-us"
+                    }
+                ]
+            },
+            {
+                "title": "Services",
+                "links": [
+                    {
+                        "label": "DuVisas",
+                        "link": "/greece-work-visa"
+                    },
+                    {
+                        "label": "India eVisa",
+                        "link": "/india-evisa"
+                    },
+                    {
+                        "label": "Company Setup UAE",
+                        "link": "/company-setup-in-the-uae"
+                    },
+                    {
+                        "label": "Global Recruitment",
+                        "link": "/global-recruitment-services"
+                    }
+                ]
+            },
+            {
+                "title": "Resources",
+                "links": [
+                    {
+                        "label": "Blogs",
+                        "link": "/blogs"
+                    },
+                    {
+                        "label": "News & Media",
+                        "link": "/news-and-media"
+                    },
+                    {
+                        "label": "Video Gallery",
+                        "link": "/video-gallery"
+                    }
+                ]
+            },
+            {
+                "title": "Legal",
+                "links": [
+                    {
+                        "label": "Privacy Policy",
+                        "link": "/privacy-policy"
+                    },
+                    {
+                        "label": "Terms & Conditions",
+                        "link": "/terms-and-conditions"
+                    }
+                ]
+            }
+        ],
+        "copyright": "© 2025 DU Digital Global. All rights reserved."
+    }
+}

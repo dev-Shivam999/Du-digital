@@ -1,0 +1,40 @@
+{
+    "hero": {
+        "title": "Contact us",
+        "backgroundImage": "/assets/contact/Contact-us.jpg"
+    },
+    "offices": [
+        {
+            "title": "Office in Thailand",
+            "address": "Unit No. 36/28, 10th Floor, P.S. Tower, Sukhumvit 21 (Asoke) Road, North Klongtoey Sub-district, Wattana District, Bangkok",
+            "phone": "+6624606805",
+            "email": "icac.bangkok@dudigitalglobal.com",
+            "mapEmbed": "https://www.google.com/maps?q=Aspen%20Commercial%20Tower&output=embed"
+        },
+        {
+            "title": "Office in South Korea",
+            "address": "4th Floor, 76-42, Namhan Building, Hannam-Dong, Yongsan-Gu, Seoul, South Korea - 04401",
+            "phone": "+82-220235847",
+            "email": "icac.seoul@dudigitalglobal.com",
+            "mapEmbed": "https://www.google.com/maps?q=Seoul&output=embed"
+        },
+        {
+            "title": "Office in Dubai",
+            "address": "Office #4001, 40th Floor, Aspin Commercials Tower, Sheikh Zayed Road, Dubai, UAE",
+            "phone": "+971-585955766",
+            "email": "info@dudigitalglobal.com",
+            "mapEmbed": "https://www.google.com/maps?q=Dubai&output=embed"
+        },
+        {
+            "title": "Office in India",
+            "address": "C-4, Commercial Complex, Safdarjung Development Area, New Delhi - 110016",
+            "phone": "+91-7289000071",
+            "email": "info@dudigitalglobal.com",
+            "mapEmbed": "https://www.google.com/maps?q=New%20Delhi&output=embed"
+        }
+    ],
+    "form": {
+        "title": "Have a question, feedback, or query about Du Global's services?",
+        "subtitle": "Get in touch with us, and our team will get back to you promptly. We look forward to assisting you!"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "year": 2025,
+    "company": "DU GLOBAL",
+    "links": [
+        {
+            "label": "Terms and Conditions & Privacy Policy",
+            "url": "/terms-and-conditions"
+        },
+        {
+            "label": "Cookie Policy",
+            "url": "/cookie-policy"
+        }
+    ]
+}

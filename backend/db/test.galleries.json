@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "6962521dca39aa07aeec3656"
+  },
+  "FileUser": "/uploads/1768051229814.jpeg",
+  "createdAt": {
+    "$date": "2026-01-10T13:20:29.817Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:20:29.817Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696252f6ca39aa07aeec36b4"
+  },
+  "FileUser": "/uploads/1768051446623.jpeg",
+  "createdAt": {
+    "$date": "2026-01-10T13:24:06.624Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:24:06.624Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696252fcca39aa07aeec36b7"
+  },
+  "FileUser": "/uploads/1768051452557.jpeg",
+  "createdAt": {
+    "$date": "2026-01-10T13:24:12.558Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:24:12.558Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69625303ca39aa07aeec36ba"
+  },
+  "FileUser": "/uploads/1768051459340.png",
+  "createdAt": {
+    "$date": "2026-01-10T13:24:19.344Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:24:19.344Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69625313ca39aa07aeec36bd"
+  },
+  "FileUser": "/uploads/1768051475193.png",
+  "createdAt": {
+    "$date": "2026-01-10T13:24:35.197Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:24:35.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6962535dca39aa07aeec36c2"
+  },
+  "FileUser": "/uploads/1768051549318.jpg",
+  "createdAt": {
+    "$date": "2026-01-10T13:25:49.320Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:25:49.320Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69625362ca39aa07aeec36c5"
+  },
+  "FileUser": "/uploads/1768051554778.jpg",
+  "createdAt": {
+    "$date": "2026-01-10T13:25:54.779Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:25:54.779Z"
+  },
+  "__v": 0
+}]

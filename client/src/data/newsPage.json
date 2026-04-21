@@ -1,0 +1,134 @@
+{
+    "hero": {
+        "title": "News and Media",
+        "background": "/assets/news-events/news.webp",
+        "slider": {
+            "autoplay": true,
+            "interval": 5000,
+            "slides": [
+                {
+                    "image": "/assets/news-events/news.webp",
+                    "alt": "slide-image-1"
+                },
+                {
+                    "image": "/assets/news-events/events.webp",
+                    "alt": "slide-image-2"
+                },
+                {
+                    "image": "/assets/news-events/careers.jpg",
+                    "alt": "slide-image-3"
+                },
+                {
+                    "image": "/assets/news-events/news.webp",
+                    "alt": "slide-image-4"
+                },
+                {
+                    "image": "/assets/news-events/events.webp",
+                    "alt": "slide-image-5"
+                }
+            ]
+        }
+    },
+    "news": [
+        {
+            "_id": "69512292b514a8fbbb703803",
+            "title": "DU Digital Global Opens Indian Consular Centres in Bangkok & Chiang Mai",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.595Z",
+            "datePublished": "2024-07-15T00:00:00.000Z",
+            "imageUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/07/news-1.jpg",
+            "link": "https://dudigitalglobal.com/news-and-media/du-digital-global-opens-indian-consular-centres-in-bangkok-chiang-mai/",
+            "updatedAt": "2025-12-29T06:41:19.177Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb703804",
+            "title": "DU Digital Global Expands Visa Facilitation Services Across Asia",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.597Z",
+            "datePublished": "2024-06-20T00:00:00.000Z",
+            "imageUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/06/news-2.jpg",
+            "link": "https://dudigitalglobal.com/news-and-media/du-digital-global-expands-visa-facilitation-services-across-asia/",
+            "updatedAt": "2025-12-29T06:41:19.179Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb703805",
+            "title": "DU Digital Global Strengthens Presence in Middle East",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.598Z",
+            "datePublished": "2024-06-05T00:00:00.000Z",
+            "imageUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/06/news-3.jpg",
+            "link": "https://dudigitalglobal.com/news-and-media/du-digital-global-strengthens-presence-in-middle-east/",
+            "updatedAt": "2025-12-29T06:41:19.179Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb703806",
+            "title": "DU Digital Global Partners with Airlines for Seamless Travel Solutions",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.600Z",
+            "datePublished": "2024-05-22T00:00:00.000Z",
+            "imageUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/05/news-4.jpg",
+            "link": "https://dudigitalglobal.com/news-and-media/du-digital-global-partners-with-airlines/",
+            "updatedAt": "2025-12-29T06:41:19.180Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb703807",
+            "title": "Visa Processing Time Reduced by DU Digital Global",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.601Z",
+            "datePublished": "2024-05-10T00:00:00.000Z",
+            "imageUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/05/news-5.jpg",
+            "link": "https://dudigitalglobal.com/news-and-media/visa-processing-time-reduced/",
+            "updatedAt": "2025-12-29T06:41:19.181Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb703808",
+            "title": "DU Digital Global Launches New Customer Support Platform",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.602Z",
+            "datePublished": "2024-04-28T00:00:00.000Z",
+            "imageUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/04/news-6.jpg",
+            "link": "https://dudigitalglobal.com/news-and-media/du-digital-global-launches-customer-support-platform/",
+            "updatedAt": "2025-12-29T06:41:19.181Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb703809",
+            "title": "DU Digital Global Wins Excellence Award in Travel Services",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.603Z",
+            "datePublished": "2024-04-10T00:00:00.000Z",
+            "imageUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/04/news-7.jpg",
+            "link": "https://dudigitalglobal.com/news-and-media/du-digital-global-wins-excellence-award/",
+            "updatedAt": "2025-12-29T06:41:19.182Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb70380a",
+            "title": "Digital Transformation Driving DU Digital Global Growth",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.605Z",
+            "datePublished": "2024-03-25T00:00:00.000Z",
+            "imageUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/03/news-8.jpg",
+            "link": "https://dudigitalglobal.com/news-and-media/digital-transformation-driving-growth/",
+            "updatedAt": "2025-12-29T06:41:19.183Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb70380b",
+            "title": "DU Digital Global Enhances Security in Visa Processing",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.606Z",
+            "datePublished": "2024-03-12T00:00:00.000Z",
+            "imageUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/03/news-9.jpg",
+            "link": "https://dudigitalglobal.com/news-and-media/du-digital-global-enhances-security/",
+            "updatedAt": "2025-12-29T06:41:19.184Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb70380c",
+            "title": "DU Digital Global to Open More Centres in South Asia",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.608Z",
+            "datePublished": "2024-02-28T00:00:00.000Z",
+            "imageUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/02/news-10.jpg",
+            "link": "https://dudigitalglobal.com/news-and-media/du-digital-global-open-more-centres-south-asia/",
+            "updatedAt": "2025-12-29T06:41:19.184Z"
+        }
+    ]
+}

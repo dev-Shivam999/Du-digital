@@ -1,0 +1,5562 @@
+[{
+  "_id": {
+    "$oid": "69569f1511f525706b594454"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "Name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "Name",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-01T16:21:41.871Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.852Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "69569f3911f525706b594461"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "Email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "Email Address",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:22:17.637Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.856Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "69569fae11f525706b59446d"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "Phone",
+  "name": "phone",
+  "type": "number",
+  "placeholder": "Mobile Number",
+  "options": [],
+  "required": true,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:24:14.087Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.860Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "69569fae11f525706b59446f"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "TrawalDate",
+  "name": "trawaldate",
+  "type": "date",
+  "placeholder": "Expected Date of Travel",
+  "options": [],
+  "required": true,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:24:14.094Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.864Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "6956a00c11f525706b59447d"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "From (Select Country)",
+  "name": "from_select_country",
+  "type": "select",
+  "placeholder": "From (Select Country)",
+  "options": [
+    {
+      "label": "Armenia",
+      "value": "armenia",
+      "_id": {
+        "$oid": "6956a00c11f525706b59447e"
+      }
+    },
+    {
+      "label": "Australia",
+      "value": "australia",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3454"
+      }
+    },
+    {
+      "label": "Azerbaijan",
+      "value": "azerbaijan",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3455"
+      }
+    },
+    {
+      "label": "Canada",
+      "value": "canada",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3456"
+      }
+    },
+    {
+      "label": "Bahrain",
+      "value": "bahrain",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3457"
+      }
+    },
+    {
+      "label": "France",
+      "value": "france",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3458"
+      }
+    },
+    {
+      "label": "Georgia",
+      "value": "georgia",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3459"
+      }
+    },
+    {
+      "label": "Germany",
+      "value": "germany",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec345a"
+      }
+    },
+    {
+      "label": "Ireland",
+      "value": "ireland",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec345b"
+      }
+    },
+    {
+      "label": "Italy",
+      "value": "italy",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec345c"
+      }
+    },
+    {
+      "label": "Mauritius",
+      "value": "mauritius",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec345d"
+      }
+    },
+    {
+      "label": "Netherlands",
+      "value": "netherlands",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec345e"
+      }
+    },
+    {
+      "label": "New Zealand",
+      "value": "new_zealand",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec345f"
+      }
+    },
+    {
+      "label": "Philippines",
+      "value": "philippines",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3460"
+      }
+    },
+    {
+      "label": "Singapore",
+      "value": "singapore",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3461"
+      }
+    },
+    {
+      "label": "South Africa",
+      "value": "south_africa",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3462"
+      }
+    },
+    {
+      "label": "South Korea",
+      "value": "south_korea",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3463"
+      }
+    },
+    {
+      "label": "Spain",
+      "value": "spain",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3464"
+      }
+    },
+    {
+      "label": "Sweden",
+      "value": "sweden",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3465"
+      }
+    },
+    {
+      "label": "Switzerland",
+      "value": "switzerland",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3466"
+      }
+    },
+    {
+      "label": "Thailand",
+      "value": "thailand",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3467"
+      }
+    },
+    {
+      "label": "United Kingdom (UK)",
+      "value": "united_kingdom_(uk)",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3468"
+      }
+    },
+    {
+      "label": "United States (US)",
+      "value": "united_states_(us)",
+      "_id": {
+        "$oid": "69621128ca39aa07aeec3469"
+      }
+    }
+  ],
+  "required": true,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:25:48.785Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.869Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "6956a00c11f525706b594481"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "To (Select Country)",
+  "name": "to_select_country",
+  "type": "select",
+  "placeholder": "To (Select Country)",
+  "options": [
+    {
+      "label": "India",
+      "value": "india",
+      "_id": {
+        "$oid": "6956a00c11f525706b594482"
+      }
+    }
+  ],
+  "required": true,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:25:48.793Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.877Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695906916d28aba19a91c35d"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "Name",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:07:45.340Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T04:51:46.784Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695906916d28aba19a91c35f"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "label": "city",
+  "name": "city",
+  "type": "text",
+  "placeholder": "City",
+  "options": [],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:07:45.350Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T04:51:46.798Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695906916d28aba19a91c361"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "Phone",
+  "options": [],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:07:45.352Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T04:51:46.793Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695906916d28aba19a91c363"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "label": "date",
+  "name": "date",
+  "type": "date",
+  "placeholder": "Travel Date",
+  "options": [],
+  "required": false,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:07:45.355Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T04:51:46.803Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695906916d28aba19a91c365"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "label": "I am interested in",
+  "name": "i_am_interested_in",
+  "type": "select",
+  "placeholder": "I am interested in",
+  "options": [
+    {
+      "label": "5 Years Visit Visa/Tourist Visa",
+      "value": "5_years_visit_visa/tourist_visa",
+      "_id": {
+        "$oid": "695906916d28aba19a91c366"
+      }
+    }
+  ],
+  "required": false,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:07:45.360Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T04:51:46.807Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695906916d28aba19a91c369"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "label": " By submitting my details, I override my NDNC registration and authorize Du Digital Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "_by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_digital_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": " By submitting my details, I override my NDNC registration and authorize Du Digital Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "options": [],
+  "required": false,
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:07:45.364Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T04:51:46.815Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695906916d28aba19a91c36b"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "label": " Yes, I can provide",
+  "name": "_yes_i_can_provide",
+  "type": "radio",
+  "placeholder": "I can provide",
+  "options": [
+    {
+      "label": " Yes, I can provide",
+      "value": "_yes,_i_can_provide",
+      "_id": {
+        "$oid": "695906916d28aba19a91c36c"
+      }
+    },
+    {
+      "label": " No, I can provide",
+      "value": "_no,_i_can_provide",
+      "_id": {
+        "$oid": "695906916d28aba19a91c36d"
+      }
+    }
+  ],
+  "required": false,
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:07:45.367Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T04:51:46.811Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695907356d28aba19a91c3b0"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "Name",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:10:29.599Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T10:42:08.474Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695907356d28aba19a91c3b2"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "Email Address",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:10:29.601Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T10:42:08.481Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695907356d28aba19a91c3b6"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "label": "country",
+  "name": "country",
+  "type": "select",
+  "placeholder": "Select Country",
+  "options": [
+    {
+      "label": "India",
+      "value": "india",
+      "_id": {
+        "$oid": "695907356d28aba19a91c3b7"
+      }
+    },
+    {
+      "label": "Nepal",
+      "value": "nepal",
+      "_id": {
+        "$oid": "69620f2eca39aa07aeec3422"
+      }
+    },
+    {
+      "label": "Bangladesh",
+      "value": "bangladesh",
+      "_id": {
+        "$oid": "69620f2eca39aa07aeec3423"
+      }
+    }
+  ],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:10:29.605Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T10:42:08.504Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695907356d28aba19a91c3b9"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "label": "state",
+  "name": "state",
+  "type": "select",
+  "placeholder": "Select State",
+  "options": [
+    {
+      "id": "1768059031001",
+      "label": "Andhra Pradesh",
+      "value": "andhra_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca36"
+      }
+    },
+    {
+      "id": "1768059031002",
+      "label": "Arunachal Pradesh",
+      "value": "arunachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca37"
+      }
+    },
+    {
+      "id": "1768059031443",
+      "label": "Assam",
+      "value": "assam",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca38"
+      }
+    },
+    {
+      "id": "1768059031004",
+      "label": "Bihar",
+      "value": "bihar",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca39"
+      }
+    },
+    {
+      "id": "1768059031005",
+      "label": "Chhattisgarh",
+      "value": "chhattisgarh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca3a"
+      }
+    },
+    {
+      "id": "1768059031006",
+      "label": "Goa",
+      "value": "goa",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca3b"
+      }
+    },
+    {
+      "id": "1768059031007",
+      "label": "Gujarat",
+      "value": "gujarat",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca3c"
+      }
+    },
+    {
+      "id": "1768059031008",
+      "label": "Haryana",
+      "value": "haryana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca3d"
+      }
+    },
+    {
+      "id": "1768059031009",
+      "label": "Himachal Pradesh",
+      "value": "himachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca3e"
+      }
+    },
+    {
+      "id": "1768059031010",
+      "label": "Jharkhand",
+      "value": "jharkhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca3f"
+      }
+    },
+    {
+      "id": "1768059031011",
+      "label": "Karnataka",
+      "value": "karnataka",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca40"
+      }
+    },
+    {
+      "id": "1768059031012",
+      "label": "Kerala",
+      "value": "kerala",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca41"
+      }
+    },
+    {
+      "id": "1768059031013",
+      "label": "Madhya Pradesh",
+      "value": "madhya_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca42"
+      }
+    },
+    {
+      "id": "1768059031014",
+      "label": "Maharashtra",
+      "value": "maharashtra",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca43"
+      }
+    },
+    {
+      "id": "1768059031015",
+      "label": "Manipur",
+      "value": "manipur",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca44"
+      }
+    },
+    {
+      "id": "1768059031016",
+      "label": "Meghalaya",
+      "value": "meghalaya",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca45"
+      }
+    },
+    {
+      "id": "1768059031017",
+      "label": "Mizoram",
+      "value": "mizoram",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca46"
+      }
+    },
+    {
+      "id": "1768059031018",
+      "label": "Nagaland",
+      "value": "nagaland",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca47"
+      }
+    },
+    {
+      "id": "1768059031019",
+      "label": "Odisha",
+      "value": "odisha",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca48"
+      }
+    },
+    {
+      "id": "1768059031020",
+      "label": "Punjab",
+      "value": "punjab",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca49"
+      }
+    },
+    {
+      "id": "1768059031444",
+      "label": "Rajasthan",
+      "value": "rajasthan",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca4a"
+      }
+    },
+    {
+      "id": "1768059031022",
+      "label": "Sikkim",
+      "value": "sikkim",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca4b"
+      }
+    },
+    {
+      "id": "1768059031023",
+      "label": "Tamil Nadu",
+      "value": "tamil_nadu",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca4c"
+      }
+    },
+    {
+      "id": "1768059031024",
+      "label": "Telangana",
+      "value": "telangana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca4d"
+      }
+    },
+    {
+      "id": "1768059031025",
+      "label": "Tripura",
+      "value": "tripura",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca4e"
+      }
+    },
+    {
+      "id": "1768059031026",
+      "label": "Uttar Pradesh",
+      "value": "uttar_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca4f"
+      }
+    },
+    {
+      "id": "1768059031027",
+      "label": "Uttarakhand",
+      "value": "uttarakhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca50"
+      }
+    },
+    {
+      "id": "1768059031028",
+      "label": "West Bengal",
+      "value": "west_bengal",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca51"
+      }
+    },
+    {
+      "id": "1768059031029",
+      "label": "Delhi (NCT)",
+      "value": "delhi_nct",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca52"
+      }
+    },
+    {
+      "id": "1768059031030",
+      "label": "Ladakh",
+      "value": "ladakh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca53"
+      }
+    },
+    {
+      "id": "1768059032001",
+      "label": "Barisal Division",
+      "value": "barisal",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca54"
+      }
+    },
+    {
+      "id": "1768059032002",
+      "label": "Chittagong Division",
+      "value": "chittagong",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca55"
+      }
+    },
+    {
+      "id": "1768059032003",
+      "label": "Dhaka Division",
+      "value": "dhaka",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca56"
+      }
+    },
+    {
+      "id": "1768059032004",
+      "label": "Khulna Division",
+      "value": "khulna",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca57"
+      }
+    },
+    {
+      "id": "1768059032005",
+      "label": "Mymensingh Division",
+      "value": "mymensingh",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca58"
+      }
+    },
+    {
+      "id": "1768059032006",
+      "label": "Rajshahi Division",
+      "value": "rajshahi",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca59"
+      }
+    },
+    {
+      "id": "1768059032007",
+      "label": "Rangpur Division",
+      "value": "rangpur",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca5a"
+      }
+    },
+    {
+      "id": "1768059032008",
+      "label": "Sylhet Division",
+      "value": "sylhet",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca5b"
+      }
+    },
+    {
+      "id": "1768059033001",
+      "label": "Kathmandu",
+      "value": "kathmandu",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca5c"
+      }
+    },
+    {
+      "id": "1768059033002",
+      "label": "Pokhara",
+      "value": "pokhara",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca5d"
+      }
+    },
+    {
+      "id": "1768059033003",
+      "label": "Lalitpur (Patan)",
+      "value": "lalitpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca5e"
+      }
+    },
+    {
+      "id": "1768059033004",
+      "label": "Bhaktapur",
+      "value": "bhaktapur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca5f"
+      }
+    },
+    {
+      "id": "1768059033005",
+      "label": "Biratnagar",
+      "value": "biratnagar",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca60"
+      }
+    },
+    {
+      "id": "1768059033006",
+      "label": "Birgunj",
+      "value": "birgunj",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca61"
+      }
+    },
+    {
+      "id": "1768059033007",
+      "label": "Dharan",
+      "value": "dharan",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca62"
+      }
+    },
+    {
+      "id": "1768059033008",
+      "label": "Bharatpur",
+      "value": "bharatpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca63"
+      }
+    },
+    {
+      "id": "1768059033009",
+      "label": "Butwal",
+      "value": "butwal",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696279386246a9afcc56ca64"
+      }
+    }
+  ],
+  "required": false,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:10:29.608Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T10:42:08.509Z"
+  },
+  "__v": 0,
+  "parentField": "country"
+},
+{
+  "_id": {
+    "$oid": "695907c46d28aba19a91c3f1"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "Name",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:12:52.269Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T09:12:16.696Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695907c46d28aba19a91c3f3"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "Phone",
+  "options": [],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:12:52.271Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T09:12:16.706Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695907c46d28aba19a91c3f5"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "Email Address",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:12:52.274Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T09:12:16.701Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695907c46d28aba19a91c3f7"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "label": "country",
+  "name": "country",
+  "type": "select",
+  "placeholder": "Select Country",
+  "options": [
+    {
+      "label": "india",
+      "value": "india",
+      "_id": {
+        "$oid": "695907c46d28aba19a91c3f8"
+      }
+    },
+    {
+      "label": "Nepal",
+      "value": "nepal",
+      "_id": {
+        "$oid": "69621273ca39aa07aeec350c"
+      }
+    },
+    {
+      "label": "Bangladesh",
+      "value": "bangladesh",
+      "_id": {
+        "$oid": "69621273ca39aa07aeec350d"
+      }
+    }
+  ],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:12:52.275Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T09:12:16.712Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695907c46d28aba19a91c3fa"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "label": "state",
+  "name": "state",
+  "type": "select",
+  "placeholder": "State",
+  "options": [
+    {
+      "id": "1768059031001",
+      "label": "Andhra Pradesh",
+      "value": "andhra_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb87"
+      }
+    },
+    {
+      "id": "1768059031002",
+      "label": "Arunachal Pradesh",
+      "value": "arunachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb88"
+      }
+    },
+    {
+      "id": "1768059031443",
+      "label": "Assam",
+      "value": "assam",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb89"
+      }
+    },
+    {
+      "id": "1768059031004",
+      "label": "Bihar",
+      "value": "bihar",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb8a"
+      }
+    },
+    {
+      "id": "1768059031005",
+      "label": "Chhattisgarh",
+      "value": "chhattisgarh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb8b"
+      }
+    },
+    {
+      "id": "1768059031006",
+      "label": "Goa",
+      "value": "goa",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb8c"
+      }
+    },
+    {
+      "id": "1768059031007",
+      "label": "Gujarat",
+      "value": "gujarat",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb8d"
+      }
+    },
+    {
+      "id": "1768059031008",
+      "label": "Haryana",
+      "value": "haryana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb8e"
+      }
+    },
+    {
+      "id": "1768059031009",
+      "label": "Himachal Pradesh",
+      "value": "himachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb8f"
+      }
+    },
+    {
+      "id": "1768059031010",
+      "label": "Jharkhand",
+      "value": "jharkhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb90"
+      }
+    },
+    {
+      "id": "1768059031011",
+      "label": "Karnataka",
+      "value": "karnataka",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb91"
+      }
+    },
+    {
+      "id": "1768059031012",
+      "label": "Kerala",
+      "value": "kerala",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb92"
+      }
+    },
+    {
+      "id": "1768059031013",
+      "label": "Madhya Pradesh",
+      "value": "madhya_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb93"
+      }
+    },
+    {
+      "id": "1768059031014",
+      "label": "Maharashtra",
+      "value": "maharashtra",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb94"
+      }
+    },
+    {
+      "id": "1768059031015",
+      "label": "Manipur",
+      "value": "manipur",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb95"
+      }
+    },
+    {
+      "id": "1768059031016",
+      "label": "Meghalaya",
+      "value": "meghalaya",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb96"
+      }
+    },
+    {
+      "id": "1768059031017",
+      "label": "Mizoram",
+      "value": "mizoram",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb97"
+      }
+    },
+    {
+      "id": "1768059031018",
+      "label": "Nagaland",
+      "value": "nagaland",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb98"
+      }
+    },
+    {
+      "id": "1768059031019",
+      "label": "Odisha",
+      "value": "odisha",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb99"
+      }
+    },
+    {
+      "id": "1768059031020",
+      "label": "Punjab",
+      "value": "punjab",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb9a"
+      }
+    },
+    {
+      "id": "1768059031444",
+      "label": "Rajasthan",
+      "value": "rajasthan",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb9b"
+      }
+    },
+    {
+      "id": "1768059031022",
+      "label": "Sikkim",
+      "value": "sikkim",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb9c"
+      }
+    },
+    {
+      "id": "1768059031023",
+      "label": "Tamil Nadu",
+      "value": "tamil_nadu",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb9d"
+      }
+    },
+    {
+      "id": "1768059031024",
+      "label": "Telangana",
+      "value": "telangana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb9e"
+      }
+    },
+    {
+      "id": "1768059031025",
+      "label": "Tripura",
+      "value": "tripura",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cb9f"
+      }
+    },
+    {
+      "id": "1768059031026",
+      "label": "Uttar Pradesh",
+      "value": "uttar_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cba0"
+      }
+    },
+    {
+      "id": "1768059031027",
+      "label": "Uttarakhand",
+      "value": "uttarakhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cba1"
+      }
+    },
+    {
+      "id": "1768059031028",
+      "label": "West Bengal",
+      "value": "west_bengal",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cba2"
+      }
+    },
+    {
+      "id": "1768059031029",
+      "label": "Delhi (NCT)",
+      "value": "delhi_nct",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cba3"
+      }
+    },
+    {
+      "id": "1768059031030",
+      "label": "Ladakh",
+      "value": "ladakh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cba4"
+      }
+    },
+    {
+      "id": "1768059032001",
+      "label": "Barisal Division",
+      "value": "barisal",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cba5"
+      }
+    },
+    {
+      "id": "1768059032002",
+      "label": "Chittagong Division",
+      "value": "chittagong",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cba6"
+      }
+    },
+    {
+      "id": "1768059032003",
+      "label": "Dhaka Division",
+      "value": "dhaka",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cba7"
+      }
+    },
+    {
+      "id": "1768059032004",
+      "label": "Khulna Division",
+      "value": "khulna",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cba8"
+      }
+    },
+    {
+      "id": "1768059032005",
+      "label": "Mymensingh Division",
+      "value": "mymensingh",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cba9"
+      }
+    },
+    {
+      "id": "1768059032006",
+      "label": "Rajshahi Division",
+      "value": "rajshahi",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbaa"
+      }
+    },
+    {
+      "id": "1768059032007",
+      "label": "Rangpur Division",
+      "value": "rangpur",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbab"
+      }
+    },
+    {
+      "id": "1768059032008",
+      "label": "Sylhet Division",
+      "value": "sylhet",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbac"
+      }
+    },
+    {
+      "id": "1768059033001",
+      "label": "Kathmandu",
+      "value": "kathmandu",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbad"
+      }
+    },
+    {
+      "id": "1768059033002",
+      "label": "Pokhara",
+      "value": "pokhara",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbae"
+      }
+    },
+    {
+      "id": "1768059033003",
+      "label": "Lalitpur (Patan)",
+      "value": "lalitpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbaf"
+      }
+    },
+    {
+      "id": "1768059033004",
+      "label": "Bhaktapur",
+      "value": "bhaktapur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbb0"
+      }
+    },
+    {
+      "id": "1768059033005",
+      "label": "Biratnagar",
+      "value": "biratnagar",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbb1"
+      }
+    },
+    {
+      "id": "1768059033006",
+      "label": "Birgunj",
+      "value": "birgunj",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbb2"
+      }
+    },
+    {
+      "id": "1768059033007",
+      "label": "Dharan",
+      "value": "dharan",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbb3"
+      }
+    },
+    {
+      "id": "1768059033008",
+      "label": "Bharatpur",
+      "value": "bharatpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbb4"
+      }
+    },
+    {
+      "id": "1768059033009",
+      "label": "Butwal",
+      "value": "butwal",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627ce86246a9afcc56cbb5"
+      }
+    }
+  ],
+  "required": false,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:12:52.278Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T09:12:16.717Z"
+  },
+  "__v": 0,
+  "parentField": "country"
+},
+{
+  "_id": {
+    "$oid": "695908056d28aba19a91c413"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "name",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:13:57.625Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:14:53.765Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695908056d28aba19a91c415"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "email",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:13:57.626Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:14:53.770Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695908056d28aba19a91c417"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "number",
+  "options": [],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:13:57.628Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:14:53.774Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "6959081d6d28aba19a91c42b"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "Name",
+  "options": [],
+  "required": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:14:21.908Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:39:57.347Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6959081d6d28aba19a91c42d"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "Email Address",
+  "options": [],
+  "required": true,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:14:21.910Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:39:57.352Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6959081d6d28aba19a91c42f"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "label": "Phone",
+  "name": "phone",
+  "type": "number",
+  "placeholder": "Phone",
+  "options": [],
+  "required": true,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:14:21.912Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:39:57.356Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6959081d6d28aba19a91c431"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "label": "current location",
+  "name": "current_location",
+  "type": "text",
+  "placeholder": "Current Location",
+  "options": [],
+  "required": true,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:14:21.913Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:39:57.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6959081d6d28aba19a91c433"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "label": "Travel Date",
+  "name": "travel_date",
+  "type": "date",
+  "placeholder": "Travel Date",
+  "options": [],
+  "required": true,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:14:21.915Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:39:57.364Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6959082f6d28aba19a91c456"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "label": "country",
+  "name": "country",
+  "type": "select",
+  "placeholder": "country",
+  "options": [
+    {
+      "label": "India",
+      "value": "india",
+      "_id": {
+        "$oid": "6959082f6d28aba19a91c457"
+      }
+    },
+    {
+      "label": "Nepal",
+      "value": "nepal",
+      "_id": {
+        "$oid": "696211f7ca39aa07aeec34df"
+      }
+    },
+    {
+      "label": "Bangladesh",
+      "value": "bangladesh",
+      "_id": {
+        "$oid": "696211f7ca39aa07aeec34e0"
+      }
+    },
+    {
+      "label": "Shri Lanka",
+      "value": "shri_lanka",
+      "_id": {
+        "$oid": "696211f7ca39aa07aeec34e1"
+      }
+    }
+  ],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:14:39.706Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:14:53.779Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695908956d28aba19a91c46c"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "Name",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:16:21.705Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T18:14:45.008Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695908956d28aba19a91c46e"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "Email Address",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:16:21.708Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T18:14:45.014Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695908956d28aba19a91c470"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": " Mobile/WhatsApp",
+  "options": [],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:16:21.709Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T18:14:45.018Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695908956d28aba19a91c472"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "label": "country",
+  "name": "country",
+  "type": "select",
+  "placeholder": "Select Country",
+  "options": [
+    {
+      "label": "India",
+      "value": "india",
+      "_id": {
+        "$oid": "695908956d28aba19a91c473"
+      }
+    },
+    {
+      "label": "Nepal",
+      "value": "nepal",
+      "_id": {
+        "$oid": "696211baca39aa07aeec34b4"
+      }
+    },
+    {
+      "label": "Bangladesh",
+      "value": "bangladesh",
+      "_id": {
+        "$oid": "696211baca39aa07aeec34b5"
+      }
+    },
+    {
+      "label": "Shri Lanka",
+      "value": "shri_lanka",
+      "_id": {
+        "$oid": "696211baca39aa07aeec34b6"
+      }
+    }
+  ],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:16:21.711Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T18:14:45.022Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695908ae6d28aba19a91c490"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "label": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "options": [],
+  "required": true,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:16:46.851Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T18:14:45.027Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695908c86d28aba19a91c4b5"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "label": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "options": [],
+  "required": false,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:17:12.323Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:14:53.809Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "69590a226d28aba19a91c50a"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "label": "Name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "Name",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:22:58.720Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T16:43:07.027Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "69590a226d28aba19a91c50c"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "label": "Email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "Email",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:22:58.722Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T16:43:07.031Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "69590a226d28aba19a91c50e"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "label": "phone",
+  "name": "phone",
+  "type": "number",
+  "placeholder": "Mobile",
+  "options": [],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:22:58.723Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T16:43:07.036Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "69590a226d28aba19a91c510"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "label": "city",
+  "name": "city",
+  "type": "text",
+  "placeholder": "City",
+  "options": [],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:22:58.726Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T16:43:07.040Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "69590a226d28aba19a91c512"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "label": "select option",
+  "name": "select_option",
+  "type": "select",
+  "placeholder": "Select Option",
+  "options": [
+    {
+      "label": "Recruitment/B2B Partner",
+      "value": "recruitment/b2b_partner",
+      "_id": {
+        "$oid": "69590a226d28aba19a91c513"
+      }
+    },
+    {
+      "label": "Employer",
+      "value": "employer",
+      "_id": {
+        "$oid": "69590a226d28aba19a91c514"
+      }
+    },
+    {
+      "label": "Job Seeker",
+      "value": "job_seeker",
+      "_id": {
+        "$oid": "69590a226d28aba19a91c515"
+      }
+    }
+  ],
+  "required": false,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T12:22:58.728Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T16:43:07.044Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "69594283e6073b34e7abac5b"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "name",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T16:23:31.596Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:38:47.131Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69594283e6073b34e7abac5d"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "email",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T16:23:31.623Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:38:47.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69594283e6073b34e7abac5f"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "label": "city",
+  "name": "city",
+  "type": "text",
+  "placeholder": "city",
+  "options": [],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T16:23:31.628Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:38:47.139Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69594283e6073b34e7abac61"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "number",
+  "options": [],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T16:23:31.634Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:38:47.144Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69594283e6073b34e7abac63"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "label": "How soon do you want to start the registration process",
+  "name": "how_soon_do_you_want_to_start_the_registration_process",
+  "type": "select",
+  "placeholder": "How soon do you want to start the registration process",
+  "options": [
+    {
+      "label": "How soon do you want to start the registration process",
+      "value": "how_soon_do_you_want_to_start_the_registration_process",
+      "_id": {
+        "$oid": "69594283e6073b34e7abac64"
+      }
+    },
+    {
+      "label": "Immediately",
+      "value": "immediately",
+      "_id": {
+        "$oid": "69594283e6073b34e7abac65"
+      }
+    },
+    {
+      "label": "After 2 months",
+      "value": "after_2_months",
+      "_id": {
+        "$oid": "69594283e6073b34e7abac66"
+      }
+    },
+    {
+      "label": "Within 2 months",
+      "value": "within_2_months",
+      "_id": {
+        "$oid": "69594283e6073b34e7abac67"
+      }
+    }
+  ],
+  "required": false,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T16:23:31.651Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:38:47.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a76711d2f9762620615ba"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "Name",
+  "options": [],
+  "required": true,
+  "order": 0,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-04T14:17:21.720Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T08:20:20.448Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695a76ae1d2f9762620615d0"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "Phone",
+  "options": [],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:18:22.553Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T08:20:20.458Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695a76ae1d2f9762620615d2"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "Email Address",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:18:22.558Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T08:20:20.454Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695a76ae1d2f9762620615d4"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "label": "current location",
+  "name": "current_location",
+  "type": "text",
+  "placeholder": "Current Location",
+  "options": [],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:18:22.563Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T08:20:20.462Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695a76ae1d2f9762620615d6"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "label": "date",
+  "name": "date",
+  "type": "date",
+  "placeholder": "Travel  Date",
+  "options": [],
+  "required": false,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:18:22.567Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T08:20:20.466Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695a7be91d2f976262061726"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "label": " By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "_by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": " By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "options": [],
+  "required": true,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:40:41.383Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T08:20:20.470Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695a9e48bdfda86433ae702c"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "email",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:07:20.099Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:56:28.108Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695a9e48bdfda86433ae702e"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "number",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:07:20.103Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:56:28.112Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695a9e48bdfda86433ae7030"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "label": "country",
+  "name": "country",
+  "type": "select",
+  "placeholder": "counrty",
+  "options": [
+    {
+      "label": "India",
+      "value": "india",
+      "_id": {
+        "$oid": "695a9e48bdfda86433ae7031"
+      }
+    },
+    {
+      "label": "Nepal",
+      "value": "nepal",
+      "_id": {
+        "$oid": "69620ef7ca39aa07aeec33df"
+      }
+    },
+    {
+      "label": "Bangladesh",
+      "value": "bangladesh",
+      "_id": {
+        "$oid": "69620ef7ca39aa07aeec33e0"
+      }
+    }
+  ],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:07:20.134Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:56:28.116Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695a9e48bdfda86433ae7033"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "label": "State",
+  "name": "state",
+  "type": "select",
+  "placeholder": "State",
+  "options": [
+    {
+      "id": "1768059031001",
+      "label": "Andhra Pradesh",
+      "value": "andhra_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6ea"
+      }
+    },
+    {
+      "id": "1768059031002",
+      "label": "Arunachal Pradesh",
+      "value": "arunachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6eb"
+      }
+    },
+    {
+      "id": "1768059031443",
+      "label": "Assam",
+      "value": "assam",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6ec"
+      }
+    },
+    {
+      "id": "1768059031004",
+      "label": "Bihar",
+      "value": "bihar",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6ed"
+      }
+    },
+    {
+      "id": "1768059031005",
+      "label": "Chhattisgarh",
+      "value": "chhattisgarh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6ee"
+      }
+    },
+    {
+      "id": "1768059031006",
+      "label": "Goa",
+      "value": "goa",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6ef"
+      }
+    },
+    {
+      "id": "1768059031007",
+      "label": "Gujarat",
+      "value": "gujarat",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6f0"
+      }
+    },
+    {
+      "id": "1768059031008",
+      "label": "Haryana",
+      "value": "haryana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6f1"
+      }
+    },
+    {
+      "id": "1768059031009",
+      "label": "Himachal Pradesh",
+      "value": "himachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6f2"
+      }
+    },
+    {
+      "id": "1768059031010",
+      "label": "Jharkhand",
+      "value": "jharkhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6f3"
+      }
+    },
+    {
+      "id": "1768059031011",
+      "label": "Karnataka",
+      "value": "karnataka",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6f4"
+      }
+    },
+    {
+      "id": "1768059031012",
+      "label": "Kerala",
+      "value": "kerala",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6f5"
+      }
+    },
+    {
+      "id": "1768059031013",
+      "label": "Madhya Pradesh",
+      "value": "madhya_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6f6"
+      }
+    },
+    {
+      "id": "1768059031014",
+      "label": "Maharashtra",
+      "value": "maharashtra",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6f7"
+      }
+    },
+    {
+      "id": "1768059031015",
+      "label": "Manipur",
+      "value": "manipur",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6f8"
+      }
+    },
+    {
+      "id": "1768059031016",
+      "label": "Meghalaya",
+      "value": "meghalaya",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6f9"
+      }
+    },
+    {
+      "id": "1768059031017",
+      "label": "Mizoram",
+      "value": "mizoram",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6fa"
+      }
+    },
+    {
+      "id": "1768059031018",
+      "label": "Nagaland",
+      "value": "nagaland",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6fb"
+      }
+    },
+    {
+      "id": "1768059031019",
+      "label": "Odisha",
+      "value": "odisha",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6fc"
+      }
+    },
+    {
+      "id": "1768059031020",
+      "label": "Punjab",
+      "value": "punjab",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6fd"
+      }
+    },
+    {
+      "id": "1768059031444",
+      "label": "Rajasthan",
+      "value": "rajasthan",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6fe"
+      }
+    },
+    {
+      "id": "1768059031022",
+      "label": "Sikkim",
+      "value": "sikkim",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c6ff"
+      }
+    },
+    {
+      "id": "1768059031023",
+      "label": "Tamil Nadu",
+      "value": "tamil_nadu",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c700"
+      }
+    },
+    {
+      "id": "1768059031024",
+      "label": "Telangana",
+      "value": "telangana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c701"
+      }
+    },
+    {
+      "id": "1768059031025",
+      "label": "Tripura",
+      "value": "tripura",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c702"
+      }
+    },
+    {
+      "id": "1768059031026",
+      "label": "Uttar Pradesh",
+      "value": "uttar_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c703"
+      }
+    },
+    {
+      "id": "1768059031027",
+      "label": "Uttarakhand",
+      "value": "uttarakhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c704"
+      }
+    },
+    {
+      "id": "1768059031028",
+      "label": "West Bengal",
+      "value": "west_bengal",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c705"
+      }
+    },
+    {
+      "id": "1768059031029",
+      "label": "Delhi (NCT)",
+      "value": "delhi_nct",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c706"
+      }
+    },
+    {
+      "id": "1768059031030",
+      "label": "Ladakh",
+      "value": "ladakh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c707"
+      }
+    },
+    {
+      "id": "1768059032001",
+      "label": "Barisal Division",
+      "value": "barisal",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c708"
+      }
+    },
+    {
+      "id": "1768059032002",
+      "label": "Chittagong Division",
+      "value": "chittagong",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c709"
+      }
+    },
+    {
+      "id": "1768059032003",
+      "label": "Dhaka Division",
+      "value": "dhaka",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c70a"
+      }
+    },
+    {
+      "id": "1768059032004",
+      "label": "Khulna Division",
+      "value": "khulna",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c70b"
+      }
+    },
+    {
+      "id": "1768059032005",
+      "label": "Mymensingh Division",
+      "value": "mymensingh",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c70c"
+      }
+    },
+    {
+      "id": "1768059032006",
+      "label": "Rajshahi Division",
+      "value": "rajshahi",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c70d"
+      }
+    },
+    {
+      "id": "1768059032007",
+      "label": "Rangpur Division",
+      "value": "rangpur",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c70e"
+      }
+    },
+    {
+      "id": "1768059032008",
+      "label": "Sylhet Division",
+      "value": "sylhet",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c70f"
+      }
+    },
+    {
+      "id": "1768059033001",
+      "label": "Kathmandu",
+      "value": "kathmandu",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c710"
+      }
+    },
+    {
+      "id": "1768059033002",
+      "label": "Pokhara",
+      "value": "pokhara",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c711"
+      }
+    },
+    {
+      "id": "1768059033003",
+      "label": "Lalitpur (Patan)",
+      "value": "lalitpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c712"
+      }
+    },
+    {
+      "id": "1768059033004",
+      "label": "Bhaktapur",
+      "value": "bhaktapur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c713"
+      }
+    },
+    {
+      "id": "1768059033005",
+      "label": "Biratnagar",
+      "value": "biratnagar",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c714"
+      }
+    },
+    {
+      "id": "1768059033006",
+      "label": "Birgunj",
+      "value": "birgunj",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c715"
+      }
+    },
+    {
+      "id": "1768059033007",
+      "label": "Dharan",
+      "value": "dharan",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c716"
+      }
+    },
+    {
+      "id": "1768059033008",
+      "label": "Bharatpur",
+      "value": "bharatpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c717"
+      }
+    },
+    {
+      "id": "1768059033009",
+      "label": "Butwal",
+      "value": "butwal",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696276ac6246a9afcc56c718"
+      }
+    }
+  ],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:07:20.141Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:56:28.122Z"
+  },
+  "__v": 0,
+  "parentField": "country"
+},
+{
+  "_id": {
+    "$oid": "695a9e48bdfda86433ae7036"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "label": "I am going to",
+  "name": "i_am_going_to",
+  "type": "select",
+  "placeholder": "I am going to",
+  "options": [
+    {
+      "label": "Austria  ",
+      "value": "austria_",
+      "_id": {
+        "$oid": "695a9e48bdfda86433ae7037"
+      }
+    },
+    {
+      "label": "Azerbaijan  ",
+      "value": "azerbaijan_",
+      "_id": {
+        "$oid": "695a9e48bdfda86433ae7038"
+      }
+    },
+    {
+      "label": "Bahrain ",
+      "value": "bahrain_",
+      "_id": {
+        "$oid": "695a9e48bdfda86433ae7039"
+      }
+    },
+    {
+      "label": " Belgium",
+      "value": "_belgium",
+      "_id": {
+        "$oid": "695a9e48bdfda86433ae703a"
+      }
+    }
+  ],
+  "required": false,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:07:20.146Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:56:28.134Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695a9e73bdfda86433ae7075"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "label": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "options": [],
+  "required": false,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:08:03.005Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:56:28.140Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695aa51b338ee0c205145882"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "name",
+  "options": [],
+  "required": false,
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:36:27.531Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:56:28.144Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695ab0a0dde0cecedd94d4b3"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "name",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-04T18:25:37.039Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T12:05:39.500Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695ab0a1dde0cecedd94d4b4"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "number",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-04T18:25:37.041Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T12:05:39.509Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695ab0a1dde0cecedd94d4b5"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "eamil",
+  "options": [],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-04T18:25:37.041Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T12:05:39.513Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695ab0a1dde0cecedd94d4b6"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "label": "counrty",
+  "name": "counrty",
+  "type": "select",
+  "placeholder": "country",
+  "options": [
+    {
+      "label": "India",
+      "value": "india",
+      "_id": {
+        "$oid": "695ab0a1dde0cecedd94d4b7"
+      }
+    },
+    {
+      "label": "Nepal",
+      "value": "nepal",
+      "_id": {
+        "$oid": "69620e61ca39aa07aeec33a0"
+      }
+    },
+    {
+      "label": "Bangladesh",
+      "value": "bangladesh",
+      "_id": {
+        "$oid": "69620e61ca39aa07aeec33a1"
+      }
+    }
+  ],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-04T18:25:37.041Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T12:05:39.517Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695ab0a1dde0cecedd94d4b8"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "label": "state",
+  "name": "state",
+  "type": "select",
+  "placeholder": "state",
+  "options": [
+    {
+      "id": "1768059031001",
+      "label": "Andhra Pradesh",
+      "value": "andhra_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c828"
+      }
+    },
+    {
+      "id": "1768059031002",
+      "label": "Arunachal Pradesh",
+      "value": "arunachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c829"
+      }
+    },
+    {
+      "id": "1768059031443",
+      "label": "Assam",
+      "value": "assam",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c82a"
+      }
+    },
+    {
+      "id": "1768059031004",
+      "label": "Bihar",
+      "value": "bihar",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c82b"
+      }
+    },
+    {
+      "id": "1768059031005",
+      "label": "Chhattisgarh",
+      "value": "chhattisgarh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c82c"
+      }
+    },
+    {
+      "id": "1768059031006",
+      "label": "Goa",
+      "value": "goa",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c82d"
+      }
+    },
+    {
+      "id": "1768059031007",
+      "label": "Gujarat",
+      "value": "gujarat",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c82e"
+      }
+    },
+    {
+      "id": "1768059031008",
+      "label": "Haryana",
+      "value": "haryana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c82f"
+      }
+    },
+    {
+      "id": "1768059031009",
+      "label": "Himachal Pradesh",
+      "value": "himachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c830"
+      }
+    },
+    {
+      "id": "1768059031010",
+      "label": "Jharkhand",
+      "value": "jharkhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c831"
+      }
+    },
+    {
+      "id": "1768059031011",
+      "label": "Karnataka",
+      "value": "karnataka",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c832"
+      }
+    },
+    {
+      "id": "1768059031012",
+      "label": "Kerala",
+      "value": "kerala",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c833"
+      }
+    },
+    {
+      "id": "1768059031013",
+      "label": "Madhya Pradesh",
+      "value": "madhya_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c834"
+      }
+    },
+    {
+      "id": "1768059031014",
+      "label": "Maharashtra",
+      "value": "maharashtra",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c835"
+      }
+    },
+    {
+      "id": "1768059031015",
+      "label": "Manipur",
+      "value": "manipur",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c836"
+      }
+    },
+    {
+      "id": "1768059031016",
+      "label": "Meghalaya",
+      "value": "meghalaya",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c837"
+      }
+    },
+    {
+      "id": "1768059031017",
+      "label": "Mizoram",
+      "value": "mizoram",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c838"
+      }
+    },
+    {
+      "id": "1768059031018",
+      "label": "Nagaland",
+      "value": "nagaland",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c839"
+      }
+    },
+    {
+      "id": "1768059031019",
+      "label": "Odisha",
+      "value": "odisha",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c83a"
+      }
+    },
+    {
+      "id": "1768059031020",
+      "label": "Punjab",
+      "value": "punjab",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c83b"
+      }
+    },
+    {
+      "id": "1768059031444",
+      "label": "Rajasthan",
+      "value": "rajasthan",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c83c"
+      }
+    },
+    {
+      "id": "1768059031022",
+      "label": "Sikkim",
+      "value": "sikkim",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c83d"
+      }
+    },
+    {
+      "id": "1768059031023",
+      "label": "Tamil Nadu",
+      "value": "tamil_nadu",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c83e"
+      }
+    },
+    {
+      "id": "1768059031024",
+      "label": "Telangana",
+      "value": "telangana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c83f"
+      }
+    },
+    {
+      "id": "1768059031025",
+      "label": "Tripura",
+      "value": "tripura",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c840"
+      }
+    },
+    {
+      "id": "1768059031026",
+      "label": "Uttar Pradesh",
+      "value": "uttar_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c841"
+      }
+    },
+    {
+      "id": "1768059031027",
+      "label": "Uttarakhand",
+      "value": "uttarakhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c842"
+      }
+    },
+    {
+      "id": "1768059031028",
+      "label": "West Bengal",
+      "value": "west_bengal",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c843"
+      }
+    },
+    {
+      "id": "1768059031029",
+      "label": "Delhi (NCT)",
+      "value": "delhi_nct",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c844"
+      }
+    },
+    {
+      "id": "1768059031030",
+      "label": "Ladakh",
+      "value": "ladakh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c845"
+      }
+    },
+    {
+      "id": "1768059032001",
+      "label": "Barisal Division",
+      "value": "barisal",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c846"
+      }
+    },
+    {
+      "id": "1768059032002",
+      "label": "Chittagong Division",
+      "value": "chittagong",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c847"
+      }
+    },
+    {
+      "id": "1768059032003",
+      "label": "Dhaka Division",
+      "value": "dhaka",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c848"
+      }
+    },
+    {
+      "id": "1768059032004",
+      "label": "Khulna Division",
+      "value": "khulna",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c849"
+      }
+    },
+    {
+      "id": "1768059032005",
+      "label": "Mymensingh Division",
+      "value": "mymensingh",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c84a"
+      }
+    },
+    {
+      "id": "1768059032006",
+      "label": "Rajshahi Division",
+      "value": "rajshahi",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c84b"
+      }
+    },
+    {
+      "id": "1768059032007",
+      "label": "Rangpur Division",
+      "value": "rangpur",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c84c"
+      }
+    },
+    {
+      "id": "1768059032008",
+      "label": "Sylhet Division",
+      "value": "sylhet",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c84d"
+      }
+    },
+    {
+      "id": "1768059033001",
+      "label": "Kathmandu",
+      "value": "kathmandu",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c84e"
+      }
+    },
+    {
+      "id": "1768059033002",
+      "label": "Pokhara",
+      "value": "pokhara",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c84f"
+      }
+    },
+    {
+      "id": "1768059033003",
+      "label": "Lalitpur (Patan)",
+      "value": "lalitpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c850"
+      }
+    },
+    {
+      "id": "1768059033004",
+      "label": "Bhaktapur",
+      "value": "bhaktapur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c851"
+      }
+    },
+    {
+      "id": "1768059033005",
+      "label": "Biratnagar",
+      "value": "biratnagar",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c852"
+      }
+    },
+    {
+      "id": "1768059033006",
+      "label": "Birgunj",
+      "value": "birgunj",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c853"
+      }
+    },
+    {
+      "id": "1768059033007",
+      "label": "Dharan",
+      "value": "dharan",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c854"
+      }
+    },
+    {
+      "id": "1768059033008",
+      "label": "Bharatpur",
+      "value": "bharatpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c855"
+      }
+    },
+    {
+      "id": "1768059033009",
+      "label": "Butwal",
+      "value": "butwal",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696277e26246a9afcc56c856"
+      }
+    }
+  ],
+  "required": false,
+  "order": 4,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-04T18:25:37.042Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T12:05:39.522Z"
+  },
+  "parentField": "counrty"
+},
+{
+  "_id": {
+    "$oid": "695ab0a1dde0cecedd94d4ba"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "label": "I am Interested",
+  "name": "i_am_interested",
+  "type": "select",
+  "placeholder": "I am Interested",
+  "options": [
+    {
+      "label": "I am Interested",
+      "value": "i_am_interested",
+      "_id": {
+        "$oid": "695ab0a1dde0cecedd94d4bb"
+      }
+    },
+    {
+      "label": "30 days visa",
+      "value": "30_days_visa",
+      "_id": {
+        "$oid": "695ab0a1dde0cecedd94d4bc"
+      }
+    },
+    {
+      "label": "60 days visa",
+      "value": "60_days_visa",
+      "_id": {
+        "$oid": "695ab0a1dde0cecedd94d4bd"
+      }
+    }
+  ],
+  "required": false,
+  "order": 5,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-04T18:25:37.042Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T12:05:39.553Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695b1c8ab35f8f599de4d158"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "name",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-05T02:06:02.788Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T11:50:50.347Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695b1c8ab35f8f599de4d159"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "email",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-05T02:06:02.788Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T11:50:50.353Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695b1c8ab35f8f599de4d15a"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "number",
+  "options": [],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-05T02:06:02.788Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T11:50:50.358Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695b1c8ab35f8f599de4d15b"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "label": "state",
+  "name": "state",
+  "type": "select",
+  "placeholder": "state",
+  "options": [
+    {
+      "id": "1768059031001",
+      "label": "Andhra Pradesh",
+      "value": "andhra_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c3fe"
+      }
+    },
+    {
+      "id": "1768059031002",
+      "label": "Arunachal Pradesh",
+      "value": "arunachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c3ff"
+      }
+    },
+    {
+      "id": "1768059031443",
+      "label": "Assam",
+      "value": "assam",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c400"
+      }
+    },
+    {
+      "id": "1768059031004",
+      "label": "Bihar",
+      "value": "bihar",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c401"
+      }
+    },
+    {
+      "id": "1768059031005",
+      "label": "Chhattisgarh",
+      "value": "chhattisgarh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c402"
+      }
+    },
+    {
+      "id": "1768059031006",
+      "label": "Goa",
+      "value": "goa",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c403"
+      }
+    },
+    {
+      "id": "1768059031007",
+      "label": "Gujarat",
+      "value": "gujarat",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c404"
+      }
+    },
+    {
+      "id": "1768059031008",
+      "label": "Haryana",
+      "value": "haryana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c405"
+      }
+    },
+    {
+      "id": "1768059031009",
+      "label": "Himachal Pradesh",
+      "value": "himachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c406"
+      }
+    },
+    {
+      "id": "1768059031010",
+      "label": "Jharkhand",
+      "value": "jharkhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c407"
+      }
+    },
+    {
+      "id": "1768059031011",
+      "label": "Karnataka",
+      "value": "karnataka",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c408"
+      }
+    },
+    {
+      "id": "1768059031012",
+      "label": "Kerala",
+      "value": "kerala",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c409"
+      }
+    },
+    {
+      "id": "1768059031013",
+      "label": "Madhya Pradesh",
+      "value": "madhya_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c40a"
+      }
+    },
+    {
+      "id": "1768059031014",
+      "label": "Maharashtra",
+      "value": "maharashtra",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c40b"
+      }
+    },
+    {
+      "id": "1768059031015",
+      "label": "Manipur",
+      "value": "manipur",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c40c"
+      }
+    },
+    {
+      "id": "1768059031016",
+      "label": "Meghalaya",
+      "value": "meghalaya",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c40d"
+      }
+    },
+    {
+      "id": "1768059031017",
+      "label": "Mizoram",
+      "value": "mizoram",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c40e"
+      }
+    },
+    {
+      "id": "1768059031018",
+      "label": "Nagaland",
+      "value": "nagaland",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c40f"
+      }
+    },
+    {
+      "id": "1768059031019",
+      "label": "Odisha",
+      "value": "odisha",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c410"
+      }
+    },
+    {
+      "id": "1768059031020",
+      "label": "Punjab",
+      "value": "punjab",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c411"
+      }
+    },
+    {
+      "id": "1768059031444",
+      "label": "Rajasthan",
+      "value": "rajasthan",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c412"
+      }
+    },
+    {
+      "id": "1768059031022",
+      "label": "Sikkim",
+      "value": "sikkim",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c413"
+      }
+    },
+    {
+      "id": "1768059031023",
+      "label": "Tamil Nadu",
+      "value": "tamil_nadu",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c414"
+      }
+    },
+    {
+      "id": "1768059031024",
+      "label": "Telangana",
+      "value": "telangana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c415"
+      }
+    },
+    {
+      "id": "1768059031025",
+      "label": "Tripura",
+      "value": "tripura",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c416"
+      }
+    },
+    {
+      "id": "1768059031026",
+      "label": "Uttar Pradesh",
+      "value": "uttar_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c417"
+      }
+    },
+    {
+      "id": "1768059031027",
+      "label": "Uttarakhand",
+      "value": "uttarakhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c418"
+      }
+    },
+    {
+      "id": "1768059031028",
+      "label": "West Bengal",
+      "value": "west_bengal",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c419"
+      }
+    },
+    {
+      "id": "1768059031029",
+      "label": "Delhi (NCT)",
+      "value": "delhi_nct",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c41a"
+      }
+    },
+    {
+      "id": "1768059031030",
+      "label": "Ladakh",
+      "value": "ladakh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "696274736246a9afcc56c41b"
+      }
+    },
+    {
+      "id": "1768059032001",
+      "label": "Barisal Division",
+      "value": "barisal",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696274736246a9afcc56c41c"
+      }
+    },
+    {
+      "id": "1768059032002",
+      "label": "Chittagong Division",
+      "value": "chittagong",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696274736246a9afcc56c41d"
+      }
+    },
+    {
+      "id": "1768059032003",
+      "label": "Dhaka Division",
+      "value": "dhaka",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696274736246a9afcc56c41e"
+      }
+    },
+    {
+      "id": "1768059032004",
+      "label": "Khulna Division",
+      "value": "khulna",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696274736246a9afcc56c41f"
+      }
+    },
+    {
+      "id": "1768059032005",
+      "label": "Mymensingh Division",
+      "value": "mymensingh",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696274736246a9afcc56c420"
+      }
+    },
+    {
+      "id": "1768059032006",
+      "label": "Rajshahi Division",
+      "value": "rajshahi",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696274736246a9afcc56c421"
+      }
+    },
+    {
+      "id": "1768059032007",
+      "label": "Rangpur Division",
+      "value": "rangpur",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696274736246a9afcc56c422"
+      }
+    },
+    {
+      "id": "1768059032008",
+      "label": "Sylhet Division",
+      "value": "sylhet",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "696274736246a9afcc56c423"
+      }
+    },
+    {
+      "id": "1768059033001",
+      "label": "Kathmandu",
+      "value": "kathmandu",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696274736246a9afcc56c424"
+      }
+    },
+    {
+      "id": "1768059033002",
+      "label": "Pokhara",
+      "value": "pokhara",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696274736246a9afcc56c425"
+      }
+    },
+    {
+      "id": "1768059033003",
+      "label": "Lalitpur (Patan)",
+      "value": "lalitpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696274736246a9afcc56c426"
+      }
+    },
+    {
+      "id": "1768059033004",
+      "label": "Bhaktapur",
+      "value": "bhaktapur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696274736246a9afcc56c427"
+      }
+    },
+    {
+      "id": "1768059033005",
+      "label": "Biratnagar",
+      "value": "biratnagar",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696274736246a9afcc56c428"
+      }
+    },
+    {
+      "id": "1768059033006",
+      "label": "Birgunj",
+      "value": "birgunj",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696274736246a9afcc56c429"
+      }
+    },
+    {
+      "id": "1768059033007",
+      "label": "Dharan",
+      "value": "dharan",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696274736246a9afcc56c42a"
+      }
+    },
+    {
+      "id": "1768059033008",
+      "label": "Bharatpur",
+      "value": "bharatpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696274736246a9afcc56c42b"
+      }
+    },
+    {
+      "id": "1768059033009",
+      "label": "Butwal",
+      "value": "butwal",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "696274736246a9afcc56c42c"
+      }
+    }
+  ],
+  "required": false,
+  "order": 3,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-05T02:06:02.788Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T11:50:50.362Z"
+  },
+  "parentField": "country"
+},
+{
+  "_id": {
+    "$oid": "695b1c8ab35f8f599de4d15d"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "label": "country",
+  "name": "country",
+  "type": "select",
+  "placeholder": "country",
+  "options": [
+    {
+      "label": "india",
+      "value": "india",
+      "_id": {
+        "$oid": "695b1c8ab35f8f599de4d15e"
+      }
+    },
+    {
+      "label": "Nepal",
+      "value": "nepal",
+      "_id": {
+        "$oid": "69620e3bca39aa07aeec336e"
+      }
+    },
+    {
+      "label": "Bangladesh",
+      "value": "bangladesh",
+      "_id": {
+        "$oid": "69620e3bca39aa07aeec336f"
+      }
+    }
+  ],
+  "required": false,
+  "order": 4,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-05T02:06:02.788Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T11:50:50.374Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695b1ca7b35f8f599de4d186"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "label": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "options": [],
+  "required": false,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:06:31.213Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T11:50:50.380Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695bf34c7c5156498dd550c2"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "name",
+  "options": [],
+  "required": true,
+  "order": 0,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-05T17:22:20.362Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:32:07.492Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695bf34c7c5156498dd550c3"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "label": "emai",
+  "name": "emai",
+  "type": "email",
+  "placeholder": "email",
+  "options": [],
+  "required": true,
+  "order": 1,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-05T17:22:20.363Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:32:07.497Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695bf34c7c5156498dd550c4"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "number",
+  "options": [],
+  "required": true,
+  "order": 2,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-05T17:22:20.363Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:32:07.501Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695bf34c7c5156498dd550c5"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "label": "Which country visa you are interested in",
+  "name": "which_country_visa_you_are_interested_in",
+  "type": "select",
+  "placeholder": "",
+  "options": [
+    {
+      "label": "Which country visa you are interested in",
+      "value": "which_country_visa_you_are_interested_in",
+      "_id": {
+        "$oid": "695bf34c7c5156498dd550c6"
+      }
+    },
+    {
+      "label": "Ireland",
+      "value": "ireland",
+      "_id": {
+        "$oid": "695bf34c7c5156498dd550c7"
+      }
+    },
+    {
+      "label": "Singapore",
+      "value": "singapore",
+      "_id": {
+        "$oid": "695bf34c7c5156498dd550c8"
+      }
+    },
+    {
+      "label": "UAE",
+      "value": "uae",
+      "_id": {
+        "$oid": "695bf34c7c5156498dd550c9"
+      }
+    }
+  ],
+  "required": true,
+  "order": 3,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-05T17:22:20.363Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:32:07.506Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695d19330fc4633e5776bb30"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "label": "Du Digital Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "du_digital_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": "By submitting my details, I override my NDNC registration and authorize Du Digital Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "options": [],
+  "required": true,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T14:16:19.133Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:32:07.514Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695d333917a7ffe259b4077a"
+  },
+  "formId": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "name",
+  "options": [],
+  "required": true,
+  "order": 0,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-06T16:07:21.416Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:42:00.244Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695d333917a7ffe259b4077b"
+  },
+  "formId": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "email",
+  "options": [],
+  "required": true,
+  "order": 1,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-06T16:07:21.417Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:42:00.345Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695d333917a7ffe259b4077c"
+  },
+  "formId": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "label": "number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "number",
+  "options": [],
+  "required": true,
+  "order": 2,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-06T16:07:21.417Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:42:00.382Z"
+  },
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695d333917a7ffe259b4077d"
+  },
+  "formId": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "label": "state",
+  "name": "state",
+  "type": "select",
+  "placeholder": "state",
+  "required": true,
+  "order": 3,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-06T16:07:21.417Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:42:00.429Z"
+  },
+  "parentField": "selectcountry",
+  "options": [
+    {
+      "id": "1768059031001",
+      "label": "Andhra Pradesh",
+      "value": "andhra_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c0d"
+      }
+    },
+    {
+      "id": "1768059031002",
+      "label": "Arunachal Pradesh",
+      "value": "arunachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c0e"
+      }
+    },
+    {
+      "id": "1768059031443",
+      "label": "Assam",
+      "value": "assam",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c0f"
+      }
+    },
+    {
+      "id": "1768059031004",
+      "label": "Bihar",
+      "value": "bihar",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c10"
+      }
+    },
+    {
+      "id": "1768059031005",
+      "label": "Chhattisgarh",
+      "value": "chhattisgarh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c11"
+      }
+    },
+    {
+      "id": "1768059031006",
+      "label": "Goa",
+      "value": "goa",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c12"
+      }
+    },
+    {
+      "id": "1768059031007",
+      "label": "Gujarat",
+      "value": "gujarat",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c13"
+      }
+    },
+    {
+      "id": "1768059031008",
+      "label": "Haryana",
+      "value": "haryana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c14"
+      }
+    },
+    {
+      "id": "1768059031009",
+      "label": "Himachal Pradesh",
+      "value": "himachal_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c15"
+      }
+    },
+    {
+      "id": "1768059031010",
+      "label": "Jharkhand",
+      "value": "jharkhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c16"
+      }
+    },
+    {
+      "id": "1768059031011",
+      "label": "Karnataka",
+      "value": "karnataka",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c17"
+      }
+    },
+    {
+      "id": "1768059031012",
+      "label": "Kerala",
+      "value": "kerala",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c18"
+      }
+    },
+    {
+      "id": "1768059031013",
+      "label": "Madhya Pradesh",
+      "value": "madhya_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c19"
+      }
+    },
+    {
+      "id": "1768059031014",
+      "label": "Maharashtra",
+      "value": "maharashtra",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c1a"
+      }
+    },
+    {
+      "id": "1768059031015",
+      "label": "Manipur",
+      "value": "manipur",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c1b"
+      }
+    },
+    {
+      "id": "1768059031016",
+      "label": "Meghalaya",
+      "value": "meghalaya",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c1c"
+      }
+    },
+    {
+      "id": "1768059031017",
+      "label": "Mizoram",
+      "value": "mizoram",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c1d"
+      }
+    },
+    {
+      "id": "1768059031018",
+      "label": "Nagaland",
+      "value": "nagaland",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c1e"
+      }
+    },
+    {
+      "id": "1768059031019",
+      "label": "Odisha",
+      "value": "odisha",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c1f"
+      }
+    },
+    {
+      "id": "1768059031020",
+      "label": "Punjab",
+      "value": "punjab",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c20"
+      }
+    },
+    {
+      "id": "1768059031444",
+      "label": "Rajasthan",
+      "value": "rajasthan",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c21"
+      }
+    },
+    {
+      "id": "1768059031022",
+      "label": "Sikkim",
+      "value": "sikkim",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c22"
+      }
+    },
+    {
+      "id": "1768059031023",
+      "label": "Tamil Nadu",
+      "value": "tamil_nadu",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c23"
+      }
+    },
+    {
+      "id": "1768059031024",
+      "label": "Telangana",
+      "value": "telangana",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c24"
+      }
+    },
+    {
+      "id": "1768059031025",
+      "label": "Tripura",
+      "value": "tripura",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c25"
+      }
+    },
+    {
+      "id": "1768059031026",
+      "label": "Uttar Pradesh",
+      "value": "uttar_pradesh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c26"
+      }
+    },
+    {
+      "id": "1768059031027",
+      "label": "Uttarakhand",
+      "value": "uttarakhand",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c27"
+      }
+    },
+    {
+      "id": "1768059031028",
+      "label": "West Bengal",
+      "value": "west_bengal",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c28"
+      }
+    },
+    {
+      "id": "1768059031029",
+      "label": "Delhi (NCT)",
+      "value": "delhi_nct",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c29"
+      }
+    },
+    {
+      "id": "1768059031030",
+      "label": "Ladakh",
+      "value": "ladakh",
+      "connectId": "india",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c2a"
+      }
+    },
+    {
+      "id": "1768059032001",
+      "label": "Barisal Division",
+      "value": "barisal",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c2b"
+      }
+    },
+    {
+      "id": "1768059032002",
+      "label": "Chittagong Division",
+      "value": "chittagong",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c2c"
+      }
+    },
+    {
+      "id": "1768059032003",
+      "label": "Dhaka Division",
+      "value": "dhaka",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c2d"
+      }
+    },
+    {
+      "id": "1768059032004",
+      "label": "Khulna Division",
+      "value": "khulna",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c2e"
+      }
+    },
+    {
+      "id": "1768059032005",
+      "label": "Mymensingh Division",
+      "value": "mymensingh",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c2f"
+      }
+    },
+    {
+      "id": "1768059032006",
+      "label": "Rajshahi Division",
+      "value": "rajshahi",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c30"
+      }
+    },
+    {
+      "id": "1768059032007",
+      "label": "Rangpur Division",
+      "value": "rangpur",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c31"
+      }
+    },
+    {
+      "id": "1768059032008",
+      "label": "Sylhet Division",
+      "value": "sylhet",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c32"
+      }
+    },
+    {
+      "id": "1768059033001",
+      "label": "Kathmandu",
+      "value": "kathmandu",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c33"
+      }
+    },
+    {
+      "id": "1768059033002",
+      "label": "Pokhara",
+      "value": "pokhara",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c34"
+      }
+    },
+    {
+      "id": "1768059033003",
+      "label": "Lalitpur (Patan)",
+      "value": "lalitpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c35"
+      }
+    },
+    {
+      "id": "1768059033004",
+      "label": "Bhaktapur",
+      "value": "bhaktapur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c36"
+      }
+    },
+    {
+      "id": "1768059033005",
+      "label": "Biratnagar",
+      "value": "biratnagar",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c37"
+      }
+    },
+    {
+      "id": "1768059033006",
+      "label": "Birgunj",
+      "value": "birgunj",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c38"
+      }
+    },
+    {
+      "id": "1768059033007",
+      "label": "Dharan",
+      "value": "dharan",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c39"
+      }
+    },
+    {
+      "id": "1768059033008",
+      "label": "Bharatpur",
+      "value": "bharatpur",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c3a"
+      }
+    },
+    {
+      "id": "1768059033009",
+      "label": "Butwal",
+      "value": "butwal",
+      "connectId": "nepal",
+      "_id": {
+        "$oid": "69627348d12ef74838da1c3b"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "695d350a17a7ffe259b40a13"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "label": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "options": [],
+  "required": true,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T16:15:06.250Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T10:42:08.524Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "695f897d1887191413ec53be"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "label": "By submitting my details, I override my NDNC registration and authorize Du Digital Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_digital_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": "By submitting my details, I override my NDNC registration and authorize Du Digital Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "options": [],
+  "required": true,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:39:57.369Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:39:57.369Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f97a51887191413ec56ca"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "label": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "options": [],
+  "required": true,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:40:21.337Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T09:12:16.729Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "69620d53ca39aa07aeec3337"
+  },
+  "formId": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "label": "SelectCountry",
+  "name": "selectcountry",
+  "type": "select",
+  "placeholder": "SelectCountry",
+  "options": [
+    {
+      "label": "India",
+      "value": "india",
+      "_id": {
+        "$oid": "69620d53ca39aa07aeec3338"
+      }
+    },
+    {
+      "label": "Nepal",
+      "value": "nepal",
+      "_id": {
+        "$oid": "69620d53ca39aa07aeec3339"
+      }
+    },
+    {
+      "label": "Bangladesh",
+      "value": "bangladesh",
+      "_id": {
+        "$oid": "69620d53ca39aa07aeec333a"
+      }
+    }
+  ],
+  "required": true,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T08:26:59.546Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:42:00.491Z"
+  },
+  "__v": 0,
+  "parentField": null
+},
+{
+  "_id": {
+    "$oid": "6962559aca39aa07aeec3725"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "label": "How many visas you require",
+  "name": "how_many_visas_you_require",
+  "type": "select",
+  "placeholder": "How many visas you require",
+  "options": [
+    {
+      "label": "1",
+      "value": "1",
+      "_id": {
+        "$oid": "6962559aca39aa07aeec3726"
+      }
+    },
+    {
+      "label": "2",
+      "value": "2",
+      "_id": {
+        "$oid": "6962559aca39aa07aeec3727"
+      }
+    },
+    {
+      "label": "3",
+      "value": "3",
+      "_id": {
+        "$oid": "6962559aca39aa07aeec3728"
+      }
+    }
+  ],
+  "required": false,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T13:35:22.264Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:38:47.153Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69625637ca39aa07aeec3792"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "label": "By submitting my details, I agree to override my NDNC registration and authorize Du Global and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "by_submitting_my_details_i_agree_to_override_my_ndnc_registration_and_authorize_du_global_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": "",
+  "options": [],
+  "required": false,
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T13:37:59.267Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T13:38:47.159Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69625baf432579c0bbcd1888"
+  },
+  "formId": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "label": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": "By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "parentField": null,
+  "options": [],
+  "required": true,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T14:01:19.089Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T15:42:00.529Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6962877f6246a9afcc56cec9"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "Visa Type",
+  "name": "visa_type",
+  "type": "radio",
+  "placeholder": "",
+  "parentField": null,
+  "options": [
+    {
+      "label": "Tourist e-Visa",
+      "value": "tourist_e-visa",
+      "_id": {
+        "$oid": "6962877f6246a9afcc56ceca"
+      }
+    },
+    {
+      "label": "Business e-Visa",
+      "value": "business_e-visa",
+      "_id": {
+        "$oid": "6962877f6246a9afcc56cecb"
+      }
+    }
+  ],
+  "required": false,
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T17:08:15.734Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696288a36246a9afcc56cf83"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "I am interested in",
+  "name": "i_am_interested_in",
+  "type": "select",
+  "placeholder": "",
+  "parentField": null,
+  "options": [
+    {
+      "label": "1 Month - Double Entry",
+      "value": "1_month_-_double_entry",
+      "_id": {
+        "$oid": "696288a36246a9afcc56cf84"
+      }
+    },
+    {
+      "label": "1 Year - Multiple Entry",
+      "value": "1_year_-_multiple_entry",
+      "_id": {
+        "$oid": "696288a36246a9afcc56cf85"
+      }
+    },
+    {
+      "label": "5 Year - Multiple Entry",
+      "value": "5_year_-_multiple_entry",
+      "_id": {
+        "$oid": "696288a36246a9afcc56cf86"
+      }
+    }
+  ],
+  "required": false,
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T17:13:07.625Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696288a36246a9afcc56cf88"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "I am interested in",
+  "name": "i_am_interested_in",
+  "type": "select",
+  "placeholder": "",
+  "parentField": null,
+  "options": [
+    {
+      "label": "1 Year - Multiple Entry",
+      "value": "1_year_-_multiple_entry",
+      "_id": {
+        "$oid": "696288a36246a9afcc56cf89"
+      }
+    }
+  ],
+  "required": false,
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T17:13:07.629Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.890Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6962893b6246a9afcc56cfd7"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "label": "name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "name",
+  "parentField": null,
+  "options": [],
+  "required": true,
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T17:15:39.422Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:15:39.422Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6962893b6246a9afcc56cfd9"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "label": "Number",
+  "name": "number",
+  "type": "number",
+  "placeholder": "Number",
+  "parentField": null,
+  "options": [],
+  "required": true,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T17:15:39.427Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:15:39.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6962893b6246a9afcc56cfdb"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "label": "Sate",
+  "name": "sate",
+  "type": "select",
+  "placeholder": "Sate",
+  "parentField": null,
+  "options": [
+    {
+      "id": "1768065321074",
+      "label": "Rajasthan",
+      "value": "rajasthan",
+      "connectId": "",
+      "_id": {
+        "$oid": "6962893b6246a9afcc56cfdc"
+      }
+    },
+    {
+      "id": "1768065321724",
+      "label": "Asam",
+      "value": "asam",
+      "connectId": "",
+      "_id": {
+        "$oid": "6962893b6246a9afcc56cfdd"
+      }
+    }
+  ],
+  "required": true,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T17:15:39.432Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:15:39.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69628bb36246a9afcc56d0a3"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "I am interested in  I agree that Du Global may collect and use my personal information to contact me regarding services, updates, and promotions via email, phone calls, SMS, and messaging apps. I understand I can withdraw my consent at any time.",
+  "name": "i_am_interested_in_i_agree_that_du_global_may_collect_and_use_my_personal_information_to_contact_me_regarding_services_updates_and_promotions_via_email_phone_calls_sms_and_messaging_apps_i_understand_i_can_withdraw_my_consent_at_any_time",
+  "type": "checkbox",
+  "placeholder": "I am interested in  I agree that Du Global may collect and use my personal information to contact me regarding services, updates, and promotions via email, phone calls, SMS, and messaging apps. I understand I can withdraw my consent at any time.",
+  "parentField": null,
+  "options": [],
+  "required": false,
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T17:26:11.896Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T17:26:11.896Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6962a52d6246a9afcc56d27f"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "label": "Preferred Center",
+  "name": "preferred_center",
+  "type": "select",
+  "placeholder": "",
+  "parentField": "country",
+  "options": [
+    {
+      "id": "1768072384186",
+      "label": "Dehli",
+      "value": "dehli",
+      "connectId": "india",
+      "_id": {
+        "$oid": "6962a52d6246a9afcc56d280"
+      }
+    },
+    {
+      "id": "1768072411549",
+      "label": "Chenna",
+      "value": "chenna",
+      "connectId": "india",
+      "_id": {
+        "$oid": "6962a52d6246a9afcc56d281"
+      }
+    },
+    {
+      "id": "1768072412418",
+      "label": "Guwahati",
+      "value": "guwahati",
+      "connectId": "india",
+      "_id": {
+        "$oid": "6962a52d6246a9afcc56d282"
+      }
+    },
+    {
+      "id": "1768072412689",
+      "label": "Kolkata",
+      "value": "kolkata",
+      "connectId": "india",
+      "_id": {
+        "$oid": "6962a52d6246a9afcc56d283"
+      }
+    },
+    {
+      "id": "1768072441946",
+      "label": "Mumbai",
+      "value": "mumbai",
+      "connectId": "india",
+      "_id": {
+        "$oid": "6962a52d6246a9afcc56d284"
+      }
+    },
+    {
+      "id": "1768072442554",
+      "label": "Dhaka",
+      "value": "dhaka",
+      "connectId": "bangladesh",
+      "_id": {
+        "$oid": "6962a52d6246a9afcc56d285"
+      }
+    }
+  ],
+  "required": false,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T19:14:53.789Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:14:53.789Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69632c1d6d9a5f3d31d43058"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "label": "email",
+  "name": "email",
+  "type": "text",
+  "placeholder": "Email Address",
+  "parentField": null,
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-11T04:50:37.548Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T04:51:46.789Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69637e806d9a5f3d31d43a85"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "label": "phone",
+  "name": "phone",
+  "type": "number",
+  "placeholder": "Phone",
+  "parentField": null,
+  "options": [],
+  "required": false,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-11T10:42:08.500Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T10:42:08.500Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696392136d9a5f3d31d43fba"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "label": " By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "name": "_by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email",
+  "type": "checkbox",
+  "placeholder": " By submitting my details, I override my NDNC registration and authorize Du Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+  "parentField": null,
+  "options": [],
+  "required": false,
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-11T12:05:39.571Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T12:05:39.571Z"
+  },
+  "__v": 0
+}]

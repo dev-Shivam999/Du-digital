@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "69554004a4430229b86c4085"
+  },
+  "fullName": "shivam 7852008477",
+  "email": "shivamswami982@gmail.com",
+  "phone": "{\"country\":\"India\",\"countryCode\":\"+91\",\"iso\":\"IN\",\"phoneNumber\":\"7852008477\",\"fullNumber\":\"+917852008477\"}",
+  "CVlink": "/uploads/1767194628286.pdf",
+  "career": {
+    "$oid": "6953f8e9548297339cdbe584"
+  },
+  "createdAt": {
+    "$date": "2025-12-31T15:23:48.301Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-31T15:23:48.301Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695540d468423d81ca00456f"
+  },
+  "fullName": "shivam 7852008477",
+  "email": "shivamswami982@gmail.com",
+  "phone": "{\"country\":\"India\",\"countryCode\":\"+91\",\"iso\":\"IN\",\"phoneNumber\":\"7852008477\",\"fullNumber\":\"+917852008477\"}",
+  "CVlink": "/uploads/1767194836197.pdf",
+  "career": {
+    "$oid": "69553e25b22ed09e09b83e44"
+  },
+  "createdAt": {
+    "$date": "2025-12-31T15:27:16.217Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-31T15:27:16.217Z"
+  },
+  "__v": 0
+}]

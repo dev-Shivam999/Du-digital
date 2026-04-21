@@ -1,0 +1,51 @@
+{
+    "heading": "Our Capabilities",
+    "backgroundImage": "/assets/capabilities/capabilities-bg.png",
+    "items": [
+        {
+            "title": "Passport & Consular Services",
+            "description": "Adaptable administrative solutions to efficiently manage passport and consular services at consulates & embassies.",
+            "icon": "passport"
+        },
+        {
+            "title": "eVisa Solutions",
+            "description": "Plug-and-play eVisa solutions that can be integrated into existing or new visa processes of governments.",
+            "icon": "megaphone"
+        },
+        {
+            "title": "Visa Application Centres",
+            "description": "Efficient visa processing with state-of-the-art visa application centres equipped with advanced technology.",
+            "icon": "globe"
+        },
+        {
+            "title": "Public Services",
+            "description": "Public services delivered through technology-driven one-stop-shop service centres, digital channels and doorstep services.",
+            "icon": "list"
+        },
+        {
+            "title": "Immigration, Residency & Citizenship Services",
+            "description": "Application and biometric enrolment services for registration of foreign nationals, work permits and residence permits.",
+            "icon": "document"
+        },
+        {
+            "title": "Global Company Formation",
+            "description": "Streamlined company formation services, offering comprehensive solutions for registering businesses.",
+            "icon": "balance"
+        },
+        {
+            "title": "Tourism & Trade Support for Client Governments",
+            "description": "Travel and tourism promotion services for national tourism authorities.",
+            "icon": "calendar"
+        },
+        {
+            "title": "Verification Services",
+            "description": "Robust verification services ensuring authenticity and integrity of documents and information.",
+            "icon": "shield"
+        },
+        {
+            "title": "Doorstep Services",
+            "description": "Convenient doorstep services for hassle-free application submissions, biometric enrolment and document verification.",
+            "icon": "home"
+        }
+    ]
+}

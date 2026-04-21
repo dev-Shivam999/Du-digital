@@ -1,0 +1,98 @@
+{
+    "hero": {
+        "title": "Events",
+        "background": "/assets/news-events/events.webp"
+    },
+    "events": [
+        {
+            "_id": "69512292b514a8fbbb7037f9",
+            "title": "Expanding Horizons: DU Digital Global & Meydan Free Zone Showcase UAE Company Formation Opportunities",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.578Z",
+            "date": "2025-10-10T00:00:00.000Z",
+            "isGallery": false,
+            "updatedAt": "2025-12-29T06:41:19.166Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb7037fa",
+            "title": "Expanding Footprints: DU Digital Global Opens the Indian Consular Application Centre (ICAC) in Bangkok, Thailand",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.580Z",
+            "date": "2025-08-20T00:00:00.000Z",
+            "isGallery": false,
+            "updatedAt": "2025-12-29T06:41:19.168Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb7037fb",
+            "title": "New Horizons: DU Digital Global Opens the Indian Consular Application Centre (ICAC) in Seoul, South Korea",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.581Z",
+            "date": "2025-07-25T00:00:00.000Z",
+            "isGallery": false,
+            "updatedAt": "2025-12-29T06:41:19.169Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb7037fc",
+            "title": "DU Digital Global’s Sixth DU CONNECT Network Meet in Bangalore",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.583Z",
+            "date": "2025-06-15T00:00:00.000Z",
+            "isGallery": false,
+            "updatedAt": "2025-12-29T06:41:19.170Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb7037fd",
+            "title": "DU Digital Global’s Fifth DU CONNECT Network Meet in Chandigarh",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.584Z",
+            "date": "2025-05-20T00:00:00.000Z",
+            "isGallery": false,
+            "updatedAt": "2025-12-29T06:41:19.171Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb7037fe",
+            "title": "Du Digital Global in SATTE 2025",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.586Z",
+            "date": "2025-03-05T00:00:00.000Z",
+            "isGallery": false,
+            "updatedAt": "2025-12-29T06:41:19.172Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb7037ff",
+            "title": "DU DIGITAL GLOBAL's Fourth DU CONNECT Network Meet in Ahmedabad",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.587Z",
+            "date": "2024-12-10T00:00:00.000Z",
+            "isGallery": false,
+            "updatedAt": "2025-12-29T06:41:19.173Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb703800",
+            "title": "DU Digital Shines as Proud Sponsor of Indian Chambers of Commerce AGM and Annual Session in Kolkata 2023",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.589Z",
+            "date": "2023-11-15T00:00:00.000Z",
+            "isGallery": false,
+            "updatedAt": "2025-12-29T06:41:19.174Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb703801",
+            "title": "DU Digital Global's Third DU CONNECT Network Meet in Kolkata",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.591Z",
+            "date": "2023-09-20T00:00:00.000Z",
+            "isGallery": false,
+            "updatedAt": "2025-12-29T06:41:19.175Z"
+        },
+        {
+            "_id": "69512292b514a8fbbb703802",
+            "title": "DU Digital Global's Second DU CONNECT Network Meet in Mumbai",
+            "__v": 0,
+            "createdAt": "2025-12-28T12:29:06.592Z",
+            "date": "2023-08-10T00:00:00.000Z",
+            "isGallery": false,
+            "updatedAt": "2025-12-29T06:41:19.176Z"
+        }
+    ]
+}

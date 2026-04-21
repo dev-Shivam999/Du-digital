@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "695a92850fe3b9e54722d907"
+  },
+  "formId": "bangladesh-vac",
+  "title": "Newly inaugurated Bangladesh Visa Application Centre in Salt Lake, Kolkata, 16 Dec 2021",
+  "images": [
+    "/api/uploads/1767543429899.png",
+    "/api/uploads/1767545820739.png",
+    "/api/uploads/1767545820758.png"
+  ],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T16:17:09.914Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T16:57:00.783Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ab281dde0cecedd94d5f0"
+  },
+  "formId": "japan-tourist-visa-for-indians",
+  "title": "Top Tourist Destinations in Japan for Indian Travelers",
+  "images": [
+    "/api/uploads/1767551617026.png"
+  ],
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T18:33:37.123Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T18:35:35.324Z"
+  },
+  "__v": 0
+}]

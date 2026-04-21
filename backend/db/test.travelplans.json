@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "6961de3cca39aa07aeec3043"
+  },
+  "title": "ICONIQ - Seoul",
+  "description": "Day 1 : Arrival in Seoul\r\nDay 2 : Nami Island Tour\r\nDay 3 : Everland Theme Park\r\nDay 4 :  Cultural Seoul & Shopping\r\nDay 5 : Departure",
+  "startingPrice": "94200 (Minimum 2 Pax)*",
+  "bannerImage": "/uploads/travel-1768021564235.jpg",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:06:04.237Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:06:04.237Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961ed6aca39aa07aeec327c"
+  },
+  "title": "Serene Jeju Retreat",
+  "description": "Day 1 : Arrival in Jeju & City Highlights\r\nDay 2 : Jeju City Tour - East Jeju Exploration\r\nDay 3 : Jeju City Tour - South Jeju Sightseeing\r\nDay 4 : Jeju City Tour - Nature & Theme Parks\r\nDay 5 : Departure",
+  "startingPrice": "2,40,700 (Minimum 2 Pax)*",
+  "bannerImage": "/uploads/travel-1768025450758.webp",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T06:10:50.761Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T06:10:50.761Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961ee1dca39aa07aeec327f"
+  },
+  "title": "Timeless Seoul Escape",
+  "description": "Day 1 : Gangwha / DMZ\r\nDay 2 : Nami Island - Seongsu-dong Exploration\r\nDay 3 : Ginseng • Hanok Village • Myeongdong\r\nDay 4 : Seoul at Leisure\r\nDay 5 : Departure",
+  "startingPrice": "1,20,500 (Minimum 2 Pax)*",
+  "bannerImage": "/uploads/travel-1768025629806.webp",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T06:13:49.812Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T06:13:49.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961eec7ca39aa07aeec3282"
+  },
+  "title": "Coastal Korea Grandeur",
+  "description": "Day 1 : Arrival in Busan & City Highlights\r\nDay 2 : Haeundae & Coastal Busan | Jinhae Cherry Blossom Route (27 Mar~12 Apr 2026)​\r\nDay 3 : Gyeongju Heritage Tour\r\nDay 4 : Busan Sightseeing & Departure\r\nDay 5 : Departure from Busan",
+  "startingPrice": "2,77,500 (Minimum 2 Pax)*",
+  "bannerImage": "/uploads/travel-1768025799497.jpg",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T06:16:39.498Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T06:16:39.498Z"
+  },
+  "__v": 0
+}]

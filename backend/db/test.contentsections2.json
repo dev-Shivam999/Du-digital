@@ -1,0 +1,4469 @@
+[{
+  "_id": {
+    "$oid": "6956a15511f525706b5944ce"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "sectionKey": "hero",
+  "title": "Explore the Wonders of India with Ease",
+  "contentHtml": "India, a land of ancient traditions and modern marvels, offers an experience like no other. From the snow-capped peaks of the Himalayas to the sun-kissed beaches of Goa, the bustling streets of Mumbai to the serene backwaters of Kerala, India invites travelers on a journey through diverse landscapes, vibrant cultures, and rich heritage.\r\n\r\nAt DU Global, we understand that exploring India should be as seamless as possible. That’s why we offer a hassle-free eVisa service, designed to make your entry into this incredible country both smooth and efficient. Our streamlined process ensures that you can focus on planning your adventure while we take care of the paperwork.",
+  "image": "/api/uploads/1767285077310.webp",
+  "badge": {
+    "text": "5M+ Happy Customers",
+    "background": "#e43232"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:31:17.388Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:54:45.428Z"
+  },
+  "__v": 0,
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6956a30511f525706b59450f"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Why Choose DuVerify Platform?",
+  "title": "Why Choose DuVerify Platform?",
+  "contentHtml": "Protect your home and family with our tenant, maid, nanny and driver background screening\r\nRenting out your property or hiring domestic staff involves crucial decisions, as choosing the wrong tenant, driver, maid, or nanny can lead to financial loss, stress, and risks to your family's safety. DuVerify offers a reliable verification platform, providing comprehensive identity authentication and background checks for tenants, drivers, maids, and nannies. Ensure peace of mind by selecting trustworthy individuals for your home and loved ones.\r\n\r\n",
+  "image": "/api/uploads/1767285509624.png",
+  "badge": {
+    "text": "Tenants Domestic Helps Driver Nanny",
+    "background": "#ea2e2e"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:38:29.649Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:38:29.649Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a34f11f525706b59451a"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Key Benefits",
+  "title": "Peace of Mind",
+  "contentHtml": "Ensure tenants, drivers, maids, and nannies are thoroughly verified, reliable, and trustworthy.",
+  "image": "/api/uploads/1767285583256.jpg",
+  "layout": "RIGHT_TEXT_LEFT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:39:43.271Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:39:43.271Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a36a11f525706b594521"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Key Benefits",
+  "title": "Peace of Mind",
+  "contentHtml": "Ensure tenants, drivers, maids, and nannies are thoroughly verified, reliable, and trustworthy.",
+  "image": "/api/uploads/1767285610137.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:40:10.148Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:40:10.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a4fb11f525706b594555"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "How It Works?",
+  "title": "How It Works?",
+  "contentHtml": "Choose your preferred package and complete the payment.\r\n\r\nSubmit the details and documents via our secure portal.\r\n\r\nOur system conducts a comprehensive background check, including:\r\n\r\nIdentity Verification\r\nCriminal Records Check\r\nBank Statement/Income Verification\r\nITR Check\r\nInterpol Reference Checks\r\nReceive a detailed report with a verification score and recommendation.",
+  "image": "/api/uploads/1767286011186.jpg",
+  "badge": {
+    "text": " 4 streamlined verification steps",
+    "background": "#007bff"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:46:51.207Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:46:51.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957d7154fb0cabf62f1e2ec"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "sectionKey": "E-VISA APPLICATION PROCESS",
+  "title": "Apply online ",
+  "contentHtml": "Upload Photo and Passport Page",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T14:32:53.706Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T14:32:53.706Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957d7524fb0cabf62f1e2f3"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "sectionKey": "E-VISA APPLICATION PROCESS",
+  "title": "Pay eVisa ",
+  "contentHtml": "fee online Using Credit / Debit card / Payment Walle",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T14:33:54.289Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T14:33:54.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957d7704fb0cabf62f1e2fa"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "sectionKey": "E-VISA APPLICATION PROCESS",
+  "title": "Receive ETA Online",
+  "contentHtml": " Electronic Travel Authorization/ETA Will be sent to your e-mail",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T14:34:24.894Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T14:34:24.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957ffb54fb0cabf62f1e541"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Global Presence",
+  "contentHtml": "\r\nOur international hiring agency has a vast network of offices and partners across multiple regions. This includes countries in the Middle East, Europe, and emerging economies in South Asia. Such coverage enables us to connect international and smaller businesses with top talent. It’s one of the key reasons why clients prefer our global recruitment services.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:26:13.252Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:26:13.252Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6957ffdd4fb0cabf62f1e548"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Smart Recruitment",
+  "contentHtml": "\r\nOur global placement firm is one of the few international recruiting agencies that use advanced tools and systems to review applications and track desired candidates. It helps us hire faster and smarter without wrong judgments. We make hiring fast and simple from automated reviews to chatbot interviews at the initial stages.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:26:53.726Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:26:53.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695800004fb0cabf62f1e54f"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Skill-Based Hiring",
+  "contentHtml": "Smart Recruitment\r\nOur global placement firm is one of the few international recruiting agencies that use advanced tools and systems to review applications and track desired candidates. It helps us hire faster and smarter without wrong judgments. We make hiring fast and simple from automated reviews to chatbot interviews at the initial stages.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:27:28.440Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:27:28.440Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695800214fb0cabf62f1e556"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Diversity and Local Expertise",
+  "contentHtml": "\r\nOur global recruitment services help clients create diverse teams with different cultures. Plus, we ensure to follow local hiring rules to ensure a fair and ethical hiring process. All of this is possible due to our local knowledge. Such a commitment ensures an unbiased hiring every time.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:28:01.129Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:28:01.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958005a4fb0cabf62f1e55d"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Services",
+  "title": "Workforce Planning",
+  "contentHtml": "\r\nWe monitor job markets and help you predict how many people you will need to hire in different areas. It ensures your staffing plans are always aligned with market trends. It allows you to stay ahead in this competitive business world.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:28:58.205Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:28:58.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695800774fb0cabf62f1e564"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Services",
+  "title": "Talent Sourcing",
+  "contentHtml": "\r\nOur global recruitment services use innovative tools like social media and AI to identify the best candidates for your jobs. It allows us to quickly find top talent and ensure you get the right talent in time. Our experts connect with a vast pool of professionals to effectively meet your hiring needs.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:29:27.664Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:29:27.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958009a4fb0cabf62f1e56b"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Services",
+  "title": "Skill Assessment",
+  "contentHtml": "\r\nWe conduct practical assessments, trade tests, and behavioral interviews to ensure that candidates meet job-specific standards and can successfully adapt to your workplace environment.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:30:02.711Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:30:02.711Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695800b94fb0cabf62f1e572"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Services",
+  "title": "Onboarding & Compliance",
+  "contentHtml": "\r\nOur global recruitment services support new hires throughout their transition by managing orientation, documentation, payroll integration, and legal formalities. Every step is carried out in strict accordance with local labor laws and compliance standards, ensuring a smooth start for your employees and complete peace of mind for you.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:30:33.963Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:30:33.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695801794fb0cabf62f1e579"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Industries We Serve",
+  "title": "Manufacturing and Supply Chain",
+  "contentHtml": "CNC Machine Operator\r\n\r\nForklift Driver\r\n\r\nWarehouse Associate\r\n\r\nIndustrial Electrician\r\n\r\nWelders (TIG, MIG, ARC)\r\n\r\nProduction Supervisor\r\n\r\nMaintenance Technician\r\n\r\nLogistics Coordinator",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:33:45.678Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:33:45.678Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695801cd4fb0cabf62f1e580"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Industries We Serve",
+  "title": "Hospitality & Services",
+  "contentHtml": "Waiters / Waitresses\r\n\r\nHousekeeping Staff\r\n\r\nChefs (Indian, Continental, Tandoor, Pizza)\r\n\r\nFront Desk Executive\r\n\r\nBartender\r\n\r\nRoom Attendants\r\n\r\nKitchen Helpers\r\n\r\nSpa Therapist",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:35:09.909Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:35:09.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958020a4fb0cabf62f1e587"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Industries We Serve",
+  "title": "Industries We Serve",
+  "contentHtml": "Rig Technician\r\n\r\nInstrumentation Technician\r\n\r\nPetroleum Engineer\r\n\r\nOffshore Driller\r\n\r\nPipeline Welder\r\n\r\nHSE Officer (Health, Safety, and Environment)\r\n\r\nOilfield Electrician",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:36:10.922Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:36:10.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695802b04fb0cabf62f1e58e"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Ready to Build Your Team?",
+  "title": "Ready to Build Your Team?",
+  "contentHtml": "Partner with DU Global to stay ahead in international hiring. From data-driven talent sourcing to customized recruitment strategies, we help businesses across Europe, the UK, Canada, Russia, Serbia, and the Middle East connect with the right candidates — quickly, compliantly, and efficiently.\r\n\r\nWhether you’re scaling your workforce or expanding into new markets, our expert team delivers staffing solutions tailored to your goals.\r\n\r\nContact us today for a personalized recruitment plan that works for you.",
+  "image": "/api/uploads/1767375536508.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:38:56.758Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:38:56.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695802d74fb0cabf62f1e595"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Track Record",
+  "title": "Our Track Record",
+  "contentHtml": "\r\nWe reduce hiring times by 35% thanks to our innovative AI tools.\r\nOur team has seen a 50% jump in how well new hires fit their jobs.\r\nWe ensure our hiring follows all employment rules for a smooth recruiting experience.",
+  "image": "/api/uploads/1767375575016.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:39:35.024Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:37:30.220Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1768019850209.jpg"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "695804334fb0cabf62f1e5f3"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Why Choose DuVerify?",
+  "title": " Lightning-Fast Verification",
+  "contentHtml": "\r\nAuthenticate documents in minutes with our efficient algorithms, minimizing delays.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:45:23.246Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T04:50:44.445Z"
+  },
+  "__v": 0,
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958044e4fb0cabf62f1e5fa"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Why Choose DuVerify?",
+  "title": " Unmatched Accuracy",
+  "contentHtml": "\r\nAchieve close-to-100% accuracy using robust data sources and stringent quality checks.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:45:50.604Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T04:52:06.027Z"
+  },
+  "__v": 0,
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "695804864fb0cabf62f1e601"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "What DuVerify Can Do for You",
+  "title": "Passport Authentication",
+  "contentHtml": "\r\nCheck document authenticity and tampering.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:46:46.852Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:46:46.852Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695804a14fb0cabf62f1e608"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "What DuVerify Can Do for You",
+  "title": "Financial Data Validation",
+  "contentHtml": "\r\nVerify banking, income tax, and financial histories.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:47:13.942Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-02T17:47:13.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695804ec4fb0cabf62f1e60f"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Key Partnerships",
+  "title": " Embassy of Georgia in India",
+  "contentHtml": "DuVerify, in collaboration with Georgia's Ministry of Foreign Affairs, revolutionizes e-Visa applications for Indian travelers through its secure, user-friendly digital verification platform. DuVerify ensures efficient background checks, expediting the issuance of short-term visit visas while maintaining rigorous security standards. This innovation simplifies cross-border travel and enhances procedural transparency for applicants.",
+  "image": "/api/uploads/1767376108599.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:48:28.636Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:56:38.808Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1767981398804.png"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958052c4fb0cabf62f1e616"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Key Partnerships",
+  "title": "Embassy of the Republic of South Korea in Delhi",
+  "contentHtml": "\r\nDuVerify supports the Embassy of the Republic of Korea in India to deliver a next-generation document authentication solution. Our advanced digital verification system streamlines visa processing by automatically validating applicant materials for accuracy and compliance. This tech-driven approach reduces administrative delays, improves decision consistency, and fosters greater trust in international travel protocols.",
+  "image": "/api/uploads/1767376172327.avif",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:49:32.398Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T04:56:45.222Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1767934605216.png"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "695805c14fb0cabf62f1e61d"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": " Request a Demo Today",
+  "title": " Request a Demo Today",
+  "contentHtml": "\r\nDiscover how DuVerify can transform your visa and document verification workflows.",
+  "image": "/api/uploads/1767376321171.webp",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-02T17:52:01.364Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T14:36:05.332Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1767969365318.jpg"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "69589fa02fa03d607e87da1d"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "hero",
+  "title": "Take the First Step to Company Setup in the UAE",
+  "contentHtml": "Setting up a company in the UAE has become one of the most attractive options for global entrepreneurs, startups, and investors. With recent reforms allowing 100% foreign ownership in most sectors, tax-friendly regulations, and world-class infrastructure, the UAE continues to be a preferred business hub connecting Asia, Europe, and Africa.\r\n\r\nWhether you are looking at the Dubai mainland or a UAE free zone, choosing the right jurisdiction depends on factors such as location, industry, office space requirements, share capital rules, and compliance. That’s where DU Digital Global comes in — guiding you through the entire process with efficiency and expertise, ensuring your setup is smooth and stress-free.",
+  "image": "/api/uploads/1767415711763.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:48:32.086Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:48:32.086Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a00d2fa03d607e87da24"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Company Formation in the Mainland",
+  "title": "Company Formation in the Mainland",
+  "contentHtml": "\r\nEstablishing a company in Dubai offers businesses unparalleled access to both local and international markets, under the regulation of the Dubai Department of Economic Development (DED). With recent legislative changes allowing 100% foreign ownership across numerous sectors, entrepreneurs can enjoy complete control over their ventures. Dubai mainland companies benefit from the flexibility to operate in a wide range of industries, engage in government contracts, and expand their presence throughout the UAE.\r\n\r\nSetting up a mainland company in Dubai provides businesses with direct access to the UAE’s local market as well as international trade opportunities. Under the regulation of the Dubai Department of Economic Development (DED), mainland companies enjoy:\r\n\r\n100% foreign ownership in most activities (after the 2021 reforms)\r\nFlexibility to engage in a wide range of industries\r\nEligibility to bid for government contracts\r\nFreedom to expand across all Emirates\r\nFor entrepreneurs seeking scalability and long-term stability, mainland company formation remains one of the strongest options.\r\n\r\n",
+  "image": "/api/uploads/1767415820873.webp",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:50:21.848Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:50:21.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a05a2fa03d607e87da2b"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Company Formation in Freezone",
+  "title": "Company Formation in Freezone",
+  "contentHtml": "UAE freezone company setup offers businesses a range of advantages tailored to foster growth and innovation. Free Zones in Dubai are designed to attract foreign investment by providing benefits like 100% foreign ownership, complete repatriation of profits, and exemption from corporate and personal taxes. These zones cater to specific industries, offering a supportive environment with industry-focused infrastructure and services.\r\n\r\nUAE free zones are designed to attract foreign investors by providing business-friendly ecosystems and benefits like:\r\n\r\n100% foreign ownership\r\nFull repatriation of capital and profits\r\n0% personal income tax\r\nCustoms duty exemptions within the free zone\r\nIndustry-specific infrastructure (IT, logistics, finance, media, etc.)\r\nWith over 40 free zones across the UAE (including Dubai’s IFZA, Meydan, RAKEZ, and SPC), each caters to different industries and offers flexible office space solutions — from flexi-desks to full-fledged headquarters.",
+  "image": "/api/uploads/1767415898241.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:51:38.844Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:51:38.844Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a11e2fa03d607e87da49"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Our Strength",
+  "title": "Tailored Business Solutions",
+  "contentHtml": "Get in touch with us to take advantage of our specialized packages and clever company setup in the UAE.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:54:54.302Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:54:54.302Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a1382fa03d607e87da50"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Our Strength",
+  "title": "Outstanding Affinity",
+  "contentHtml": "\r\nWith our seamless help, starting a business in the UAE won't take long to be up and running.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:55:20.493Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:55:20.493Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a14c2fa03d607e87da57"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Our Strength",
+  "title": "Massive Diversity",
+  "contentHtml": "\r\nWhen establishing a business in the UAE, there is a vast array of industries, sectors, and commercial endeavors to select from.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:55:40.597Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:55:40.597Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a17b2fa03d607e87da5e"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Benefits of Establishing a Business in the UAE",
+  "title": "Benefits of Establishing a Business in the UAE",
+  "contentHtml": "\r\n100% Foreign Ownership – Full control of your company in free zones and most mainland sectors.\r\nTax Advantages – No personal income tax and a competitive 9% corporate tax (only on profits above AED 375,000).\r\nProfit Repatriation – Freedom to transfer 100% of profits and capital abroad.\r\nGlobal Market Access – Strategic location connecting Asia, Europe, and Africa.\r\nEase of Doing Business – Fast setup, world-class infrastructure, and investor-friendly policies.",
+  "image": "/api/uploads/1767416186599.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:56:27.211Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:56:27.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a1dcece523d8d30d847e"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Types of Business License in the UAE",
+  "title": "Commercial License",
+  "contentHtml": "\r\nTailored for businesses involved in trading activities, this license permits importing, exporting, distributing, and storing goods within the UAE. Whether dealing in electronics, textiles, or luxury items, a commercial permit forms the cornerstone for retail and wholesale businesses.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:58:04.075Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:58:04.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a204ece523d8d30d8485"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Types of Business License in the UAE",
+  "title": "Tourism License",
+  "contentHtml": "\r\nIn a nation famed for its hospitality and tourism sector, the tourism license serves as an entry point for businesses in travel agencies, tour operators, and hospitality services. With Dubai's ambitious tourism aspirations, this license presents ample prospects for HNIs to capitalize on the flourishing tourism industry.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:58:44.025Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:58:44.025Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a218ece523d8d30d848c"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Types of Business License in the UAE",
+  "title": "Industrial License",
+  "contentHtml": "\r\nA company set up in Dubai which is involved in manufacturing, processing, assembling, and packaging activities requires an industrial license. This license allows companies to set up manufacturing facilities within the Free Zone. Industrial license enables the establishment of industrial enterprises, factories, and production facilities.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:59:04.665Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:59:04.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a231ece523d8d30d8493"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Entity Options for Free Zone Company Setup in the UAE",
+  "title": "Entity Options for Free Zone Company Setup in the UAE",
+  "contentHtml": "A company setup in the UAE of a free zone firm is easy and simple, thanks to the regulators who encourage foreign investors with low capital needs. When starting a company in these zones, Indian entrepreneurs can pick from three main types of entities:\r\n\r\nBranch of a foreign or local company\r\nFree Zone Establishment (FZE) with a single shareholder\r\nFree Zone Company (FZC) with 2 to 5 shareholdersCompany (FZC) with 2 to 5 shareholders",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T04:59:29.576Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T04:59:29.576Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a261ece523d8d30d849a"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Steps to Set Up a Business in the UAE Free Zones",
+  "title": "Choose Legal Entity",
+  "contentHtml": "\r\nDecide on the type of entity you want to establish in the free zone, considering the capital requirement for that particular zone.",
+  "image": "/api/uploads/1767416417615.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:00:17.837Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:00:17.837Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a28eece523d8d30d84a1"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Steps to Set Up a Business in the UAE Free Zones",
+  "title": "Select a Trade Name",
+  "contentHtml": "\r\nPick your company’s unique and permissible trade name, ensuring it is not already registered",
+  "image": "/api/uploads/1767416461856.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:01:02.203Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:18:14.514Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1768018694508.jpg"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958a2b0ece523d8d30d84a8"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Steps to Set Up a Business in the UAE Free Zones",
+  "title": "Apply For a Business License",
+  "contentHtml": "\r\nSubmit the required documents and apply for the appropriate business license based on your company’s primary activity.",
+  "image": "/api/uploads/1767416496610.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:01:36.787Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:19:11.030Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1768018751024.jpg"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958a577ece523d8d30d8539"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "sectionKey": "Why Choose Global LLC?",
+  "title": "Why Choose Global LLC?",
+  "contentHtml": "\r\nEnd‑to‑end recruitment and visa support for hospitality roles in Greece\r\nTransparent packages with no hidden costs\r\nFast processing through established employer networks\r\nYour documents and data handled securely\r\nSupport from application to onboarding in Greece",
+  "image": "/api/uploads/1767417207354.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:13:27.498Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T17:36:50.829Z"
+  },
+  "__v": 0,
+  "images": [
+    "/api/uploads/1767461810645.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6958a598ece523d8d30d8540"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "sectionKey": "Fees, Processing Time & Validity",
+  "title": "Typical processing time",
+  "contentHtml": "\r\nApprox. 2–4 weeks (varies by embassy & case)",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:14:00.588Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:14:00.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a5b4ece523d8d30d8547"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "sectionKey": "Fees, Processing Time & Validity",
+  "title": "Initial visa validity",
+  "contentHtml": "\r\ncorresponds to employment contract; residence permit valid up to 5 years (renewable)",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:14:28.701Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:14:28.701Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a5cbece523d8d30d854e"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "sectionKey": "Fees, Processing Time & Validity",
+  "title": "Fees",
+  "contentHtml": "\r\ncorresponds to employment contract; residence permit valid up to 5 years (renewable)",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:14:51.225Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:14:51.225Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a5ebece523d8d30d8555"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "sectionKey": "Document Checklist",
+  "title": "Applicant provides",
+  "contentHtml": "\r\nValid passport (minimum 6 months validity) & blank pages\r\nRecent passport‑size photo (white background)\r\nCV + work experience certificates\r\nClean criminal record certificate\r\nCompleted visa application form",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:15:23.865Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:15:23.865Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a603ece523d8d30d855c"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "sectionKey": "Document Checklist",
+  "title": "Employer in Greece provides",
+  "contentHtml": "\r\nSigned employment contract specifying role, salary, duration, benefits\r\nProof of employer’s legal status in Greece\r\nInvitation letter / job offer document\r\nEvidence of labour market test or justification (if required)",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:15:47.154Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:15:47.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a625ece523d8d30d8563"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "sectionKey": "Eligibility Criteria",
+  "title": "Eligibility Criteria",
+  "contentHtml": "\r\nAge: 21–40 years\r\nRelevant Work Experience (as per job role)\r\nBasic English communication skills\r\nCertificates preferred for culinary/hospitality/technical roles\r\nClean criminal background required\r\nNon‑EU/EEA nationals only",
+  "image": "/api/uploads/1767417380432.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:16:21.137Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:12:37.986Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1768021957981.jpg"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958a646ece523d8d30d856a"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "sectionKey": "Salary & Benefits",
+  "title": "Salary & Benefits",
+  "contentHtml": "\r\nWork Permit valid for 1 year, extendable through the National D-Visa renewal procedure\r\nAnnual Bonus: 1 month’s salary\r\nSalary Range: €1,000 – €1,100/month (depending on role & experience)\r\nVisa & Air Ticket: Provided by Employer\r\nAccommodation & Meals: Fully Provided\r\nWork Contract: Issued under Greek labour law standards\r\nSocial Security & Insurance: Registered per Greek regulations",
+  "image": "/api/uploads/1767417414121.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:16:54.574Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T04:40:14.860Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1767933614856.jpg"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958a713ece523d8d30d85a5"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "sectionKey": "Travel Ready with DU Global",
+  "title": "Travel Ready with DU Global",
+  "contentHtml": "\r\nApply your Digital Arrival Card today and fly worry-free to Thailand, Malaysia, Indonesia, Singapore, South Korea, or Taiwan",
+  "image": "/api/uploads/1767417619528.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:20:19.717Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:20:19.717Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a8bbece523d8d30d8681"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "What is a Serbia D-Type Visa?",
+  "title": "What is a Serbia D-Type Visa?",
+  "contentHtml": "A Serbia D-Type (Long Stay) Visa is designed for foreign nationals who have secured a job in Serbia and plan to stay longer than 180 days. It is the required pathway for those wishing to work and reside legally in Serbia for up to 1 year, with the possibility of extension.",
+  "image": "/api/uploads/1767418031002.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:27:23.820Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:27:23.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a8e2ece523d8d30d8688"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Who Can Apply?",
+  "title": "Who Can Apply?",
+  "contentHtml": "Nationals from India, Nepal, Bangladesh and Sri Lanka — Served by the Serbia Embassy in New Delhi—are eligible to apply.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:28:02.107Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:28:02.107Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a93cece523d8d30d868f"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Who Can Apply?",
+  "title": "Required Document Checklist",
+  "contentHtml": "Document\tWho Provides\r\nScanned copy of original and valid passport\tApplicant\r\nEducation Certificate\tApplicant\r\nRecent passport-size photograph (white background)\tApplicant\r\nOfficial Invitation Letter\tEmployer\r\nCertificate of Company Registration\tEmployer\r\nSigned Employment Contract\tEmployer\r\nJob Description / Role Summary\tEmployer",
+  "image": "/api/uploads/1767418170262.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:29:32.022Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:04:26.649Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1767866666637.jpg"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958a965ece523d8d30d8696"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Who Can Apply?",
+  "title": "Serbia D-Type Visa Fees",
+  "contentHtml": "Processing time\t2 to 4 Weeks\r\nValidity\t180 Days*\r\nVisa Fee\t€50\r\nSticker Visa Charge\t€2\r\nService Charges applicable",
+  "image": "/api/uploads/1767418210553.jpg",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:30:13.888Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T15:07:23.433Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1767971243429.jpg"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958a97eece523d8d30d869d"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Quality Beyond Compromise",
+  "contentHtml": "\r\nGet transparent, comprehensive service that maximizes your visa success with our Serbia work permit agency.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:30:38.258Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:30:38.258Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a994ece523d8d30d86a4"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Fast Processing",
+  "contentHtml": "\r\nGet end-to-end support with the quickest turnaround time in the marke",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:31:00.069Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:31:00.069Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a9a5ece523d8d30d86ab"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Data Security",
+  "contentHtml": "Your information is treated with utmost confidentiality.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:31:17.085Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:31:17.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d127ece523d8d30d8756"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "sectionKey": "Explore Malaysia",
+  "title": "Explore Malaysia",
+  "contentHtml": "Your Gateway to an Unforgettable Experience. Are you planning an extended stay or travel in Malaysia? It's essential to understand the different visa options available to meet your specific needs.\r\n\r\nMalaysia offers a variety of visas tailored for various purposes, whether it's a short-term visit, multiple entries within a certain period, or employment opportunities. Our Malaysia Visa Application Centre is dedicated to assisting you throughout the visa application process, providing comprehensive support and guidance.\r\n\r\nWith our expertise, you can navigate the complexities and ensure a smooth experience while obtaining the visa you desire for your Malaysian adventure. Let us help you turn your dreams into reality and embark on an unforgettable journey in Malaysia",
+  "image": "/api/uploads/1767428389237.png",
+  "badge": {
+    "text": "5M+ Happy Customers",
+    "background": "#e23030"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:19:51.174Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:46:34.132Z"
+  },
+  "__v": 0,
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958d14aece523d8d30d875d"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "sectionKey": "TYPES OF VISA",
+  "title": "Single Entry VISA",
+  "contentHtml": "The Malaysia Single Entry Visa is a type of visa that allows individuals to enter Malaysia once during the visa validity period for a specific purpose, such as tourism, business, or visiting family or friends. Once the visa holder leaves Malaysia, the visa becomes invalidated, and a new visa is required for re-entry.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:20:26.712Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:20:26.712Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d164ece523d8d30d8764"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "sectionKey": "TYPES OF VISA",
+  "title": "Multi Entry VISA",
+  "contentHtml": "The different types of Multiple Entry Visa with their validity period have mentioned in the table below:\r\n\r\nMulti Entry VISA: Different Categories\r\n\r\nFLY AND CRUISE (3 MONTHS VALIDITY)\r\nWEDDING TOURISM (3 MONTHS VALIDITY)\r\nMEDICAL (6 MONTHS VALIDITY)",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:20:52.013Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:20:52.013Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d2ecece523d8d30d8811"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "sectionKey": "Morocco Visa for Indians",
+  "title": "Morocco Visa for Indians",
+  "contentHtml": "DU Global is delighted to announce the launch of its Visa Application Centre for Morocco, offering streamlined visa application processes. Our centres spread across the country cater to Indian citizens. \r\n\r\nApplicants can conveniently reach out to our team and centres and submit their visa applications at the DU Global Visa Application Centres, accompanied by the necessary documents, passport, and the applicable fees. ",
+  "image": "/api/uploads/1767428844030.jpg",
+  "badge": {
+    "text": "5M+ Happy Customers",
+    "background": "#ff0000"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:27:24.714Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:24:37.318Z"
+  },
+  "__v": 0,
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958d315ece523d8d30d8818"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "sectionKey": "Morocco Visa Types, Fees, and Processing Time for Indian Citizens",
+  "title": "Single Entry",
+  "contentHtml": "Processing time:\r\n10 working days*\r\nEntry:\r\nSingle\r\nValidity:\r\n30 days\r\nStay Period:\r\n15 to 30 days*\r\nService fee:\r\nINR 1,500/-*\r\nVisa Fees:\r\nINR 6,113/-*\r\n*T&C Apply",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:28:05.436Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:28:05.436Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d32eece523d8d30d881f"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "sectionKey": "Morocco Visa Types, Fees, and Processing Time for Indian Citizens",
+  "title": "Multiple Entry",
+  "contentHtml": "Processing time:\r\n10 working days*\r\nEntry:\r\nMultiple\r\nValidity:\r\n30 to 90 days\r\nStay Period:\r\n15 to 30 days*\r\nService fee:\r\nINR 1,500/-*\r\nVisa Fees:\r\nINR 11,206/-*\r\n*T&C Apply",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:28:30.427Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:28:30.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d4c4ece523d8d30d88f1"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "South Korea Visa Types with Fees",
+  "title": "Single Entry",
+  "contentHtml": "Processing time:\r\n5 working days\r\nStay period:\r\n30 days\r\nValidity:\r\n90 Days\r\nEntry:\r\nSingle\r\nFees:\r\nINR 6,599/-",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:35:16.081Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:35:16.081Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d56bece523d8d30d8950"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Additional Requirements",
+  "title": "For Employed People",
+  "contentHtml": "Leave approval certificate with company seal and signature.\r\nYour salary slips for the last six months.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:38:03.550Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:38:03.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d588ece523d8d30d8957"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "For Employed People",
+  "title": "For Self-Employed People",
+  "contentHtml": "\r\nYour business registration documents, such as GST and MOA.\r\nYour firm’s bank statement for the last six months.\r\nYour company’s income tax returns for the last three years.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:38:32.963Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:38:32.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d5a8ece523d8d30d895e"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "How to Apply for your South Korea Visa",
+  "title": "Document Submission",
+  "contentHtml": "\r\nSubmit all the documents required for your visa application.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:39:04.235Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:39:04.235Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d5bdece523d8d30d8965"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "How to Apply for your South Korea Visa",
+  "title": "Processing",
+  "contentHtml": "\r\nYour visa application will be processed within the given time.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:39:25.037Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:39:25.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d5e5ece523d8d30d896c"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": " Extensive Reach",
+  "contentHtml": "\r\nWe are spread across 35 countries with over 1,300 offices. Our team can handle various visa requests for people from across countries.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:40:05.956Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:59:49.462Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1767869989458.jpg"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958d5fbece523d8d30d8973"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Complete Solutions",
+  "contentHtml": "\r\nWe offer many services, such as document verification, tenant verification, and PR services. It makes us an all-in-one place for all your travel needs.",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:40:27.998Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:01:01.472Z"
+  },
+  "__v": 0,
+  "images": [
+    "/uploads/1767870061468.webp"
+  ],
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "6958d6efece523d8d30d8a0f"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "sectionKey": "Explore UAE with a 5-year Tourist Visa",
+  "title": "Explore UAE with a 5-year Tourist Visa",
+  "contentHtml": "The UAE, a dynamic blend of modernity and tradition, entices tourists with iconic landmarks like the Burj Khalifa and Palm Jumeirah. From bustling souks to pristine beaches and thrilling desert adventures, the country offers diverse experiences. Indulge in luxury shopping and savor a rich culinary scene. For Indians planning a visit, explore hassle-free UAE visa options. Discover the allure of the UAE – a perfect synthesis of luxury and culture.",
+  "image": "/api/uploads/1767429870496.png",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:44:31.200Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T18:56:10.436Z"
+  },
+  "__v": 0,
+  "badge": {
+    "text": " 17 Lac+ Happy Customers",
+    "background": "#df2b2b"
+  },
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": "",
+  "images": [
+    "/uploads/1767984970432.jpg"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6958d754ece523d8d30d8a8e"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "sectionKey": "5-year UAE Tourist Visa for Indians: Fees and Processing Time",
+  "title": "5-year Tourist Visa",
+  "contentHtml": "Processing time:\r\n7 working days\r\nStay period:\r\n90 days*\r\nValidity:\r\n5 Years\r\nEntry:\r\nMultiple",
+  "image": "",
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:46:12.902Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:46:12.902Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6959527c46d3f23f21ecb410"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "sectionKey": "What is a Greece National Visa (Type D) for Employment?",
+  "title": "What is a Greece National Visa (Type D) for Employment?",
+  "contentHtml": "The Greece National Visa (Type D) is issued to non‑EU/EEA nationals who have secured employment in Greece and intend to stay longer than 90 days. Once you arrive, you must apply for a Residence Permit with the Right to Work, under Greek law (Law 4251/2014). This visa is the entry route for long‑term employment in the hospitality and support sectors.",
+  "images": [
+    "/api/uploads/1767461500300.jpg",
+    "/api/uploads/1767461500341.jpg",
+    "/api/uploads/1767461500342.jpg",
+    "/api/uploads/1767461500348.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T17:31:40.412Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T17:31:40.412Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6959e3252316c10abe1cce3d"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Why Choose DU Global",
+  "title": "Data Privacy",
+  "contentHtml": "\r\nOur rules are strict and help secure your data. It keeps your details safe and private while we guide you through your visa application.",
+  "images": [
+    "/uploads/1767870259944.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T03:48:53.943Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:04:19.948Z"
+  },
+  "__v": 0,
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "695a77921d2f976262061676"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "sectionKey": "Additional Documents for Your Australia Tourist Visa (As Applicable)",
+  "title": "For Married or Recently Married Applicants:",
+  "contentHtml": "\r\nDetails of spouse and children, including their date and place of birth.\r\nMarriage certificate (if applicable).\r\nChildren’s birth certificates (if applicable).",
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:22:10.251Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T14:22:10.251Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a77b21d2f97626206167d"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "sectionKey": "Additional Documents for Your Australia Tourist Visa (As Applicable)",
+  "title": "For Employed Applicants:",
+  "contentHtml": "\r\nA leave approval letter from your employer.\r\nA letter from your employer outlining your current role and responsibilities.",
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:22:42.558Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T14:22:42.558Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a77c91d2f976262061684"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "sectionKey": "Additional Documents for Your Australia Tourist Visa (As Applicable)",
+  "title": "For Identity Verification:",
+  "contentHtml": "\r\nCopy of your driving license (if applicable).\r\nAadhar card copy for identity confirmation.",
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:23:05.139Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T14:23:05.139Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a77eb1d2f97626206168b"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "sectionKey": "How to Apply for Australia Tourist Visa",
+  "title": "Start Your Application",
+  "contentHtml": "\r\nFill out our easy lead form, and a dedicated DU Digital agent will connect with you to kickstart your Australia Tourist Visa process.",
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:23:39.766Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T14:23:39.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a780e1d2f976262061692"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "sectionKey": "How to Apply for Australia Tourist Visa",
+  "title": "Submit Your Documents",
+  "contentHtml": "\r\nOur experienced team will help you gather all the necessary documents, ensuring you are fully prepared.",
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:24:14.709Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T14:24:14.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a78241d2f976262061699"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "sectionKey": "How to Apply for Australia Tourist Visa",
+  "title": "Receive Your Visa",
+  "contentHtml": "\r\nStay informed throughout the process and enjoy fast delivery of your Australia Tourist Visa.",
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:24:36.245Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T14:24:36.245Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a784b1d2f9762620616a0"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "sectionKey": "Why Choose DU Global for Australia Visa",
+  "title": " Comprehensive Guidance",
+  "contentHtml": "\r\nFrom connecting with our agent to receiving your visa, we ensure a smooth process.",
+  "images": [
+    "/uploads/1767871107522.webp"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:25:15.451Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:18:27.527Z"
+  },
+  "__v": 0,
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "695a78891d2f9762620616a7"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "sectionKey": "Why Choose DU Global for Australia Visa",
+  "title": " Effortless Application",
+  "contentHtml": "\r\nEnjoy peace of mind while we manage your visa application from start to finish.",
+  "images": [
+    "/api/uploads/1767536777530.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:26:17.563Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T14:26:17.563Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a78a51d2f9762620616ae"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "sectionKey": "Why Choose DU Global for Australia Visa",
+  "title": " Expert Assistance",
+  "contentHtml": "\r\nOur team ensures you have everything in place for a successful application.",
+  "images": [
+    "/uploads/1767871156512.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:26:45.455Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:19:16.517Z"
+  },
+  "__v": 0,
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": ""
+},
+{
+  "_id": {
+    "$oid": "695a92440fe3b9e54722d8d7"
+  },
+  "formId": {
+    "$oid": "695a920d0fe3b9e54722d89c"
+  },
+  "sectionKey": "heroSecction",
+  "title": "hero",
+  "contentHtml": "Du Global is the only outsourced agency of the Bangladesh Deputy High Commission, Kolkata for accepting Bangladeshi visa applications from Indian/Foreign National visa seekers (except Diplomatic and Official passports) and for returning the processed passports to the applicants.\r\n\r\nThrough DU Global BD Pvt. Ltd., we specialize in operating Bangladesh Visa Application Centres and processing visa applications across India. Our VACs in Kolkata, Siliguri, Guwahati, Silchar, and Bongaigaon provide a comprehensive range of value-added services such as Premium Lounge access, Visa at Your Doorstep, Form Filling Assistance, and Courier Services, ensuring a smooth and hassle-free experience.\r\n\r\nWe are in exclusive partnership with the Deputy High Commission of Bangladesh in Kolkata and the Assistant High Commission of Bangladesh in Guwahati , underscoring our commitment to excellence and efficient facilitation through our VACs, call center, and email support.",
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T16:16:04.797Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T16:16:04.797Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a92600fe3b9e54722d8de"
+  },
+  "formId": {
+    "$oid": "695a920d0fe3b9e54722d89c"
+  },
+  "sectionKey": "EXCLUSIVE COLLABORATION with SONALI BANK – BANGLADESH LARGEST BANK",
+  "title": "EXCLUSIVE COLLABORATION with SONALI BANK – BANGLADESH LARGEST BANK",
+  "contentHtml": "Du Global Ltd is the only Visa processing organization that has an exclusive tie up with the Govt of Bangladesh Owned Sonali Bank.  Our collaboration is exclusive to increasing footfall and servicing visitors in the most convenient possible way for travelers.  Being associated with SONALI bank helps us foray into every segment of traveler in terms of awareness of easy and fast accessibility to Bangladesh. The recently SONALI bank Counter inside our VAC in Kolkata was Inaugurated by H.E. Dr A.K. Abdul Momen, MP (Hon’ble Foreign Minister) in Presence of Mr. Toufique Hasan (Hon’ble Deputy High Commissioner) and Miss RAWSHAN JAHAN the CEO & Deputy General Manager of SONALI BANK in India",
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T16:16:32.991Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T16:16:32.991Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a9e9cbdfda86433ae70b9"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "sectionKey": "Global Experts in",
+  "title": "Visa & eVisas - Company Formation in the UAE - PR & Citizenship Services - Du Verify - UAE Golden Visa",
+  "contentHtml": "\r\n\r\nDu Global Ltd is a company listed on the National Stock Exchange (NSE) of India. It operates in the digital services and technology sector, specializing in services such as document verification, visa facilitation, and other innovative solutions catering to both government and private sectors.",
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:08:44.047Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T18:00:52.166Z"
+  },
+  "__v": 0,
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "youtubeUrl": "ttps://www.youtube.com/embed/uoKM7PFNlRg"
+},
+{
+  "_id": {
+    "$oid": "695a9f2cbdfda86433ae70c0"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "sectionKey": "Our Footprints",
+  "title": "Over our 35 centres operating in 6 countries and with an additional 1300 centres available globally with our partner offices, we have the ability to fulfill a wide range of dynamic requirements for our Governmental clients and business partners alike.",
+  "contentHtml": "\r\n35\r\n+\r\nLocations\r\nNew Delhi\r\nChennai\r\nMumbai\r\nBangalore\r\nKolkata\r\nGuwahati\r\nSilchar\r\nSiliguri\r\nBongaigaon\r\nDubai\r\nSingapore\r\nBangladesh\r\nSri Lanka\r\nThailand\r\nNepal\r\nEgypt\r\nJordan\r\nMorocco\r\nNew Delhi\r\nChennai\r\nMumbai\r\nBangalore\r\nKolkata\r\nGuwahati\r\nSilchar\r\nSiliguri\r\nBongaigaon\r\nDubai\r\nSingapore\r\nBangladesh\r\nSri Lanka\r\nThailand\r\nNepal\r\nEgypt\r\nJordan\r\nMorocco\r\nNew Delhi\r\nChennai\r\nMumbai\r\nBangalore\r\nKolkata\r\nGuwahati\r\nSilchar\r\nSiliguri\r\nBongaigaon\r\nDubai\r\nSingapore\r\nBangladesh\r\nSri Lanka\r\nThailand\r\nNepal\r\nEgypt\r\nJordan\r\nMorocco\r\n17\r\n Lac+ \r\n(\r\n1.7\r\n MILLION+)\r\nApplications\r\n200\r\n+\r\nEmployment\r\n",
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:11:08.275Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T17:11:08.275Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a9f64bdfda86433ae70c7"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "sectionKey": "ISO Certificates",
+  "title": "ISO/IEC 27701:2019",
+  "contentHtml": "\r\nPrivacy Information Management System",
+  "images": [
+    "/api/uploads/1767546724274.png"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:12:04.302Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T17:12:04.302Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a9f8bbdfda86433ae70ce"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "sectionKey": "ISO Certificates",
+  "title": "ISO/IEC 27001-2022 ",
+  "contentHtml": "\r\nInformation Security Management System",
+  "images": [
+    "/api/uploads/1767546763899.png"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T17:12:43.911Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T17:12:43.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ab1d5dde0cecedd94d525"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "sectionKey": "What Should Indians Know Before Visiting Japan?",
+  "title": "What Should Indians Know Before Visiting Japan?",
+  "contentHtml": "Japan, situated as an island nation in East Asia, lies along the eastern shoreline of the Asian continent, spanning from the Sea of Okhotsk in the north to the East China Sea and the Philippine Sea in the south. Renowned as the 'Land of the Rising Sun', Japan boasts 20 UNESCO World Heritage sites.\r\n\r\nBeyond these, the country is celebrated for its natural landscapes, intricate gardens, ancient temples, vibrant festivals, diverse cuisine, significant historical landmarks, and captivating theme parks. Given this rich history, it's no wonder that Japan draws millions of tourists annually.\r\n\r\nIf you want to visit the country and witness the beauty, securing a tourist visa is essential. In this guide, we delve into the necessary steps for an Indian national to obtain a Japan tourist visa, also referred to as a short-term visa.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/api/uploads/1767551444862.png"
+  ],
+  "badge": {
+    "text": "5M+ Happy Customers",
+    "background": "#c8091c"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T18:30:45.154Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:29:53.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ab23adde0cecedd94d576"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "sectionKey": "Essential Travel Tips for Indian Tourists Visiting Japan",
+  "title": "Essential Travel Tips for Indian Tourists Visiting Japan",
+  "contentHtml": "Punctuality:\r\nBe prepared for Japan’s renowned efficiency. Familiarize yourself with the extensive network of trains, buses, and subways. Consider purchasing a JR Pass for convenient travel between major cities to make your travel smooth\r\n\r\nCash vs. Cards:\r\nWhile credit cards are gaining acceptance, carrying cash is still recommended for smaller purchases and local eateries. ATMs are widely available in major cities and tourist areas.\r\n\r\nRespect the culture:\r\nBe mindful of Japanese customs. Learn about bowing, a gesture of respect. It’s customary to take off shoes indoors and avoid loud noises in public areas like trains and libraries. Tipping is generally not expected, a simple “ありがとうございした (Arigatou Gozaimashita)” – meaning “Thank you very much” – suffices.\r\n\r\nLanguage & communication:\r\nWhile English proficiency is improving, basic Japanese phrases will go a long way. Downloading translation apps or carrying a Japanese phrasebook can be helpful for everyday interactions.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T18:32:26.792Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T08:50:01.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ab2abdde0cecedd94d643"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "sectionKey": "Top Tourist Destinations in Japan for Indian Travelers",
+  "title": "Top Tourist Destinations in Japan for Indian Travelers",
+  "contentHtml": "\r\nStep into the world of your favourite anime! Visit real-life locations that inspired iconic scenes. try your hand at making traditional dishes like Takoyaki, Hike the majestic Mount Fuji, a UNESCO World Heritage Site, and witness the ethereal beauty of the Japanese Alps.\r\n\r\nTokyo:\r\nThe vibrant capital city with immense energy. Explore iconic landmarks like Tokyo tower, shopping districts, and futuristic neighbourhoods.\r\n\r\nKyoto:\r\nThe cultural heart of Japan. Visit ancient temples, serene gardens, and witness the Geisha district of Gion.\r\n\r\nOsaka:\r\nExperience the lively food scene and the renowned Dotombori district.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T18:34:19.610Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T18:34:19.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ab2e8dde0cecedd94d694"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "sectionKey": "Must-Visit Destinations for Indian Travelers",
+  "title": "Must-Visit Destinations for Indian Travelers",
+  "contentHtml": "Hiroshima Peace Memorial Park:\r\nPay your respects at this poignant reminder of the devastating effects of war and a symbol of hope for peace.\r\n\r\nJapanese Alps:\r\nTrek through the picturesque mountains, dotted with charming villages and offering stunning natural beauty.\r\n\r\nOkinawa:\r\nDiscover the tropical paradise south of mainland Japan. Relax on pristine beaches, explore vibrant coral reefs, and experience the unique Ryukyu culture.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768022968736.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T18:35:20.869Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:29:28.742Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ab398dde0cecedd94d743"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "sectionKey": "Japan Tourist Visa Fees, Validity & Processing Time for Indian Citizens",
+  "title": "Japan Tourist Visa Fees, Validity & Processing Time for Indian Citizens",
+  "contentHtml": "30/60 Days Tourist Visa\r\nProcessing time: 10 working days after appointment date\r\nStay period: 30 days\r\nEntry: Single/Multiple\r\nFees: INR 4,200/-",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T18:38:16.108Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T18:38:16.108Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1ce2b35f8f599de4d1ef"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "What Should Indians Know Before Visiting Egypt?",
+  "title": "What Should Indians Know Before Visiting Egypt?",
+  "contentHtml": "\r\nEgypt is a country in northeast Africa known for its ancient pyramids, like the Great Pyramid of Giza and the Sphinx. The capital is Cairo, and the Nile River runs through the country, providing water and fertile land. Egypt relies on tourism, agriculture, and the Suez Canal for its economy. Whether you love tourist-friendly environments, the diverse culture, or and its Pyramids, the Republic of Egypt has it all.\r\n\r\nEgypt sits between both Asia and Africa, connecting both continents together through the Sinai Peninsula. This amazing country is home to the civilizations of the Pharaohs, Nubians, Persians, Greeks and many more. It is home to the longest and oldest river, i.e. the Nile.\r\n\r\nIf you are going for a holiday, the best time to experience the beauty of Egypt is from mid-October to May. If you are planning to visit this beautiful country, here are some tips and tricks you should follow to make your travel smooth.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/api/uploads/1767578850864.png"
+  ],
+  "badge": {
+    "text": " 5M+ Happy Customers",
+    "background": "#db0a15"
+  },
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:07:30.877Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:23:44.063Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1cffb35f8f599de4d244"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "Egypt Visa Application Centres for Indians Now in:",
+  "title": "Egypt Visa Application Centres for Indians Now in:",
+  "contentHtml": "\r\nDelhi\r\nMumbai\r\nKolkata\r\nChennai\r\nSilliguri\r\nBangalore",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:07:59.683Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:07:59.683Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1d26b35f8f599de4d299"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "Essential Travel Tips for Indian Tourists Visiting Egypt",
+  "title": "Essential Travel Tips for Indian Tourists Visiting Egypt",
+  "contentHtml": "\r\nThe official language of Egypt is Arabic. Although English is widely understood by the population, it is recommended to learn a few important phrases & words in Arabic. \r\n\r\n\r\nDuring summers, Egypt can reach up to 45’C so make sure you carry a lot of sun screen to protect your skin from the sun and a water bottle to hydrate yourself.\r\n\r\n\r\nDuring winter nights, temperatures may drop low enough to give you chills, so remember to pack your warm socks and sweaters.\r\n\r\n\r\nIndia is only 3.5 hours ahead of Egypt’s time Jetlag in Egypt will never be a problem and won’t disrupt your holidays, so you can go there without any worries.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:08:38.290Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T11:52:29.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1d7cb35f8f599de4d352"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "Top Tourist Destinations in Egypt for Indian Travelers",
+  "title": "Top Tourist Destinations in Egypt for Indian Travelers",
+  "contentHtml": "Famous for its iconic landmarks, the Great Pyramid of Giza, one of the Seven Wonders of the World, remains the oldest and most enduring attraction in Egypt. \r\n\r\nIf you hadn’t visited Khan-El-Khalili market, a shopping utopia for enthusiasts, your trip to Cairo, the capital of Egypt, would not be complete. There are many of souks and bazaars to visit, so there are lots of souvenirs to take home.\r\n\r\nYour trip wouldn’t be finished without exploring the different deserts and the Valley of the Kings, where nearly 63 ancient royal tombs, including King Tut’s, are found. When visiting Egypt, make sure to see all the important historical sites and immerse yourself in their rich traditions.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/api/uploads/1767579004761.png"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:10:04.782Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:10:04.782Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1d9ab35f8f599de4d3a7"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "Egyptian Cuisine: A Taste Guide for Indian Travelers",
+  "title": "Egyptian Cuisine: A Taste Guide for Indian Travelers",
+  "contentHtml": "\r\nEgyptian cuisine is a delicious blend of flavours from different cultures. Their main foods include kebabs, rice, baba ghanoush, and koftas seasoned with their special spices. You’ll taste influences from Greek, Syrian, Turkish, Lebanese, and Palestinian cuisines in their dishes. \r\n\r\nIf you’re near the coast, expect more fish-based meals, while further south, you’ll find spicier dishes with North African flavours. Don’t miss out on trying their tasty specialties.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/api/uploads/1767579034783.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:10:34.796Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:10:34.796Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1e11b35f8f599de4d46a"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "Are You Planning to Visit Egypt?",
+  "title": "Are You Planning to Visit Egypt?",
+  "contentHtml": "\r\nExperience the wonders of Egypt hassle-free with our reliable visa service tailored for Indian tourists. Say goodbye to the stress of navigating visa procedures and let us handle the paperwork for you. With our expertise, obtaining your Egypt visa for Indian tourists is simple and efficient. Enjoy peace of mind knowing that your travel documentation is in good hands, allowing you to focus on creating unforgettable memories in this captivating destination. Whether you’re marveling at the pyramids or savouring Egyptian delicacies, let us take care of your visa needs so you can make the most of your Egyptian adventure. Contact us today to streamline your travel experience.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/api/uploads/1767579153536.png"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:12:33.547Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:12:33.547Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1ec6b35f8f599de4d522"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "Egypt Visa Overview: Types, Processing, Fees, and Validity",
+  "title": "Tourist Visa",
+  "contentHtml": "Processing time:  7 to 9 working days\r\n        Single Entry\r\nStay period: 30 days\r\n\r\nValidity: 60 Days\r\n\r\nVisa Fees: INR 2700/-\r\n\r\nServices Fees: 500 INR*\r\n\r\n   Multiple Entry\r\n\r\nStay period: 60 days\r\n\r\nValidity: 90 Days\r\n\r\nVisa Fees: INR 5800/-\r\n\r\nServices Fees: 500 INR*",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:15:34.894Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:15:34.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1f22b35f8f599de4d577"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "Egypt Visa Overview: Types, Processing, Fees, and Validity",
+  "title": "Business Visa",
+  "contentHtml": "Processing time: 7 to 9 working days\r\n\r\n  Single Entry\r\n\r\nStay period:30 days\r\n\r\nValidity:60 Days\r\n\r\nVisa Fees: INR 5800/-\r\n\r\nServices Fees: 500 INR*\r\n\r\n    Multiple Entry\r\n\r\nStay period: 60 days\r\n\r\nValidity: 90 Days\r\n\r\nVisa Fees:INR 8100/-\r\n\r\nServices Fees:500 INR*",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:17:06.900Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:17:06.900Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1f7bb35f8f599de4d5cc"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "Egypt Visa Overview: Types, Processing, Fees, and Validity",
+  "title": "Entry Visa",
+  "contentHtml": "\r\n\r\nProcessing time:7 to 9 working days\r\n \r\n  Single Entry\r\n\r\nStay period:30 days\r\n\r\nValidity:60 Days\r\n\r\nVisa Fees:INR 5800/-\r\n\r\nServices Fees:500 INR*\r\n\r\nMultiple Entry\r\nStay period:60 days\r\n\r\nValidity:90 Days\r\n\r\nVisa Fees:INR 8100/-\r\n\r\nServices Fees:500 INR*",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:18:35.494Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:18:35.494Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1fcfb35f8f599de4d621"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "Egypt Visa Overview: Types, Processing, Fees, and Validity",
+  "title": "Work Visa",
+  "contentHtml": "\r\n\r\nProcessing time:\r\n\r\n7 to 9 working days\r\n\r\nSingle Entry\r\n\r\nStay period:30 days\r\n\r\nValidity:60 Days\r\n\r\nVisa Fees:INR 5800/-\r\n\r\nServices Fees:500 INR*\r\n\r\nMultiple Entry\r\n\r\nStay period:60 days\r\n\r\nValidity:90 Days\r\n\r\nVisa Fees:INR 8100/-\r\n\r\nServices Fees:500 INR*",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:19:59.815Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:19:59.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b202eb35f8f599de4d676"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "sectionKey": "Egypt Visa Overview: Types, Processing, Fees, and Validity",
+  "title": "Transit Visa",
+  "contentHtml": "\r\nProcessing time:7 to 9 working days\r\n\r\nSingle Entry\r\n\r\nStay period:30 days\r\n\r\nValidity:60 Days\r\n\r\nVisa Fees:INR 5800/-\r\n\r\nServices Fees:500 INR*\r\n\r\nMultiple Entry\r\nStay period:60 days\r\n\r\nValidity:90 Days\r\n\r\nVisa Fees:INR 8100/-\r\n\r\nServices Fees:500 INR",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:21:34.645Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:21:34.645Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b29d3252e850548926ad3"
+  },
+  "formId": {
+    "$oid": "695b2827252e850548926a67"
+  },
+  "sectionKey": "heroBottom",
+  "title": "heroBottom",
+  "contentHtml": "Du Global Ltd has partnered with the Embassy of Lebanon to provide visas for all categories like Tourists, Business, Student, Transit and Officials/Diplomats. We also have partnered with the embassy to do the Attestations /Legalization for all documents. We have offices in India, Nepal, Bangladesh and Dubai.\r\n\r\nPlease refer to the charges and other details below:-\r\nVisa Fee:\r\n\r\n\r\n// after table \r\n\r\n* Please be advised during the time of submission in Nepal and Bangladesh centres for Lebanon Visa, It is mandatory for all applicants to opt 2 way courier services for a smooth application process.\r\nImportant Notes:\r\nFor Nepal: Visa fee would be only accepted in Demand Draft in INR.It should be payable in New Delhi favoring “EMBASSY OF LEBANON”.\r\n\r\nOnly a single demand draft would be acceptable for payment of Visa application charge.\r\n\r\nFor Bangladesh: Visa fee would be only accepted through SWIFT payment directly in the Embassy account.\r\n\r\n\r\n",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [
+      "Main – Category",
+      "Sub Categories",
+      "Fee  (INR)",
+      "Fee  (NPR)",
+      "Fee  (BDT)"
+    ],
+    "rows": [
+      [
+        "",
+        "Single Entry",
+        "6600",
+        "10600",
+        "8200"
+      ],
+      [
+        "Tourist",
+        "Double Entry",
+        "9400",
+        "15100",
+        "11700"
+      ],
+      [
+        "",
+        "Multiple Entry",
+        "13150",
+        "21100",
+        "16300"
+      ],
+      [
+        "Business",
+        "Single Entry",
+        "6600",
+        "10600",
+        "8200"
+      ],
+      [
+        "",
+        "Double Entry",
+        "9400",
+        "15100",
+        "11700"
+      ],
+      [
+        "",
+        "Multiple Entry",
+        "13150",
+        "21100",
+        "16300"
+      ],
+      [
+        "",
+        "Single Entry",
+        "6600",
+        "10600",
+        "8200"
+      ],
+      [
+        "Student",
+        "Double Entry",
+        "9400",
+        "15100",
+        "11700"
+      ],
+      [
+        "",
+        "Multiple Entry",
+        "13150",
+        "21100",
+        "16300"
+      ],
+      [
+        "Transit",
+        "Double Entry",
+        "9400",
+        "15100",
+        "11700"
+      ]
+    ]
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T03:02:43.880Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:57:13.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b2aa5252e850548926b89"
+  },
+  "formId": {
+    "$oid": "695b2827252e850548926a67"
+  },
+  "sectionKey": "Beneficiary Name: Embassy of Lebanon.",
+  "title": "Beneficiary Name: Embassy of Lebanon.",
+  "contentHtml": "\r\n\r\nAccount No. : 409000274439\r\n\r\nSwift Code: RATNINBB\r\n\r\nBranch: RBL Bank Ltd. New Delhi.\r\n\r\nService Fee:",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [
+      " Service Fee",
+      "fee inr",
+      "fee nrp",
+      "  Fee  (BDT)"
+    ],
+    "rows": [
+      [
+        "",
+        "6000",
+        "9000",
+        "10000"
+      ],
+      [
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T03:06:13.322Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T03:06:13.322Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695bf3c87c5156498dd5516e"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "sectionKey": "Global Experts in",
+  "title": " Visa - Passports - Consular - PR & Citizenship Services",
+  "contentHtml": "\r\nDU Global is a leading provider with a global footprint, offering specialized services for administrative tasks related to visa processing, passport management, identity verification, and other citizen services. Our expertise extends to Company Formation in the UAE and Immigration, Residency & Citizenship programs, ensuring seamless solutions for our customers.\r\n",
+  "youtubeUrl": "https://www.youtube.com/embed/uoKM7PFNlRg",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T17:24:24.649Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T17:24:24.649Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695bf4197c5156498dd551cb"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "sectionKey": "We cater visas for Bangladesh Residents travelling to",
+  "title": "We cater visas for Bangladesh Residents travelling to",
+  "contentHtml": "Effortless visa solutions for travel, work, or residency. Experience fast processing, expert guidance, and a seamless journey to your destination.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1767633945112.webp"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T17:25:45.146Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T17:25:45.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695bf44b7c5156498dd55228"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "sectionKey": "We cater visas for Bangladesh Residents travelling to",
+  "title": "Singapore",
+  "contentHtml": "",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1767633995933.png"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T17:26:35.943Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T17:26:35.943Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695bf4697c5156498dd55285"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "sectionKey": "We cater visas for Bangladesh Residents travelling to",
+  "title": "UAE",
+  "contentHtml": "",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1767634025125.png"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T17:27:05.135Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T17:27:05.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695bf4a47c5156498dd552e2"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "sectionKey": "Company Setup in UAE",
+  "title": "Company Setup in UAE",
+  "contentHtml": "Expand into the UAE with ease and confidence. Our end-to-end services include trade licenses, banking solutions, and expert assistance, ensuring 100% ownership and hassle-free operations. Trust us to deliver cost-effective and comprehensive solutions for your business needs.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1767634084782.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T17:28:04.864Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T17:28:04.864Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d1cf40fc4633e5776bcdb"
+  },
+  "formId": {
+    "$oid": "695d1c940fc4633e5776bc4b"
+  },
+  "sectionKey": "VIP clearance service at Malaysian Immigration",
+  "title": "Meet & Greet Service",
+  "contentHtml": "\r\nSkip long queues and language barriers. Our dedicated agent will assist you through all airport formalities, from security to immigration, making your passage smooth and effortless.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768144108198.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T14:32:20.184Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:08:28.202Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d1d290fc4633e5776bd3c"
+  },
+  "formId": {
+    "$oid": "695d1c940fc4633e5776bc4b"
+  },
+  "sectionKey": "VIP clearance service at Malaysian Immigration",
+  "title": "Premium Arrival Support",
+  "contentHtml": "\r\nArriving in Malaysia? Our agent will meet you at the arrival gate, guide you through airport formalities, and ensure a swift journey to the baggage area. Our porter will handle your luggage, guaranteeing a hassle-free experience.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768144084565.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T14:33:13.902Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:08:04.567Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d1d6f0fc4633e5776be02"
+  },
+  "formId": {
+    "$oid": "695d1c940fc4633e5776bc4b"
+  },
+  "sectionKey": "What we offer ?",
+  "title": "Premium Connecting Flight Support",
+  "contentHtml": "\r\nGetting from KLIA-T1 to KLIA-T2 can sometimes be a be a stressful experience. We offer airport transfer solution to this problem which comes in different forms; Airport shuttle, Minibus or even a Private Taxi or Coach all offering a direct transfer between the airports.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768144139983.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T14:34:23.121Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:08:59.986Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d1df60fc4633e5776becf"
+  },
+  "formId": {
+    "$oid": "695d1c940fc4633e5776bc4b"
+  },
+  "sectionKey": "Official Malaysia Visa Application Centres now near you",
+  "title": "Official Malaysia Visa Application Centres now near you",
+  "contentHtml": "Delhi\r\nMumbai\r\nChennai\r\nKolkata\r\nBangalore\r\nSilliguri\r\nGuwahati\r\nBongaigoan\r\nSilchar",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1767710198465.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T14:36:38.486Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-06T14:36:38.486Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d338217a7ffe259b407fa"
+  },
+  "formId": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "sectionKey": "What is DuVerify",
+  "title": "What is DuVerify",
+  "contentHtml": "DUVerify is an advanced and comprehensive verification platform that is designed to help applicants for visas quickly and accurately verify their identity, nationality, passport, travel history, banking and financial history, income tax data and criminal record.\r\n\r\nOur system is capable of conducting detailed checks and producing digital imprints of applicants to ensure their eligibility for the visa application process. Our software is simple and easy to use, and allows applicants to verify themselves in a matter of minutes with 100% accuracy.\r\n\r\nDUVerify saves both time and money for applicants, allowing them to quickly and easily verify their credentials without having to visit a consulate or an embassy. DuVerify is the perfect solution for applicants who need to apply for visas, whether it is for a visit, work, business, student or permanent immigration. With our verification platform, applicants can rest assured that their personal information and documents are verified accurately and quickly, making the visa application process a breeze!",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T16:08:34.328Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-06T16:08:34.328Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d33e317a7ffe259b4092a"
+  },
+  "formId": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "sectionKey": "bottomhero",
+  "title": "bottomhero",
+  "contentHtml": "DU Global Ltd has partnered with Embassy of Georgia in India to provide secure and efficient backend verification of the applicants in the two-step process. With the e-visa system, Indian citizens can apply for their visas online, pay their visa fee, and receive their visas via email within just a few days. To learn more about the new e-visa system or to apply for a visa, please visit the official website of the Ministry of Foreign Affairs of Georgia – https://www.evisa.gov.ge/GeoVisa/",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T16:10:11.142Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-06T16:10:11.142Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695d341f17a7ffe259b4098f"
+  },
+  "formId": {
+    "$oid": "695d333917a7ffe259b40778"
+  },
+  "sectionKey": "Revised process to apply Georgia Visa-",
+  "title": "Revised process to apply Georgia Visa-",
+  "contentHtml": "The launch of its new e-visa system, designed to make applying for a visa to Georgia simpler and faster than ever before. Once the application is submitted, applicants will be required to pay the visa fee and upload documents supporting the application.\r\n\r\nAfter successful visa payment applicant will be directed to DUVerify platform to upload more documents and information to verify and strengthen visa application.\r\n\r\nAfter the documents have been verified, applicants will receive their visa via email. The e-visa system is an easy and convenient way for Indian citizens to get their visas quickly and securely. We hope that this new system will make it easier for Indian citizens to visit and explore Georgia. To learn more about the new e-visa system or to apply for a visa, please visit the official website of the Ministry of Foreign Affairs of Georgia – https://www.evisa.gov.ge/GeoVisa/",
+  "youtubeUrl": "https://dudigitalglobal.com/wp-content/uploads/2024/08/Video-Compressed.mp4",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-06T16:11:11.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-06T16:11:11.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7edf1887191413ec51f7"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "sectionKey": "Fees, Processing Time & Validity",
+  "title": "Note",
+  "contentHtml": "\r\nRenewal and permit conversion rules apply under Greece immigration law ",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T09:54:39.657Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:57:48.319Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f865c1887191413ec52c6"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Unmatched Value",
+  "contentHtml": "\r\nAll-inclusive packages designed just for you – no hidden serbia work permit cost.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:26:36.602Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:26:36.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f86c91887191413ec52dc"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Service that Exceeds Expectations",
+  "contentHtml": "\r\nFor Serbia work permit apply online, our responsive, professional visa experts are just a call, email, or walk-in away to help you.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:28:25.231Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:28:25.231Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f89cb1887191413ec53e9"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Additional Requirements",
+  "title": "For Retired People",
+  "contentHtml": "\r\nProof of your retirement, such as a pension book.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:41:15.202Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:41:15.202Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f8a031887191413ec53f2"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Additional Requirements",
+  "title": "For Students",
+  "contentHtml": "\r\nYour school or college ID card.\r\nYour student enrollment certificate.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:42:11.880Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:42:11.880Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f8efb1887191413ec5474"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Proven Record",
+  "contentHtml": "\r\nWe have helped millions to apply for their visas and move to new countries. We make innovative plans to help you use it better and enhance your chances of approval. \t\t\t\t\t",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1767870203578.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:03:23.584Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:03:23.584Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f8fa91887191413ec548a"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Customer Support",
+  "contentHtml": "We care for our clients. And that is why we offer way more than basic support. Get dedicated support at every step of your journey for rapid goal achievement. ",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1767870377499.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:06:17.520Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:06:17.520Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f8ffe1887191413ec54b7"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "How to Apply for your South Korea Visa",
+  "title": "Payment",
+  "contentHtml": "\r\nPay your visa application fee through our secure payment gateway.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:07:42.703Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:07:42.703Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f90261887191413ec54c2"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "How to Apply for your South Korea Visa",
+  "title": "Processing",
+  "contentHtml": "\r\nYour visa application will be processed within the given time.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 15,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:08:22.670Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:08:22.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f904f1887191413ec54d0"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "How to Apply for your South Korea Visa",
+  "title": "Visa Delivery",
+  "contentHtml": "\r\nGet your visa through either courier or email.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:09:03.793Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:09:03.793Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f90861887191413ec54dc"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Additional Requirements",
+  "title": "For Minors",
+  "contentHtml": "Your birth certificate.\r\nNo objection certificate from parents.\r\nYour parent’s ID proof, such as their passport or PAN card.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 17,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:09:58.732Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:09:58.732Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f90a11887191413ec54e5"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Additional Requirements",
+  "title": "For Visiting Friends or Families Abroad",
+  "contentHtml": "\r\nAn invitation letter.\r\nProvide proof of your inviter’s ID, such as your passport.\r\nAddress proof, such as their utility bills.\r\nYour proof of relationship with the inviter.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 18,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:10:25.638Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:10:25.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f90c81887191413ec54ee"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Additional Requirements",
+  "title": "For Business Visa Applicants",
+  "contentHtml": "\r\nAn invitation letter from your South Korean company highlights the reason for your trip.\r\nA cover letter from your Indian company on the letterhead.\r\nBusiness registration certificate for both these companies.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 19,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:11:04.104Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:11:04.104Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f90e51887191413ec54f9"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Additional Requirements",
+  "title": "For Sponsored Trips",
+  "contentHtml": "\r\nYour sponsorship letter.\r\nProvide proof of your sponsor’s ID, such as their passport.\r\nTheir bank statement for the last six months.\r\nYour sponsor’s income tax returns for the three years.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 20,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:11:33.613Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:11:33.613Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f92401887191413ec552c"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "sectionKey": "Additional Documents for Your Australia Tourist Visa (As Applicable)",
+  "title": "For Name Change (If Applicable):",
+  "contentHtml": "\r\nOfficial name change declaration or certificate.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:17:20.581Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:17:20.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69608883aff2d18d540b9e4a"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Why Choose DuVerify?",
+  "title": "Comprehensive Solutions",
+  "contentHtml": "\r\nVerify identity, passport, travel history, financial data, income tax records, and criminal records in one place.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T04:48:03.197Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T04:52:32.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696088b5aff2d18d540b9e55"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Why Choose DuVerify?",
+  "title": " Customizable and Scalable",
+  "contentHtml": "\r\nTailored to meet the unique needs of consulates and organizations, integrating seamlessly with existing systems.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T04:48:53.531Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T04:52:50.871Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696088e6aff2d18d540b9e5e"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "Why Choose DuVerify?",
+  "title": "Proven Track Record",
+  "contentHtml": "\r\nTrusted by the Embassy of Georgia and the Embassy of the Republic of South Korea for advanced e-visa and document verification services.\r\n",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T04:49:42.383Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T04:53:13.158Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69608c1eaff2d18d540b9f2a"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "What DuVerify Can Do for You",
+  "title": "Financial Data Validation",
+  "contentHtml": "\r\nVerify banking, income tax, and financial histories.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T05:03:26.601Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T05:03:26.601Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69608c41aff2d18d540b9f33"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "What DuVerify Can Do for You",
+  "title": "Criminal Record Checks",
+  "contentHtml": "\r\nEnsure compliance with regulatory standards.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T05:04:01.175Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T05:04:01.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69608c68aff2d18d540b9f3e"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "What DuVerify Can Do for You",
+  "title": "Customizable Features",
+  "contentHtml": "\r\nTailor workflows and screens to your specific need",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T05:04:40.431Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T05:04:40.431Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961214daff2d18d540ba19a"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Visa Application Centre Addresses",
+  "title": "Visa Application Centre Addresses",
+  "contentHtml": "",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [
+      "Locations",
+      "Centre Address"
+    ],
+    "rows": [
+      [
+        "Delhi",
+        "C-4 Safdarjung Development Area, Community Centre, Hauz Khas, New Delhi-110016"
+      ],
+      [
+        "Mumbai ",
+        "Unit no. 404-B, 4th Floor, Prathamesh Tower – B Wing, C.S. No. 107 – Lower Parel Division, Raghuvanshi Mill, 11, 12 Senapati Bapat Marg, Lower Parel, Mumbai – 400013"
+      ],
+      [
+        "Chennai",
+        "No: 11/12, 3rd Floor, Alsa Mall Shopping Complex, 149, Monteith Road, Egmore, Chennai, Tamil Nadu 600 008"
+      ],
+      [
+        "Kolkata",
+        "Infinium Digispace, 1st Floor, CP Block, Sector V, Bidhannagar, Kolkata, West Bengal 700091"
+      ],
+      [
+        "Guwahati",
+        "Exotica Greens, 4th Floor, RG Baruah Rd, Guwahati, Assam / P.S-Geetanagar / P.O-Japorigog Post Office / District- Kamrup (Metro), Assam - 781005"
+      ],
+      [
+        "Bangladesh",
+        "PBL Tower (13th Floor), 17, Gulshan North C/A, Gulshan-2, Dhaka-1212"
+      ]
+    ]
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T15:39:57.050Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T15:39:57.050Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69612a09aff2d18d540ba2f2"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Get Started Today!",
+  "title": "Get Started Today!",
+  "contentHtml": "Ready to take the next step? Simply fill out our online contact form or call our hotline for a free eligibility assessment. DU Global is your partner in success—trusted by thousands of professionals across South Asia.\r\n\r\nNote: A decisive role in whether you need a visa to stay in Serbia for up to 180 days is played by the visa regime of the country you are coming from, as well as the purpose of your stay.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1767975433987.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T16:17:13.997Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T16:17:13.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69612a7eaff2d18d540ba304"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "sectionKey": "Connect with us",
+  "title": "Karan Khurana",
+  "contentHtml": "Deputy General Manager-Global Access\r\n📧 Email – karan@dudigitalglobal.com\r\n📞 Mobile – +919910987275",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T16:19:10.386Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T16:19:10.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69613fae534439425b9388bc"
+  },
+  "formId": {
+    "$oid": "695803994fb0cabf62f1e5a4"
+  },
+  "sectionKey": "About DuVerify",
+  "title": "DuVerify, a product by Du Global Ltd (NSE: DUGLOBAL), is an advanced digital platform designed to streamline the document verification process for embassies, consulates, and organizations. Leveraging cutting-edge technologies such as artificial intelligence and machine learning, DuVerify ensures:",
+  "contentHtml": "Authenticity of documents\r\nDetection of fraudulent activities\r\nPrevention of tampering\r\nReal-time results and seamless system integration",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1767980974132.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T17:49:34.148Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T17:49:34.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69614424534439425b938969"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "sectionKey": "Why Choose DU Global",
+  "title": "Why Choose DU Global",
+  "contentHtml": "\r\nTrusted for international travel documentation\r\nFast & secure process for all 4 countries\r\nReal time support to guide you step-by-step",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1767982116261.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-09T18:08:36.269Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-09T18:08:36.269Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d284ca39aa07aeec2d87"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Our Strength",
+  "title": "Seasoned Professionals",
+  "contentHtml": "\r\nEstablishing a company in the UAE is simple. Our team of professionals is always available to assist you with your needs.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:16:04.078Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:16:04.078Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d2c9ca39aa07aeec2d94"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Types of Business License in the UAE",
+  "title": "Tourism License",
+  "contentHtml": "\r\nIn a nation famed for its hospitality and tourism sector, the tourism license serves as an entry point for businesses in travel agencies, tour operators, and hospitality services. With Dubai's ambitious tourism aspirations, this license presents ample prospects for HNIs to capitalize on the flourishing tourism industry.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 15,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:17:13.670Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:17:13.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d389ca39aa07aeec2db9"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Steps to Set Up a Business in the UAE Free Zones",
+  "title": "Secure Office Space",
+  "contentHtml": "\r\nDetermine the suitable office space, either through purchasing or leasing, depending on your business’s needs.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768018825559.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:20:25.566Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:20:25.566Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d3c3ca39aa07aeec2ddc"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Steps to Set Up a Business in the UAE Free Zones",
+  "title": "Obtain Approvals & Register",
+  "contentHtml": "\r\nGet initial approval, business approvals, and register your company on the free zone authority’s portal.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768019019078.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 17,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:21:23.427Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:23:39.082Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d40bca39aa07aeec2de9"
+  },
+  "formId": {
+    "$oid": "69589e1b2fa03d607e87d9ef"
+  },
+  "sectionKey": "Steps to Set Up a Business in the UAE Free Zones",
+  "title": "Obtain The License",
+  "contentHtml": "\r\nOnce the process is completed, you will receive your business license to start your operations within 2-4 weeks",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768018955863.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 18,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:22:35.870Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:22:35.870Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d528ca39aa07aeec2e33"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Why Choose DU Global?",
+  "title": "Diversity and Local Expertise",
+  "contentHtml": "\r\nOur global recruitment services help clients create diverse teams with different cultures. Plus, we ensure to follow local hiring rules to ensure a fair and ethical hiring process. All of this is possible due to our local knowledge. Such a commitment ensures an unbiased hiring every time.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 13,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:27:20.695Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:27:20.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d562ca39aa07aeec2e3e"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Our Services",
+  "title": "Onboarding & Compliance",
+  "contentHtml": "\r\nOur global recruitment services support new hires throughout their transition by managing orientation, documentation, payroll integration, and legal formalities. Every step is carried out in strict accordance with local labor laws and compliance standards, ensuring a smooth start for your employees and complete peace of mind for you.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 14,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:28:18.514Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:28:18.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d5faca39aa07aeec2e49"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Industries We Serve",
+  "title": "Oil, Gas, and Energy",
+  "contentHtml": "Rig Technician\r\n\r\nInstrumentation Technician\r\n\r\nPetroleum Engineer\r\n\r\nOffshore Driller\r\n\r\nPipeline Welder\r\n\r\nHSE Officer (Health, Safety, and Environment)\r\n\r\nOilfield Electrician",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 15,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:30:50.533Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:30:50.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d657ca39aa07aeec2e54"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Industries We Serve",
+  "title": "IT and Digital",
+  "contentHtml": "Full Stack Developer\r\n\r\nCloud Engineer (AWS, Azure)\r\n\r\nDevOps Engineer\r\n\r\nCybersecurity Analyst\r\n\r\nSAP Consultant\r\n\r\nAI/ML Specialist\r\n\r\nData Scientist\r\n\r\nUI/UX Designer",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 16,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:32:23.135Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:32:23.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d6a4ca39aa07aeec2e73"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Industries We Serve",
+  "title": "Healthcare",
+  "contentHtml": "Registered Nurse (RN)\r\n\r\nGeneral Practitioners\r\n\r\nPhysiotherapists\r\n\r\nHealthcare Assistants\r\n\r\nLab Technicians\r\n\r\nDentists\r\n\r\nRadiographers\r\n\r\nElderly Care Nurses",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 17,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:33:40.393Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:33:40.393Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d722ca39aa07aeec2ea0"
+  },
+  "formId": {
+    "$oid": "6957fe9d4fb0cabf62f1e51b"
+  },
+  "sectionKey": "Industries We Serve",
+  "title": "Construction & Engineering",
+  "contentHtml": "Civil Engineer\r\n\r\nMason (Block, Tile, Plaster)\r\n\r\nElectrician (Building)\r\n\r\nPlumber\r\n\r\nSteel Fixer\r\n\r\nShuttering Carpenter\r\n\r\nSite Supervisor\r\n\r\nHVAC Technician\r\n\r\nQuantity Surveyor\r\n\r\nLand Surveyor",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 18,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:35:46.810Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:35:46.810Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d81bca39aa07aeec2ee0"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Key Benefits",
+  "title": "Time-Saving",
+  "contentHtml": "\r\nQuick and seamless verification process that delivers results within hours.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:39:55.366Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:39:55.366Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d83eca39aa07aeec2eeb"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Key Benefits",
+  "title": "Data Security",
+  "contentHtml": "\r\nAll information is handled securely and confidentially, maintaining strict privacy standards.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:40:30.588Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:40:30.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d96aca39aa07aeec2f27"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Deliverables",
+  "title": "Comprehensive Report",
+  "contentHtml": "\r\n\r\nIncludes identity, criminal, and financial check summaries.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768020330958.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:45:30.965Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:45:30.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d9a8ca39aa07aeec2f32"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Deliverables",
+  "title": "Verification Score",
+  "contentHtml": "A simple rating to help you make informed decisions.\t\t\t\t\t\t\t\t",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:46:32.703Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:46:32.703Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961d9f9ca39aa07aeec2f3d"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Deliverables",
+  "title": "Detailed Recommendations",
+  "contentHtml": "Tailored insights on next steps based on findings.\t\t\t\t\t\t\t\t",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768020473544.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:47:53.550Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:47:53.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961da3bca39aa07aeec2f48"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "sectionKey": "Deliverables",
+  "title": "Fast Turnaround",
+  "contentHtml": "\r\nReports delivered within 4-6 hours for most cases.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768020539983.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:48:59.998Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:48:59.998Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961dbeeca39aa07aeec2fc4"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "sectionKey": "E-VISA APPLICATION PROCESS",
+  "title": "Fly To India",
+  "contentHtml": "\r\nPrint ETA and present at Immigration Check Post",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:56:14.748Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:56:14.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961e16aca39aa07aeec30df"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Designated Travel Agency by the Embassy of the Republic of Korea in India",
+  "title": "Designated Travel Agency by the Embassy of the Republic of Korea in India",
+  "contentHtml": "DU Global is proud to be certified as one of the designated travel agencies by the Embassy of Republic of Korea in India. This shows our commitment to provide faithful and effective visa support services. We help clients with the complete Korean visa application process to ensure precision, clarity, and punctuality.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768022378728.png"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 21,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:19:38.736Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:19:38.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961e1a6ca39aa07aeec30ef"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "sectionKey": "Designated Travel Agency for the Korea Tourism Organization (KTO)",
+  "title": "Designated Travel Agency for the Korea Tourism Organization (KTO)",
+  "contentHtml": "DU Global is grateful to be a designated travel agency for Korea Tourism Organization (KTO). Knowledge of Korean culture and visa requirements allow us to offer bespoke travel experiences. See the best of South Korea from lively cities to beautiful landscapes. \r\n\r\nChoose us for solid guidance, travel planning, and support for a memorable experience. Whether you wish to go for fun, work, or learning, DU Global makes your South Korean adventure unforgettable.",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768022438910.jpg",
+    "/uploads/1768110848491.jpg"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 22,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:20:38.918Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T05:54:08.497Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961e68fca39aa07aeec322f"
+  },
+  "formId": {
+    "$oid": "695bf34c7c5156498dd550c0"
+  },
+  "sectionKey": "We cater visas for Bangladesh Residents travelling to",
+  "title": "Ireland",
+  "contentHtml": "",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768023695491.png"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:41:35.504Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:41:35.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6963c45348493f6236a76ebb"
+  },
+  "formId": {
+    "$oid": "695d1c940fc4633e5776bc4b"
+  },
+  "sectionKey": "How It Works?",
+  "title": "How It Works?",
+  "contentHtml": "",
+  "youtubeUrl": "",
+  "tableData": {
+    "headers": [],
+    "rows": []
+  },
+  "images": [
+    "/uploads/1768146003935.png"
+  ],
+  "layout": "LEFT_TEXT_RIGHT_IMAGE",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-11T15:40:03.951Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T15:40:56.876Z"
+  },
+  "__v": 0
+}]

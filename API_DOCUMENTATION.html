@@ -1,0 +1,1377 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>DU Digital Technical Documentation</title>
+<style>
+body { font-family: Calibri, Arial, sans-serif; margin: 32px; color: #111; line-height: 1.45; }
+h1 { font-size: 24pt; margin: 0 0 18px; color: #0f172a; }
+h2 { font-size: 16pt; margin: 24px 0 10px; color: #0f172a; border-bottom: 1px solid #cbd5e1; padding-bottom: 4px; }
+h3 { font-size: 13pt; margin: 18px 0 8px; color: #1e293b; }
+h4 { font-size: 11pt; margin: 14px 0 6px; color: #334155; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0 10px 24px; }
+li { margin: 3px 0; }
+code { font-family: Consolas, "Courier New", monospace; background: #f1f5f9; padding: 1px 4px; border-radius: 3px; }
+pre { font-family: Consolas, "Courier New", monospace; background: #f8fafc; border: 1px solid #cbd5e1; padding: 10px; white-space: pre-wrap; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0 16px; font-size: 10.5pt; }
+th, td { border: 1px solid #94a3b8; padding: 7px 8px; vertical-align: top; }
+th { background: #e2e8f0; text-align: left; }
+</style>
+</head>
+<body>
+<h1>DU Digital Technical Documentation</h1>
+<h2>1. Project Overview</h2>
+<p>This repository contains the full DU Digital platform in three main parts:</p>
+<ul>
+<li><code>client/</code>: Public-facing website used by visitors and customers</li>
+<li><code>admin/</code>: Internal admin panel used by the DU Digital team</li>
+<li><code>backend/</code>: REST API, authentication, file upload handling, and database access</li>
+</ul>
+<p>The system follows a typical full-stack architecture:</p>
+<ol>
+<li>The public website and admin panel are both React applications.</li>
+<li>Both frontends communicate with the Express backend through <code>/api/...</code> endpoints.</li>
+<li>The backend connects to MongoDB through Mongoose models.</li>
+<li>Uploaded files are stored in <code>backend/uploads</code>.</li>
+</ol>
+<p>Base API URL:</p>
+<pre>http://localhost:5000/api</pre>
+<h2>2. High-Level Architecture</h2>
+<pre>client (public website) ----\
+                              ---&gt; backend (Express + TypeScript) ---&gt; MongoDB
+admin (admin panel) --------/
+                              ---&gt; uploads folder for images / files</pre>
+<h2>3. Repository Structure</h2>
+<pre>du-digital/
+├── client/                    # Public React website
+├── admin/                     # React admin dashboard
+├── backend/                   # Express + TypeScript API server
+│   ├── src/
+│   │   ├── controllers/       # Request handlers
+│   │   ├── routes/            # API route definitions
+│   │   ├── models/            # Mongoose schemas/models
+│   │   ├── middleware/        # Auth and upload middleware
+│   │   ├── utils/             # Caching, email, SMS helpers
+│   │   ├── db/                # MongoDB connection setup
+│   │   └── index.ts           # Application entry point
+│   ├── db/                    # JSON snapshots / test data files
+│   ├── seeders/               # Seeder scripts
+│   ├── uploads/               # Uploaded files
+│   └── dist/                  # Compiled backend output
+├── README.md
+└── API_DOCUMENTATION.md</pre>
+<h2>4. Frontend Structure</h2>
+<h3>4.1 Public Website (<code>client/</code>)</h3>
+<p>The <code>client</code> app is the public DU Digital website built with:</p>
+<ul>
+<li>React 19</li>
+<li>Vite</li>
+<li>React Router</li>
+<li>Redux Toolkit</li>
+<li>Tailwind CSS 4</li>
+<li>Swiper</li>
+</ul>
+<p>Important folders:</p>
+<ul>
+<li><code>client/src/pages/</code>: Route-level pages such as Home, About Us, Blogs, Careers, Events, Contact Us</li>
+<li><code>client/src/components/</code>: Reusable UI grouped by feature/domain</li>
+<li><code>client/src/redux/</code>: Redux store and API-related slices</li>
+<li><code>client/src/hooks/</code>: Custom hooks</li>
+<li><code>client/src/utils/</code>: Utility helpers</li>
+<li><code>client/public/</code>: Static assets such as images, icons, and banners</li>
+</ul>
+<p>Feature-oriented component folders include:</p>
+<ul>
+<li><code>client/src/components/home/</code></li>
+<li><code>client/src/components/about-us/</code></li>
+<li><code>client/src/components/careers/</code></li>
+<li><code>client/src/components/news-and-events/</code></li>
+<li><code>client/src/components/become-partner/</code></li>
+<li><code>client/src/components/DigitalArrivalCards/</code></li>
+<li><code>client/src/components/reusable/</code></li>
+</ul>
+<p>Routing is defined in <code>client/src/App.jsx</code>. The public app includes routes like:</p>
+<ul>
+<li><code>/</code></li>
+<li><code>/about-us</code></li>
+<li><code>/contact-us</code></li>
+<li><code>/blogs</code></li>
+<li><code>/blog/:id</code></li>
+<li><code>/events</code></li>
+<li><code>/events/:id</code></li>
+<li><code>/careers</code></li>
+<li><code>/investor-relation</code></li>
+<li><code>/video-gallery</code></li>
+</ul>
+<h3>4.2 Admin Panel (<code>admin/</code>)</h3>
+<p>The <code>admin</code> app is the internal CMS/dashboard built with:</p>
+<ul>
+<li>React 19</li>
+<li>Vite</li>
+<li>React Router</li>
+<li>Redux Toolkit</li>
+<li>Axios</li>
+</ul>
+<p>Important folders:</p>
+<ul>
+<li><code>admin/src/pages/</code>: Admin management screens</li>
+<li><code>admin/src/components/</code>: Shared layout and UI components</li>
+<li><code>admin/src/services/</code>: API request layer</li>
+<li><code>admin/src/context/</code>: Authentication context</li>
+<li><code>admin/src/features/auth/</code>: Redux auth slice and permission state</li>
+</ul>
+<p>Main admin modules:</p>
+<ul>
+<li>Dashboard</li>
+<li>Investor Relations</li>
+<li>Office Manager</li>
+<li>Contact Manager</li>
+<li>Partner Manager</li>
+<li>Gallery Manager</li>
+<li>News Manager</li>
+<li>Event Manager</li>
+<li>Career Manager</li>
+<li>Applicant Manager</li>
+<li>Sales Expert Manager</li>
+<li>Video Manager</li>
+<li>Blog Manager</li>
+<li>Team Member Manager</li>
+<li>User Manager</li>
+<li>Travel Package Manager</li>
+<li>Travel Inquiry Manager</li>
+<li>Form Manager</li>
+<li>Document Manager</li>
+<li>FAQ Manager</li>
+<li>Content Section Manager</li>
+<li>Pricing Plan Manager</li>
+<li>Form Image Manager</li>
+<li>Form Employees Address Manager</li>
+<li>Form Submission Manager</li>
+</ul>
+<p>Routing is defined in <code>admin/src/App.jsx</code>.</p>
+<h2>5. Backend Structure</h2>
+<p>The backend is built with:</p>
+<ul>
+<li>Node.js</li>
+<li>Express</li>
+<li>TypeScript</li>
+<li>Mongoose</li>
+<li>JWT authentication</li>
+<li>Multer for uploads</li>
+<li>CORS</li>
+</ul>
+<h3>5.1 Backend Layers</h3>
+<h4><code>controllers/</code></h4>
+<p>Contains the business logic for each resource. Each controller handles request validation, database operations, and responses.</p>
+<p>Examples:</p>
+<ul>
+<li><code>auth.controller.ts</code></li>
+<li><code>blog.controller.ts</code></li>
+<li><code>event.controller.ts</code></li>
+<li><code>formSubmission.controller.ts</code></li>
+<li><code>travelPackage.controller.ts</code></li>
+</ul>
+<h4><code>routes/</code></h4>
+<p>Maps API endpoints to controller functions.</p>
+<p>Examples:</p>
+<ul>
+<li><code>auth.routes.ts</code></li>
+<li><code>user.routes.ts</code></li>
+<li><code>blog.routes.ts</code></li>
+<li><code>office.routes.ts</code></li>
+<li><code>pricingPlan.routes.ts</code></li>
+</ul>
+<h4><code>models/</code></h4>
+<p>Defines MongoDB collections using Mongoose schemas.</p>
+<p>Examples:</p>
+<ul>
+<li><code>User.model.ts</code></li>
+<li><code>Blog.model.ts</code></li>
+<li><code>News.model.ts</code></li>
+<li><code>TeamMember.model.ts</code></li>
+<li><code>TravelPackages.model.ts</code></li>
+<li><code>FormField.model.ts</code></li>
+</ul>
+<h4><code>middleware/</code></h4>
+<p>Reusable request middleware.</p>
+<ul>
+<li><code>auth.middleware.ts</code>: JWT verification, admin-only access, permission checks</li>
+<li><code>upload.middleware.ts</code>: Multer-based file upload handling</li>
+</ul>
+<h4><code>utils/</code></h4>
+<p>Shared helpers.</p>
+<ul>
+<li><code>cache.ts</code></li>
+<li><code>emailService.ts</code></li>
+<li><code>sms.ts</code></li>
+</ul>
+<h4><code>db/</code></h4>
+<p>MongoDB connection setup in <code>backend/src/db/index.ts</code></p>
+<h3>5.2 Server Bootstrap</h3>
+<p>The backend entrypoint is <code>backend/src/index.ts</code>.</p>
+<p>Main responsibilities:</p>
+<ul>
+<li>Load environment variables</li>
+<li>Create the Express app</li>
+<li>Enable JSON and URL-encoded request parsing</li>
+<li>Enable CORS</li>
+<li>Serve uploaded files from <code>/api/uploads</code></li>
+<li>Connect to MongoDB</li>
+<li>Register all route modules</li>
+<li>Start the HTTP server</li>
+</ul>
+<p>Note:</p>
+<ul>
+<li>The code includes a cluster-based startup pattern.</li>
+<li>It currently forks only one worker, so it behaves like a single-worker deployment with restart support.</li>
+</ul>
+<h2>6. Database Structure</h2>
+<h3>6.1 Primary Database</h3>
+<p>The application uses MongoDB through Mongoose.</p>
+<p>Connection setup:</p>
+<ul>
+<li>File: <code>backend/src/db/index.ts</code></li>
+<li>Env var: <code>MONGODB_URI</code></li>
+</ul>
+<p>Default fallback connection:</p>
+<pre>mongodb://127.0.0.1:27017/myAppDB</pre>
+<h3>6.2 Main Collections / Models</h3>
+<p>The backend manages these main data entities:</p>
+<ul>
+<li><code>User</code></li>
+<li><code>Blog</code></li>
+<li><code>NewsMedia</code></li>
+<li><code>Event</code></li>
+<li><code>EventImage</code></li>
+<li><code>Gallery</code></li>
+<li><code>TeamMember</code></li>
+<li><code>Career</code></li>
+<li><code>Employee</code></li>
+<li><code>ContactInquiry</code></li>
+<li><code>Partner</code></li>
+<li><code>PartnerProgram</code></li>
+<li><code>OfficeType</code></li>
+<li><code>OfficeLocation</code></li>
+<li><code>InvestorCategory</code></li>
+<li><code>InvestorReport</code></li>
+<li><code>Video</code></li>
+<li><code>TravelPlan</code></li>
+<li><code>TravelInquiry</code></li>
+<li><code>Form</code></li>
+<li><code>FormField</code></li>
+<li><code>FormImage</code></li>
+<li><code>FormEmployeesAddress</code></li>
+<li><code>FormSubmission</code></li>
+<li><code>DocumentRequirement</code></li>
+<li><code>FAQ</code></li>
+<li><code>ContentSection</code></li>
+<li><code>PricingPlan</code></li>
+<li><code>OtpSchema</code></li>
+</ul>
+<h3>6.3 <code>backend/db/</code> JSON Files</h3>
+<p>The <code>backend/db/</code> folder contains JSON files such as:</p>
+<ul>
+<li><code>test.blogs.json</code></li>
+<li><code>test.users.json</code></li>
+<li><code>test.forms.json</code></li>
+<li><code>test.formfields.json</code></li>
+<li><code>test.travelplans.json</code></li>
+</ul>
+<p>These appear to be local snapshots, seed-style data, or test/reference data. They are useful for development and sample content but are separate from the live MongoDB connection used by the runtime backend.</p>
+<h2>7. Authentication and Authorization</h2>
+<p>Authentication is JWT-based.</p>
+<h3>Auth Flow</h3>
+<ol>
+<li>Admin user logs in through <code>/api/auth/login</code></li>
+<li>Backend returns a token</li>
+<li>Admin frontend stores the token in <code>localStorage</code></li>
+<li>Axios interceptor attaches <code>Authorization: Bearer &lt;token&gt;</code> to protected requests</li>
+<li>Backend middleware validates the token and loads the user</li>
+</ol>
+<h3>Authorization Rules</h3>
+<p>The backend supports:</p>
+<ul>
+<li><code>protect</code>: logged-in user only</li>
+<li><code>adminOnly</code>: admin role only</li>
+<li><code>hasPermission(permissionName)</code>: permission-based access</li>
+</ul>
+<p>The admin app also supports role-based redirects, for example:</p>
+<ul>
+<li>sales users can be redirected toward contacts</li>
+<li>HR users can be redirected toward team/member-related areas</li>
+</ul>
+<h2>8. File Upload Structure</h2>
+<p>Uploaded assets are stored in:</p>
+<pre>backend/uploads/</pre>
+<p>The upload middleware:</p>
+<ul>
+<li>uses Multer disk storage</li>
+<li>generates timestamp-based filenames</li>
+<li>stores images and document uploads on the server filesystem</li>
+</ul>
+<p>Static serving:</p>
+<pre>/api/uploads/&lt;filename&gt;</pre>
+<p>Examples of uploaded content:</p>
+<ul>
+<li>blog featured images</li>
+<li>gallery images</li>
+<li>event images</li>
+<li>logos</li>
+<li>form attachments</li>
+<li>user images</li>
+<li>PDFs for investor reports</li>
+</ul>
+<h2>9. API Module Map</h2>
+<p>The backend mounts these route groups:</p>
+<table>
+<thead><tr>
+<th>Base Path</th>
+<th>Purpose</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>/api/auth</code></td>
+<td>Login and current user</td>
+</tr>
+<tr>
+<td><code>/api/users</code></td>
+<td>User management</td>
+</tr>
+<tr>
+<td><code>/api/investor</code></td>
+<td>Investor relations categories and reports</td>
+</tr>
+<tr>
+<td><code>/api/office</code></td>
+<td>Office types and office locations</td>
+</tr>
+<tr>
+<td><code>/api/contact</code></td>
+<td>Contact inquiries</td>
+</tr>
+<tr>
+<td><code>/api/partner</code></td>
+<td>Partner program inquiries</td>
+</tr>
+<tr>
+<td><code>/api/gallery</code></td>
+<td>Gallery image management</td>
+</tr>
+<tr>
+<td><code>/api/news</code></td>
+<td>News and media</td>
+</tr>
+<tr>
+<td><code>/api/events</code></td>
+<td>Events and event images</td>
+</tr>
+<tr>
+<td><code>/api/careers</code></td>
+<td>Career openings</td>
+</tr>
+<tr>
+<td><code>/api/employees</code></td>
+<td>Job applicants</td>
+</tr>
+<tr>
+<td><code>/api/sales-experts</code></td>
+<td>Sales experts</td>
+</tr>
+<tr>
+<td><code>/api/videos</code></td>
+<td>Video gallery items</td>
+</tr>
+<tr>
+<td><code>/api/blogs</code></td>
+<td>Blogs</td>
+</tr>
+<tr>
+<td><code>/api/team-members</code></td>
+<td>Team members</td>
+</tr>
+<tr>
+<td><code>/api/travel-packages</code></td>
+<td>Travel package records</td>
+</tr>
+<tr>
+<td><code>/api/travel-inquiries</code></td>
+<td>Travel inquiry submissions</td>
+</tr>
+<tr>
+<td><code>/api/forms</code></td>
+<td>Dynamic/custom form definitions</td>
+</tr>
+<tr>
+<td><code>/api/documents</code></td>
+<td>Document requirement records</td>
+</tr>
+<tr>
+<td><code>/api/faqs</code></td>
+<td>FAQ data</td>
+</tr>
+<tr>
+<td><code>/api/content-sections</code></td>
+<td>Homepage/content section CMS data</td>
+</tr>
+<tr>
+<td><code>/api/pricing-plans</code></td>
+<td>Pricing plan content</td>
+</tr>
+<tr>
+<td><code>/api/form-images</code></td>
+<td>Form image assets</td>
+</tr>
+<tr>
+<td><code>/api/form-employees-addresses</code></td>
+<td>Employee address form records</td>
+</tr>
+<tr>
+<td><code>/api/form-submissions</code></td>
+<td>Submitted forms</td>
+</tr>
+<tr>
+<td><code>/api/otp</code></td>
+<td>OTP-related APIs</td>
+</tr>
+</tbody>
+</table>
+<h2>10. API Reference</h2>
+<p>Base URL: <code>http://localhost:5000/api</code></p>
+<h3>Authentication (<code>/auth</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>POST</code></td>
+<td><code>/login</code></td>
+<td>Login user and get JWT token</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/me</code></td>
+<td>Get current logged-in user details</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>User Management (<code>/users</code>)</h3>
+<p>Protected: Admin only</p>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all users</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create a new user</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update user details and permissions</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete a user</td>
+</tr>
+</tbody>
+</table>
+<h3>Sales Experts (<code>/sales-experts</code>)</h3>
+<p>Protected: Uses <code>User</code> model with role-based handling</p>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all sales experts</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Add a new sales expert</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update sales expert details</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete sales expert</td>
+</tr>
+</tbody>
+</table>
+<h3>Blogs (<code>/blogs</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all blogs</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/:id</code></td>
+<td>Get single blog by ID</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create blog with <code>featuredImage</code> upload</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update blog with optional <code>featuredImage</code></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete blog</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>News &amp; Media (<code>/news</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all news items</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create news with <code>image</code> upload</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update news with optional <code>image</code></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete news</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Events (<code>/events</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all events</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create event with <code>image</code> upload</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/:id/images</code></td>
+<td>Get event gallery images</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/:id/images</code></td>
+<td>Upload gallery images with <code>images[]</code></td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Gallery (<code>/gallery</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all gallery images</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Upload image with <code>image</code></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete image</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Videos (<code>/videos</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all videos</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Add video using YouTube URL or metadata</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update video details</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete video</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Investor Relations (<code>/investor</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/stats</code></td>
+<td>Get investor dashboard stats</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/categories</code></td>
+<td>Get all investor categories</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/category/:slug</code></td>
+<td>Get a specific category with reports</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/categories</code></td>
+<td>Create category</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/categories/:id</code></td>
+<td>Update category</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/categories/:id</code></td>
+<td>Delete category</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/report</code></td>
+<td>Create report with <code>pdf</code> upload</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/report/:id</code></td>
+<td>Update report with optional <code>pdf</code></td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/report/:id</code></td>
+<td>Delete report</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Office Locations (<code>/office</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/locations</code></td>
+<td>Get all office locations</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/locations/grouped</code></td>
+<td>Get locations grouped by region/type</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/types</code></td>
+<td>Get office types</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/locations</code></td>
+<td>Add office location</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/locations/:id</code></td>
+<td>Update office location</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/locations/:id</code></td>
+<td>Delete office location</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/types</code></td>
+<td>Add office type</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/types/:id</code></td>
+<td>Delete office type</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Team Members (<code>/team-members</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all team members</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Add team member</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update team member</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete team member</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Careers / Jobs (<code>/careers</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all job vacancies</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create a job vacancy</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete a job vacancy</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Applicants (<code>/employees</code>)</h3>
+<p>Note: This module is used for job applications/applicants.</p>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Submit job application, usually with <code>cv</code> upload</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all applications</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Contact Inquiries (<code>/contact</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Submit contact form</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all inquiries</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/stats</code></td>
+<td>Get inquiry statistics</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Partner Requests (<code>/partner</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Submit partner request</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get all partner requests</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/stats</code></td>
+<td>Get partner statistics</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update partner request/status</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Travel Packages (<code>/travel-packages</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get travel packages</td>
+<td>No/depends on route logic</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create travel package</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update travel package</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete travel package</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Travel Inquiries (<code>/travel-inquiries</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Submit travel inquiry</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get travel inquiries</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Forms (<code>/forms</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get forms/pages</td>
+<td>No/depends on route logic</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create form/page definition</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update form/page definition</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete form/page definition</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Documents (<code>/documents</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get document requirements</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create document requirement</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update document requirement</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete document requirement</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>FAQs (<code>/faqs</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get FAQs</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create FAQ</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update FAQ</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete FAQ</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Content Sections (<code>/content-sections</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get CMS content sections</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create content section</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update content section</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete content section</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Pricing Plans (<code>/pricing-plans</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get pricing plans</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create pricing plan</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update pricing plan</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete pricing plan</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Form Images (<code>/form-images</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get form image records</td>
+<td>No/depends on route logic</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create/upload form image</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update form image</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete form image</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Form Employees Addresses (<code>/form-employees-addresses</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get employee address form records</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/</code></td>
+<td>Create employee address record</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id</code></td>
+<td>Update employee address record</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete employee address record</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>Form Submissions (<code>/form-submissions</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>GET</code></td>
+<td><code>/</code></td>
+<td>Get submitted forms</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/stats</code></td>
+<td>Get submission statistics</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/today</code></td>
+<td>Get today&#x27;s submissions</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/by-slug/:slug</code></td>
+<td>Get submissions by form slug</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>GET</code></td>
+<td><code>/:id</code></td>
+<td>Get a single submission</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>POST</code></td>
+<td><code>/slug/:slug</code></td>
+<td>Submit form data by public form slug</td>
+<td>No</td>
+</tr>
+<tr>
+<td><code>PUT</code></td>
+<td><code>/:id/status</code></td>
+<td>Update submission status</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>DELETE</code></td>
+<td><code>/:id</code></td>
+<td>Delete submission record</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h3>OTP (<code>/otp</code>)</h3>
+<table>
+<thead><tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+<th>Auth Required</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><code>POST</code></td>
+<td><code>/send</code></td>
+<td>Send OTP to a mobile number</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2>11. Environment Variables</h2>
+<h3>Backend</h3>
+<p>Typical values:</p>
+<pre>MONGODB_URI=mongodb://127.0.0.1:27017/dudigital
+PORT=5000
+NODE_ENV=development
+JWT_SECRET=your_jwt_secret
+FRONTEND_URL=http://localhost:3000</pre>
+<h3>Admin / Client</h3>
+<p>Typical frontend API variable:</p>
+<pre>VITE_API_BASE_URL=http://localhost:5000/api</pre>
+<h2>12. Summary</h2>
+<p>This codebase is a multi-app DU Digital platform with:</p>
+<ul>
+<li>a public website in <code>client/</code></li>
+<li>an internal CMS/admin dashboard in <code>admin/</code></li>
+<li>a TypeScript Express API in <code>backend/</code></li>
+<li>MongoDB models for content, forms, users, media, offices, investor data, careers, and travel data</li>
+<li>file-based upload storage in <code>backend/uploads</code></li>
+</ul>
+
+</body>
+</html>

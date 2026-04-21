@@ -1,0 +1,2181 @@
+[{
+  "_id": {
+    "$oid": "6950e778b9ddded71470257b"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702558"
+  },
+  "title": "Proceedings of Postal Ballot – 08 March 2025",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.223Z"
+  },
+  "fileUrl": "/uploads/1767838953194.pdf",
+  "financialYear": "2025",
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2026-01-08T02:22:33.251Z"
+  },
+  "uploadedDate": {
+    "$date": "2025-12-28T08:16:56.224Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded71470257d"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702558"
+  },
+  "title": "Voting Results Scrutiniser Report – 7 March 2025",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.228Z"
+  },
+  "fileUrl": "/uploads/1767838748123.pdf",
+  "financialYear": "2025",
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2026-01-08T02:19:08.169Z"
+  },
+  "uploadedDate": {
+    "$date": "2025-12-28T08:16:56.228Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702580"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial Results for Half Year ended September 30, 2025",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.236Z"
+  },
+  "fileUrl": "/uploads/1767840274025.pdf",
+  "financialYear": "2025",
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2026-01-08T02:44:34.111Z"
+  },
+  "uploadedDate": {
+    "$date": "2025-12-28T08:16:56.236Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702582"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial Statement for the year ended 31st March, 2025",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.240Z"
+  },
+  "fileUrl": "/uploads/1767840322973.pdf",
+  "financialYear": "2024-25",
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2026-01-08T02:45:23.020Z"
+  },
+  "uploadedDate": {
+    "$date": "2025-12-28T08:16:56.240Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702585"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255c"
+  },
+  "title": "Annual Return 2023-24",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.247Z"
+  },
+  "fileUrl": "/uploads/1767840531386.pdf",
+  "financialYear": "2023-24",
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2026-01-08T02:48:51.505Z"
+  },
+  "uploadedDate": {
+    "$date": "2025-12-28T08:16:56.248Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702587"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255c"
+  },
+  "title": "Annual Return 2022-23",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.251Z"
+  },
+  "fileUrl": "/uploads/1767840564365.pdf",
+  "financialYear": "2022-23",
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2026-01-08T02:49:24.368Z"
+  },
+  "uploadedDate": {
+    "$date": "2025-12-28T08:16:56.252Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded71470258d"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702560"
+  },
+  "title": "Notice of 18th Annual General Meeting",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.263Z"
+  },
+  "fileUrl": "/uploads/1767853818014.pdf",
+  "financialYear": " March 2025",
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2026-01-08T06:30:18.015Z"
+  },
+  "uploadedDate": {
+    "$date": "2025-12-28T08:16:56.263Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6950e778b9ddded714702590"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Shareholding Pattern Report March 2025",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-28T08:16:56.269Z"
+  },
+  "fileUrl": "https://dudigitalglobal.com/shareholding-pattern/#report-march-2025",
+  "financialYear": "2025",
+  "isActive": true,
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.883Z"
+  },
+  "uploadedDate": {
+    "$date": "2025-12-28T08:16:56.269Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "695f15128279702d9538dfa0"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702558"
+  },
+  "title": "Postal Ballot Notice – 04th February, 2025",
+  "fileUrl": "/uploads/1767838994143.pdf",
+  "financialYear": "– 04th February, 2025",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T02:23:14.245Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T02:23:14.275Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:07:24.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1d2351e3c725db86919e"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255e"
+  },
+  "title": "Reg. 74 (5) Certificate  June 2025",
+  "fileUrl": "/uploads/1767841059688.pdf",
+  "financialYear": " June 2025",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T02:57:39.689Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T02:57:39.690Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:07:59.136Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f207b98a1d84b8bdbd9f4"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255e"
+  },
+  "title": "Reg. 74 (5) Certificate March 2025",
+  "fileUrl": "/uploads/1767841915054.pdf",
+  "financialYear": "March 2025",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T03:11:55.056Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T03:11:55.056Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:07:49.455Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f41e51887191413ec4f22"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial Results for the Half Year Ended on  September 30, 2024",
+  "fileUrl": "/uploads/1767850468976.pdf",
+  "financialYear": " September 30, 2024",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:34:29.079Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:34:29.080Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:02:46.046Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f42611887191413ec4f26"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial Statement for the year ended 31st March 2024",
+  "fileUrl": "/uploads/1767850593168.pdf",
+  "financialYear": "31st March 2024",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:36:33.247Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:36:33.256Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:00:56.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f42af1887191413ec4f31"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial statement for the financial year 2022-23",
+  "fileUrl": "/uploads/1767850671082.pdf",
+  "financialYear": "year 2022-23",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:37:51.106Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:37:51.107Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:00:45.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f44441887191413ec4f44"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Consolidated Financial Results for the financial year ended 31st March 2022",
+  "fileUrl": "/uploads/1767851076410.pdf",
+  "financialYear": "31st March 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:44:36.413Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:44:36.413Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:01:15.401Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f44681887191413ec4f48"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Standalone Financial Results For the financial year ended 31st March 2022",
+  "fileUrl": "/uploads/1767851112767.pdf",
+  "financialYear": "31st March 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:45:12.770Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:45:12.770Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:01:05.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f44d41887191413ec4f4c"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial Statement for the financial Year 2020-21",
+  "fileUrl": "/uploads/1767851220913.pdf",
+  "financialYear": "2020-21",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:47:00.926Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:47:00.926Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:01:29.856Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f44fb1887191413ec4f50"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial Statement for the financial Year  2019-20",
+  "fileUrl": "/uploads/1767851259010.pdf",
+  "financialYear": " 2019-20",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:47:39.023Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:47:39.024Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:02:00.214Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f45291887191413ec4f54"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial Statement for the financial Year 2018-19",
+  "fileUrl": "/uploads/1767851305899.pdf",
+  "financialYear": "2018-19",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:48:25.931Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:48:25.931Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:01:45.421Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f45551887191413ec4f58"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial Statement for the financial Year 2017-18",
+  "fileUrl": "/uploads/1767851349755.pdf",
+  "financialYear": "2017-18",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:49:09.765Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:49:09.766Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:02:23.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f45801887191413ec4f5c"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial Statement for the financial Year 2016-17",
+  "fileUrl": "/uploads/1767851392905.pdf",
+  "financialYear": "2016-17",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:49:52.912Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:49:52.912Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:02:34.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f45ac1887191413ec4f60"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255a"
+  },
+  "title": "Financial Statement for the financial Year 2015-16",
+  "fileUrl": "/uploads/1767851436720.pdf",
+  "financialYear": "2015-16",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:50:36.727Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:50:36.727Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:02:11.301Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f47431887191413ec4f6a"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255c"
+  },
+  "title": "Annual Returns​ 2020-21",
+  "fileUrl": "/uploads/1767851843319.pdf",
+  "financialYear": "2020-21",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:57:23.321Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:57:23.322Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:00:06.448Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f477e1887191413ec4f6e"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255c"
+  },
+  "title": "Annual Returns 2019-20",
+  "fileUrl": "/uploads/1767851902821.pdf",
+  "financialYear": "2019-20",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T05:58:22.845Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T05:58:22.845Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:00:20.940Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f4cd01887191413ec4fba"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255e"
+  },
+  "title": "Reg. 76 Certificate December 2023",
+  "fileUrl": "/uploads/1767853264215.pdf",
+  "financialYear": "December 2023",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:21:04.216Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:21:04.217Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:21:04.217Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f4d701887191413ec4fbe"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255e"
+  },
+  "title": "Reg. 76 Certificate June 2022",
+  "fileUrl": "/uploads/1767853424444.pdf",
+  "financialYear": "June 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:23:44.453Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:23:44.454Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:23:44.454Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f4d9e1887191413ec4fc2"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255e"
+  },
+  "title": "Reg. 76 Certificate March 2022",
+  "fileUrl": "/uploads/1767853470774.pdf",
+  "financialYear": " March 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:24:30.776Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:24:30.776Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:24:30.776Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f4dd31887191413ec4fc6"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255e"
+  },
+  "title": "Reg. 76 Certificate Dec 2021",
+  "fileUrl": "/uploads/1767853523942.pdf",
+  "financialYear": " Dec 2021",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:25:23.945Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:25:23.945Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:25:23.945Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f4df91887191413ec4fca"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470255e"
+  },
+  "title": "Reg. 76 Certificate Sept 2021",
+  "fileUrl": "/uploads/1767853561238.pdf",
+  "financialYear": " Sept 2021",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:26:01.239Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:26:01.239Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:26:01.239Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f4f2e1887191413ec4fd3"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702560"
+  },
+  "title": "Annual Report 2024-25",
+  "fileUrl": "/uploads/1767853870005.pdf",
+  "financialYear": "2024-25",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:31:10.015Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:31:10.016Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:31:10.016Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f4f5b1887191413ec4fd7"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702560"
+  },
+  "title": "Annual Report 2023-24",
+  "fileUrl": "/uploads/1767853915386.pdf",
+  "financialYear": "2023-24",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:31:55.427Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:31:55.427Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:31:55.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f4fa01887191413ec4fdb"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702560"
+  },
+  "title": "Annual Report 2022-23",
+  "fileUrl": "/uploads/1767853984552.pdf",
+  "financialYear": "2022-23",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:33:04.646Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:33:04.647Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:33:04.647Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f4fe41887191413ec4fdf"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702560"
+  },
+  "title": "Annual Report 2021-22",
+  "fileUrl": "/uploads/1767854052716.pdf",
+  "financialYear": "2021-22",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:34:12.725Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:34:12.726Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:34:12.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f50141887191413ec4fe3"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702560"
+  },
+  "title": "Notice of 17th AGM",
+  "fileUrl": "/uploads/1767854100833.pdf",
+  "financialYear": "17th AGM",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:35:00.834Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:35:00.836Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:35:00.836Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f50fa1887191413ec4ff2"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Shareholding Pattern Report September 2024",
+  "fileUrl": "/uploads/1767854330458.pdf",
+  "financialYear": "September 2024",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:38:50.460Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:38:50.460Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:38:50.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f51261887191413ec4ff6"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Shareholding Pattern Report March 2024",
+  "fileUrl": "/uploads/1767854374332.pdf",
+  "financialYear": "March 2024",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:39:34.334Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:39:34.334Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:39:34.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f51571887191413ec4ffa"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Reg. 74 (5) Certificate December 2023",
+  "fileUrl": "/uploads/1767854423901.pdf",
+  "financialYear": "December 2023",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:40:23.902Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:40:23.902Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:40:23.902Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f51791887191413ec4ffe"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Shareholding Pattern Post Right Issue",
+  "fileUrl": "/uploads/1767854457722.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:40:57.724Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:40:57.724Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:40:57.724Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f51bf1887191413ec5002"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Shareholding Pattern Report March 2023",
+  "fileUrl": "/uploads/1767854527442.pdf",
+  "financialYear": "March 2023",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:42:07.445Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:42:07.446Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:42:07.446Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f51e91887191413ec5006"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Shareholding Pattern Report September 2022",
+  "fileUrl": "/uploads/1767854569037.pdf",
+  "financialYear": "September 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:42:49.040Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:42:49.041Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:42:49.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f520e1887191413ec500a"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Shareholding Pattern Report Post Prefrential Allotment 12th August 2022",
+  "fileUrl": "/uploads/1767854606908.pdf",
+  "financialYear": "12th August 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:43:26.909Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:43:26.909Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:43:26.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f52361887191413ec5015"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Shareholding Pattern Report March 2022",
+  "fileUrl": "/uploads/1767854752297.pdf",
+  "financialYear": "March 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:44:06.618Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:44:06.618Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:45:52.299Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f52551887191413ec5019"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Shareholding Pattern Report September 2021",
+  "fileUrl": "/uploads/1767854677548.pdf",
+  "financialYear": "September 2021",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:44:37.550Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:44:37.550Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:44:37.550Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f527c1887191413ec501d"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702562"
+  },
+  "title": "Shareholding Pattern Report Listing",
+  "fileUrl": "/uploads/1767854716188.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:45:16.189Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:45:16.190Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:45:16.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f55ec1887191413ec5062"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702564"
+  },
+  "title": "Reg. 74 (5) Certificate March 2022",
+  "fileUrl": "/uploads/1767855596560.pdf",
+  "financialYear": "March 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T06:59:56.561Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T06:59:56.562Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:59:56.562Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f560c1887191413ec5067"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702564"
+  },
+  "title": "Reg. 74 (5) Certificate June 2022",
+  "fileUrl": "/uploads/1767855628966.pdf",
+  "financialYear": "June 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:00:28.971Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:00:28.971Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:00:28.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f56331887191413ec506b"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702564"
+  },
+  "title": "Reg. 74 (5) Certificate December 2021",
+  "fileUrl": "/uploads/1767855667284.pdf",
+  "financialYear": "December 2021",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:01:07.285Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:01:07.286Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:01:07.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f56541887191413ec506f"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702564"
+  },
+  "title": "Reg. 74 (5) Certificate September 2021",
+  "fileUrl": "/uploads/1767855700114.pdf",
+  "financialYear": " September 2021",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:01:40.115Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:01:40.115Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:01:40.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f56dc1887191413ec5079"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702566"
+  },
+  "title": "Reg. 32 Certificate September 2022",
+  "fileUrl": "/uploads/1767855836643.pdf",
+  "financialYear": "September 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:03:56.663Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:03:56.663Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:03:56.663Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f56f91887191413ec507d"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702566"
+  },
+  "title": "Reg. 32 Certificate March 2022",
+  "fileUrl": "/uploads/1767855865242.pdf",
+  "financialYear": " March 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:04:25.251Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:04:25.251Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:04:25.251Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f57181887191413ec5081"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702566"
+  },
+  "title": "Reg. 32 Certificate September 2021",
+  "fileUrl": "/uploads/1767855896115.pdf",
+  "financialYear": " September 2021",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:04:56.117Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:04:56.117Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:04:56.117Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f575a1887191413ec508b"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702568"
+  },
+  "title": "Reg. 40 (9) Certificate 202",
+  "fileUrl": "/uploads/1767855962567.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:06:02.568Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:06:02.569Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:06:02.569Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f58111887191413ec5099"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470256c"
+  },
+  "title": "Investor Complaints December 2021",
+  "fileUrl": "/uploads/1767856145970.pdf",
+  "financialYear": "December 2021",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:09:05.971Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:09:05.971Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:09:05.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f58331887191413ec509d"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470256c"
+  },
+  "title": "Investor Complaints March 2022",
+  "fileUrl": "/uploads/1767856179392.pdf",
+  "financialYear": "March 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:09:39.394Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:09:39.394Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:09:39.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f584f1887191413ec50a1"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded71470256c"
+  },
+  "title": "Investor Complaints June 2022",
+  "fileUrl": "/uploads/1767856207124.pdf",
+  "financialYear": "June 2022",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:10:07.130Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:10:07.130Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:10:07.130Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f58de1887191413ec50ae"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "Related Party Transactions Policy",
+  "fileUrl": "/uploads/1767856350106.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:12:30.108Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:12:30.109Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:12:30.109Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f58f71887191413ec50b2"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "POSH Committee",
+  "fileUrl": "/uploads/1767856375541.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:12:55.542Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:12:55.542Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:12:55.542Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f59171887191413ec50b6"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "Whistle Blower Policy",
+  "fileUrl": "/uploads/1767856407769.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:13:27.770Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:13:27.771Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:13:27.771Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f592e1887191413ec50ba"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "NRC Policy",
+  "fileUrl": "/uploads/1767856430933.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:13:50.935Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:13:50.935Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:13:50.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f59471887191413ec50be"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "Code of Conduct Senior Management Policy",
+  "fileUrl": "/uploads/1767856455528.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:14:15.529Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:14:15.530Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:14:15.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f59631887191413ec50c2"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "Archival Policy",
+  "fileUrl": "/uploads/1767856483975.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:14:43.977Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:14:43.977Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:14:43.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f59861887191413ec50c6"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "ESOP Disclosure 2024",
+  "fileUrl": "/uploads/1767856518281.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:15:18.282Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:15:18.283Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:15:18.283Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f59a01887191413ec50ca"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "Code of Conduct for Prevention of Insider Trading",
+  "fileUrl": "/uploads/1767856544653.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:15:44.655Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:15:44.655Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:15:44.655Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f59f71887191413ec50ce"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "ESOP Disclosure",
+  "fileUrl": "/uploads/1767856631893.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:17:11.893Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:17:11.894Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:17:11.894Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f5a121887191413ec50d2"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "Criteria for payment to Non-Executive Director",
+  "fileUrl": "/uploads/1767856658695.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:17:38.698Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:17:38.699Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:17:38.699Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f5a2c1887191413ec50d6"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "Policy For Determination Of Material / Price Sensitive Information And Disclosure Obligations",
+  "fileUrl": "/uploads/1767856684311.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:18:04.312Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:18:04.312Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:18:04.312Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f5a471887191413ec50da"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "Terms and Conditions for appointment of Independent Director",
+  "fileUrl": "/uploads/1767856711687.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:18:31.688Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:18:31.688Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:18:31.688Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f5a601887191413ec50de"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702570"
+  },
+  "title": "Composition of Committees of Directors",
+  "fileUrl": "/uploads/1767856736829.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T07:18:56.831Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T07:18:56.831Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T07:18:56.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f783a1887191413ec5140"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702572"
+  },
+  "title": "MOA",
+  "fileUrl": "/uploads/1767864378515.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:26:18.520Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:26:18.521Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:26:18.521Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f78691887191413ec5147"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702572"
+  },
+  "title": "AOA",
+  "fileUrl": "/uploads/1767864425325.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:27:05.342Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:27:05.342Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:27:05.342Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f78941887191413ec514b"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702572"
+  },
+  "title": "Valuation Report – Issue of Share Warrants",
+  "fileUrl": "/uploads/1767864468065.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:27:48.068Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:27:48.068Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:27:48.068Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f78c61887191413ec5151"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Virtuworld Tourism LLC 2025",
+  "fileUrl": "/uploads/1767864518174.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:28:38.184Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:28:38.184Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:28:38.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f78ea1887191413ec5158"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "OSC Global Processing Private Limited 2025",
+  "fileUrl": "/uploads/1767864554267.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:29:14.289Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:29:14.290Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:29:14.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f79021887191413ec515c"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Intermobility Visa Solution Private Limited 2025",
+  "fileUrl": "/uploads/1767864578682.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:29:38.705Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:29:38.706Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:29:38.706Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f79211887191413ec5160"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Duverify LLC-FZ 2025",
+  "fileUrl": "/uploads/1767864609866.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:30:09.876Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:30:09.876Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:30:09.876Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f793b1887191413ec5164"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Dudigital Worldwide Private Limited 2025",
+  "fileUrl": "/uploads/1767864635951.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:30:35.979Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:30:35.980Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:30:35.980Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f794f1887191413ec5168"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Dudigital Global LLC 2025",
+  "fileUrl": "/uploads/1767864655500.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:30:55.509Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:30:55.509Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:30:55.509Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f79751887191413ec516c"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Dudigital BD Private Limited 2025",
+  "fileUrl": "/uploads/1767864693276.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:31:33.344Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:31:33.344Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:31:33.344Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f79911887191413ec5170"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Dudigital Global LLC 2024",
+  "fileUrl": "/uploads/1767864721458.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:32:01.483Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:32:01.483Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:32:01.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f79c31887191413ec5174"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Dudigital Worldwide Private Limited 2024",
+  "fileUrl": "/uploads/1767864771365.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:32:51.534Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:32:51.534Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:32:51.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7a001887191413ec5178"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Dudigital BD Private Limited 2024",
+  "fileUrl": "/uploads/1767864832172.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:33:52.354Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:33:52.358Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:33:52.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7a481887191413ec517c"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "OSC Global Processing Private Limited 2024",
+  "fileUrl": "/uploads/1767864904373.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:35:04.601Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:35:04.602Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:35:04.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7a6a1887191413ec5180"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Intermobillity Visa Solution Private Limited 2024",
+  "fileUrl": "/uploads/1767864938520.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:35:38.677Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:35:38.687Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:35:38.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7a8d1887191413ec5184"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Dudigital BD Private Limited 2023",
+  "fileUrl": "/uploads/1767864973185.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:36:13.338Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:36:13.342Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:36:13.342Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7aa81887191413ec5188"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Window Malay Visa Private Limited 2023",
+  "fileUrl": "/uploads/1767865000631.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:36:40.651Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:36:40.652Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:36:40.652Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7ac81887191413ec518c"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "OSC Global Processing Private Limited 2023",
+  "fileUrl": "/uploads/1767865032626.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:37:12.654Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:37:12.655Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:37:12.655Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7b071887191413ec5190"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Dudigital Worldwide Private Limited 2023",
+  "fileUrl": "/uploads/1767865095518.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:38:15.535Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:38:15.535Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:38:15.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7b131887191413ec5194"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Dudigital Global LLC 2023",
+  "fileUrl": "/uploads/1767865107746.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:38:27.762Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:38:27.762Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:38:27.762Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7b341887191413ec5198"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Window Malay Visa Private Limited 2022",
+  "fileUrl": "/uploads/1767865140012.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:39:00.050Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:39:00.050Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:39:00.050Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7b4d1887191413ec519c"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "OSC Global Processing Private Limited 2022",
+  "fileUrl": "/uploads/1767865165939.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:39:25.973Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:39:25.973Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:39:25.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7b641887191413ec51a0"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702574"
+  },
+  "title": "Dudigital BD Private Limited 2022",
+  "fileUrl": "/uploads/1767865188981.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:39:48.997Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:39:48.997Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:39:48.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7bb01887191413ec51a9"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702576"
+  },
+  "title": "Integrated Filing – Financial- Consolidated March 2025",
+  "fileUrl": "/uploads/1767865264706.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:41:04.707Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:41:04.707Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:41:04.707Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7bc51887191413ec51ad"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702576"
+  },
+  "title": "Integrated Filing – Financial- Standalone March 2025",
+  "fileUrl": "/uploads/1767865285756.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:41:25.758Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:41:25.759Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:41:25.759Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7c061887191413ec51b8"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702578"
+  },
+  "title": "Integrated Filing- Governance, June 2025",
+  "fileUrl": "/uploads/1767865350364.pdf",
+  "financialYear": "June 2025",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:42:30.365Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:42:30.365Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:42:30.365Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7c261887191413ec51bc"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702578"
+  },
+  "title": "Integrated Filing – Governance March 2025",
+  "fileUrl": "/uploads/1767865382612.pdf",
+  "financialYear": "March 2025",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T09:43:02.613Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T09:43:02.613Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:43:02.613Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695fb2581887191413ec59ac"
+  },
+  "categoryId": {
+    "$oid": "6950e778b9ddded714702558"
+  },
+  "title": "Email address for grievance redressal and other relevant details.",
+  "fileUrl": "/uploads/1767879256760.pdf",
+  "financialYear": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T13:34:16.760Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T13:34:16.761Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T13:34:16.761Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695fc2b40f1c890801e86c28"
+  },
+  "categoryId": {
+    "$oid": "695fc2930f1c890801e86c23"
+  },
+  "title": "Email address for grievance redressal and other relevant details.",
+  "fileUrl": "/uploads/1767883444390.pdf",
+  "financialYear": "",
+  "email": "cs@dudigitalglobal.com",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T14:44:04.394Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T14:44:04.394Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T14:44:04.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695fc2d40f1c890801e86c2c"
+  },
+  "categoryId": {
+    "$oid": "695fc2930f1c890801e86c23"
+  },
+  "title": "Contact details of the designated official of the listed entity who is responsible for assisting and handling investor grievances.",
+  "fileUrl": "/uploads/1767883476514.pdf",
+  "financialYear": "",
+  "email": "cs@dudigitalglobal.com",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T14:44:36.517Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T14:44:36.517Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T14:44:36.517Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695fc2fa0f1c890801e86c30"
+  },
+  "categoryId": {
+    "$oid": "695fc2930f1c890801e86c23"
+  },
+  "title": "New Name and old name of the listed entity for a continuous period of year from the date of last name change.  Dudigital Global Limited( Formerly Known as Du Dudigital Technologies Limited).",
+  "fileUrl": "/uploads/1767883514206.pdf",
+  "financialYear": "",
+  "email": "",
+  "isActive": true,
+  "uploadedDate": {
+    "$date": "2026-01-08T14:45:14.208Z"
+  },
+  "createdAt": {
+    "$date": "2026-01-08T14:45:14.208Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T14:45:14.208Z"
+  },
+  "__v": 0
+}]

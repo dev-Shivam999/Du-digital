@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Afghanistan",
+        "code": "+93",
+        "iso": "AF",
+        "flag": "🇦🇫"
+    },
+    {
+        "name": "Åland Islands",
+        "code": "+358",
+        "iso": "AX",
+        "flag": "🇦🇽"
+    },
+    {
+        "name": "Albania",
+        "code": "+355",
+        "iso": "AL",
+        "flag": "🇦🇱"
+    },
+    {
+        "name": "Algeria",
+        "code": "+213",
+        "iso": "DZ",
+        "flag": "🇩🇿"
+    },
+    {
+        "name": "American Samoa",
+        "code": "+1",
+        "iso": "AS",
+        "flag": "🇦🇸"
+    },
+    {
+        "name": "India",
+        "code": "+91",
+        "iso": "IN",
+        "flag": "🇮🇳"
+    }
+]

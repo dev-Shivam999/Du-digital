@@ -1,0 +1,37 @@
+{
+    "hero": {
+        "title": "Cookie Policy",
+        "backgroundImage": "/assets/cookie/cookie-hero.jpg"
+    },
+    "content": [
+        {
+            "heading": "Welcome to DU Digital Global.",
+            "text": "This website dudigitalglobal.com (“Our Site”) uses Cookies and similar technologies to distinguish you from other users. Cookies help us provide you with a better browsing experience and improve Our Site by understanding how you use it. Please read this Cookie Policy carefully and ensure you understand it. By continuing to use Our Site, you agree to our use of Cookies. If you do not agree to this policy, please stop using Our Site immediately."
+        },
+        {
+            "heading": "What Are Cookies",
+            "text": "Cookies are small files downloaded to your device when you access websites. These files enhance your browsing experience by storing preferences and other information. Below, we explain the information Cookies collect, their purpose, and why they are used. Additionally, we provide guidance on how you can manage or disable them, though doing so may reduce the functionality of certain features on Our Site."
+        },
+        {
+            "heading": "How We Use Cookies",
+            "list": [
+                "To provide core website functionality.",
+                "To improve your browsing experience.",
+                "To analyze how you use Our Site, enabling us to improve its performance."
+            ],
+            "footer": "Disabling Cookies may impact the functionality and features of Our Site. We recommend keeping all Cookies enabled to ensure access to essential services and features."
+        },
+        {
+            "heading": "Disabling Cookies",
+            "list": [
+                "Disabling Cookies may degrade certain site functionalities.",
+                "Some essential features may not work correctly without Cookies."
+            ],
+            "text": "You can prevent Cookies from being stored on your device by adjusting your browser settings. Each browser provides instructions on how to manage Cookies in its Help section. Please note:"
+        },
+        {
+            "heading": "More Information",
+            "text": "We hope this policy clarifies our use of Cookies. If you are unsure whether a specific Cookie is necessary, it is usually safer to keep Cookies enabled to ensure the best experience on Our Site. For further information, feel free to contact us at info@dudigitalglobal.com."
+        }
+    ]
+}

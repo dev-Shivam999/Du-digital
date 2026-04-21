@@ -1,0 +1,623 @@
+[{
+  "_id": {
+    "$oid": "695b256b252e850548926981"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "formSlug": "egypt-visa-for-indians",
+  "formName": "duvisa->egypt-visa-for-indians",
+  "submissionData": {
+    "name": "shivam 7852008477",
+    "email": "shivamswami982@gmail.com",
+    "country": "india",
+    "number": "7852008477",
+    "state": "raj",
+    "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "shivam 7852008477",
+  "userEmail": "shivamswami982@gmail.com",
+  "userPhone": "",
+  "status": "read",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:43:55.523Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:45:21.462Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b256f252e850548926987"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "formSlug": "egypt-visa-for-indians",
+  "formName": "duvisa->egypt-visa-for-indians",
+  "submissionData": {
+    "name": "shivam 7852008477",
+    "email": "shivamswami982@gmail.com",
+    "country": "india",
+    "number": "7852008477",
+    "state": "raj",
+    "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "shivam 7852008477",
+  "userEmail": "shivamswami982@gmail.com",
+  "userPhone": "",
+  "status": "read",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:43:59.684Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:45:14.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695bfdcbef1a96915c54e8dd"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "formSlug": "india-evisa",
+  "formName": "india-evisa",
+  "submissionData": {
+    "name": "jai",
+    "email": "jai@gmail.com",
+    "phone": "07852008477",
+    "trawaldate": "2026-01-21",
+    "where_to_go": "knkn",
+    "where_from": "bk",
+    "visaType": "tourist"
+  },
+  "userName": "jai",
+  "userEmail": "jai@gmail.com",
+  "userPhone": "07852008477",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-05T18:07:07.827Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:26:04.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695bfe00ef1a96915c54e8f1"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "formSlug": "india-evisa",
+  "formName": "india-evisa",
+  "submissionData": {
+    "name": "Shivam Swami",
+    "email": "shivamswami982@gmail.com",
+    "phone": "07852008477",
+    "trawaldate": "2026-01-07",
+    "where_to_go": "ghj",
+    "where_from": "8ughk",
+    "visaType": "tourist"
+  },
+  "userName": "Shivam Swami",
+  "userEmail": "shivamswami982@gmail.com",
+  "userPhone": "07852008477",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-05T18:08:00.662Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:26:07.594Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695bfe2bef1a96915c54e903"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "formSlug": "egypt-visa-for-indians",
+  "formName": "duvisa->egypt-visa-for-indians",
+  "submissionData": {
+    "name": "Shivam Swami",
+    "email": "shivamswami982@gmail.com",
+    "country": "india",
+    "number": "7852008477",
+    "state": "raj",
+    "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "Shivam Swami",
+  "userEmail": "shivamswami982@gmail.com",
+  "userPhone": "",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-05T18:08:43.826Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:26:10.840Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695bfe4bef1a96915c54e91a"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "formSlug": "egypt-visa-for-indians",
+  "formName": "duvisa->egypt-visa-for-indians",
+  "submissionData": {
+    "name": "Shivam Swami",
+    "email": "shivamswami982@gmail.com",
+    "country": "india",
+    "number": "7852008477",
+    "state": "raj",
+    "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "Shivam Swami",
+  "userEmail": "shivamswami982@gmail.com",
+  "userPhone": "",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-05T18:09:15.881Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:26:16.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695c8e29eb7c42080737d0ec"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "formSlug": "digital-arrival-cards",
+  "formName": "duvisas->digital-arrival-cards",
+  "submissionData": {
+    "country": "thailand",
+    "phoneNumber": "789876789098"
+  },
+  "userName": "",
+  "userEmail": "",
+  "userPhone": "789876789098",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-06T04:23:05.433Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:26:19.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695c8e4aeb7c42080737d0fa"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "formSlug": "digital-arrival-cards",
+  "formName": "duvisas->digital-arrival-cards",
+  "submissionData": {
+    "country": "malaysia",
+    "phoneNumber": "67898789"
+  },
+  "userName": "",
+  "userEmail": "",
+  "userPhone": "67898789",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-06T04:23:38.941Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:26:22.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695c8e68eb7c42080737d108"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "formSlug": "serbia-work-permit-visa",
+  "formName": "DuVisas->serbia-work-permit-vis",
+  "submissionData": {
+    "name": "shivam swami",
+    "email": "metablock.development13@gmail.com",
+    "country": "india",
+    "number": "1234567890",
+    "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "shivam swami",
+  "userEmail": "metablock.development13@gmail.com",
+  "userPhone": "",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-06T04:24:08.465Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:26:26.150Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ff7cb572ca54b5933d49f"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "formSlug": "greece-work-visa",
+  "formName": "DuVisas->greece-work-visa",
+  "submissionData": {
+    "name": "shivam",
+    "email": "swami982@gmail.com",
+    "number": "7852008477",
+    "country": "india",
+    "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "shivam",
+  "userEmail": "swami982@gmail.com",
+  "userPhone": "",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-08T18:30:35.023Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:26:29.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69628a7c6246a9afcc56d006"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "formSlug": "tenant-and-domestic-help-verification",
+  "formName": "tenant-and-domestic-help-verification",
+  "submissionData": {
+    "name": "shivam 7852008477",
+    "number": "7852008477",
+    "sate": "rajasthan"
+  },
+  "userName": "shivam 7852008477",
+  "userEmail": "",
+  "userPhone": "",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-10T17:21:00.696Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:25:56.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69628aa66246a9afcc56d014"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "formSlug": "tenant-and-domestic-help-verification",
+  "formName": "tenant-and-domestic-help-verification",
+  "submissionData": {
+    "name": "lol",
+    "number": "7852008477",
+    "sate": "rajasthan"
+  },
+  "userName": "lol",
+  "userEmail": "",
+  "userPhone": "",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-10T17:21:42.190Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T19:25:48.261Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696330f66d9a5f3d31d4310d"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "formSlug": "dubai-5year-tourist-visa",
+  "formName": "duvisa->dubai-5year-tourist-visa",
+  "submissionData": {
+    "name": "user",
+    "email": "admin@gmail.com",
+    "number": "9876543210",
+    "city": "jaipur",
+    "date": "2026-01-08",
+    "i_am_interested_in": "5_years_visit_visa/tourist_visa",
+    "_yes_i_can_provide": "_yes,_i_can_provide",
+    "_by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_digital_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "user",
+  "userEmail": "admin@gmail.com",
+  "userPhone": "",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-11T05:11:18.607Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T05:11:50.254Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696337626d9a5f3d31d43155"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "formSlug": "south-korea-visa-for-indians",
+  "formName": "duvisa->south-korea-visa-for-indians",
+  "submissionData": {
+    "name": "south korea",
+    "email": "korea@gmail.com",
+    "phone": "9712566779",
+    "current_location": "korea",
+    "travel_date": "2026-01-21",
+    "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_digital_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": "on"
+  },
+  "userName": "south korea",
+  "userEmail": "korea@gmail.com",
+  "userPhone": "9712566779",
+  "status": "new",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-11T05:38:42.493Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T05:38:42.493Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696349cc6d9a5f3d31d432b8"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "formSlug": "serbia-work-permit-visa",
+  "formName": "DuVisas->serbia-work-permit-vis",
+  "submissionData": {
+    "country": "india",
+    "preferred_center": "guwahati",
+    "name": "shiv lol",
+    "email": "a@gmail.com",
+    "number": "7852008477",
+    "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "shiv lol",
+  "userEmail": "a@gmail.com",
+  "userPhone": "",
+  "status": "read",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-11T06:57:16.199Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T06:58:20.795Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69635d5d6d9a5f3d31d43410"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "formSlug": "australia-tourist-visa",
+  "formName": "Duvisa->australia-tourist-visa",
+  "submissionData": {
+    "name": "australia",
+    "number": "9876543210",
+    "email": "australia@gmail.com",
+    "current_location": "australia",
+    "date": "2025-12-31",
+    "_by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "australia",
+  "userEmail": "australia@gmail.com",
+  "userPhone": "",
+  "status": "new",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-11T08:20:45.620Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T08:20:45.620Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696367186d9a5f3d31d43484"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "formSlug": "digital-arrival-cards",
+  "formName": "duvisas->digital-arrival-cards",
+  "submissionData": {
+    "country": "thailand",
+    "phoneNumber": "9876543210",
+    "firstName": "dummy",
+    "middleName": "",
+    "lastName": "last",
+    "email": "dummy@gmail.com",
+    "nationality": "Indian",
+    "gender": "Male",
+    "dob": "2026-01-05",
+    "accommodationLine1": "qwert",
+    "accommodationLine2": "qwer",
+    "accommodationCity": "wert",
+    "accommodationState": "ert",
+    "accommodationZip": "123456",
+    "passportNumber": "HKI789HI",
+    "passportExpiry": "2026-04-25",
+    "arrivalDate": "2026-01-14",
+    "departureDate": "2026-01-24",
+    "travelMode": "Air",
+    "flightNumber": "EK07R",
+    "departureFlightNumber": "Y7V6d",
+    "totalPersons": 1,
+    "isIndividual": true
+  },
+  "userName": "dummy",
+  "userEmail": "dummy@gmail.com",
+  "userPhone": "9876543210",
+  "status": "new",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-11T09:02:16.327Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T09:02:16.327Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "696367bf6d9a5f3d31d4349a"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "formSlug": "digital-arrival-cards",
+  "formName": "duvisas->digital-arrival-cards",
+  "submissionData": {
+    "country": "singapore",
+    "phoneNumber": "345678907890",
+    "firstName": "shiv",
+    "middleName": "7852008477",
+    "lastName": "lol",
+    "email": "a@gmail.com",
+    "nationality": "Welsh",
+    "gender": "Male",
+    "dob": "2026-01-01",
+    "accommodationLine1": "dudu jaipur",
+    "accommodationLine2": "dudu jaipur",
+    "accommodationCity": "dudu",
+    "accommodationState": "Rajasthan",
+    "accommodationZip": "303008",
+    "passportNumber": "4567890-7890",
+    "passportExpiry": "2026-01-10",
+    "arrivalDate": "2026-01-17",
+    "departureDate": "2026-01-17",
+    "travelMode": "Land",
+    "flightNumber": "567890-",
+    "departureFlightNumber": "yuiop",
+    "totalPersons": 6,
+    "isIndividual": false
+  },
+  "userName": "shiv",
+  "userEmail": "a@gmail.com",
+  "userPhone": "345678907890",
+  "status": "new",
+  "isActive": false,
+  "createdAt": {
+    "$date": "2026-01-11T09:05:03.375Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T09:06:29.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69637b526d9a5f3d31d439e6"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "formSlug": "malaysia-visa-for-indians",
+  "formName": "duvisa->malaysia-visa-for-indians",
+  "submissionData": {
+    "name": "malaysia-visa-for-indians",
+    "number": "9876543210",
+    "email": "malaysia@gmail.com",
+    "country": "india",
+    "state": "rajasthan",
+    "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "malaysia-visa-for-indians",
+  "userEmail": "malaysia@gmail.com",
+  "userPhone": "",
+  "status": "new",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-11T10:28:34.733Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T10:28:34.733Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69638c676d9a5f3d31d43d28"
+  },
+  "formId": {
+    "$oid": "695a9d12bdfda86433ae6fca"
+  },
+  "formSlug": "apply-for-any-visa",
+  "formName": "duvisa->apply-for-any-visa",
+  "submissionData": {
+    "country": "india",
+    "i_am_going_to": "_belgium",
+    "state": "rajasthan",
+    "email": "apply@foranyvisa.com",
+    "number": "9876543210",
+    "name": "apply-for-any-visa",
+    "by_submitting_my_details_i_override_my_ndnc_registration_and_authorize_du_global_limited_and_its_representatives_to_contact_me_through_call__rcs__sms__whatsapp__email": true
+  },
+  "userName": "apply-for-any-visa",
+  "userEmail": "apply@foranyvisa.com",
+  "userPhone": "",
+  "status": "new",
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-11T11:41:27.335Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-11T11:41:27.335Z"
+  },
+  "__v": 0
+}]

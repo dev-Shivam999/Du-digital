@@ -1,0 +1,170 @@
+{
+    "partnerHero": {
+        "backgroundImage": "/assets/become-partner/bg-image-parter.jpg",
+        "title": "Grow your travel business with <span class='whitespace-nowrap'>DU GLOBAL</span>",
+        "highlight": "with DU GLOBAL",
+        "points": [
+            "Access to visa dashboard",
+            "Tailored Support",
+            "Competitive Pricing"
+        ],
+        "form": {
+            "buttonText": "Become a Partner",
+            "consentText": "By submitting my details, I override my NDNC registration and authorize Du Digital Global Limited and its representatives to contact me through call / RCS / SMS / WhatsApp / E-mail.",
+            "fields": [
+                {
+                    "type": "text",
+                    "placeholder": "Name"
+                },
+                {
+                    "type": "email",
+                    "placeholder": "Email Address"
+                },
+                {
+                    "type": "phone",
+                    "placeholder": "Phone Number"
+                },
+                {
+                    "type": "select",
+                    "placeholder": "What are you looking for?",
+                    "options": [
+                        "Visa Services",
+                        "Partnership",
+                        "Support",
+                        "Others"
+                    ]
+                },
+                {
+                    "type": "select",
+                    "placeholder": "Location (City)",
+                    "options": [
+                        "Delhi",
+                        "Mumbai",
+                        "Bangalore",
+                        "Chennai",
+                        "Other"
+                    ]
+                }
+            ]
+        }
+    },
+    "whyUs": {
+        "title": "Why DU GLOBAL?",
+        "items": [
+            {
+                "icon": "rates",
+                "text": "Consistent Market Rates"
+            },
+            {
+                "icon": "guidance",
+                "text": "Expert Guidance"
+            },
+            {
+                "icon": "fast",
+                "text": "Hassle-Free and Fast Process"
+            }
+        ]
+    },
+    "faq": [
+        {
+            "question": "Exclusive Partner Rates",
+            "answer": "Get special pricing designed exclusively for our partners."
+        },
+        {
+            "question": "Dedicated Dashboard",
+            "answer": "Track and manage all visa applications in one place."
+        },
+        {
+            "question": "Express Visa Processing",
+            "answer": "Fast and priority visa processing support."
+        },
+        {
+            "question": "Confidentiality Guaranteed",
+            "answer": "Your customer data is always protected and secure."
+        }
+    ],
+    "footprints": {
+        "description": [
+            "DU GLOBAL is a leading provider with a global footprint, offering specialized services for administrative tasks related to visa processing, passport management, identity verification, and other citizen services. Our expertise extends to Company Formation in the UAE and Immigration, Residency & Citizenship programs, ensuring seamless solutions for our customers.",
+            "Over our 35 centres operating in 6 countries and with an additional 1300 centres available globally with our partner offices, we have the ability to fulfill a wide range of dynamic requirements for our Governmental clients and business partners alike."
+        ],
+        "stats": [
+            {
+                "value": "35",
+                "suffix": "+",
+                "label": "Locations"
+            },
+            {
+                "value": "17",
+                "suffix": " L+",
+                "label": "Applications"
+            },
+            {
+                "value": "200",
+                "suffix": "+",
+                "label": "Employees"
+            }
+        ]
+    },
+    "gallery": [
+        {
+            "imageSrc": "/assets/become-partner/gallery/Photo-1.jpeg",
+            "imageName": "Photo-1.jpeg"
+        },
+        {
+            "imageSrc": "/assets/become-partner/gallery/Photo-2.jpeg",
+            "imageName": "Photo-2.jpeg"
+        },
+        {
+            "imageSrc": "/assets/become-partner/gallery/Photo-3.jpeg",
+            "imageName": "Photo-3.jpeg"
+        },
+        {
+            "imageSrc": "/assets/become-partner/gallery/Untitled-du.png",
+            "imageName": "Untitled-du.png"
+        },
+        {
+            "imageSrc": "/assets/become-partner/gallery/Untitled-du-1.png",
+            "imageName": "Untitled-du-1.png"
+        },
+        {
+            "imageSrc": "/assets/become-partner/gallery/Photo-7-scaled-1.jpg",
+            "imageName": "Photo-7-scaled-1.jpg"
+        }
+    ],
+    "contactExpertsSection": {
+        "title": "Speak to our experts",
+        "ctaText": "CONTACT NOW",
+        "ctaLink": "/contact-us",
+        "cards": [
+            {
+                "type": "phone",
+                "region": "North",
+                "name": "Harsh Pradhan",
+                "designation": "General Manager - Sales",
+                "phone": "+91-9289729731"
+            },
+            {
+                "type": "phone",
+                "region": "South",
+                "name": "Varghese TC",
+                "designation": "Senior Manager - Sales",
+                "phone": "+91-9818226759"
+            },
+            {
+                "type": "phone",
+                "region": "West",
+                "name": "Anup Kesharinath Jain",
+                "designation": "General Manager - Sales",
+                "phone": "+91-9289710037"
+            },
+            {
+                "type": "phone",
+                "region": "East",
+                "name": "Satyabrata Singh",
+                "designation": "Deputy General Manager - Sales",
+                "phone": "+91-9903327666"
+            }
+        ]
+    }
+}

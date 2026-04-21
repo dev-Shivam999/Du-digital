@@ -1,0 +1,340 @@
+[{
+  "_id": {
+    "$oid": "700000000000000000000001"
+  },
+  "name": "MR. AWANT VERMA",
+  "__v": 0,
+  "category": "Leadership",
+  "designation": "Head - Brand & Marketing",
+  "description": "20+ years of experience in marketing and product\r\nmanagement across various industries\r\nPreviously worked with Kantar Group, Reliance\r\nCapital, Apollo International, Finstar Financial\r\nGroup (Russia)\r\nMechanical Engineer, MBA in Marketing &\r\nFinance, Professional Diploma in Digital Marketing\r\nand Certification Programme in Brand Management\r\nfrom IIM-B",
+  "profileImage": "/uploads/1767814354012.png",
+  "createdAt": {
+    "$date": "2025-01-01T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T05:07:16.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "700000000000000000000002"
+  },
+  "name": "MS. VANDANA CHHIBBER",
+  "__v": 0,
+  "category": "Leadership",
+  "designation": "General Manager - Customer Service",
+  "description": "Seasoned Telesales Leader with 20+ years of experience in driving revenue growth, customer engagement, and operational excellence across Telecom, Real Estate, E-commerce, and Distribution sectors.\r\nExpert in sales strategy, CRM optimization, and process automation, consistently delivering higher conversion rates and improved customer satisfaction.\r\nRecognized for data-driven leadership and building high-performing telesales teams that achieved measurable gains in revenue, retention, and efficiency.\r\nAwarded multiple industry accolades, including the BIG Leap Award and Hall of Fame, and holds a PGDM in Marketing from NMIMS.",
+  "profileImage": "/uploads/1767814370835.webp",
+  "createdAt": {
+    "$date": "2025-01-01T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T05:41:51.412Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "700000000000000000000003"
+  },
+  "name": "MR DHRUV HANDA",
+  "__v": 0,
+  "category": "Leadership",
+  "designation": "Associate VP - Business Development",
+  "description": "Results-driven sales leader with over 19 years of experience in driving business growth and revenue optimization in the hospitality industry.\r\nDemonstrated success with prestigious brands such as ITC and The Oberoi Group, most recently serving as Associate Director of Sales at The Oberoi, New Delhi.\r\nExpertise in business development, negotiation, and strategic leadership, with a proven ability to craft and execute high-impact sales initiatives.\r\nRecognized for building strong client relationships, delivering consistent results, and driving long-term business success.\r\nCommitted to excellence and innovation, and poised to bring valuable insights and growth strategies to new opportunities.",
+  "profileImage": "/uploads/1767814407098.png",
+  "createdAt": {
+    "$date": "2025-01-01T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:43:37.225Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "700000000000000000000004"
+  },
+  "name": "MS. Tanima Sur",
+  "__v": 0,
+  "category": "Leadership",
+  "designation": "Head Human Resources",
+  "description": "15+ plus years experience in Human Resources\r\nPreviously worked Spencers Retail, Vodafone and VFS Global \r\nShe has vast knowledge in overseeing human resource operations and activities which includes the entire gambit of Employee Life cycle",
+  "profileImage": "/uploads/1767814422840.png",
+  "createdAt": {
+    "$date": "2025-01-01T09:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T05:39:04.706Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "700000000000000000000006"
+  },
+  "name": "MR. MANOJ DHANRMANI",
+  "__v": 0,
+  "category": "Management",
+  "designation": "Group CEO",
+  "description": "Over 30 years of dynamic experience spanning Aviation, Telecom, Media, and Automotive Industries.\r\nPreviously he has worked with AirAsia, GoAir and Vodafone.\r\nTrack record of driving collaboration across diverse sectors and fostering operational excellence.\r\nA result-oriented leader, brings to the table a unique blend of visionary thinking, effective communication, and a keen understanding of customer needs.\r\nBachelor  of Engineering (Mechanical).",
+  "profileImage": "/uploads/1767814263960.png",
+  "createdAt": {
+    "$date": "2025-01-01T09:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T05:03:49.031Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "700000000000000000000008"
+  },
+  "name": "MR. ADITYA SANGHI",
+  "__v": 0,
+  "category": "Management",
+  "designation": "Senior Manager – Operations",
+  "description": "Over 25 years of experience in building technology and large scale software systems.\r\nPreviously Cofounder CTO of Punchh Inc (sold to PAR Tech).\r\nGraduate of Queensland University of Technology, Australia.",
+  "profileImage": "/uploads/1767814278644.png",
+  "createdAt": {
+    "$date": "2025-01-01T09:05:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T05:05:17.027Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "700000000000000000000011"
+  },
+  "name": "MR .RAJINDER RAI",
+  "__v": 0,
+  "category": "Board of Directors",
+  "designation": "Chairman",
+  "description": "Four decades of rich experience in tourism and hospitality\r\nRepresented as a President of TAAI (Travel Agents Association of India)\r\nVice-President of UFTAA and part of the advisory board of FICCI, CII, Assocham,\r\nPHD CHAMBERS OF COMMERCE\r\nHe is an integral part of the Tourism Advisory Committee of the Indian National Trust for\r\nArt and Cultural Heritage.",
+  "profileImage": "/uploads/1767814103963.jpg",
+  "createdAt": {
+    "$date": "2025-01-01T09:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T04:38:27.023Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "700000000000000000000012"
+  },
+  "name": "MRS . MADHURIMA RAI",
+  "__v": 0,
+  "category": "Board of Directors",
+  "designation": "Managing Director",
+  "description": "B.A. (Hons) in Economics from Delhi University\r\n20 plus years experience in the field of fashion, travel and tourism\r\nResponsible for overall day to day working, finance",
+  "profileImage": "/uploads/1767814073561.png",
+  "createdAt": {
+    "$date": "2025-01-01T09:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T04:38:09.035Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "700000000000000000000013"
+  },
+  "name": "MR. KRISHNA KUMAR",
+  "__v": 0,
+  "category": "Board of Directors",
+  "designation": "Whole Time Director",
+  "description": "27 years of experience in the field of travel trade\r\nResponsible for timely delivery and quality services provided by the Company",
+  "profileImage": "/uploads/1767814132830.png",
+  "createdAt": {
+    "$date": "2025-01-01T09:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T04:41:12.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "700000000000000000000014"
+  },
+  "name": "MS. Neha Goyal",
+  "__v": 0,
+  "category": "Board of Directors",
+  "designation": "Independent Director",
+  "description": "A qualified Lawyer and Company Secretary, with 15+ years of expertise in Corporate Secretarial and Legal matters, Neha has extensive exposure to regulatory authorities like ROC, NCLT, RBI, CBI, and ED. She has guided businesses across Solar, Real Estate, IT, and Agriculture sectors, handling compliance, due diligence, and drafting key agreements, including MOUs with state governments. As a POSH trainer and ICC external member, Neha plays a vital role in ensuring corporate legal and compliance excellence.",
+  "profileImage": "/uploads/1767814166120.png",
+  "createdAt": {
+    "$date": "2025-01-01T09:10:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T04:42:50.951Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "695f364e1887191413ec4eae"
+  },
+  "name": "MR. SHIVAZ RAI",
+  "designation": "Non-Executive Director",
+  "profileImage": "/uploads/1767847502091.png",
+  "description": "20 plus years of experience in Finance Industry\r\n\r\nDiploma in Business Management from Harvard Business School also holder of CFA & FRM\r\nBA from University of Chicago in Economics and Mathematics\r\nHaving experience in Fund Management & Trading at RBC, QVT, UBS & JP Morgan",
+  "category": "Board of Directors",
+  "createdAt": {
+    "$date": "2026-01-08T04:45:02.094Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T04:45:13.378Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f37051887191413ec4eb4"
+  },
+  "name": "MR. PINAK RAANJAN CHAKRAVARTY",
+  "designation": "Non-Executive Director",
+  "profileImage": "/uploads/1767847705388.png",
+  "description": "Ambassador Chakravarty joined the Indian Foreign Service in 1977 and held key appointments in a long and distinguished diplomatic career\r\nHe has considerable experience in South Asia and has had two diplomatic stints in Dhaka, first as the Deputy Chief of Mission and then as the High\r\nCommissioner of the Indian High Commission in Bangladesh.\r\nHe brings in significant and invaluable diplomatic and mission experience",
+  "category": "Board of Directors",
+  "createdAt": {
+    "$date": "2026-01-08T04:48:05.408Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T04:48:25.392Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f39781887191413ec4ebf"
+  },
+  "name": "MR. YASHOVARDHAN AZAD",
+  "designation": "Non-Executive Director",
+  "profileImage": "/uploads/1767848312707.png",
+  "description": "40 years plus wide experience in national security and governance.\r\nHe served as a Special Director in the Intelligence Bureau (IB) and Secretary (Security) to the Government of India.\r\nHe has been awarded the Police Medal for meritorious services and the President of India’s medal for distinguished service.\r\nHe brings his extensive experience and networks in government and national security.",
+  "category": "Board of Directors",
+  "createdAt": {
+    "$date": "2026-01-08T04:58:32.708Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T04:58:32.708Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f39e61887191413ec4ec5"
+  },
+  "name": "MR. AJAY K. JAIN",
+  "designation": "Independent Director",
+  "profileImage": "/uploads/1767848422212.png",
+  "description": "Senior advocate in High Court and Supreme Court of India Practice areas – Constitutional Law, Contracts (Governments & Private) Taxation, Property & Commercial Law, Recovery Law and Economic Offences.\r\nHe specializes In corporate Affairs / Corporate Restructuring / Insolvency / Recovery matters\r\nHe is practicing before the Supreme Court of India High Court of Delhi and other High Courts of India as well as before DRT, DRAT, NCLT & NCLAT\r\nHe has handled matters before Arbitration Tribunals and also as Arbitrator.\r\nHe is also Ex-Legal Advisor of Tuberculosis Association of India, Ex-Member of Ethics Committee, Medical Council of India, and Ex – Independent Director of the Insolvency Professionals Agency of Institute of Cost Accountants of India (IPA ICAI)",
+  "category": "Board of Directors",
+  "createdAt": {
+    "$date": "2026-01-08T05:00:22.217Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T05:00:22.217Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f3a641887191413ec4ec8"
+  },
+  "name": "MR. GAURAV KUMAR",
+  "designation": "Independent director",
+  "profileImage": "/uploads/1767848548807.png",
+  "description": "A Company Secretary.\r\n5 years of experience in the field of Corporate and Securities Law.",
+  "category": "Board of Directors",
+  "createdAt": {
+    "$date": "2026-01-08T05:02:28.809Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T05:02:28.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f52c51887191413ec5024"
+  },
+  "name": "MR. NEERAJ KUMAR",
+  "designation": "Country Manager - South Korea",
+  "profileImage": "/uploads/1767854789192.png",
+  "description": "Extensive experience driving global business development, strategic partnerships, and Korea market expansion across multiple industries.\r\nWorked with leading tech and digital companies in Korea — including Naver, Match Group, and Estsoft — leading initiatives in growth, localization, and cross-border collaboration.\r\nTrilingual professional with deep expertise in managing cross-cultural teams, accelerating revenue growth, and executing new market entry strategies in Asia and beyond.\r\nRecognized for bridging international business ecosystems through data-driven strategy, operational excellence, and partner alignment.\r\nHolds a Master’s in Global Economy & Strategy from Yonsei University, and a Bachelor’s from Jawaharlal Nehru University.",
+  "category": "Leadership",
+  "createdAt": {
+    "$date": "2026-01-08T06:46:29.193Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:46:29.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f53501887191413ec5029"
+  },
+  "name": "MR. ASHUTOSH VASHISHT",
+  "designation": "General Manager - IT",
+  "profileImage": "/uploads/1767854970504.png",
+  "description": "20+ years of experience in IT Infrastructure Management, Technology Operations, Automation, and Enterprise Governance, with a strong reputation for building secure, scalable, and future-ready technology ecosystems across diverse industries.\r\nPreviously associated with leading organisations such as Helm360, MCube Advisors, Integreon, Genpact, and IBM Daksh, where he spearheaded initiatives in cloud modernisation, cybersecurity, data-centre optimisation, and enterprise digital transformation.\r\nCurrently leads strategic technology programs focused on IT governance, security enhancement, infrastructure modernisation, and seamless application delivery across the organisation.\r\nRecognised for his strategic foresight, innovation mindset, and execution-driven leadership, committed to creating sustainable, high-performance technology environments that drive business growth and digital excellence.",
+  "category": "Leadership",
+  "createdAt": {
+    "$date": "2026-01-08T06:48:48.624Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:49:30.507Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f54411887191413ec503a"
+  },
+  "name": "MR. ANKIT LAMBA",
+  "designation": "Head - Global Recruitment",
+  "profileImage": "/uploads/1767855169070.webp",
+  "description": "With over 23 years of experience in Sales, Operations, Client Relationship Management, and Global Recruitment, he has built a strong reputation for driving business growth and operational excellence across diverse industries, including Telecom, Travel & Tourism, Visa Services, and Global Recruitment.\r\nPreviously associated with leading brands such as Hutch, Vodafone, and Reliance Jio Infocom, where he contributed to key business development and expansion initiatives.\r\nCurrently leads strategic initiatives to connect international employers with skilled talent across global markets.\r\nKnown for his strategic vision and execution-driven leadership, he focuses on building sustainable, high-performing recruitment networks that enable business growth and global workforce success.",
+  "category": "Leadership",
+  "createdAt": {
+    "$date": "2026-01-08T06:52:49.071Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:52:49.071Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f54d51887191413ec503f"
+  },
+  "name": "MR. SARFARAZ ANWAR",
+  "designation": "General Manager- Operations",
+  "profileImage": "/uploads/1767855317259.png",
+  "description": "10 years of experience in the visa services sector, successfully leading and managing Visa Application Centers for multiple diplomatic missions across India.\r\nProven expertise in center operations, stakeholder engagement, staff training, and process optimization, ensuring seamless applicant experience and operational excellence.\r\nKnown for fostering strong relationships with embassy officials, vendors, and internal teams through exceptional interpersonal and communication skills.\r\nA committed and adaptable leader, dedicated to continuous learning and alignment with evolving global visa regulations and service standards.",
+  "category": "Leadership",
+  "createdAt": {
+    "$date": "2026-01-08T06:55:17.260Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:55:17.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f55a51887191413ec5054"
+  },
+  "name": "MR. GAGANDEEP SINGH BHATIA",
+  "designation": "Head of Sales & Operations",
+  "profileImage": "/uploads/1767855525421.png",
+  "description": "Management graduate.\r\n20 years plus experience in the consumer durable,\r\ntelecom and travel industry spanning across multiple\r\norganisations like Voltas limited, Vodafone, Go Air\r\nand Yatra Online.\r\nExpertise in sales, distribution and channel management.\r\nProven track record in strategic planning, leading\r\nlarge teams and client relationship management.",
+  "category": "Leadership",
+  "createdAt": {
+    "$date": "2026-01-08T06:58:45.423Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T06:58:45.423Z"
+  },
+  "__v": 0
+}]

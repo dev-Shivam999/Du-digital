@@ -1,0 +1,35 @@
+b2b-partner
+
+1 Looking_For
+2 Business_Name
+3 Country
+
+conatct-us
+1 Message
+
+
+
+
+
+
+DigitalArrivalCards
+1 Accommodation_City
+2 Accommodation_Line_1
+3 Accommodation_Line_2
+4 Accommodation_State
+5 Accommodation_Zip
+6 Arrival_Date
+8 DOB
+9 Departure_Date
+10 Departure_Flight_Number
+13 Flight_Number
+14 Gender
+15 Is_Individual
+16 Last_Name
+17 Middle_Name
+18 Nationality
+19 Passport_Expiry
+20 Passport_Number
+22 Total_Persons
+23 Travel_Mode
+

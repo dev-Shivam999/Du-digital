@@ -1,0 +1,1406 @@
+[{
+  "_id": {
+    "$oid": "6956a0de11f525706b5944b9"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "question": "Who is eligible for e-Visa Services?",
+  "answer": "The following are the eligibility conditions for availing e-Visa services–\n\nNationals of countries listed are eligible to apply for e-Visa Services.\nForeigners whose sole objective for visiting India is\nRecreation and sightseeing\nCasual visit to meet friends and relatives\nAttending short term yoga programme or short term courses on local languages, music, dance, arts & crafts, cooking, medicine etc. which should not be a formal or structured course/programme\n(courses not exceeding 6 months duration and not issuing a qualifying certificate/diploma etc. to the participants)\nVoluntary work of short duration (for a maximum period of one month, which do not involve any monetary payment or consideration of any kind in return)\nMedical treatment, including treatment under Indian systems of medicine\nAs attendant to e-Medical visa holder\nBusiness purpose\nAttending a conference/ seminar/ workshop.\nPassport should have at least six months validity at the time of making application for grant of e-Visa and a re-entry permit, if that is required under the law of the country of nationality of the applicant.\nThe passport should have at least two blank pages for stamping by the Immigration Officer.\nThe foreigner should have return ticket or onward journey ticket, with sufficient money to spend during his/her stay in India.\nForeigners of Pakistani origin or having Pakistani Passport are not eligible for e-Visa. Foreigners who are not Pakistani nationals, but whose parents or grandparents (either paternal or maternal) was born\nin, or was permanently resident in Pakistan, are also not eligible for e-Visa. They may apply for regular Visa at Indian Mission.\nNot available to Diplomatic/Official Passport Holders or Laissez-passer/ international travel document holders.\nNot available to individuals endorsed on Parent’s/Spouse’s Passport i.e. each individual should have a separate passport.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:29:18.967Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:29:18.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a5b111f525706b594577"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "question": "How long does the verification process take?",
+  "answer": "\nOnce the required documents are submitted, our DuVerify platform promptly initiates the necessary authentication checks. The Verification Report will be shared within 4–6 hours from the date of payment and document submission.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:49:53.148Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:49:53.148Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a534ece523d8d30d851b"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "question": "Does the National Type D visa alone allow me to work in Greece?",
+  "answer": "No — the visa allows entry, but you must apply for the Residence Permit with the Right to Work after arrival.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:12:20.503Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:12:20.503Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a7b2ece523d8d30d861c"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "question": "Is the arrival card mandatory for all countries?",
+  "answer": "Yes. For Singapore, Thailand, Indonesia, Malaysia, South Korea and Taiwan, it’s mandatory to apply online before arrival for everyone.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:22:58.667Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:22:58.667Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958a9cfece523d8d30d86cd"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "question": "Is a Police Clearance Certificate (PCC) required for the Serbia Work Permit?",
+  "answer": "Yes, most cases require a PCC, depending on Serbian and employer requirements. Always check with the Embassy for current rules.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T05:31:59.463Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T05:31:59.463Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d1cdece523d8d30d87ba"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "What type of visa do I need to visit Malaysia?",
+  "answer": "The specific type of visa required to visit Malaysia depends on the purpose and duration of your visit. Common visa types include tourist visas for leisure travel, business visas for business-related activities, student visas for studying, and employment visas for work purposes.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:22:37.037Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:22:37.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d3a3ece523d8d30d8872"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "question": "Do I need a visa for Morocco?",
+  "answer": "Yes. Indians need a visa to travel to Morocco. Morocco visa for Indians can be obtained by visiting DU Global visa application centres near you or by requesting passport pickup and drop services*. In order to get visa for Morocco from India, it is necessary to fulfil the visa requirements and submit the necessary documents. A Morocco visa for Indians can be tourist, business and work – depending on the purpose of the visit.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:30:27.255Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:30:27.255Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d61dece523d8d30d899b"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "question": "Is a personal interview needed for a South Korean Visa?",
+  "answer": "A personal interview is usually not required for a South Korean Visa. But the embassy can request one in some special cases. It’s recommended to confirm it with the embassy.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:41:01.193Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:41:01.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6958d72dece523d8d30d8a63"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "question": "What is the Dubai 5-year tourist visa?",
+  "answer": "The Dubai 5-year tourist visa is a long-term visa option that allows frequent travelers to visit Dubai for extended periods of up to 90 days at a time.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-03T08:45:33.449Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-03T08:45:33.449Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695a78ca1d2f9762620616da"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "question": "How long does it take to process an Australian Tourist Visa?",
+  "answer": "\nThe processing time typically ranges between 30–45 working days. However, it may vary based on factors such as the accuracy of the submitted documents, seasonal application loads, and additional requirements from the embassy.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T14:27:22.363Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T14:27:22.363Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695ab3d5dde0cecedd94d7cf"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "question": "Who decides whether or not I get the visa?",
+  "answer": "\nThe officials present at the Japanese Embassy decide who gets the Japan tourist visa.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-04T18:39:17.049Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-04T18:39:17.049Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695b1e3eb35f8f599de4d4cb"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "question": "Does the applicant need a tourist visa for Egypt?",
+  "answer": "\nYes, Indian tourists planning to visit Egypt do need a tourist visa to travel. In order to obtain a visa for Egypt from India, it is necessary to fulfill the visa requirements and submit the necessary documents.",
+  "order": 0,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-05T02:13:18.614Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-05T02:13:18.614Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7fe81887191413ec5244"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "question": "Can my family join me in Greece?",
+  "answer": "\nFamily reunification is possible—subject to the type of residence permit issued and employer consent.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T09:59:04.088Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:59:04.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f7ffc1887191413ec524b"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "question": "What happens when my employment contract ends?",
+  "answer": "\nYou may apply for renewal under a new contract, or exit the country. Permit renewal must be done before expiry",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T09:59:24.411Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:59:24.411Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f800f1887191413ec5252"
+  },
+  "formId": {
+    "$oid": "6958a3f2ece523d8d30d84ed"
+  },
+  "question": "Which sectors are hiring third‑country nationals in Greece?",
+  "answer": "\nKey demand sectors include hospitality & tourism, food & beverage, housekeeping, and maintenance/support roles.",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T09:59:43.942Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T09:59:43.942Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f80911887191413ec526c"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "question": "How early should I apply?",
+  "answer": "\nApply at least 3 days before your travel date to ensure smooth approval.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:01:53.539Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:01:53.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f80a51887191413ec5273"
+  },
+  "formId": {
+    "$oid": "6958a6b0ece523d8d30d857d"
+  },
+  "question": "Can DuDigital help if I make a mistake in my form?",
+  "answer": "\nYes, our support team can help you correct or reapply quickly before your departure.",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:02:13.809Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:02:13.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f86ed1887191413ec52e9"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "question": "How to apply for a job in Serbia?",
+  "answer": "\nFind Serbian job opportunities through recruitment agencies, global job platforms, or company career pages. Once you secure an offer, your employer will provide the documents for your visa process.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:29:01.131Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:29:01.131Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f87041887191413ec52f0"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "question": "What is a Type D Visa in Serbia?",
+  "answer": "\nIt is a long-stay visa for individuals intending to reside in Serbia for employment, family reunification, or other long-term purposes.",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:29:24.010Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:29:24.010Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f871b1887191413ec52f7"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "question": "What documents are required for a Serbia Work Permit?",
+  "answer": "\nRefer to the checklist above. Additional documents may apply based on your profile and the employer.",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:29:47.139Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:29:47.139Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f872e1887191413ec52fe"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "question": "What are the most common jobs in Serbia?",
+  "answer": "\nSerbia recruits in the IT, construction, engineering, healthcare, manufacturing, and hospitality sectors.",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:30:06.143Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:30:06.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f873f1887191413ec5305"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "question": "Who needs a work visa and work permit in Serbia?",
+  "answer": "\nNon-EU nationals must secure both a work visa (D-Type) and a work permit approved by the Serbian government.",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:30:23.725Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:30:23.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f87511887191413ec530c"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "question": "What is the processing time?",
+  "answer": "\nApplication processing takes approximately 2–4 weeks, subject to Embassy and individual case factors.",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:30:41.765Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:30:41.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f87651887191413ec5313"
+  },
+  "formId": {
+    "$oid": "6958a80aece523d8d30d8631"
+  },
+  "question": "Can my family join me in Serbia?",
+  "answer": "\nFamily reunification is possible under separate applications. We’ll guide you through the process.",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:31:01.018Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:31:01.018Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f88a11887191413ec535c"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "question": "How long is the Dubai 5-year tourist visa valid for?",
+  "answer": "\nThe visa is valid for a total of 5 years, allowing multiple entries into Dubai during this period.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:36:17.190Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:36:17.190Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f88b41887191413ec5363"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "question": "Can I extend my stay beyond 90 days on the Dubai 5-year tourist visa?",
+  "answer": "\nYes, you can extend your stay for an additional 90 days from within the country, providing flexibility for longer visits.",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:36:36.047Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:36:36.047Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f88c61887191413ec536a"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "question": "Are there any restrictions on the number of entries with the 5-year tourist visa?",
+  "answer": "No, the 5-year tourist visa allows multiple entries, providing the flexibility to visit Dubai as many times as desired within the 5-year validity period.",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:36:54.356Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:36:54.356Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f88db1887191413ec5371"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "question": "What are the benefits of the Dubai 5-year tourist visa?",
+  "answer": "\nThe visa offers the convenience of extended stays, allowing you to explore Dubai’s attractions, culture, and experiences over an extended period.",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:37:15.711Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:37:15.711Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f88f31887191413ec5378"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "question": "Can I work or engage in business activities on the 5-year tourist visa?",
+  "answer": "\nNo, the 5-year tourist visa is intended for tourism purposes only. Engaging in work or business activities is not allowed.",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:37:39.117Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:37:39.117Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f89121887191413ec537f"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "question": "What are required for the 5-year tourist visa in Dubai?",
+  "answer": "\nBelow are the requirements for 5-year tourist visa in Dubai application:\n1. Digital colour copy of your passport size photograph with white background\n2. Scanned colour copy of first and last page of your valid Passport\n3. Last 6 months Bank statements to prove your liquidity and sufficiency of funds- minimum 4000 USD\n4. A letter from bank certifying balance in USD\n5. Proof of health insurance Travel( minimum 1 year)\n6. Reference of a person in UAE (name, contact details and address)\n7. Copy of Flight Tickets and Hotel Booking",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:38:10.646Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:38:10.646Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f89261887191413ec5386"
+  },
+  "formId": {
+    "$oid": "6958d6abece523d8d30d89b8"
+  },
+  "question": "Can family members also apply for the 5-year tourist visa?",
+  "answer": "\nFamily members can apply individually for the 5-year tourist visa. Each applicant must meet the eligibility criteria and complete the application process.",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:38:30.180Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:38:30.180Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f8d581887191413ec5417"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "question": "Do I need travel insurance for South Korea?",
+  "answer": "\nThis insurance is not required for Indian applicants. But it’s advised to get one. Travel insurance helps you in cases of health crises, trip cancellations, or unforeseen events.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:56:24.303Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:56:24.303Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f8d6e1887191413ec541e"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "question": "What do I do if my visa application gets rejected?",
+  "answer": "\nCheck the reasons provided for rejection. Resolve these issues, then reapply after the waiting period. If the problem persists, contact the embassy or visa advisor for support.",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:56:46.511Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:56:46.511Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f8d901887191413ec5425"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "question": "Can I extend my South Korean tourist visa while in South Korea?",
+  "answer": "You can extend your visa in South Korea. But you have to apply to Korea Immigration Services at least two months before your visa expires.",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:57:20.472Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:57:20.472Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f8da31887191413ec542c"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "question": "Is a No Objection Certificate (NOC) needed?",
+  "answer": "\nThis is not mandatory for all applicants. But those applying for student or employment visas might need an NOC. Connect with the embassy to check requirements.",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:57:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:57:39.775Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f8db71887191413ec5433"
+  },
+  "formId": {
+    "$oid": "6958d450ece523d8d30d888f"
+  },
+  "question": "Do I have to submit my original passport for my application?",
+  "answer": "\nIt’s compulsory to submit your original passport while applying for a South Korean Visa. This passport needs to have at least six months of validity and two blank pages.",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T10:57:59.130Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T10:57:59.130Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f92ee1887191413ec5555"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "question": "How long is an Australian tourist visa valid for?",
+  "answer": "\nThe validity of an Australian tourist visa depends on the embassy’s decision and the purpose of your visit. Typically, it ranges from 3 to 12 months, but some visas may allow multiple entries within the validity period.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:20:14.665Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:20:14.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f93001887191413ec555c"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "question": "What documents are required for an Australian tourist visa?",
+  "answer": "\nYou’ll need a passport copy, a recent photograph, contact details, financial proofs (e.g., bank statements), and other supporting documents such as a travel itinerary or invitation letter. (Refer to the full document list above for more details.)",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:20:32.665Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:20:32.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f93141887191413ec5563"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "question": "Is travel insurance mandatory for an Australian tourist visa?",
+  "answer": "No, travel insurance is not mandatory for an Australian tourist visa. However, it is strongly recommended to have one to cover unexpected medical emergencies or trip cancellations during your travel.",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:20:52.150Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:20:52.150Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f932a1887191413ec556a"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "question": "What happens if my Australian tourist visa application is rejected?",
+  "answer": "\nIf your application is rejected, you will be informed of the reasons by the embassy. You can address the issues, provide the required corrections or additional documents, and reapply. Seek professional assistance if needed to avoid errors in the reapplication process.",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:21:14.960Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:21:14.960Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f933e1887191413ec5571"
+  },
+  "formId": {
+    "$oid": "695a76711d2f9762620615b8"
+  },
+  "question": "Can I work on an Australian tourist visa?",
+  "answer": "\nNo, employment is strictly prohibited on a tourist visa. This visa is intended solely for leisure, visiting family, or exploring the country. If you wish to work, you must apply for an appropriate work visa.",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:21:34.023Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:21:34.023Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f96491887191413ec5645"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "What are the requirements for obtaining a Malaysia visa?",
+  "answer": "\nPassport sized studio photo.\nPassport biodata page with passport validity more than six (6) months from travel date to Malaysia.\nConfirmed return flight booking.\nBirth certificate for minor applicants.\nProof of accommodation.\nOther supporting documents.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:34:33.413Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:34:33.413Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f96621887191413ec564c"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "How long does it take to process a Malaysia visa?",
+  "answer": "\nTourist Visa (Social Visit Pass/Tourist): Online eVisa: Typically processed within 48 to 72 hours.\nVisa on Arrival (for eligible nationalities): Processed upon arrival at designated entry points.\nBusiness Visa (Business Visit Pass): Online eVisa: Usually processed within 48 to 72 hours.\nVisa at Malaysian Embassy/Consulate: Processing times may vary, typically taking a few days to a few weeks.\nStudent Visa (Student Pass): Processing times can vary significantly, depending on the educational institution and the required approvals from Malaysian immigration authorities. It may take several weeks to a few months to process a student visa.\nEmployment Visa (Employment Pass): Processing times for employment visas can be longer, as they involve various approvals from different government agencies in Malaysia. It may take several weeks to a few months to process an employment visa.\nOther Visa Types: Processing times for other visa types, such as Long-Term Social Visit Pass, Professional Visit Pass, and Temporary Work Visa, can vary. It is advisable to check with the Malaysian immigration authorities or the nearest Malaysian embassy/consulate for specific processing timeframes.",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:34:58.701Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:34:58.701Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f96741887191413ec5653"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "Can I apply for a Malaysia visa online?",
+  "answer": "\nYes, Indian passport holder can apply for a Malaysia visa online. Malaysia offers an online visa application system known as the eVisa (Electronic Visa).",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:35:16.388Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:35:16.388Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f968e1887191413ec565a"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "Do I need a sponsor for my Malaysia visa application?",
+  "answer": "\nTourist Visa (Social Visit Pass/Tourist): Generally, a sponsor is not required for a tourist visa application. You can apply for a tourist visa independently by providing the necessary documents and fulfilling the requirements.\nBusiness Visa (Business Visit Pass): A sponsor is not always required for a business visa application. However, if you have a Malaysian company or organization inviting you for business-related activities, they may act as your sponsor by providing a letter of invitation or support letter stating the purpose of your visit and confirming their responsibility during your stay.\nStudent Visa (Student Pass): A sponsor is usually required for a student visa application. The educational institution in Malaysia where you have been accepted will typically act as your sponsor. They will provide you with the necessary documentation, including a sponsorship letter, to support your student visa application.\nEmployment Visa (Employment Pass): An employer or company in Malaysia is usually required to sponsor your employment visa application. They will initiate the application process and provide the necessary documents, including an employment offer letter and other supporting documents, to support your visa application.",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:35:42.048Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:35:42.048Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f96a21887191413ec5661"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "What is the validity period of a Malaysia visa?",
+  "answer": "\nTourist Visa (Social Visit Pass/Tourist): 30-90 Days\nBusiness Visa (Business Visit Pass): 30-90 Days\nStudent Visa (Student Pass): typically aligned with the duration of study programme.\nEmployment Visa (Employment Pass): typically aligned with the employment contract.\n ",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:36:02.723Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:36:02.723Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f96b71887191413ec5668"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "Can I extend my Malaysia visa if I want to stay longer?",
+  "answer": "\nTourist Visa (Social Visit Pass/Tourist): 30-90 Days\nBusiness Visa (Business Visit Pass): 30-90 Days\nStudent Visa (Student Pass): typically aligned with the duration of study programme.\nEmployment Visa (Employment Pass): typically aligned with the employment contract.",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:36:23.787Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:36:23.787Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f96cf1887191413ec566f"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "Is there a specific travel insurance requirement for a Malaysia visa?",
+  "answer": "\nThere is no specific travel insurance requirement mandated by the Malaysian immigration authorities for obtaining a Malaysia visa. However, it is highly recommended to have travel insurance coverage when visiting Malaysia or any other country.",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:36:47.427Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:36:47.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f96e31887191413ec5676"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "Are there any restrictions or limitations on a Malaysia visa?",
+  "answer": "\nYes, there are certain restrictions and limitations that may apply to a Malaysia visa. These restrictions can vary depending on the type of visa, the purpose of your visit, and the specific conditions set by the Malaysian immigration authorities.",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:37:07.214Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:37:07.214Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f96f41887191413ec567d"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "Can I work or study in Malaysia with a tourist visa?",
+  "answer": "\nNo, you cannot work or study in Malaysia with a tourist visa. The tourist visa, also known as the Social Visit Pass or Tourist Pass, is specifically intended for tourism and leisure purposes. It does not grant you permission to engage in any form of employment or pursue studies in Malaysia.",
+  "order": 9,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:37:24.867Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:37:24.867Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f97061887191413ec5684"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "Can I apply for a Malaysia visa upon arrival?",
+  "answer": "\nMalaysia does not generally offer visa on arrival (VoA) facilities for most nationalities. This means that you typically cannot apply for a Malaysia visa upon arrival at the airport or any other port of entry.",
+  "order": 10,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:37:42.240Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:37:42.240Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f97171887191413ec568b"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "Are there any specific health or vaccination requirements for a Malaysia visa?",
+  "answer": "\nMalaysia does not have specific health or vaccination requirements for obtaining a visa. However, it is essential to consider health and vaccination aspects when planning your trip to Malaysia to ensure a safe and healthy travel experience.",
+  "order": 11,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:37:59.034Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:37:59.034Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f973f1887191413ec5692"
+  },
+  "formId": {
+    "$oid": "6958ac66ece523d8d30d8707"
+  },
+  "question": "What should I do if my Malaysia visa application is denied?",
+  "answer": "If your Malaysia visa application is denied, it can be disappointing and inconvenient. However, there are a few steps you can take to address the situation:\n\nUnderstand the Reason: When your visa application is denied, the first step is to understand the reason behind the denial. The Malaysian immigration authorities should provide a reason or explanation for the rejection. It could be due to incomplete documentation, insufficient funds, failure to meet eligibility criteria, or other specific reasons. Understanding the cause will help you determine the next course of action.\n\nReview and Rectify: Once you know the reason for the visa denial, carefully review your application and supporting documents. Identify any shortcomings or areas that need improvement. If the reason is related to incomplete or insufficient documentation, make sure to provide all the required information and supporting evidence in your revised application. If the reason is related to financial matters, ensure that you meet the necessary financial requirements.\n\nSeek Professional Advice: If you are unsure about the reasons for the visa denial or how to rectify the situation, consider seeking professional advice. Consult with an immigration lawyer or a reputable visa consultant who specializes in Malaysia visa applications. They can review your case, provide guidance, and assist you in reapplying with a stronger application.\n\nReapply or Appeal: Depending on the reason for the visa denial and the specific circumstances, you may have the option to reapply or appeal the decision. If you believe that your situation meets the visa requirements and the initial decision was incorrect, you can submit a new application with the necessary improvements. Alternatively, if there is an appeal process available, you can follow the prescribed procedure to appeal the decision. Be sure to adhere to the specified timelines and requirements for reapplication or appeals.\n\nConsider Alternative Options: If your visa application continues to be denied despite your efforts, you may need to consider alternative travel plans or explore other visa options. For example, you could reconsider the purpose of your visit, explore different visa categories, or plan a visit to a different country. It is advisable to consult with a visa consultant or immigration lawyer to explore alternative options that may be suitable for your circumstances.\n\nRemember to allow sufficient time for the visa application process, plan your travel accordingly, and follow all the guidelines and requirements provided by the Malaysian immigration authorities.\n\n",
+  "order": 12,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:38:39.861Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:38:39.861Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f98a31887191413ec5707"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "question": "Do I need travel or medical insurance?",
+  "answer": "\nIt is mandatory to purchase a travel insurance plan to secure their trip in the event of unexpected events such as medical emergencies, flight cancellations, baggage delay or loss etc.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:44:35.208Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:44:35.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f98b51887191413ec570e"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "question": "Can I get a Moroccan visa while in the country?",
+  "answer": "\nNo, you cannot get a Moroccan visa while in the country. You need to apply for the visa in your home country before you travel.",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:44:53.653Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:44:53.653Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f98c61887191413ec5715"
+  },
+  "formId": {
+    "$oid": "6958d234ece523d8d30d87d3"
+  },
+  "question": "I want to cancel my Moroccan visa application,How do I do that?",
+  "answer": "\nOnce your Moroccan visa application has been submitted, you cannot withdraw or cancel the application nor can the visa fees be refunded.",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-08T11:45:10.081Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T11:45:10.081Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961da5dca39aa07aeec2f6b"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "question": "Is the personal data secure?",
+  "answer": "\nYour privacy and security are our utmost priority. DuVerify adheres strictly to data security standards, ensuring complete confidentiality and protection of your personal data.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:49:33.693Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:49:33.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961da79ca39aa07aeec2f72"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "question": "What verifications are essential during onboarding?",
+  "answer": "\nIdentity and reputation fraud are significant risks in onboarding. Verifying ensures they are genuine, capable and not linked to any criminal activities. Key checks include:\n\n  Criminal Background Check\n  Identity Verification\n  Police Registration and Clearance",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:50:01.650Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:50:01.650Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961da8fca39aa07aeec2f79"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "question": "Who should I contact if I have an issue with my verification order or report?",
+  "answer": "\nFor any queries or concerns regarding your verification order or report, please reach out to us at our Chat Support. Our team will be happy to assist you.",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:50:23.294Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:50:23.294Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961daa3ca39aa07aeec2f80"
+  },
+  "formId": {
+    "$oid": "6956a2ae11f525706b5944f5"
+  },
+  "question": "What documents are required for the verification?",
+  "answer": "\nWe require only basic details such as their name, address, and a valid identity card number (e.g., Aadhaar, PAN, Passport). Filling out the form takes just 2 minutes, and once completed, you can relax while we handle the detailed background check for you promptly.",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:50:43.722Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:50:43.722Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961dc36ca39aa07aeec2fd1"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "question": "When should I apply?",
+  "answer": "\nFor e-Tourist Visa (01 year / 05 years), e-Business Visa and e-Conference visa, applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival. Such application can be made 120 days in advance from proposed date of travel.\n\nFor e-Tourist Visa (30 days), applicants of the eligible countries/territories may apply online minimum 4 days in advance of the date of arrival. Such application can be made 30 days in advance from proposed date of travel.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:57:26.523Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:57:26.523Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961dc4aca39aa07aeec2fd8"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "question": "Do I get a confirmation of submission of my e-Visa application?",
+  "answer": "\nYes. Immediately after you submit your e-Visa application and make the payment, you will receive a confirmation of submission of your application on the email id provided by you while filling up your application form.",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:57:46.979Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:57:46.979Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961dc5fca39aa07aeec2fdf"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "question": "When will my e-Visa be issued and how will I be informed about it?",
+  "answer": "\nYour e-Visa application may take 72 hours or more for processing. You will be intimated about your Visa status (Granted or Rejected) on your email id provided by you in the e-Visa application.",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:58:07.619Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:58:07.619Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961dc7eca39aa07aeec2fe6"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "question": "What is the validity of e-Visa?",
+  "answer": "The validity of e-Visa would be according to the e-Visa service you have requested in the application form as:\n\nFor e-Tourist Visa (01 year / 05 years), the validity would be 365 days / 05 years from the date of grant of ETA with Multiple entries and Maximum stay in India during one Calendar Year should not exceed 180 days.\nFor e-Tourist Visa (30 days), the validity would be 30 days from the date of your first arrival in India. Double entries will be granted within the e-Visa validity period stamped on your Passport. Your first arrival must be between the date of issue and expiry of ETA.\nFor e-Business Visa, the validity would be 365 days from the date of grant of ETA with Multiple entries and continuous stay during each visit which shall not exceed 180 days and no registration would be required if stay is for a period of less than 180 days. However, if the intention is to stay for more than 180 days, then the foreigner shall get himself/herself registered with the FRRO/FRO concerned (https://indianfrro.gov.in)within two weeks after the expiry of 180 days of his/her arrival in India.\nFor e-Conference Visa, the validity would be 30 days from the date of arrival in India with Single entry.",
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:58:38.344Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:58:38.344Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961dc94ca39aa07aeec2fed"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "question": "Can I convert my e-Visa to any other Visa?",
+  "answer": "\nNo, e-Visa is non-extendable and non-convertible.",
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:59:00.484Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:59:00.484Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961dca9ca39aa07aeec2ff4"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "question": "Can I change the port of arrival/departure?",
+  "answer": "\nYou may arrive at 31 designated Airports i.e. Ahmedabad, Amritsar, Bagdogra, Bengaluru, Bhubaneshwar, Calicut, Chennai, Chandigarh, Cochin, Coimbatore, Delhi, Gaya, Goa(Dabolim), Goa(Mopa), Guwahati, Hyderabad, Indore, Jaipur, Kannur, Kolkata, Lucknow, Madurai, Mangalore, Mumbai, Nagpur, Port Blair, Pune, Tiruchirappalli, Trivandrum, Varanasi & Visakhapatnam, and 5 designated seaports (i.e. Cochin, Goa, Mangalore, Chennai and Mumbai seaports). You may depart from any of the Indian Immigration Check Posts (ICPs).",
+  "order": 6,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:59:21.778Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:59:21.778Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961dcc2ca39aa07aeec2ffb"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "question": "I am applying e-Visa for myself and my son/daughter who is a minor. Do I need to apply for a separate e-Visa for my minor child?",
+  "answer": "\nYes, ensure that your child’s passport is valid at-least for next 06 (six) months from the date of arrival in India.",
+  "order": 7,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T04:59:46.303Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T04:59:46.303Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961dcd5ca39aa07aeec3002"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "question": "I have submitted my e-Visa application and paid the processing fee. If I cancel my proposed visit to India, will the fees be refunded?",
+  "answer": "\ne-Visa processing fee once submitted is non-refundable as the fee is for processing of the application and is not dependent on either Grant or Rejection of Electronic Travel Authorization (ETA).",
+  "order": 8,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:00:05.452Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:00:05.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961e3f3ca39aa07aeec31b7"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "question": "Where can I apply for Japan tourist visa?",
+  "answer": "\nYou can apply for Japan tourist visa through us, fill the form and our representative will connect with you or you can mail us at info@dudigitalglobal.com",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:30:27.470Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:30:27.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961e403ca39aa07aeec31be"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "question": "How many days it take to get appointment date?",
+  "answer": "\nAfter getting the passport and Income tax return softcopy it will take 4-5 working days",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:30:43.760Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:30:43.760Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961e414ca39aa07aeec31c5"
+  },
+  "formId": {
+    "$oid": "695ab0a0dde0cecedd94d4b1"
+  },
+  "question": "How to get urgent appointment date for Japan tourist visa?",
+  "answer": "\nThe Income tax return, payable balance should be more than 10 Lakhs INR",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:31:00.362Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:31:00.362Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961e46fca39aa07aeec31e0"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "question": "What is the processing time for an Egypt visa application?",
+  "answer": "\nThe processing time for an Egypt visa application typically ranges from 5 to 7 working days.",
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:32:31.748Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:32:31.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961e481ca39aa07aeec31e7"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "question": "Do applicants need to provide proof of accommodation and a travel itinerary while applying for an Egypt visa from India?",
+  "answer": "\nYes, applicants are typically required to submit proof of accommodation (such as hotel reservations) and a detailed travel itinerary as part of the Egypt visa application process from India.",
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:32:49.048Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:32:49.048Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6961e492ca39aa07aeec31ee"
+  },
+  "formId": {
+    "$oid": "695b1c8ab35f8f599de4d156"
+  },
+  "question": "Are there any specific health requirements or vaccinations necessary for Indian travelers visiting Egypt?",
+  "answer": "\nIndian travelers visiting Egypt are generally advised to be up-to-date on routine vaccinations and may consider additional vaccinations such as hepatitis A and typhoid, depending on their travel plans and duration of stay.",
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-10T05:33:06.034Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-10T05:33:06.034Z"
+  },
+  "__v": 0
+}]

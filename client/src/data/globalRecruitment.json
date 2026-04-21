@@ -1,0 +1,12 @@
+{
+    "connect": {
+        "heading": "Connect with us",
+        "backgroundImage": "/assets/government-embassies/contact/verified-certified-duVerify.jpg",
+        "card": {
+            "name": "Karan Khurana",
+            "designation": "Deputy General Manager - Global Access",
+            "email": "karan@dudigitalglobal.com",
+            "phone": "+91-9873584442"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "694f5476b9ddded7147023eb"
+  },
+  "code": "INDIA",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-27T03:37:26.321Z"
+  },
+  "description": "Office locations within India",
+  "isActive": true,
+  "name": "Domestic (India)",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.946Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "694f5476b9ddded7147023ed"
+  },
+  "code": "GLOBAL",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-27T03:37:26.408Z"
+  },
+  "description": "Office locations outside India",
+  "isActive": true,
+  "name": "International (Global)",
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:00.999Z"
+  }
+}]

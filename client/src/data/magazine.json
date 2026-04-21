@@ -1,0 +1,21 @@
+{
+    "hero": {
+        "title": "TnH Magazine",
+        "backgroundImage": "/assets/magazine/magazine-hero.jpg"
+    },
+    "about": {
+        "logoText": "TH",
+        "logoImage": "/assets/magazine/tnh-logo.jpg",
+        "heading": "This is TnH",
+        "label": "TnH Magazine",
+        "description": "In 2010, Travel & Hospitality (TnH) magazine was launched to provide a briefing on travel trends, businesses, destinations, and more. In spite of being a print first brand even today, TnH has continued to grow its audience by telling original, insightful and inspiring stories of modern businesses and people from the travel industry. \n\n Our team of travel professionals and journalists, with over 30 years of rich and cumulative experience in the tourism industry, has helped us prove that there is a place for a print brand that is committed to its readers, advertisers and collaborators. Published monthly out of New Delhi, the magazine has a viewership of over 42,000 readers. . Furthermore, we publish special issues for major travel and tourism events like, WTM, ITB – Berlin, ITB – Asia, ATM, PATA, FITUR, IT&CM, MITT, ITE, ILTM, SATTE, TAAI, IATO, TAFI, TTF & OTM, GITB, State Tourism Marts, etc. Also, our weekly newsletter delivers breaking news, features, and analysis from around the world to the Indian travel industry. It reaches our database of over 1,00,000 Travel Consolidators, Online Travel Companies, Travel Agents, Tour Operators, Hotels, Airlines, NTOs’, Corporate Travel Departments, Meeting Planners, Incentive Houses, Business Travel Influencers, Technology providers, Embassies, International and State Tourism Boards and also to the Ministry of Tourism & of Civil Aviation.",
+        "coverImage": "/assets/magazine/tnh-magazine-cover.jpg"
+    },
+    "events": {
+        "label": "TnH Events",
+        "description": "Since 2014, TnH has worked with clients that want to reach the largest user base of India’s travel industry’s decision makers, to host bespoke events. Through roadshows, conferences, symposiums and networking cocktails, TnH helps its international and domestic clients to promote travel products and services to the Indian market.\n\n Our signature event is the TnH Award show. Our awards are supported by the Ministry of Tourism and put into perspective the emerging trends in the Indian tourism sector, by rewarding excellence in the field of travel and hospitality. Over the years the TnH award ceremony has earned the status of being the most coveted industry travel award function and is attended by the top stakeholders of the travel, tourism, hospitality and civil aviation industry and ministry.",
+        "image": "/assets/magazine/tnh-event.jpg",
+        "ctaText": "For more information visit",
+        "ctaLink": "http://www.tnhglobal.com/"
+    }
+}

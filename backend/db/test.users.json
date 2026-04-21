@@ -1,0 +1,164 @@
+[{
+  "_id": {
+    "$oid": "69512e9dfeef79ead119f8b1"
+  },
+  "name": "Admin User",
+  "email": "admin@dudigital.com",
+  "password": "$2a$10$4rahSv736FU1u4tUmDk5w.Q3FEXagrKxoqOLX/.Tw2TGKynnA7aoe",
+  "role": "admin",
+  "permissions": [],
+  "createdAt": {
+    "$date": "2025-12-28T13:20:29.554Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-28T13:20:29.554Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69512e9dfeef79ead119f8b4"
+  },
+  "name": "HR Manager",
+  "email": "jaypalsinghs7737@gmail.com",
+  "password": "$2a$10$RN7aJUXPIRLxbuieDOZkteW4W3lPqxlV2W.BPKssdTCFgQpLdUsy.",
+  "role": "hr",
+  "permissions": [
+    "view_employees",
+    "manage_gallery",
+    "manage_partners",
+    "manage_applicants",
+    "manage_contacts"
+  ],
+  "createdAt": {
+    "$date": "2025-12-28T13:20:29.762Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-30T02:35:02.034Z"
+  },
+  "__v": 4,
+  "isActive": true,
+  "receivePartnerNotifications": true
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290bef"
+  },
+  "name": "Rahul Sharma",
+  "email": "rahul.sharma@dudigital.com",
+  "password": "$2a$10$.SaM50aJVNN56dCfaNypHO5qCE3b57vYwimkAf2gY3BMTHfRLXJ6i",
+  "role": "sales",
+  "permissions": [],
+  "designation": "Senior Sales Manager",
+  "region": "North India",
+  "phone": "+91 98765 43210",
+  "officeLocationId": {
+    "$oid": "6952c30983e566ddd6290be3"
+  },
+  "isActive": true,
+  "receivePartnerNotifications": false,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.127Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:01.127Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290bf1"
+  },
+  "name": "Priya Patel",
+  "email": "priya.patel@dudigital.com",
+  "password": "$2a$10$WoS2XZQsUrn45x2WzCqZGu2wN4BQ4ISMIfbjL.YM.2qISJ7r1tFzK",
+  "role": "sales",
+  "permissions": [],
+  "designation": "Regional Sales Head",
+  "region": "West India",
+  "phone": "+91 98989 89898",
+  "officeLocationId": {
+    "$oid": "6952c30983e566ddd6290bdf"
+  },
+  "isActive": true,
+  "receivePartnerNotifications": true,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.305Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T18:13:06.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290bf3"
+  },
+  "name": "Anita Desai",
+  "email": "anita.desai@dudigital.com",
+  "password": "$2a$10$JTYZ7y57.7PiFVrL/QAWjeShTNisVeJ2IYhrV.3ObtLibrVdDmMzW",
+  "role": "sales",
+  "permissions": [],
+  "designation": "Business Development Executive",
+  "region": "South India",
+  "phone": "+91 99887 76655",
+  "isActive": true,
+  "receivePartnerNotifications": false,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.476Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:01.476Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290bf5"
+  },
+  "name": "Amit Verma",
+  "email": "amit.verma@dudigital.com",
+  "password": "$2a$10$wnxIJSLKrObVZ34wMYs2JuXLGEmkyA.BzGnjzCfQScuZqFe/o6AJy",
+  "role": "sales",
+  "permissions": [],
+  "designation": "Sales Executive",
+  "region": "East India",
+  "phone": "+91 91234 56789",
+  "officeLocationId": {
+    "$oid": "6952c30983e566ddd6290bde"
+  },
+  "isActive": true,
+  "receivePartnerNotifications": false,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.646Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:01.646Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6952c30983e566ddd6290bf7"
+  },
+  "name": "John Smith",
+  "email": "john.smith@dudigital.com",
+  "password": "$2a$10$WmgTAQi7i3zAnJx3juKNTOx1mV6EyGb8DUJIT1hPtsfNK/emMOA42",
+  "role": "sales",
+  "permissions": [],
+  "designation": "Global Sales Director",
+  "region": "International",
+  "phone": "+1 555 123 4567",
+  "officeLocationId": {
+    "$oid": "6952c30983e566ddd6290beb"
+  },
+  "isActive": true,
+  "receivePartnerNotifications": false,
+  "createdAt": {
+    "$date": "2025-12-29T18:06:01.821Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-29T18:06:01.821Z"
+  },
+  "__v": 0
+}]

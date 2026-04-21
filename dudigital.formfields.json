@@ -1,0 +1,161 @@
+[{
+  "_id": {
+    "$oid": "69569f1511f525706b594454"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "Name",
+  "name": "name",
+  "type": "text",
+  "placeholder": "Enter yOUR nAME",
+  "options": [],
+  "required": false,
+  "order": 0,
+  "isActive": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2026-01-01T16:21:41.871Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:25:48.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69569f3911f525706b594461"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "Email",
+  "name": "email",
+  "type": "email",
+  "placeholder": "Enter Email",
+  "options": [],
+  "required": false,
+  "order": 1,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:22:17.637Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:25:48.730Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69569fae11f525706b59446d"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "Phone",
+  "name": "phone",
+  "type": "number",
+  "placeholder": "Enter Number",
+  "options": [],
+  "required": true,
+  "order": 2,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:24:14.087Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:25:48.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69569fae11f525706b59446f"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "TrawalDate",
+  "name": "trawaldate",
+  "type": "date",
+  "placeholder": "TrawalDate",
+  "options": [],
+  "required": true,
+  "order": 3,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:24:14.094Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:25:48.740Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a00c11f525706b59447d"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "where TO go",
+  "name": "where_to_go",
+  "type": "select",
+  "placeholder": "Where Go",
+  "options": [
+    {
+      "label": "KORI",
+      "value": "kori",
+      "_id": {
+        "$oid": "6956a00c11f525706b59447e"
+      }
+    },
+    {
+      "label": "Japan",
+      "value": "japan",
+      "_id": {
+        "$oid": "6956a00c11f525706b59447f"
+      }
+    }
+  ],
+  "required": true,
+  "order": 4,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:25:48.785Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:25:48.785Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6956a00c11f525706b594481"
+  },
+  "formId": {
+    "$oid": "69569f1511f525706b594452"
+  },
+  "label": "WHERE FROM",
+  "name": "where_from",
+  "type": "select",
+  "placeholder": "wHERE TO GO",
+  "options": [
+    {
+      "label": "India",
+      "value": "india",
+      "_id": {
+        "$oid": "6956a00c11f525706b594482"
+      }
+    }
+  ],
+  "required": true,
+  "order": 5,
+  "isActive": true,
+  "createdAt": {
+    "$date": "2026-01-01T16:25:48.793Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-01T16:25:48.793Z"
+  },
+  "__v": 0
+}]

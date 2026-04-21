@@ -1,0 +1,400 @@
+[{
+  "_id": {
+    "$oid": "69512292b514a8fbbb7037eb"
+  },
+  "videoUrl": "https://www.youtube.com/embed/uoKM7PFNlRg?si=CRysn4SLyiIjZWca",
+  "__v": 0,
+  "category": "Brand & Corporate Films",
+  "createdAt": {
+    "$date": "2025-12-28T12:29:06.523Z"
+  },
+  "description": "",
+  "title": "DU Digital Global – A Journey of Growth & Success",
+  "updatedAt": {
+    "$date": "2025-12-29T06:41:19.125Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "695f1539fbb3b976ef439d1e"
+  },
+  "title": "Chennai Entrepreneurs: Expand Your Business to the UAE – Grow Faster in a Zero-Tax Hub!",
+  "videoUrl": "https://www.youtube.com/embed/WqxxHBFhXGQ?si=k0ZzXfRBDSSuexmT",
+  "category": "Business & Company Formation",
+  "description": "Ready to Go Global?  Discover How Expanding your Business to the UAE can help you expand your profit and save taxes to grow faster.",
+  "createdAt": {
+    "$date": "2026-01-08T02:23:53.766Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:23:53.766Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1572fbb3b976ef439d21"
+  },
+  "title": "Join a Thriving Ecosystem and Explore Your Entrepreneurial Potential",
+  "videoUrl": "https://www.youtube.com/embed/LbdhyAZUSSg?si=cdQyqdSrzhDoMpkC",
+  "category": "Business & Company Formation",
+  "description": "Dubai's progressive policies and dedicated resources are empowering women to lead the future of business. Join a thriving ecosystem and explore your entrepreneurial potential.",
+  "createdAt": {
+    "$date": "2026-01-08T02:24:50.875Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:24:50.875Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1620592e482b501445a9"
+  },
+  "title": "Direct flights now available from Delhi to Tbilisi",
+  "videoUrl": "https://www.youtube.com/embed/ClkakToAL-w?si=z1HoLbAt8pxM05-3",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "With direct flights now available from #Delhi to #Tbilisi, exploring the amazing landscapes, rich history, and warm hospitality of #Georgia has become easier than ever.",
+  "createdAt": {
+    "$date": "2026-01-08T02:27:44.955Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:27:57.791Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1668592e482b501445ae"
+  },
+  "title": "Embrace Lebanon winter like never before with DUDigital Global",
+  "videoUrl": "https://www.youtube.com/embed/tSn_TnZ4Scs?si=TDAbdpSY_hDRyaXw",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "Whether you’re looking to hit the slopes, sip hot drinks in cozy cafes, or explore historic sites dusted in snow, Lebanon has it all. Embrace winter like never before with DUDigital Global.",
+  "createdAt": {
+    "$date": "2026-01-08T02:28:56.225Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:28:56.225Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f16b004ad390170f1ab73"
+  },
+  "title": "A Japan visa is your key to an unforgettable cultural experience",
+  "videoUrl": "https://www.youtube.com/embed/ZKXaJPXXWDg?si=maBTy6lmN7DCTEK1",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "A Japan visa is your key to an unforgettable cultural experience.",
+  "createdAt": {
+    "$date": "2026-01-08T02:30:08.712Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:30:08.712Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f16f304ad390170f1ab79"
+  },
+  "title": "We’ve got the insider knowledge to help you avoid costly mistakes and set you up for success",
+  "videoUrl": "https://www.youtube.com/embed/tqGa8PpASFE?si=5AoExFFLbCXc0Xpw",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "We’ve got the insider knowledge to help you avoid costly mistakes and set you up for success.",
+  "createdAt": {
+    "$date": "2026-01-08T02:31:15.059Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:31:15.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f175a04ad390170f1ab7e"
+  },
+  "title": "Get your UAE Transit Visa with DUDigital Global",
+  "videoUrl": "https://www.youtube.com/embed/JqH2rfeQtuQ?si=wM2who03zi1CI4N_",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "Ready to explore? Get your UAE Transit Visa with DUDigital Global. Quick, hassle-free, and just what you need for an adventure-packed stopover!",
+  "createdAt": {
+    "$date": "2026-01-08T02:32:58.909Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:32:58.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f17ad04ad390170f1ab8d"
+  },
+  "title": "From bustling Bangkok to serene beaches, dive into Thailand’s rich culture and adventure",
+  "videoUrl": "https://www.youtube.com/embed/WfpOlIsDO8A?si=6-CDNNogYbVTAX41",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "From bustling Bangkok to serene beaches, dive into Thailand’s rich culture and adventure. With DUDigital Global’s expedited visa services, your dream getaway is just a click away!",
+  "createdAt": {
+    "$date": "2026-01-08T02:34:21.916Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:34:21.916Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f183804ad390170f1ab9d"
+  },
+  "title": "How to Master South Korea Visa Applications | Free Webinar for Travel Agents",
+  "videoUrl": "https://www.youtube.com/embed/TJWlugn4Nd4?si=0dePTArZR0-LPLrr",
+  "category": "Other",
+  "description": "In this exclusive free webinar, hosted by Gagandeep Bhatia, Senior VP - Sales at DU Digital Global, you will learn everything you need to know about the South Korea visa application process. With the growing demand for K-Culture and Korean tourism, this session is designed to help travel agents tap into this booming market.",
+  "createdAt": {
+    "$date": "2026-01-08T02:36:40.072Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:36:40.072Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f188004ad390170f1aba3"
+  },
+  "title": "At SATTE 2025: WEECE Media in Conversation with Mr. Manoj Dharmani, Group CEO, DU Digital Global",
+  "videoUrl": "https://www.youtube.com/embed/JwU8kL2p1Oc?si=RpHDfMs-aAYzLF1T",
+  "category": "Other",
+  "description": "At SATTE 2025, held from February 19-21 at Yashobhoomi, Dwarka, New Delhi NCR, WEECE Media caught up with Mr. Manoj Dharmani, Group CEO of DU Digital Global. He shared valuable insights into the company’s journey and core business offerings.",
+  "createdAt": {
+    "$date": "2026-01-08T02:37:52.689Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:37:52.689Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f192951e3c725db8690fb"
+  },
+  "title": "Trusted by Travel Leaders | KAZIN DMC on Partnering with DUDIGITAL GLOBAL | SATTE 2025 Highlight",
+  "videoUrl": "https://www.youtube.com/embed/WAkvds7oWZ4?si=XuF5zlUor62JhWPG",
+  "category": "Other",
+  "description": "At DU DIGITAL GLOBAL, we believe in growing through meaningful partnerships and serving with trust.",
+  "createdAt": {
+    "$date": "2026-01-08T02:40:41.646Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:40:41.646Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f197151e3c725db8690fe"
+  },
+  "title": "B2B Partner Speaks | DUDIGITAL GLOBAL at SATTE 2025 | Trusted Travel Collaborations",
+  "videoUrl": "https://www.youtube.com/embed/zjNirEDnl0Q?si=CZhGtLcJxaqrlj9P",
+  "category": "Other",
+  "description": "Here’s what one of our incredible B2B travel partners had to say about working with DU DIGITAL GLOBAL during SATTE 2025.",
+  "createdAt": {
+    "$date": "2026-01-08T02:41:53.306Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:41:53.306Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f19dc51e3c725db869104"
+  },
+  "title": "Visa Questions On the Spot! | Fun Reactions at SATTE 2025 | DU DIGITAL GLOBAL",
+  "videoUrl": "https://www.youtube.com/embed/wa0-xgFKokc?si=8Yderuxa9JXYMs0n",
+  "category": "Other",
+  "description": "We flipped the script at SATTE 2025 by putting our visitors on the spot with some quick-fire visa-related questions—and their answers didn’t disappoint!",
+  "createdAt": {
+    "$date": "2026-01-08T02:43:40.654Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:43:40.654Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1a2951e3c725db869113"
+  },
+  "title": "SATTE INDIA 2025 | DUDIGITAL GLOBAL’s Incredible 3 Days at South Asia’s Premier Travel Show",
+  "videoUrl": "https://www.youtube.com/embed/TMtVuCDNeGw?si=Yy4Pxa6piYlk4sLV",
+  "category": "Other",
+  "description": "What an amazing 3 days at SATTE 2025!\nFrom visionary leaders to groundbreaking exhibitors, DU DIGITAL GLOBAL experienced the very best the travel and tourism industry has to offer at the Yashobhoomi Convention Centre, New Delhi.",
+  "createdAt": {
+    "$date": "2026-01-08T02:44:57.756Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:44:57.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1b0251e3c725db869127"
+  },
+  "title": "Day 2 Recap | SATTE 2025 | DUDIGITAL GLOBAL Connects with Travel Leaders & Partners",
+  "videoUrl": "https://www.youtube.com/embed/eHeA8KTqu1U?si=tTQrcX4AhWuEXvKZ",
+  "category": "Other",
+  "description": "End of Day 2 at SATTE India 2025 – and what a day it’s been!\nTeam DU DIGITAL GLOBAL had another amazing experience meeting travel partners, industry leaders, and building strong connections across the tourism sector.",
+  "createdAt": {
+    "$date": "2026-01-08T02:48:34.611Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:48:34.611Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1b5151e3c725db869132"
+  },
+  "title": "Day 1 Highlights from SATTE 2025 | DU DIGITAL GLOBAL at Yashobhoomi",
+  "videoUrl": "https://www.youtube.com/embed/2oxzfuXn3ZI?si=uG2ukDVQRuEbMaxT",
+  "category": "Other",
+  "description": "What an incredible Day 1 at SATTE India 2025!\nTeam DUDIGITAL GLOBAL is proud to be part of South Asia’s leading travel and tourism exhibition held at the magnificent Yashobhoomi Convention Centre, New Delhi.",
+  "createdAt": {
+    "$date": "2026-01-08T02:49:53.831Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:49:53.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1bc651e3c725db86913d"
+  },
+  "title": "We have asked the DU Team what does it mean to #beyourownboss",
+  "videoUrl": "https://www.youtube.com/embed/YJpqffbBCf8?si=R59JTfqSFN3-T34X",
+  "category": "Other",
+  "description": "We have asked the DU Team what does it mean to #beyourownboss #Dudigital #beyourownboss",
+  "createdAt": {
+    "$date": "2026-01-08T02:51:50.132Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:51:50.132Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1d3b51e3c725db8691a6"
+  },
+  "title": "Dreaming of a European Gateway",
+  "videoUrl": "https://www.youtube.com/embed/ZI95UyFeK30?si=nVOtIY4nq5Rs7mvt",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "Dreaming of a European getaway? With a Schengen Visa, explore 27 countries on one trip! Let us handle the visa process while you plan your adventure. #TravelEurope #SchengenVisa",
+  "createdAt": {
+    "$date": "2026-01-08T02:58:03.758Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:58:03.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1d8051e3c725db8691b3"
+  },
+  "title": "UAE 5-Year Tourist Visa",
+  "videoUrl": "https://www.youtube.com/embed/_FGI3G4O61k?si=fyFzunS--ezVVwAG",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "Planning to visit the UAE multiple times? The UAE 5-Year Tourist Visa offers the perfect solution!",
+  "createdAt": {
+    "$date": "2026-01-08T02:59:12.301Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T02:59:12.301Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1e8a51e3c725db8691c2"
+  },
+  "title": "Get your UAE 5-Year Tourist Visa with ease",
+  "videoUrl": "https://www.youtube.com/embed/VuNUXRCHtvI?si=Id0j53F_wQHEGQQ0",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "Get your UAE 5-Year Tourist Visa with ease! Multiple entries, 90-day stays, and cost-effective travel await.",
+  "createdAt": {
+    "$date": "2026-01-08T03:03:38.460Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T03:03:38.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1ee651e3c725db8691d4"
+  },
+  "title": "Experience the UAE for 180 Days a Year with a 5-year Tourist Visa",
+  "videoUrl": "https://www.youtube.com/embed/Q0vRz7WFd6k?si=y1iGGPQUncH3J6CU",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "Experience the UAE for up to 180 days a year with a 5-Year Tourist Visa. Stay tuned for more benefits.#UAEvisa #5yearvisa #UAEtravel #Dubai #DUdigital #BusinessSuccess",
+  "createdAt": {
+    "$date": "2026-01-08T03:05:10.668Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T03:05:10.668Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1f2b51e3c725db8691da"
+  },
+  "title": "Georgia e-Visa New Process Webinar",
+  "videoUrl": "https://www.youtube.com/embed/v6lmMJxiATI?si=FomEyC-EdE0CNN65",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "Welcome to our comprehensive webinar on the new Georgia e-Visa process! Planning a trip to Georgia? This video is your ultimate guide to navigating the updated e-Visa application system.",
+  "createdAt": {
+    "$date": "2026-01-08T03:06:19.938Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T03:06:19.938Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f1fd298a1d84b8bdbd9d4"
+  },
+  "title": "Exclusive Webinar on Georgia e-Visa",
+  "videoUrl": "https://www.youtube.com/embed/7cyhMwqlkBw?si=LM2t2pPwNmJo1Z3G",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "Unlock a hassle-free Georgia visa process for your clients! Overcome delays, documentation hurdles, and rejections with our exclusive webinar.",
+  "createdAt": {
+    "$date": "2026-01-08T03:09:06.925Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T03:09:06.925Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "695f202d98a1d84b8bdbd9dd"
+  },
+  "title": "Explore Georgia",
+  "videoUrl": "https://www.youtube.com/embed/5ToYyCGUjzw?si=kpF9tCLqPaqveBDs",
+  "category": "Travel, Visa & Destination Updates",
+  "description": "Whether you're craving relaxation or adventure, Georgia has it all. Pack your bags and come explore this Southern gem!#TravelToGeorgia #ExploreGeorgia #AdventureAwaits",
+  "createdAt": {
+    "$date": "2026-01-08T03:10:37.070Z"
+  },
+  "updatedAt": {
+    "$date": "2026-01-08T03:10:37.070Z"
+  },
+  "__v": 0
+}]
