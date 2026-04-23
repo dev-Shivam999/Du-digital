@@ -11,8 +11,11 @@ const SingleBlog = () => {
   const dispatch = useDispatch();
   const { loading, error, SingleBlog } = useSelector(p => p.blog)
   useEffect(() => {
-    dispatch(fetchSingleBlog(id))
-  }, [id])
+    // Skip fetch if SSR already preloaded this exact blog
+    if (!SingleBlog || SingleBlog._id !== id) {
+      dispatch(fetchSingleBlog(id));
+    }
+  }, [id]);
   const BackendImagesURL = import.meta.env.VITE_BACKEND_IMAGES_URL || 'http://localhost:5000/api';
   const BackendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000/api';
 

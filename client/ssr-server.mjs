@@ -39,7 +39,7 @@ if (fs.existsSync(envPath)) {
 }
 
 const isDev = process.argv.includes('--dev');
-const PORT = process.env.SSR_PORT || 3000;
+const PORT = process.env.SSR_PORT || 5173;
 
 // ─── Backend API base URL ─────────────────────────────────────────────────────
 const API_BASE = process.env.VITE_BACKEND_URL || 'https://duapi.dudigitalglobal.com';
@@ -93,11 +93,11 @@ async function prefetchForRoute(url) {
         const parts = pathname.split('/');
         const blogId = parts[2];
         const [blogsData, singleBlogData] = await Promise.all([
-            apiFetch('/api/blogs/'),
+            apiFetch('/api/blogs/?page=1&limit=12&IsUsers=true'),
             blogId ? apiFetch(`/api/blogs/${blogId}`) : Promise.resolve(null)
         ]);
         state.blog = {
-            Blogs: blogsData?.data || (Array.isArray(blogsData) ? blogsData : []),
+            Blogs: blogsData?.blogs || blogsData?.data || (Array.isArray(blogsData) ? blogsData : []),
             SingleBlog: singleBlogData || {},
             loading: false,
             error: null,
@@ -107,23 +107,26 @@ async function prefetchForRoute(url) {
         const parts = pathname.split('/');
         const eventId = parts[2];
         const [eventsData, singleEventData] = await Promise.all([
-            apiFetch('/api/events/'),
+            apiFetch('/api/events/?page=1&limit=9'),
             eventId ? apiFetch(`/api/events/${eventId}`) : Promise.resolve(null)
         ]);
         state.events = {
-            events: eventsData?.data || (Array.isArray(eventsData) ? eventsData : []),
+            events: eventsData?.data || eventsData?.events || (Array.isArray(eventsData) ? eventsData : []),
             selectedEvent: singleEventData || null,
             loading: false,
             eventLoading: false,
             error: null,
+            success: false,
             totalPages: eventsData?.totalPages || 0
         };
     } else if (pathname === '/news-and-media') {
-        const newsData = await apiFetch('/api/news/');
+        const newsData = await apiFetch('/api/news/?page=1&limit=10');
         state.news = {
-            news: newsData?.data || (Array.isArray(newsData) ? newsData : []),
+            news: newsData?.data || newsData?.news || (Array.isArray(newsData) ? newsData : []),
+            yearCounts: newsData?.yearCounts || {},
             loading: false,
             error: null,
+            success: false,
             totalPages: newsData?.totalPages || 0,
             currentPage: newsData?.currentPage || 1
         };
@@ -147,25 +150,34 @@ async function prefetchForRoute(url) {
     } else if (pathname === '/') {
         // Home page needs Blogs, News, and Events
         const [newsData, blogsData, eventsData] = await Promise.all([
-            apiFetch('/api/news/'),
-            apiFetch('/api/blogs/'),
-            apiFetch('/api/events/')
+            apiFetch('/api/news/?page=1&limit=3'),
+            apiFetch('/api/blogs/?page=1&limit=3&IsUsers=true'),
+            apiFetch('/api/events/?page=1&limit=6')
         ]);
         state.news = {
-            news: newsData?.data || (Array.isArray(newsData) ? newsData : []),
+            news: newsData?.data || newsData?.news || (Array.isArray(newsData) ? newsData : []),
+            yearCounts: newsData?.yearCounts || {},
             loading: false,
             error: null,
-            totalPages: newsData?.totalPages || 0
+            success: false,
+            totalPages: newsData?.totalPages || 0,
+            currentPage: newsData?.currentPage || 1
         };
         state.blog = {
-            Blogs: blogsData?.data || (Array.isArray(blogsData) ? blogsData : []),
+            Blogs: blogsData?.blogs || blogsData?.data || (Array.isArray(blogsData) ? blogsData : []),
+            SingleBlog: {},
             loading: false,
-            error: null
+            error: null,
+            totalPages: blogsData?.totalPages || 0
         };
         state.events = {
-            events: eventsData?.data || (Array.isArray(eventsData) ? eventsData : []),
+            events: eventsData?.data || eventsData?.events || (Array.isArray(eventsData) ? eventsData : []),
+            selectedEvent: null,
             loading: false,
-            error: null
+            eventLoading: false,
+            error: null,
+            success: false,
+            totalPages: eventsData?.totalPages || 0
         };
     }
     return state;
@@ -199,6 +211,105 @@ async function createApp() {
         // Serve static assets (JS/CSS/images) but NOT index.html
         app.use(express.static(path.resolve(__dirname, 'dist'), { index: false }));
     }
+
+    // ── robots.txt ─────────────────────────────────────────────────────────────
+    app.get('/robots.txt', (req, res) => {
+        const SITE = process.env.VITE_DUDIGITAL_URL || 'https://dudigitalglobal.com';
+        res.status(200).set('Content-Type', 'text/plain').send(
+`User-agent: *
+Allow: /
+
+Disallow: /api/
+Disallow: /uploads/
+
+Sitemap: ${SITE}/sitemap.xml`
+        );
+    });
+
+    // ── Sitemap ────────────────────────────────────────────────────────────────
+    app.get('/sitemap.xml', async (req, res) => {
+        const SITE = process.env.VITE_DUDIGITAL_URL || 'https://dudigitalglobal.com';
+        const today = new Date().toISOString().split('T')[0];
+
+        // Static routes — priority/changefreq tuned per page type
+        const staticRoutes = [
+            { path: '/',                                  priority: '1.0', changefreq: 'daily' },
+            { path: '/about-us',                          priority: '0.8', changefreq: 'monthly' },
+            { path: '/careers',                           priority: '0.8', changefreq: 'weekly' },
+            { path: '/contact-us',                        priority: '0.7', changefreq: 'monthly' },
+            { path: '/blogs',                             priority: '0.8', changefreq: 'daily' },
+            { path: '/news-and-media',                    priority: '0.8', changefreq: 'daily' },
+            { path: '/events',                            priority: '0.8', changefreq: 'weekly' },
+            { path: '/video-gallery',                     priority: '0.6', changefreq: 'weekly' },
+            { path: '/investor-relation',                 priority: '0.6', changefreq: 'monthly' },
+            { path: '/b2b-partner-program',               priority: '0.7', changefreq: 'monthly' },
+            { path: '/embassy-government-partners',       priority: '0.7', changefreq: 'monthly' },
+            { path: '/india-evisa',                       priority: '0.9', changefreq: 'weekly' },
+            { path: '/dubai-5year-tourist-visa',          priority: '0.9', changefreq: 'weekly' },
+            { path: '/south-korea-visa-for-indians',      priority: '0.9', changefreq: 'weekly' },
+            { path: '/greece-work-visa',                  priority: '0.8', changefreq: 'weekly' },
+            { path: '/serbia-work-permit-visa',           priority: '0.8', changefreq: 'weekly' },
+            { path: '/australia-tourist-visa',            priority: '0.8', changefreq: 'weekly' },
+            { path: '/malaysia-visa-for-indians',         priority: '0.8', changefreq: 'weekly' },
+            { path: '/morocco-visa',                      priority: '0.8', changefreq: 'weekly' },
+            { path: '/japan-tourist-visa-for-indians',    priority: '0.8', changefreq: 'weekly' },
+            { path: '/egypt-visa-for-indians',            priority: '0.8', changefreq: 'weekly' },
+            { path: '/georgia-evisa',                     priority: '0.8', changefreq: 'weekly' },
+            { path: '/digital-arrival-cards',             priority: '0.8', changefreq: 'weekly' },
+            { path: '/bangladesh-vac',                    priority: '0.8', changefreq: 'weekly' },
+            { path: '/bangladesh-visas-for-uae-singapore',priority: '0.8', changefreq: 'weekly' },
+            { path: '/vip-clearance-at-malaysia-airport', priority: '0.7', changefreq: 'weekly' },
+            { path: '/lebanon',                           priority: '0.7', changefreq: 'weekly' },
+            { path: '/apply-for-any-visa',                priority: '0.8', changefreq: 'weekly' },
+            { path: '/company-setup-in-the-uae',          priority: '0.8', changefreq: 'monthly' },
+            { path: '/global-recruitment-services',       priority: '0.7', changefreq: 'monthly' },
+            { path: '/duverify',                          priority: '0.7', changefreq: 'monthly' },
+            { path: '/tenant-and-domestic-help-verification', priority: '0.7', changefreq: 'monthly' },
+            { path: '/our-capabilities',                  priority: '0.6', changefreq: 'monthly' },
+            { path: '/swifttravels',                      priority: '0.7', changefreq: 'weekly' },
+            { path: '/tnh-magazine',                      priority: '0.6', changefreq: 'monthly' },
+            { path: '/terms-and-conditions',              priority: '0.3', changefreq: 'yearly' },
+            { path: '/cookie-policy',                     priority: '0.3', changefreq: 'yearly' },
+        ];
+
+        // Fetch dynamic blog and event IDs
+        const [blogsData, eventsData] = await Promise.all([
+            apiFetch('/api/blogs?page=1&limit=100&IsUsers=true'),
+            apiFetch('/api/events?page=1&limit=100'),
+        ]);
+
+        const blogUrls = (blogsData?.blogs || blogsData?.data || []).map(b => ({
+            path: `/blog/${b._id}`,
+            lastmod: (b.updatedAt || b.publishedAt || today).split('T')[0],
+            priority: '0.7',
+            changefreq: 'monthly',
+        }));
+
+        const eventUrls = (eventsData?.data || eventsData?.events || []).map(e => ({
+            path: `/events/${e._id}`,
+            lastmod: (e.updatedAt || today).split('T')[0],
+            priority: '0.6',
+            changefreq: 'monthly',
+        }));
+
+        const allUrls = [
+            ...staticRoutes.map(r => ({ ...r, lastmod: today })),
+            ...blogUrls,
+            ...eventUrls,
+        ];
+
+        const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${allUrls.map(u => `  <url>
+    <loc>${SITE}${u.path}</loc>
+    <lastmod>${u.lastmod}</lastmod>
+    <changefreq>${u.changefreq}</changefreq>
+    <priority>${u.priority}</priority>
+  </url>`).join('\n')}
+</urlset>`;
+
+        res.status(200).set('Content-Type', 'application/xml').send(xml);
+    });
 
     // ── SSR catch-all ──────────────────────────────────────────────────────────
     app.use(async (req, res) => {
@@ -250,7 +361,7 @@ async function createApp() {
             const stateScript = `<script>window.__PRELOADED_STATE__ = ${jsonState}</script>`;
 
 
-            // 4️⃣  SEO Metadata Mapping 
+            // 4️⃣  SEO Metadata Mapping
             const metaFile = path.resolve(__dirname, 'src/data/meta-data.json');
             let metaMap = {};
             if (fs.existsSync(metaFile)) {
@@ -262,28 +373,66 @@ async function createApp() {
             }
 
             const routeMeta = metaMap[pathname] || metaMap['/'] || { title: 'DU Digital Global', desc: '' };
+            const SITE_URL = process.env.VITE_DUDIGITAL_URL || 'https://dudigitalglobal.com';
+            const canonicalUrl = `${SITE_URL}${pathname === '/' ? '' : pathname}`;
+            const ogImage = `${SITE_URL}/favicon.png`;
 
-            // 5️⃣  JSON-LD Generation 
+            // 5️⃣  JSON-LD — route-aware schema type
+            const schemaTypeMap = {
+                '/about-us': 'AboutPage',
+                '/careers': 'JobPosting',
+                '/blogs': 'Blog',
+                '/news-and-media': 'NewsArticle',
+                '/events': 'EventSeries',
+                '/contact-us': 'ContactPage',
+            };
+            const schemaType = schemaTypeMap[pathname] || (pathname.startsWith('/blog/') ? 'BlogPosting' : 'WebPage');
             const jsonLd = {
                 "@context": "https://schema.org",
-                "@type": pathname === '/about-us' ? "AboutPage" : (pathname === '/careers' ? "ItemList" : "Organization"),
+                "@type": schemaType,
                 "name": routeMeta.title,
                 "description": routeMeta.desc,
-                "url": `https://dudigitalglobal.com${pathname}`,
-                "logo": "https://dudigitalglobal.com/favicon.ico"
+                "url": canonicalUrl,
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "DU Digital Global",
+                    "logo": { "@type": "ImageObject", "url": ogImage }
+                }
             };
             const jsonLdScript = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`;
 
             // 6️⃣  Assemble the full page
             const rootDiv = '<div id="root"></div>';
 
-            // Inject Dynamic Title, Description and JSON-LD
+            // Build all SEO tags to inject into <head>
+            const seoTags = [
+                `<link rel="canonical" href="${canonicalUrl}">`,
+                `<meta property="og:type" content="website">`,
+                `<meta property="og:site_name" content="DU Digital Global">`,
+                `<meta property="og:url" content="${canonicalUrl}">`,
+                `<meta property="og:title" content="${routeMeta.title}">`,
+                `<meta property="og:description" content="${routeMeta.desc}">`,
+                `<meta property="og:image" content="${ogImage}">`,
+                `<meta name="twitter:card" content="summary_large_image">`,
+                `<meta name="twitter:title" content="${routeMeta.title}">`,
+                `<meta name="twitter:description" content="${routeMeta.desc}">`,
+                `<meta name="twitter:image" content="${ogImage}">`,
+                jsonLdScript,
+            ].join('\n');
+
+            // Inject Dynamic Title, Description and all SEO tags
             let processedTemplate = template
                 .replace('<title>DU Digital Global</title>', `<title>${routeMeta.title}</title>`)
                 .replace(/<meta name="description" content="[^"]*">/, `<meta name="description" content="${routeMeta.desc}">`);
 
-            // Inject JSON-LD at the end of <head>
-            processedTemplate = processedTemplate.replace('</head>', `${jsonLdScript}</head>`);
+            // Remove any existing og/twitter/canonical tags from template to avoid duplicates
+            processedTemplate = processedTemplate
+                .replace(/<link rel="canonical"[^>]*>/g, '')
+                .replace(/<meta property="og:[^>]*>/g, '')
+                .replace(/<meta name="twitter:[^>]*>/g, '');
+
+            // Inject all SEO tags before </head>
+            processedTemplate = processedTemplate.replace('</head>', `${seoTags}\n</head>`);
 
             const [htmlHead, htmlTail] = processedTemplate.split(rootDiv);
             const fullHtml = `${htmlHead}<div id="root">${appHtml}</div>${stateScript}${htmlTail}`;

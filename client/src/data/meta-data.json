@@ -2346,5 +2346,17 @@
     "/": {
         "title": "Visa Services | Company Formation in Dubai | PR & Immigration",
         "desc": "Unlock global opportunities with DU Global! Explore seamless immigration, permanent residency, and citizenship solutions through our efficient services."
+    },
+    "/events": {
+        "title": "Events & Updates | DU Digital Global",
+        "desc": "Stay updated with the latest events, conferences, and milestones from DU Digital Global. Explore our global events and connect with us."
+    },
+    "/careers": {
+        "title": "Careers at DU Digital Global | Join Our Team",
+        "desc": "Explore exciting career opportunities at DU Digital Global. Join our growing team and be part of a global leader in visa and digital services."
+    },
+    "/news-and-media": {
+        "title": "News & Media Coverage | DU Digital Global",
+        "desc": "Read the latest news, press coverage, and media features about DU Digital Global. Stay informed about our milestones and industry insights."
     }
 }

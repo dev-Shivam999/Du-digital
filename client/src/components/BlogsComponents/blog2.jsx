@@ -62,7 +62,10 @@ export const Blog = ({ data: propData, className }) => {
 
     useEffect(() => {
         if (!propData) {
-            dispatch(fetchBlogs(page));
+            // Skip fetch if SSR already preloaded the data
+            if (!reduxData || reduxData.length === 0) {
+                dispatch(fetchBlogs(page));
+            }
         }
     }, [dispatch, page, propData]);
 

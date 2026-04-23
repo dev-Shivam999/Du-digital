@@ -27,8 +27,10 @@ const AboutUs = () => {
   // }, [dispatch]);
 
   useEffect(() => {
-    dispatch(fetchTeamMembers());
-
+    // Skip fetch if SSR already preloaded the data
+    if (!teamMembersByCategory || Object.keys(teamMembersByCategory).length === 0) {
+      dispatch(fetchTeamMembers());
+    }
     if (!officialPartners.length) {
       dispatch(fetchOfficialPartners());
     }

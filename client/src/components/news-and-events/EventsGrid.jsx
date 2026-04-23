@@ -19,7 +19,8 @@ const EventsGrid = ({ data: propData }) => {
 
 
     useEffect(() => {
-        if (!propData) {
+        // Skip fetch if SSR already preloaded the data
+        if (!propData && (!reduxData || reduxData.length === 0)) {
             dispatch(fetchEvents({ page }));
         }
     }, [dispatch, page, propData]);

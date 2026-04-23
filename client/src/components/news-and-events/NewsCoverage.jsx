@@ -18,10 +18,11 @@ const NewsCoverage = ({ data: propData }) => {
     const [visibleCounts, setVisibleCounts] = useState({});
 
     useEffect(() => {
+        // Skip fetch if SSR already preloaded the data
         if (!propData && !loading && reduxData.length === 0) {
             dispatch(fetchNews({ page: 1 }));
         }
-    }, [dispatch, propData, reduxData.length, loading]);
+    }, [dispatch, propData]);
 
     const handleLoadMore = (year) => {
         const currentYearLocalCount = grouped[year]?.length || 0;

@@ -18,7 +18,10 @@ const Careers = () => {
     const [jobView, setJobView] = useState(null);
 
     useEffect(() => {
-        dispatch(fetchCareers());
+        // Skip fetch if SSR already preloaded the data
+        if (!jobs || jobs.length === 0) {
+            dispatch(fetchCareers());
+        }
     }, [dispatch]);
     useEffect(() => {
         dispatch(clearCareersState())

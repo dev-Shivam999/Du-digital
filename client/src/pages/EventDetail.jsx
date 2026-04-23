@@ -20,7 +20,10 @@ const EventDetail = () => {
     const [selectedImageIndex, setSelectedImageIndex] = useState(0);
 
     useEffect(() => {
-        dispatch(fetchEventById(id));
+        // Skip fetch if SSR already preloaded this exact event
+        if (!selectedEvent || selectedEvent._id !== id) {
+            dispatch(fetchEventById(id));
+        }
 
         return () => {
             dispatch(clearSelectedEvent());
