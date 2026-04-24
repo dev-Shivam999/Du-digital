@@ -77,7 +77,7 @@ export const getBlogById = async (req: Request, res: Response) => {
 // Create a new blog
 export const createBlog = async (req: Request, res: Response) => {
     try {
-        const { title, content, featuredImage, author, category, tags } = req.body;
+        const { title, content, featuredImage, author, category, tags, seoTitle, seoDescription, focusKeyword } = req.body;
 
         let processedTags = tags;
         if (Array.isArray(tags)) {
@@ -105,7 +105,10 @@ export const createBlog = async (req: Request, res: Response) => {
             featuredImage: featuredImageUrl,
             author,
             category,
-            tags: processedTags
+            tags: processedTags,
+            seoTitle,
+            seoDescription,
+            focusKeyword,
         });
 
         const savedBlog = await newBlog.save();

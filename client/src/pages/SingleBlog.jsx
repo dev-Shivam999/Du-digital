@@ -36,8 +36,8 @@ const SingleBlog = () => {
     <div>
       {SingleBlog && (
         <SEO
-          title={`${SingleBlog.title} | DU Digital Global`}
-          description={SingleBlog.summary || `Read about ${SingleBlog.title} on DU Digital Global.`}
+          title={SingleBlog.seoTitle || `${SingleBlog.title} | DU Digital Global`}
+          description={SingleBlog.seoDescription || SingleBlog.tags || `Read about ${SingleBlog.title} on DU Digital Global.`}
         />
       )}
       {loading ? <div>loading</div> : error ? <div>error</div> : SingleBlog &&

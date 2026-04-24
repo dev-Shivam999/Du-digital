@@ -462,6 +462,13 @@ ${allUrls.map(u => `  <url>
             }
 
             const routeMeta = metaMap[pathname] || metaMap['/'] || { title: 'DU Digital Global', desc: '' };
+
+            // For single blog pages, use the blog's own SEO fields
+            if (pathname.startsWith('/blog/') && preloadedState.blog?.SingleBlog?.title) {
+                const blog = preloadedState.blog.SingleBlog;
+                routeMeta.title = blog.seoTitle || `${blog.title} | DU Digital Global`;
+                routeMeta.desc  = blog.seoDescription || blog.tags || `Read about ${blog.title} on DU Digital Global.`;
+            }
             const SITE_URL = process.env.VITE_DUDIGITAL_URL || 'https://dudigitalglobal.com';
             const canonicalUrl = `${SITE_URL}${pathname === '/' ? '' : pathname}`;
             const ogImage = `${SITE_URL}/favicon.png`;

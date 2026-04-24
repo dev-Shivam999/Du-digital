@@ -31,7 +31,11 @@ const BlogEditor = () => {
     category: "",
     tags: "",
     authorName: "DU Digital Global",
+    seoTitle: "",
+    seoDescription: "",
+    focusKeyword: "",
   });
+  const [activeTab, setActiveTab] = useState('content'); // 'content' | 'seo-title' | 'seo-desc'
   const [featuredImageFile, setFeaturedImageFile] = useState(null);
   const [featuredPreview, setFeaturedPreview] = useState("");
   const [loading, setLoading] = useState(false);
@@ -68,6 +72,9 @@ const BlogEditor = () => {
         category: data.category || "",
         tags: data.tags || "",
         authorName: data.author?.name || "DU Digital Global",
+        seoTitle: data.seoTitle || "",
+        seoDescription: data.seoDescription || "",
+        focusKeyword: data.focusKeyword || "",
       });
       if (data.featuredImage) setFeaturedPreview(getImageUrl(data.featuredImage));
     } catch (error) {
@@ -124,6 +131,9 @@ const BlogEditor = () => {
     submitData.append("category", formData.category);
     submitData.append("tags", formData.tags);
     submitData.append("author[name]", formData.authorName);
+    submitData.append("seoTitle", formData.seoTitle);
+    submitData.append("seoDescription", formData.seoDescription);
+    submitData.append("focusKeyword", formData.focusKeyword);
 
     if (featuredImageFile) {
       submitData.append("featuredImage", featuredImageFile);
@@ -175,109 +185,187 @@ const BlogEditor = () => {
         }
       />
 
+      {/* ── Tab Navigation ─────────────────────────────────────────────────── */}
+      <div style={{ display: 'flex', gap: 0, marginBottom: 16, borderBottom: '2px solid #e5e7eb' }}>
+        {[
+          { key: 'content',  label: '1. Content' },
+          { key: 'seo-title', label: '2. SEO Title' },
+          { key: 'seo-desc',  label: '3. SEO Description' },
+        ].map(tab => (
+          <button
+            key={tab.key}
+            type="button"
+            onClick={() => setActiveTab(tab.key)}
+            style={{
+              padding: '10px 24px',
+              border: 'none',
+              borderBottom: activeTab === tab.key ? '2px solid #FF1033' : '2px solid transparent',
+              background: 'none',
+              fontWeight: activeTab === tab.key ? 700 : 400,
+              color: activeTab === tab.key ? '#FF1033' : '#6b7280',
+              cursor: 'pointer',
+              fontSize: 14,
+              marginBottom: -2,
+            }}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
       <form onSubmit={handleSubmit}>
-        {/* Top row — meta fields */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }}>
 
-          {/* Left — Basic Info */}
-          <div className="card">
+        {/* ── Tab 1: Content ─────────────────────────────────────────────── */}
+        {activeTab === 'content' && (
+          <>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }}>
+              {/* Basic Info */}
+              <div className="card">
+                <div className="card-header">
+                  <h3 className="mb-0 d-flex align-items-center gap-2"><FileText size={18} /> Basic Information</h3>
+                </div>
+                <div className="card-body">
+                  <FormGroup label="Title *">
+                    <Input type="text" value={formData.title} onChange={(e) => { markDirty(); setFormData({ ...formData, title: e.target.value }); }} placeholder="Enter blog title..." required />
+                  </FormGroup>
+                  <FormGroup label="Category">
+                    <Input type="text" value={formData.category} onChange={(e) => { markDirty(); setFormData({ ...formData, category: e.target.value }); }} placeholder="e.g. Visa, Business, Travel" />
+                  </FormGroup>
+                  <FormGroup label="Tags / Short Description">
+                    <Input type="text" value={formData.tags} onChange={(e) => { markDirty(); setFormData({ ...formData, tags: e.target.value }); }} placeholder="Short description or comma-separated tags" />
+                  </FormGroup>
+                  <FormGroup label="Author Name">
+                    <Input type="text" value={formData.authorName} onChange={(e) => { markDirty(); setFormData({ ...formData, authorName: e.target.value }); }} placeholder="Author name" />
+                  </FormGroup>
+                </div>
+              </div>
+
+              {/* Featured Image */}
+              <div className="card">
+                <div className="card-header">
+                  <h3 className="mb-0 d-flex align-items-center gap-2"><Image size={18} /> Featured Image</h3>
+                </div>
+                <div className="card-body">
+                  <FormGroup label="Upload Image">
+                    <input type="file" className="form-control" accept="image/*" onChange={handleFeaturedImage} />
+                  </FormGroup>
+                  <FormGroup label="Or paste image URL">
+                    <Input
+                      type="text"
+                      value={formData.featuredImage.startsWith('blob:') ? '' : formData.featuredImage}
+                      onChange={(e) => { markDirty(); setFormData({ ...formData, featuredImage: e.target.value }); setFeaturedPreview(e.target.value); setFeaturedImageFile(null); }}
+                      placeholder="https://example.com/image.jpg"
+                    />
+                  </FormGroup>
+                  {featuredPreview && (
+                    <img src={featuredPreview} alt="Preview" style={{ width: '100%', height: 140, objectFit: 'cover', borderRadius: 8, border: '1px solid #e2e8f0', marginTop: 8 }} onError={(e) => { e.target.style.display = 'none'; }} />
+                  )}
+                </div>
+              </div>
+            </div>
+
+            {/* Content Editor */}
+            <div className="card" style={{ marginBottom: 16 }}>
+              <div className="card-header"><h3 className="mb-0">Content *</h3></div>
+              <div className="card-body" style={{ padding: 0 }}>
+                <TipTapEditor
+                  ref={editorRef}
+                  value={formData.content}
+                  onChange={(html) => { markDirty(); setFormData((prev) => ({ ...prev, content: html })); }}
+                  placeholder="Start writing your blog content..."
+                />
+              </div>
+            </div>
+          </>
+        )}
+
+        {/* ── Tab 2: SEO Title ───────────────────────────────────────────── */}
+        {activeTab === 'seo-title' && (
+          <div className="card" style={{ marginBottom: 16 }}>
             <div className="card-header">
-              <h3 className="mb-0 d-flex align-items-center gap-2">
-                <FileText size={18} /> Basic Information
-              </h3>
+              <h3 className="mb-0">SEO Title</h3>
+              <p className="text-muted mb-0" style={{ fontSize: 13, marginTop: 4 }}>
+                The title shown in Google search results. Ideal length: 50–60 characters.
+              </p>
             </div>
             <div className="card-body">
-              <FormGroup label="Title *">
+              <FormGroup label="SEO Title">
                 <Input
                   type="text"
-                  value={formData.title}
-                  onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-                  placeholder="Enter blog title..."
-                  required
+                  value={formData.seoTitle}
+                  onChange={(e) => { markDirty(); setFormData({ ...formData, seoTitle: e.target.value }); }}
+                  placeholder={formData.title || "Enter SEO title..."}
+                  maxLength={70}
                 />
+                <div style={{ fontSize: 12, color: formData.seoTitle.length > 60 ? '#dc2626' : '#6b7280', marginTop: 4 }}>
+                  {formData.seoTitle.length}/60 characters {formData.seoTitle.length > 60 ? '— too long' : ''}
+                </div>
               </FormGroup>
-              <FormGroup label="Category">
+              <FormGroup label="Focus Keyword">
                 <Input
                   type="text"
-                  value={formData.category}
-                  onChange={(e) => setFormData({ ...formData, category: e.target.value })}
-                  placeholder="e.g. Visa, Business, Travel"
+                  value={formData.focusKeyword}
+                  onChange={(e) => { markDirty(); setFormData({ ...formData, focusKeyword: e.target.value }); }}
+                  placeholder="e.g. India e-Visa, Dubai company setup"
                 />
+                <p style={{ fontSize: 12, color: '#6b7280', marginTop: 4 }}>
+                  The main keyword this blog targets. Used for SEO analysis.
+                </p>
               </FormGroup>
-              <FormGroup label="Tags / Short Description">
-                <Input
-                  type="text"
-                  value={formData.tags}
-                  onChange={(e) => setFormData({ ...formData, tags: e.target.value })}
-                  placeholder="Short description or comma-separated tags"
-                />
-              </FormGroup>
-              <FormGroup label="Author Name">
-                <Input
-                  type="text"
-                  value={formData.authorName}
-                  onChange={(e) => setFormData({ ...formData, authorName: e.target.value })}
-                  placeholder="Author name"
-                />
-              </FormGroup>
+
+              {/* Google preview */}
+              <div style={{ marginTop: 24, padding: 16, background: '#f9fafb', borderRadius: 8, border: '1px solid #e5e7eb' }}>
+                <p style={{ fontSize: 12, color: '#6b7280', marginBottom: 8, fontWeight: 600 }}>GOOGLE PREVIEW</p>
+                <div style={{ fontSize: 18, color: '#1a0dab', marginBottom: 2 }}>
+                  {formData.seoTitle || formData.title || 'Blog Title'}
+                </div>
+                <div style={{ fontSize: 13, color: '#006621' }}>dudigitalglobal.com › blog › {formData.title?.toLowerCase().replace(/\s+/g, '-') || 'blog-slug'}</div>
+                <div style={{ fontSize: 13, color: '#545454', marginTop: 4 }}>
+                  {formData.seoDescription || formData.tags || 'Meta description will appear here...'}
+                </div>
+              </div>
             </div>
           </div>
+        )}
 
-          {/* Right — Featured Image */}
-          <div className="card">
+        {/* ── Tab 3: SEO Description ─────────────────────────────────────── */}
+        {activeTab === 'seo-desc' && (
+          <div className="card" style={{ marginBottom: 16 }}>
             <div className="card-header">
-              <h3 className="mb-0 d-flex align-items-center gap-2">
-                <Image size={18} /> Featured Image
-              </h3>
+              <h3 className="mb-0">SEO Description</h3>
+              <p className="text-muted mb-0" style={{ fontSize: 13, marginTop: 4 }}>
+                The description shown below the title in Google results. Ideal: 150–160 characters.
+              </p>
             </div>
             <div className="card-body">
-              <FormGroup label="Upload Image">
-                <input
-                  type="file"
-                  className="form-control"
-                  accept="image/*"
-                  onChange={handleFeaturedImage}
+              <FormGroup label="Meta Description">
+                <textarea
+                  value={formData.seoDescription}
+                  onChange={(e) => { markDirty(); setFormData({ ...formData, seoDescription: e.target.value }); }}
+                  placeholder="Write a compelling description that makes users want to click..."
+                  maxLength={200}
+                  rows={4}
+                  style={{ width: '100%', padding: '8px 12px', border: '1px solid #d1d5db', borderRadius: 6, fontSize: 14, resize: 'vertical', fontFamily: 'inherit' }}
                 />
+                <div style={{ fontSize: 12, color: formData.seoDescription.length > 160 ? '#dc2626' : '#6b7280', marginTop: 4 }}>
+                  {formData.seoDescription.length}/160 characters {formData.seoDescription.length > 160 ? '— too long' : ''}
+                </div>
               </FormGroup>
-              <FormGroup label="Or paste image URL">
-                <Input
-                  type="text"
-                  value={formData.featuredImage.startsWith('blob:') ? '' : formData.featuredImage}
-                  onChange={(e) => {
-                    setFormData({ ...formData, featuredImage: e.target.value });
-                    setFeaturedPreview(e.target.value);
-                    setFeaturedImageFile(null);
-                  }}
-                  placeholder="https://example.com/image.jpg"
-                />
-              </FormGroup>
-              {featuredPreview && (
-                <img
-                  src={featuredPreview}
-                  alt="Preview"
-                  style={{ width: '100%', height: 140, objectFit: 'cover', borderRadius: 8, border: '1px solid #e2e8f0', marginTop: 8 }}
-                  onError={(e) => { e.target.style.display = 'none'; }}
-                />
-              )}
+
+              {/* Google preview */}
+              <div style={{ marginTop: 24, padding: 16, background: '#f9fafb', borderRadius: 8, border: '1px solid #e5e7eb' }}>
+                <p style={{ fontSize: 12, color: '#6b7280', marginBottom: 8, fontWeight: 600 }}>GOOGLE PREVIEW</p>
+                <div style={{ fontSize: 18, color: '#1a0dab', marginBottom: 2 }}>
+                  {formData.seoTitle || formData.title || 'Blog Title'}
+                </div>
+                <div style={{ fontSize: 13, color: '#006621' }}>dudigitalglobal.com › blog › {formData.title?.toLowerCase().replace(/\s+/g, '-') || 'blog-slug'}</div>
+                <div style={{ fontSize: 13, color: '#545454', marginTop: 4 }}>
+                  {formData.seoDescription || 'Meta description will appear here...'}
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-
-        {/* Content Editor */}
-        <div className="card" style={{ marginBottom: 16 }}>
-          <div className="card-header">
-            <h3 className="mb-0">Content *</h3>
-          </div>
-          <div className="card-body" style={{ padding: 0 }}>
-            <TipTapEditor
-              ref={editorRef}
-              value={formData.content}
-              onChange={(html) => { markDirty(); setFormData((prev) => ({ ...prev, content: html })); }}
-              placeholder="Start writing your blog content..."
-            />
-          </div>
-        </div>
-
+        )}
         {/* Submit */}
         <div className="d-flex justify-content-end gap-3" style={{ marginBottom: 32 }}>
           <Button type="button" variant="secondary" onClick={() => safeNavigate("/blogs")}>
