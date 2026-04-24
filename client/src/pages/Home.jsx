@@ -53,6 +53,8 @@ const Home = () => {
     return (
         <div className="relative">
             <SEO />
+            {/* Single H1 for the page — visually hidden, used by screen readers & crawlers */}
+            <h1 className="sr-only">Visa Services | Company Formation in Dubai | PR &amp; Immigration — DU Digital Global</h1>
 
             {/* HERO SLIDER */}
             <HomeSlider data={homeData.slider} />

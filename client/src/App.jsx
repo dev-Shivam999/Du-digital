@@ -51,8 +51,12 @@ import Georgiaevisa from './pages/Georgiaevisa'
 const App = () => {
         return (
                 <div>
+                        <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[9999] focus:bg-white focus:text-[#FF1033] focus:px-4 focus:py-2 focus:rounded focus:font-semibold">
+                                Skip to main content
+                        </a>
                         <ScrollToTop />
                         <Navbar />
+                <main id="main-content">
                         <Suspense fallback={<LoadingState message="Loading..." fullScreen />}>
                                 <Routes>
                                         <Route path="/" element={<Home />} />
@@ -67,11 +71,11 @@ const App = () => {
                                         <Route path="/investor-relation/:slug" element={<InvestorRelation />} />
                                         <Route path="/news-and-media" element={<NewsAndMedia />} />
                                         <Route path="/events" element={<Events />} />
-                                        <Route path="/events/:id" element={<EventDetail />} />
+                                        <Route path="/events/:slug" element={<EventDetail />} />
                                         <Route path="/careers" element={<Careers />} />
                                         <Route path="/video-gallery" element={<VideoGallery />} />
                                         <Route path="/blogs" element={<Blogs />} />
-                                        <Route path="/blog/:id" element={<SingleBlog />} />
+                                        <Route path="/blog/:slug" element={<SingleBlog />} />
                                         <Route path="/swifttravels" element={<Swifttravels />} />
                                         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
                                         <Route path="/duverify" element={<Duverify />} />
@@ -98,6 +102,7 @@ const App = () => {
                                         <Route path="*" element={<NotFound />} />
                                 </Routes>
                         </Suspense>
+                </main>
                         <Footer />
                         <OurOffices />
                         <Copyright />

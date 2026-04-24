@@ -37,8 +37,8 @@ export const fetchEventById = createAsyncThunk(
             }
             const event = await eventResponse.json();
 
-            // Fetch event images
-            const imagesResponse = await fetch(`${BackendURL}/api/events/${eventId}/images`);
+            // Use _id from the fetched event for images (not the slug)
+            const imagesResponse = await fetch(`${BackendURL}/api/events/${event._id}/images`);
             if (!imagesResponse.ok) {
                 const errorData = await imagesResponse.json().catch(() => ({}));
                 throw new Error(errorData.message || 'Failed to fetch event images');

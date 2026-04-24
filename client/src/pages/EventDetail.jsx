@@ -8,7 +8,7 @@ import LazyImage from '../components/reusable/LazyImage';
 import SEO from '../components/reusable/SEO';
 
 const EventDetail = () => {
-    const { id } = useParams();
+    const { slug } = useParams();
     const navigate = useNavigate();
     const dispatch = useDispatch();
     const { selectedEvent, eventLoading, error } = useSelector((state) => state.events);
@@ -21,14 +21,14 @@ const EventDetail = () => {
 
     useEffect(() => {
         // Skip fetch if SSR already preloaded this exact event
-        if (!selectedEvent || selectedEvent._id !== id) {
-            dispatch(fetchEventById(id));
+        if (!selectedEvent || (selectedEvent.slug !== slug && selectedEvent._id !== slug)) {
+            dispatch(fetchEventById(slug));
         }
 
         return () => {
             dispatch(clearSelectedEvent());
         };
-    }, [dispatch, id]);
+    }, [dispatch, slug]);
 
     if (eventLoading) {
         return (

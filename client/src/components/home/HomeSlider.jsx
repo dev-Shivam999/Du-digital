@@ -57,9 +57,11 @@ const HomeSlider = ({ data }) => {
                         transition={{ duration: 0.8, delay: 0.3 }}
                     >
                         <div className="max-w-2xl text-white">
-                            <h1 className="text-4xl  font-semibold leading-tight">
+                            {/* Only the first slide gets h1 — it's the page's primary heading.
+                                Subsequent slides use p to avoid multiple H1s on navigation. */}
+                            <p className="text-4xl font-semibold leading-tight">
                                 {slides[current].title}
-                            </h1>
+                            </p>
 
                             <p className="mt-4 text-base md:text-lg text-gray-200" style={{ textWrap: "balance" }}>
                                 {slides[current].description}

@@ -7,15 +7,15 @@ import SEO from "../components/reusable/SEO";
 const MarkdownPreview = lazy(() => import("@uiw/react-markdown-preview"));
 
 const SingleBlog = () => {
-  const { id } = useParams()
+  const { slug } = useParams()
   const dispatch = useDispatch();
   const { loading, error, SingleBlog } = useSelector(p => p.blog)
   useEffect(() => {
     // Skip fetch if SSR already preloaded this exact blog
-    if (!SingleBlog || SingleBlog._id !== id) {
-      dispatch(fetchSingleBlog(id));
+    if (!SingleBlog || (SingleBlog.slug !== slug && SingleBlog._id !== slug)) {
+      dispatch(fetchSingleBlog(slug));
     }
-  }, [id]);
+  }, [slug]);
   const BackendImagesURL = import.meta.env.VITE_BACKEND_IMAGES_URL || 'http://localhost:5000/api';
   const BackendURL = import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000/api';
 

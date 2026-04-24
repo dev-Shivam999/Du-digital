@@ -107,7 +107,7 @@ export const Blog = ({ data: propData, className }) => {
 
                                 {/* Button */}
                                 <Link
-                                    to={`/blog/${blog._id}`}
+                                    to={`/blog/${blog.slug || blog._id}`}
                                     className={`w-full py-3 px-5 font-bold ${getButtonColor(blog._id).bg} ${getButtonColor(blog._id).hover} transition-all duration-300 text-start`}>
                                     Read More
                                 </Link>

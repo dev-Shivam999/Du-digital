@@ -1,5 +1,5 @@
 import { renderToString } from 'react-dom/server';
-import { MemoryRouter } from 'react-router-dom';
+import { MemoryRouter, StaticRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { configureStore } from '@reduxjs/toolkit';
 
@@ -44,20 +44,28 @@ function createServerStore(preloadedState = {}) {
 
 /**
  * render(url, preloadedState, onShellReady callback)
+ * onShellReady receives (html, state, { is404 })
  */
 export function render(url, preloadedState, onShellReady, onError) {
     const store = createServerStore(preloadedState);
+    // StaticRouter context — React Router v6 uses this to signal 404
+    const routerContext = {};
 
     try {
         const html = renderToString(
-            <MemoryRouter initialEntries={[url]}>
+            <StaticRouter location={url} context={routerContext}>
                 <Provider store={store}>
                     <App />
                 </Provider>
-            </MemoryRouter>
+            </StaticRouter>
         );
-        // In this sync version, onShellReady receives a string, not a pipe
-        onShellReady(html, store.getState());
+
+        // React Router v6 StaticRouter sets context.status = 404 when * route matches
+        // As a fallback, also check if the NotFound component rendered
+        const is404 = routerContext.status === 404
+            || html.includes('Page Not Found');
+
+        onShellReady(html, store.getState(), { is404 });
     } catch (err) {
         if (onError) onError(err);
     }

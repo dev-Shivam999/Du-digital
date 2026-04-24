@@ -1,9 +1,11 @@
 import { Request, Response } from "express";
 import Event from "../models/event.model";
+import { generateSlug } from "../models/event.model";
 import EventImage from "../models/eventImages.model";
 import fs from "fs";
 import path from "path";
 import { getCache, setCache, deleteCache, deleteCacheByPattern } from "../utils/cache";
+import mongoose from "mongoose";
 
 // Create Event
 export const createEvent = async (req: Request, res: Response) => {
@@ -20,8 +22,14 @@ export const createEvent = async (req: Request, res: Response) => {
             imageUrl = `/uploads/${file.filename}`;
         }
 
+        // Generate unique slug from title
+        let slug = generateSlug(title);
+        const existing = await Event.findOne({ slug });
+        if (existing) slug = `${slug}_${Date.now()}`;
+
         const newEvent = new Event({
             title,
+            slug,
             date,
             location,
             description,
@@ -53,10 +61,10 @@ export const getEvents = async (req: Request, res: Response) => {
             const cacheKey = `events_list_${page}_${limit}`;
 
             // Check cache
-            const cachedEvents = getCache(cacheKey);
-            if (cachedEvents) {
-                return res.status(200).json(cachedEvents);
-            }
+            // const cachedEvents = getCache(cacheKey);
+            // if (cachedEvents) {
+            //     return res.status(200).json(cachedEvents);
+            // }
 
             const skip = (page - 1) * limit;
 
@@ -129,9 +137,12 @@ export const getEvents = async (req: Request, res: Response) => {
 export const getEventById = async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
-        const event = await Event.findById(id)
-console.log("id");
 
+        // Support lookup by slug OR MongoDB _id
+        const isObjectId = mongoose.Types.ObjectId.isValid(id) && id.length === 24;
+        const event = isObjectId
+            ? await Event.findOne({ $or: [{ _id: id }, { slug: id }] })
+            : await Event.findOne({ slug: id });
 
         if (!event) {
             return res.status(404).json({ message: "Event not found" });
@@ -158,6 +169,14 @@ export const updateEvent = async (req: Request, res: Response) => {
         event.date = date || event.date;
         event.location = location || event.location;
         event.description = description || event.description;
+
+        // Regenerate slug if title changed
+        if (title && title !== event.title) {
+            let slug = generateSlug(title);
+            const existing = await Event.findOne({ slug, _id: { $ne: id } });
+            if (existing) slug = `${slug}_${Date.now()}`;
+            (event as any).slug = slug;
+        }
 
         if (file) {
             // Delete old image if exists
@@ -259,21 +278,29 @@ export const addEventImages = async (req: Request, res: Response) => {
 };
 
 // Get Event Images
+// Get Event Images — supports slug or _id
 export const getEventImages = async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
         const cacheKey = `event_images_${id}`;
-        // Check cache
+
         const cachedImages = getCache(cacheKey);
         if (cachedImages) {
             return res.status(200).json(cachedImages);
         }
 
-        const images = await EventImage.find({ event: id });
+        // Resolve slug → _id if needed
+        const isObjectId = mongoose.Types.ObjectId.isValid(id) && id.length === 24;
+        let eventId: string = id;
+        if (!isObjectId) {
+            const event = await Event.findOne({ slug: id }).select('_id');
+            if (!event) return res.status(404).json({ message: "Event not found" });
+            eventId = (event._id as mongoose.Types.ObjectId).toString();
+        }
 
-        // Set cache
+        const images = await EventImage.find({ event: eventId });
+
         setCache(cacheKey, images, 300);
-
         res.status(200).json(images);
     } catch (error) {
         console.error("Get Event Images Error", error);

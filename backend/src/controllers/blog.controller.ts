@@ -1,6 +1,8 @@
 import { Request, Response } from "express";
 import Blog from "../models/Blog.model";
+import { generateSlug } from "../models/Blog.model";
 import { getCache, setCache, deleteCache, deleteCacheByPattern } from "../utils/cache";
+import mongoose from "mongoose";
 
 // Get paginated blogs
 export const getBlogs = async (req: Request, res: Response) => {
@@ -22,7 +24,7 @@ export const getBlogs = async (req: Request, res: Response) => {
         const blogs = IsUser ? await Blog.find()
             .sort({ publishedAt: -1 })
             .skip(skip)
-            .limit(limit).select("title featuredImage tags") : await Blog.find()
+            .limit(limit).select("title slug featuredImage tags") : await Blog.find()
                 .sort({ publishedAt: -1 })
 
         const total = await Blog.countDocuments();
@@ -44,27 +46,28 @@ export const getBlogs = async (req: Request, res: Response) => {
     }
 };
 
-// Get single blog by ID
+// Get single blog by slug or ID
 export const getBlogById = async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
         const cacheKey = `blog_${id}`;
 
-        // Check cache
         const cachedBlog = getCache(cacheKey);
         if (cachedBlog) {
             return res.status(200).json(cachedBlog);
         }
 
-        const blog = await Blog.findById(id);
+        // Support lookup by slug OR MongoDB _id
+        const isObjectId = mongoose.Types.ObjectId.isValid(id) && id.length === 24;
+        const blog = isObjectId
+            ? await Blog.findOne({ $or: [{ _id: id }, { slug: id }] })
+            : await Blog.findOne({ slug: id });
 
         if (!blog) {
             return res.status(404).json({ message: "Blog not found" });
         }
 
-        // Set cache (5 minutes)
         setCache(cacheKey, blog, 300);
-
         res.status(200).json(blog);
     } catch (error) {
         res.status(500).json({ message: "Error fetching blog", error });
@@ -90,11 +93,17 @@ export const createBlog = async (req: Request, res: Response) => {
             featuredImageUrl = `/uploads/${req.file.filename}`;
         }
 
+        // Generate unique slug from title
+        let slug = generateSlug(title);
+        const existing = await Blog.findOne({ slug });
+        if (existing) slug = `${slug}_${Date.now()}`;
+
         const newBlog = new Blog({
             title,
+            slug,
             content,
             featuredImage: featuredImageUrl,
-            author, // Expecting { name: string } or can use default
+            author,
             category,
             tags: processedTags
         });
@@ -114,10 +123,18 @@ export const createBlog = async (req: Request, res: Response) => {
 export const updateBlog = async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
-        let updateData = { ...req.body };
+        let updateData: any = { ...req.body };
 
         if (req.file) {
             updateData.featuredImage = `/uploads/${req.file.filename}`;
+        }
+
+        // Regenerate slug if title changed
+        if (updateData.title) {
+            let slug = generateSlug(updateData.title);
+            const existing = await Blog.findOne({ slug, _id: { $ne: id } });
+            if (existing) slug = `${slug}_${Date.now()}`;
+            updateData.slug = slug;
         }
 
         const updatedBlog = await Blog.findByIdAndUpdate(id, updateData, { new: true });

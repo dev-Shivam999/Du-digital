@@ -91,10 +91,10 @@ async function prefetchForRoute(url) {
         };
     } else if (pathname === '/blogs' || pathname.startsWith('/blog/')) {
         const parts = pathname.split('/');
-        const blogId = parts[2];
+        const blogSlug = parts[2];
         const [blogsData, singleBlogData] = await Promise.all([
             apiFetch('/api/blogs/?page=1&limit=12&IsUsers=true'),
-            blogId ? apiFetch(`/api/blogs/${blogId}`) : Promise.resolve(null)
+            blogSlug ? apiFetch(`/api/blogs/${blogSlug}`) : Promise.resolve(null)
         ]);
         state.blog = {
             Blogs: blogsData?.blogs || blogsData?.data || (Array.isArray(blogsData) ? blogsData : []),
@@ -105,10 +105,10 @@ async function prefetchForRoute(url) {
         };
     } else if (pathname === '/events' || pathname.startsWith('/events/')) {
         const parts = pathname.split('/');
-        const eventId = parts[2];
+        const eventSlug = parts[2];
         const [eventsData, singleEventData] = await Promise.all([
             apiFetch('/api/events/?page=1&limit=9'),
-            eventId ? apiFetch(`/api/events/${eventId}`) : Promise.resolve(null)
+            eventSlug ? apiFetch(`/api/events/${eventSlug}`) : Promise.resolve(null)
         ]);
         state.events = {
             events: eventsData?.data || eventsData?.events || (Array.isArray(eventsData) ? eventsData : []),
@@ -200,6 +200,75 @@ async function createApp() {
     const app = express();
     let vite;
 
+    // ── Security Headers ───────────────────────────────────────────────────────
+    app.use((req, res, next) => {
+        const isAsset = /\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|otf|ttf|webp|avif)$/i.test(req.path);
+
+        // X-Content-Type-Options — prevent MIME sniffing
+        res.setHeader('X-Content-Type-Options', 'nosniff');
+
+        // X-Frame-Options — prevent clickjacking
+        res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+
+        // Referrer-Policy — don't leak full URLs to third parties
+        res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+
+        // Strict-Transport-Security — force HTTPS (1 year, include subdomains)
+        res.setHeader('Strict-Transport-Security', 'max-age=31536000; includeSubDomains; preload');
+
+        // Permissions-Policy — disable unused browser features
+        res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=(), payment=(), usb=()');
+
+        // X-XSS-Protection — legacy browsers
+        res.setHeader('X-XSS-Protection', '1; mode=block');
+
+        // Content-Security-Policy — skip for static assets (breaks nothing, saves overhead)
+        if (!isAsset) {
+            const SELF = "'self'";
+            const UNSAFE_INLINE = "'unsafe-inline'";   // needed for Tailwind inline styles + tracking scripts
+            const UNSAFE_EVAL = "'unsafe-eval'";        // needed for Vite dev HMR only
+
+            // Collect tracking domains dynamically
+            const trackingScriptSrcs = [
+                process.env.GTM_ID          && 'https://www.googletagmanager.com',
+                process.env.GA4_ID          && 'https://www.googletagmanager.com https://www.google-analytics.com',
+                process.env.FB_PIXEL_ID     && 'https://connect.facebook.net',
+                process.env.LINKEDIN_PARTNER_ID && 'https://snap.licdn.com',
+            ].filter(Boolean).join(' ');
+
+            const trackingConnectSrcs = [
+                process.env.GA4_ID          && 'https://www.google-analytics.com https://analytics.google.com',
+                process.env.FB_PIXEL_ID     && 'https://www.facebook.com',
+                process.env.LINKEDIN_PARTNER_ID && 'https://px.ads.linkedin.com',
+            ].filter(Boolean).join(' ');
+
+            const trackingImgSrcs = [
+                process.env.FB_PIXEL_ID     && 'https://www.facebook.com',
+                process.env.LINKEDIN_PARTNER_ID && 'https://px.ads.linkedin.com',
+            ].filter(Boolean).join(' ');
+
+            const csp = [
+                `default-src ${SELF}`,
+                `script-src ${SELF} ${UNSAFE_INLINE} ${isDev ? UNSAFE_EVAL : ''} https://www.googletagmanager.com https://www.google-analytics.com https://connect.facebook.net https://snap.licdn.com https://s3.ap-south-1.amazonaws.com https://app.limechat.ai ${trackingScriptSrcs}`.trim(),
+                `style-src ${SELF} ${UNSAFE_INLINE} https://fonts.googleapis.com`,
+                `font-src ${SELF} data: https://fonts.gstatic.com`,
+                `img-src ${SELF} data: blob: https: http:`,
+                `media-src ${SELF} https:`,
+                `frame-src ${SELF} https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://www.googletagmanager.com`,
+                `connect-src ${SELF} ${process.env.VITE_BACKEND_URL || 'https://duapi.dudigitalglobal.com'} https://www.google-analytics.com https://analytics.google.com https://app.limechat.ai ${trackingConnectSrcs}`.trim(),
+                `worker-src ${SELF} blob:`,
+                `object-src 'none'`,
+                `base-uri ${SELF}`,
+                `form-action ${SELF}`,
+                `upgrade-insecure-requests`,
+            ].join('; ');
+
+            res.setHeader('Content-Security-Policy', csp);
+        }
+
+        next();
+    });
+
     if (isDev) {
         const { createServer } = await import('vite');
         vite = await createServer({
@@ -208,13 +277,27 @@ async function createApp() {
         });
         app.use(vite.middlewares);
     } else {
-        // Serve static assets (JS/CSS/images) but NOT index.html
+        // Serve static assets from dist/ (built assets) and public/ (raw assets)
         app.use(express.static(path.resolve(__dirname, 'dist'), { index: false }));
+        app.use(express.static(path.resolve(__dirname, 'public'), { index: false }));
     }
 
     // ── robots.txt ─────────────────────────────────────────────────────────────
     app.get('/robots.txt', (req, res) => {
         const SITE = process.env.VITE_DUDIGITAL_URL || 'https://dudigitalglobal.com';
+        const NOINDEX = process.env.NOINDEX === 'true';
+
+        if (NOINDEX) {
+            // Staging mode — block all crawlers
+            return res.status(200).set('Content-Type', 'text/plain').send(
+`User-agent: *
+Disallow: /
+
+# This is a staging site — not for indexing`
+            );
+        }
+
+        // Production mode — normal robots.txt
         res.status(200).set('Content-Type', 'text/plain').send(
 `User-agent: *
 Allow: /
@@ -279,14 +362,14 @@ Sitemap: ${SITE}/sitemap.xml`
         ]);
 
         const blogUrls = (blogsData?.blogs || blogsData?.data || []).map(b => ({
-            path: `/blog/${b._id}`,
+            path: `/blog/${b.slug || b._id}`,
             lastmod: (b.updatedAt || b.publishedAt || today).split('T')[0],
             priority: '0.7',
             changefreq: 'monthly',
         }));
 
         const eventUrls = (eventsData?.data || eventsData?.events || []).map(e => ({
-            path: `/events/${e._id}`,
+            path: `/events/${e.slug || e._id}`,
             lastmod: (e.updatedAt || today).split('T')[0],
             priority: '0.6',
             changefreq: 'monthly',
@@ -317,6 +400,11 @@ ${allUrls.map(u => `  <url>
         const rawPathname = new URL(url, 'http://localhost').pathname;
         const pathname = rawPathname.length > 1 ? rawPathname.replace(/\/$/, '') : rawPathname;
 
+        // Static asset requests that weren't served by express.static — return 404
+        if (/\.(jpg|jpeg|png|gif|svg|ico|webp|avif|woff|woff2|otf|ttf|eot|mp4|pdf|txt|xml|json|js|css|map)$/i.test(pathname)) {
+            return res.status(404).end();
+        }
+
         console.log(`[SSR] Request for: ${url}`);
 
         try {
@@ -341,12 +429,12 @@ ${allUrls.map(u => `  <url>
 
             // 2️⃣  Render React
             console.log(`[SSR] Rendering React app...`);
-            const { appHtml, finalState } = await new Promise((resolve, reject) => {
+            const { appHtml, finalState, is404 } = await new Promise((resolve, reject) => {
                 render(
                     url,
                     preloadedState,
-                    (html, state) => {
-                        resolve({ appHtml: html, finalState: state });
+                    (html, state, meta = {}) => {
+                        resolve({ appHtml: html, finalState: state, is404: meta.is404 || false });
                     },
                     (err) => {
                         console.error('[SSR] Render Error:', err);
@@ -354,7 +442,7 @@ ${allUrls.map(u => `  <url>
                     }
                 );
             });
-            console.log(`[SSR] Render complete. HTML length: ${appHtml.length}`);
+            console.log(`[SSR] Render complete. HTML length: ${appHtml.length}${is404 ? ' [404]' : ''}`);
 
             // 3️⃣  Embed Redux state for client-side hydration
             const jsonState = JSON.stringify(finalState).replace(/</g, '\\u003c');
@@ -434,10 +522,18 @@ ${allUrls.map(u => `  <url>
             // Inject all SEO tags before </head>
             processedTemplate = processedTemplate.replace('</head>', `${seoTags}\n</head>`);
 
+            // Staging noindex — block crawlers on non-production environments
+            if (process.env.NOINDEX === 'true') {
+                processedTemplate = processedTemplate.replace(
+                    '</head>',
+                    `<meta name="robots" content="noindex, nofollow">\n</head>`
+                );
+            }
+
             const [htmlHead, htmlTail] = processedTemplate.split(rootDiv);
             const fullHtml = `${htmlHead}<div id="root">${appHtml}</div>${stateScript}${htmlTail}`;
 
-            res.status(200).set('Content-Type', 'text/html').send(fullHtml);
+            res.status(is404 ? 404 : 200).set('Content-Type', 'text/html').send(fullHtml);
 
         } catch (err) {
             if (isDev && vite) vite.ssrFixStacktrace(err);

@@ -81,18 +81,14 @@ const EventsGrid = ({ data: propData }) => {
                         <span className="text-xl font-bold text-[#FF1033]">↗</span>
                     </button> */}
 
-                        <Link to={`/events/${event._id}`} aria-label="View event details" className="absolute top-5 right-5 w-11 h-11 rounded-full bg-white flex items-center justify-center  md hover:scale-105 transition z-10">
+                        <Link to={`/events/${event.slug || event._id}`} aria-label="View event details" className="absolute top-5 right-5 w-11 h-11 rounded-full bg-white flex items-center justify-center  md hover:scale-105 transition z-10">
                             <ArrowUpRight size={24} className="text-[#FF1033] " />
                         </Link>
 
                         {/* CONTENT */}
                         <div className="absolute inset-0 flex flex-col justify-end p-6 text-white z-0">
-                            {/* Category Badge */}
-                            {/* <span className="bg-[#FF1033] text-white text-xs px-3 py-1 rounded-full w-max mb-3 font-medium">
-                                {event.category}
-                            </span> */}
 
-                            <Link to={`/events/${event._id}`} className={`${getButtonColor(event._id).bg} text-[#FFFDF5] px-6 py-2 mb-4 rounded-full w-max font-bold ${getButtonColor(event._id).hover} ${getButtonColor(event._id).hoverText} transition-all duration-300 cursor-pointer`}>
+                            <Link to={`/events/${event.slug || event._id}`} className={`${getButtonColor(event._id).bg} text-[#FFFDF5] px-6 py-2 mb-4 rounded-full w-max font-bold ${getButtonColor(event._id).hover} ${getButtonColor(event._id).hoverText} transition-all duration-300 cursor-pointer`}>
                                 View More
                             </Link>
 

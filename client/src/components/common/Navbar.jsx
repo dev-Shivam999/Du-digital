@@ -61,7 +61,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Menu */}
-        <nav className="hidden lg:flex gap-4" ref={navRef} onMouseLeave={handleNavMouseLeave}>
+        <nav className="hidden lg:flex gap-4" aria-label="Main navigation" ref={navRef} onMouseLeave={handleNavMouseLeave}>
           {navbar.items.map((item, i) => (
             <div
               key={i}
@@ -179,7 +179,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {open && (
         <div className="lg:hidden fixed inset-0 z-50 bg-black/40">
-          <div className="h-full w-[80vw] bg-[#252423] text-white overflow-y-auto">
+          <nav aria-label="Mobile navigation" className="h-full w-[80vw] bg-[#252423] text-white overflow-y-auto">
             <div className="flex items-center justify-between px-6 py-4 border-b border-white/10">
               <span className="text-lg font-semibold">Menu</span>
               <button onClick={() => setOpen(false)} className="text-2xl">
@@ -192,7 +192,7 @@ const Navbar = () => {
                 <MobileItem key={i} item={item} onClose={() => setOpen(false)} />
               ))}
             </div>
-          </div>
+          </nav>
         </div>
       )}
 
