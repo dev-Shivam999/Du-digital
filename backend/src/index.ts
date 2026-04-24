@@ -33,6 +33,7 @@ import formImageRoutes from './routes/formImage.routes';
 import formEmployeesAddressRoutes from './routes/formEmployeesAddress.routes';
 import formSubmissionRoutes from './routes/formSubmission.routes';
 import otpRoutes from './routes/otp.routes';
+import uploadRoutes from './routes/upload.routes';
 
 // Load environment variables
 dotenv.config();
@@ -106,6 +107,7 @@ if (cluster.isPrimary) {
   app.use('/api/form-employees-addresses', formEmployeesAddressRoutes);
   app.use('/api/form-submissions', formSubmissionRoutes);
   app.use('/api/otp', otpRoutes);
+  app.use('/api/upload', uploadRoutes);
 
   app.get('/', (req: Request, res: Response) => {
     console.log("req.body",req.body)

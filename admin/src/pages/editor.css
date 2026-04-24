@@ -1,0 +1,311 @@
+/* ── TipTap Editor Styles ─────────────────────────────────────────────────── */
+
+/* ── Toolbar ─────────────────────────────────────────────────────────────── */
+.tiptap-editor-wrapper .tiptap-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2px;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e5e7eb;
+    background: #f9fafb;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.tiptap-editor-wrapper .tiptap-toolbar button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    height: 30px;
+    padding: 0 6px;
+    border: none;
+    border-radius: 5px;
+    background: transparent;
+    color: #4b5563;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+    user-select: none;
+    line-height: 1;
+}
+
+.tiptap-editor-wrapper .tiptap-toolbar button:hover {
+    background: #e5e7eb;
+    color: #111827;
+}
+
+.tiptap-editor-wrapper .tiptap-toolbar button.active {
+    background: #4f46e5;
+    color: #fff;
+}
+
+.tiptap-editor-wrapper .tiptap-toolbar button:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
+
+/* Make SVG icons inside toolbar buttons render correctly */
+.tiptap-editor-wrapper .tiptap-toolbar button svg {
+    width: 16px;
+    height: 16px;
+    display: block;
+    flex-shrink: 0;
+    pointer-events: none;
+}
+
+.tiptap-editor-wrapper .tiptap-toolbar .divider {
+    width: 1px;
+    height: 20px;
+    background: #d1d5db;
+    margin: 0 4px;
+    align-self: center;
+    flex-shrink: 0;
+}
+
+/* Word count bar */
+.tiptap-editor-wrapper .tiptap-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 16px;
+    background: #f9fafb;
+    border-top: 1px solid #f3f4f6;
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+/* Editor content area */
+.tiptap-editor-wrapper .ProseMirror {
+    min-height: 450px;
+    padding: 1.5rem;
+    outline: none;
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #1f2937;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Placeholder */
+.tiptap-editor-wrapper .ProseMirror p.is-editor-empty:first-child::before {
+    content: attr(data-placeholder);
+    color: #9ca3af;
+    pointer-events: none;
+    float: left;
+    height: 0;
+}
+
+/* Headings — !important to override admin global h1/h2/h3 resets */
+.tiptap-editor-wrapper .ProseMirror h1 { font-size: 2rem !important;    font-weight: 700 !important; margin: 1.5rem 0 0.75rem !important; line-height: 1.2 !important; color: #111827 !important; }
+.tiptap-editor-wrapper .ProseMirror h2 { font-size: 1.5rem !important;  font-weight: 700 !important; margin: 1.25rem 0 0.6rem !important; line-height: 1.3 !important; color: #111827 !important; }
+.tiptap-editor-wrapper .ProseMirror h3 { font-size: 1.25rem !important; font-weight: 600 !important; margin: 1rem 0 0.5rem !important;   line-height: 1.4 !important; color: #111827 !important; }
+.tiptap-editor-wrapper .ProseMirror h4 { font-size: 1.1rem !important;  font-weight: 600 !important; margin: 0.75rem 0 0.4rem !important; color: #111827 !important; }
+
+/* Paragraphs */
+.tiptap-editor-wrapper .ProseMirror p { margin: 0.75rem 0; }
+
+/* Bold / Italic / Underline / Strike */
+.tiptap-editor-wrapper .ProseMirror strong { font-weight: 700; }
+.tiptap-editor-wrapper .ProseMirror em     { font-style: italic; }
+.tiptap-editor-wrapper .ProseMirror u      { text-decoration: underline; }
+.tiptap-editor-wrapper .ProseMirror s      { text-decoration: line-through; }
+
+/* Links */
+.tiptap-editor-wrapper .ProseMirror a {
+    color: #4f46e5;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.tiptap-editor-wrapper .ProseMirror a:hover { color: #3730a3; }
+
+/* Lists */
+.tiptap-editor-wrapper .ProseMirror ul {
+    list-style-type: disc;
+    padding-left: 1.75rem;
+    margin: 0.75rem 0;
+}
+.tiptap-editor-wrapper .ProseMirror ol {
+    list-style-type: decimal;
+    padding-left: 1.75rem;
+    margin: 0.75rem 0;
+}
+.tiptap-editor-wrapper .ProseMirror li { margin: 0.25rem 0; }
+
+/* Blockquote */
+.tiptap-editor-wrapper .ProseMirror blockquote {
+    border-left: 4px solid #e5e7eb;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #6b7280;
+    font-style: italic;
+}
+
+/* Code inline */
+.tiptap-editor-wrapper .ProseMirror code {
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    padding: 0.15em 0.4em;
+    font-family: 'Fira Code', 'Courier New', monospace;
+    font-size: 0.875em;
+    color: #dc2626;
+}
+
+/* Code block */
+.tiptap-editor-wrapper .ProseMirror pre {
+    background: #1f2937;
+    color: #f9fafb;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+    overflow-x: auto;
+    font-family: 'Fira Code', 'Courier New', monospace;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+.tiptap-editor-wrapper .ProseMirror pre code {
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+}
+
+/* Horizontal rule */
+.tiptap-editor-wrapper .ProseMirror hr {
+    border: none;
+    border-top: 2px solid #e5e7eb;
+    margin: 1.5rem 0;
+}
+
+/* Images */
+.tiptap-editor-wrapper .ProseMirror img,
+.tiptap-editor-wrapper .ProseMirror .editor-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1rem auto;
+    display: block;
+    cursor: default;
+}
+
+/* Selected image highlight */
+.tiptap-editor-wrapper .ProseMirror img.ProseMirror-selectednode {
+    outline: 3px solid #4f46e5;
+    border-radius: 8px;
+}
+
+/* Text alignment */
+.tiptap-editor-wrapper .ProseMirror [style*="text-align: left"]   { text-align: left; }
+.tiptap-editor-wrapper .ProseMirror [style*="text-align: center"] { text-align: center; }
+.tiptap-editor-wrapper .ProseMirror [style*="text-align: right"]  { text-align: right; }
+
+/* Selection highlight */
+.tiptap-editor-wrapper .ProseMirror ::selection {
+    background: #c7d2fe;
+}
+
+/* Focus ring on the editor wrapper */
+.tiptap-editor-wrapper .ProseMirror:focus {
+    outline: none;
+}
+
+/* ── CTA Button node ─────────────────────────────────────────────────────── */
+.tiptap-editor-wrapper .ProseMirror a[data-cta-button] {
+    display: inline-block;
+    background: #FF1033;
+    color: #fff !important;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none !important;
+    font-size: 15px;
+    margin: 12px 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tiptap-editor-wrapper .ProseMirror a[data-cta-button].ProseMirror-selectednode {
+    outline: 3px solid #4f46e5;
+}
+
+/* ── Resizable Image ─────────────────────────────────────────────────────── */
+
+/* NodeViewWrapper — the container */
+.tiptap-editor-wrapper .ProseMirror [data-node-view-wrapper] {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    line-height: 0;
+}
+
+/* Resize handle — bottom-right corner */
+.tiptap-editor-wrapper .resize-handle {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    width: 14px;
+    height: 14px;
+    background: #4f46e5;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    cursor: se-resize;
+    z-index: 10;
+}
+
+/* Image alignment toolbar — appears on select */
+.tiptap-editor-wrapper .img-toolbar {
+    position: absolute;
+    top: -36px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 2px;
+    background: #1f2937;
+    border-radius: 6px;
+    padding: 4px 6px;
+    z-index: 20;
+    white-space: nowrap;
+}
+
+.tiptap-editor-wrapper .img-toolbar button {
+    background: transparent;
+    border: none;
+    color: #d1d5db;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 2px 5px;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+.tiptap-editor-wrapper .img-toolbar button:hover,
+.tiptap-editor-wrapper .img-toolbar button.active {
+    background: #4f46e5;
+    color: #fff;
+}
+
+/* ── Font size dropdown ──────────────────────────────────────────────────── */
+.tiptap-editor-wrapper .tiptap-toolbar .toolbar-select {
+    height: 28px;
+    padding: 0 6px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #374151;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.tiptap-editor-wrapper .tiptap-toolbar .toolbar-select:hover {
+    border-color: #9ca3af;
+}
+
+/* ── Inline font-size spans ──────────────────────────────────────────────── */
+.tiptap-editor-wrapper .ProseMirror span[style*="font-size"] {
+    line-height: 1.3;
+    display: inline;
+}

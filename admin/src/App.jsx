@@ -35,6 +35,7 @@ import Login from "./pages/Login";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUserProfile } from "./features/auth/authSlice";
 import { useEffect } from "react";
+import TipTapEditor from "./pages/editor";
 
 const RequireAuth = ({ children }) => {
   const { user, loading } = useAuth();

@@ -90,7 +90,7 @@ export const createBlog = async (req: Request, res: Response) => {
 
         let featuredImageUrl = featuredImage;
         if (req.file) {
-            featuredImageUrl = `/uploads/${req.file.filename}`;
+            featuredImageUrl = `/api/uploads/${req.file.filename}`;
         }
 
         // Generate unique slug from title

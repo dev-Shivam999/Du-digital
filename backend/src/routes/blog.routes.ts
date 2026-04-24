@@ -16,7 +16,13 @@ const storage = multer.diskStorage({
     }
 });
 
-const upload = multer({ storage });
+const upload = multer({
+    storage,
+    limits: {
+        fieldSize: 50 * 1024 * 1024,  // 50MB — allows large HTML content with base64 images
+        fileSize: 10 * 1024 * 1024,   // 10MB per file
+    }
+});
 
 router.get("/", getBlogs);
 router.get("/:id", getBlogById);

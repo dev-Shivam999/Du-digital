@@ -277,7 +277,8 @@ async function createApp() {
         });
         app.use(vite.middlewares);
     } else {
-        // Serve static assets from dist/ (built assets) and public/ (raw assets)
+        // In production with Nginx, static files are served by Nginx directly.
+        // express.static is kept as a fallback for running without Nginx (e.g. local dev).
         app.use(express.static(path.resolve(__dirname, 'dist'), { index: false }));
         app.use(express.static(path.resolve(__dirname, 'public'), { index: false }));
     }

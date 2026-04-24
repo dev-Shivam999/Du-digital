@@ -1,32 +1,27 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import MDEditor from "@uiw/react-md-editor";
-import "@uiw/react-md-editor/markdown-editor.css";
 import { getBlog, createBlog, updateBlog } from "../services/api";
 import { PageHeader, Button, FormGroup, Input } from "../components/UI";
 import { useToast, ToastContainer } from "../components/Toast";
-import { Save, X, Eye, Image, Tag, User, FileText } from "lucide-react";
+import { Save, X, Eye, Image, Tag, User, FileText, ArrowLeft } from "lucide-react";
+import TipTapEditor from "./editor";
 
 const BlogEditor = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const isEditMode = !!id;
   const { toasts, removeToast, showSuccess, showError } = useToast();
+  const editorRef = useRef(null);
+
   const BackendImagesURL = import.meta.env.VITE_BACKEND_IMAGES_URL || 'http://localhost:5000';
 
   const getImageUrl = (imagePath) => {
     if (!imagePath) return '';
     if (imagePath.startsWith('http')) return imagePath;
-    // Handle /api/ paths - use BackendURL directly
-    if (imagePath.startsWith('/api/')) {
-      return `${BackendImagesURL}${imagePath}`;
-    }
-    // Handle /uploads/ paths
-    if (imagePath.startsWith('/uploads/')) {
-      return `${BackendImagesURL}/api${imagePath}`;
-    }
+    if (imagePath.startsWith('/uploads/')) return `${BackendImagesURL}/api${imagePath}`;
     return `${BackendImagesURL}${imagePath.startsWith('/') ? '' : '/'}${imagePath}`;
   };
+
   const [formData, setFormData] = useState({
     title: "",
     content: "",
@@ -36,29 +31,27 @@ const BlogEditor = () => {
     authorName: "DU Digital Global",
   });
   const [featuredImageFile, setFeaturedImageFile] = useState(null);
+  const [featuredPreview, setFeaturedPreview] = useState("");
   const [loading, setLoading] = useState(false);
   const [initialLoading, setInitialLoading] = useState(isEditMode);
-  const [preview, setPreview] = useState(false);
 
   useEffect(() => {
-    if (isEditMode) {
-      fetchBlogDetails();
-    }
+    if (isEditMode) fetchBlogDetails();
   }, [id]);
 
   const fetchBlogDetails = async () => {
     try {
       const data = await getBlog(id);
       setFormData({
-        title: data.title,
-        content: data.content,
+        title: data.title || "",
+        content: data.content || "",
         featuredImage: data.featuredImage || "",
         category: data.category || "",
-        tags: data.tags ? data.tags : "",
+        tags: data.tags || "",
         authorName: data.author?.name || "DU Digital Global",
       });
+      if (data.featuredImage) setFeaturedPreview(getImageUrl(data.featuredImage));
     } catch (error) {
-      console.error("Error fetching blog details:", error);
       showError("Failed to load blog details");
       navigate("/blogs");
     } finally {
@@ -66,37 +59,57 @@ const BlogEditor = () => {
     }
   };
 
+  const handleFeaturedImage = (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    (file);
+    setFeaturedPreview(URL.createObjectURL(file));
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!formData.title.trim()) return showError("Title is required");
+    if (!formData.content.trim()) return showError("Content is required");
+
     setLoading(true);
 
+    // Step 1: upload all base64 inline images → get HTML with real server URLs
+    let finalContent = formData.content;
+    try {
+      if (editorRef.current?.uploadAndGetHTML) {
+        finalContent = await editorRef.current.uploadAndGetHTML();
+      }
+    } catch (err) {
+      console.error('Inline image upload error:', err);
+      // Strip any remaining base64 to avoid Multer field size error
+      finalContent = finalContent.replace(/src="data:image\/[^"]+"/g, 'src=""');
+    }
+
+    // Step 2: build FormData with clean HTML (no base64)
     const submitData = new FormData();
     submitData.append("title", formData.title);
-    submitData.append("content", formData.content);
+    submitData.append("content", finalContent);
     submitData.append("category", formData.category);
+    submitData.append("tags", formData.tags);
     submitData.append("author[name]", formData.authorName);
 
-    submitData.append("tags", formData.tags);
-
-    // Handle Image
     if (featuredImageFile) {
       submitData.append("featuredImage", featuredImageFile);
-    } else {
+    } else if (formData.featuredImage && !formData.featuredImage.startsWith('blob:')) {
       submitData.append("featuredImage", formData.featuredImage);
     }
 
     try {
       if (isEditMode) {
         await updateBlog(id, submitData);
-        showSuccess("Blog updated successfully");
+        showSuccess("Blog updated successfully!");
       } else {
         await createBlog(submitData);
-        showSuccess("Blog created successfully");
+        showSuccess("Blog created successfully!");
       }
-      navigate("/blogs");
+      setTimeout(() => navigate("/blogs"), 800);
     } catch (error) {
-      console.error("Error saving blog:", error);
-      showError("Failed to save blog");
+      showError("Failed to save blog. Please try again.");
     } finally {
       setLoading(false);
     }
@@ -104,62 +117,9 @@ const BlogEditor = () => {
 
   if (initialLoading) {
     return (
-      <div className="loading">
-        <div className="spinner"></div>
-        Loading blog details...
-      </div>
-    );
-  }
-
-  if (preview) {
-    return (
-      <div className="w-full">
-        <PageHeader
-          title="Blog Preview"
-          description="Preview how your blog will look"
-          actions={
-            <div className="d-flex gap-2">
-              <Button variant="secondary" onClick={() => setPreview(false)}>
-                <X size={16} />
-                Close Preview
-              </Button>
-            </div>
-          }
-        />
-
-        <div className="card">
-          <div className="card-body">
-            {formData.featuredImage && (
-              <img
-                src={getImageUrl(formData.featuredImage)}
-                alt={formData.title}
-                style={{
-                  width: "100%",
-                  height: "300px",
-                  objectFit: "cover",
-                  borderRadius: "0.5rem",
-                  marginBottom: "1.5rem",
-                }}
-              />
-            )}
-            <h1 className="mb-3">{formData.title || "Untitled Blog"}</h1>
-            <div className="d-flex align-items-center gap-3 mb-4 text-muted">
-              <div className="d-flex align-items-center gap-1">
-                <User size={16} />
-                <span>{formData.authorName}</span>
-              </div>
-              {formData.category && (
-                <div className="d-flex align-items-center gap-1">
-                  <Tag size={16} />
-                  <span>{formData.category}</span>
-                </div>
-              )}
-            </div>
-            <div className="blog-content " data-color-mode="light">
-              <MDEditor.Markdown source={formData.content} />
-            </div>
-          </div>
-        </div>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '60vh', gap: 12 }}>
+        <div className="spinner" />
+        <span>Loading blog...</span>
       </div>
     );
   }
@@ -167,181 +127,135 @@ const BlogEditor = () => {
   return (
     <div>
       <ToastContainer toasts={toasts} removeToast={removeToast} />
+
       <PageHeader
         title={isEditMode ? "Edit Blog" : "Create New Blog"}
         description="Write and publish engaging content for your audience"
         actions={
           <div className="d-flex gap-2">
-            <Button
-              variant="secondary"
-              onClick={() => setPreview(true)}
-              disabled={!formData.title && !formData.content}>
-              <Eye size={16} />
-              Preview
-            </Button>
             <Button variant="secondary" onClick={() => navigate("/blogs")}>
-              <X size={16} />
-              Cancel
+              <ArrowLeft size={16} />
+              Back to Blogs
             </Button>
           </div>
         }
       />
 
       <form onSubmit={handleSubmit}>
-        <div className="grid grid-cols-2 gap-4 mb-4">
+        {/* Top row — meta fields */}
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }}>
+
+          {/* Left — Basic Info */}
           <div className="card">
             <div className="card-header">
               <h3 className="mb-0 d-flex align-items-center gap-2">
-                <FileText size={20} />
-                Basic Information
+                <FileText size={18} /> Basic Information
               </h3>
             </div>
             <div className="card-body">
-              <FormGroup label="Title" required>
+              <FormGroup label="Title *">
                 <Input
                   type="text"
                   value={formData.title}
-                  onChange={(e) =>
-                    setFormData({ ...formData, title: e.target.value })
-                  }
+                  onChange={(e) => setFormData({ ...formData, title: e.target.value })}
                   placeholder="Enter blog title..."
                   required
                 />
               </FormGroup>
-
               <FormGroup label="Category">
                 <Input
                   type="text"
                   value={formData.category}
-                  onChange={(e) =>
-                    setFormData({ ...formData, category: e.target.value })
-                  }
-                  placeholder="e.g. Visa, Business, Technology"
+                  onChange={(e) => setFormData({ ...formData, category: e.target.value })}
+                  placeholder="e.g. Visa, Business, Travel"
                 />
               </FormGroup>
-
-              <FormGroup label="Short Title">
+              <FormGroup label="Tags / Short Description">
                 <Input
                   type="text"
                   value={formData.tags}
-                  onChange={(e) =>
-                    setFormData({ ...formData, tags: e.target.value })
-                  }
+                  onChange={(e) => setFormData({ ...formData, tags: e.target.value })}
+                  placeholder="Short description or comma-separated tags"
                 />
               </FormGroup>
-            </div>
-          </div>
-
-          <div className="card">
-            <div className="card-header">
-              <h3 className="mb-0 d-flex align-items-center gap-2">
-                <Image size={20} />
-                Media & Author
-              </h3>
-            </div>
-            <div className="card-body">
-              <FormGroup label="Featured Image URL">
-                <Input
-                  type="text"
-                  value={formData.featuredImage}
-                  onChange={(e) =>
-                    setFormData({ ...formData, featuredImage: e.target.value })
-                  }
-                  placeholder="https://example.com/image.jpg"
-                />
-                <div className="mt-2">
-                  <label className="form-label small text-muted">
-                    Or Upload Image
-                  </label>
-                  <input
-                    type="file"
-                    className="form-control"
-                    accept="image/*"
-                    onChange={(e) => {
-                      if (e.target.files[0]) {
-                        setFeaturedImageFile(e.target.files[0]);
-                        // Optional: Create object URL for preview
-                        setFormData({
-                          ...formData,
-                          featuredImage: URL.createObjectURL(e.target.files[0]),
-                        });
-                      }
-                    }}
-                  />
-                </div>
-                {formData.featuredImage && (
-                  <div className="mt-2">
-                    <img
-                      src={formData.featuredImage}
-                      alt="Preview"
-                      style={{
-                        width: "100%",
-                        height: "120px",
-                        objectFit: "cover",
-                        borderRadius: "0.375rem",
-                        border: "1px solid #e2e8f0",
-                      }}
-                      onError={(e) => {
-                        e.target.style.display = "none";
-                      }}
-                    />
-                  </div>
-                )}
-              </FormGroup>
-
               <FormGroup label="Author Name">
                 <Input
                   type="text"
                   value={formData.authorName}
-                  onChange={(e) =>
-                    setFormData({ ...formData, authorName: e.target.value })
-                  }
+                  onChange={(e) => setFormData({ ...formData, authorName: e.target.value })}
                   placeholder="Author name"
                 />
               </FormGroup>
             </div>
           </div>
-        </div>
 
-        <div className="card mb-4">
-          <div className="card-header">
-            <h3 className="mb-0">Content (Markdown)</h3>
-            <p className="text-muted mb-0" style={{ fontSize: "0.875rem" }}>
-              Use Markdown syntax to format your content. You can add headings,
-              lists, links, images, and more.
-            </p>
-          </div>
-          <div className="card-body">
-            <div className="markdown-editor-container">
-              <MDEditor
-                value={formData.content}
-                onChange={(value) =>
-                  setFormData({ ...formData, content: value || "" })
-                }
-                height={400}
-                preview="edit"
-                hideToolbar={false}
-                visibleDragBar={false}
-                data-color-mode="light"
-              />
+          {/* Right — Featured Image */}
+          <div className="card">
+            <div className="card-header">
+              <h3 className="mb-0 d-flex align-items-center gap-2">
+                <Image size={18} /> Featured Image
+              </h3>
+            </div>
+            <div className="card-body">
+              <FormGroup label="Upload Image">
+                <input
+                  type="file"
+                  className="form-control"
+                  accept="image/*"
+                  onChange={handleFeaturedImage}
+                />
+              </FormGroup>
+              <FormGroup label="Or paste image URL">
+                <Input
+                  type="text"
+                  value={formData.featuredImage.startsWith('blob:') ? '' : formData.featuredImage}
+                  onChange={(e) => {
+                    setFormData({ ...formData, featuredImage: e.target.value });
+                    setFeaturedPreview(e.target.value);
+                    setFeaturedImageFile(null);
+                  }}
+                  placeholder="https://example.com/image.jpg"
+                />
+              </FormGroup>
+              {featuredPreview && (
+                <img
+                  src={featuredPreview}
+                  alt="Preview"
+                  style={{ width: '100%', height: 140, objectFit: 'cover', borderRadius: 8, border: '1px solid #e2e8f0', marginTop: 8 }}
+                  onError={(e) => { e.target.style.display = 'none'; }}
+                />
+              )}
             </div>
           </div>
         </div>
 
-        <div className="d-flex justify-content-end gap-3">
-          <Button
-            type="button"
-            variant="secondary"
-            onClick={() => navigate("/blogs")}>
-            <X size={16} />
-            Cancel
+        {/* Content Editor */}
+        <div className="card" style={{ marginBottom: 16 }}>
+          <div className="card-header">
+            <h3 className="mb-0">Content *</h3>
+          </div>
+          <div className="card-body" style={{ padding: 0 }}>
+            <TipTapEditor
+              ref={editorRef}
+              value={formData.content}
+              onChange={(html) => setFormData((prev) => ({ ...prev, content: html }))}
+              placeholder="Start writing your blog content..."
+            />
+          </div>
+        </div>
+
+        {/* Submit */}
+        <div className="d-flex justify-content-end gap-3" style={{ marginBottom: 32 }}>
+          <Button type="button" variant="secondary" onClick={() => navigate("/blogs")}>
+            <X size={16} /> Cancel
           </Button>
           <Button
             type="submit"
             loading={loading}
-            disabled={!formData.title || !formData.content}>
+            disabled={loading || !formData.title || !formData.content}
+          >
             <Save size={16} />
-            {loading ? "Saving..." : isEditMode ? "Update Blog" : "Create Blog"}
+            {loading ? "Saving..." : isEditMode ? "Update Blog" : "Publish Blog"}
           </Button>
         </div>
       </form>
