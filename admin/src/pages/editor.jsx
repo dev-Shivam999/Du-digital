@@ -47,13 +47,14 @@ const ResizableImageView = ({ node, updateAttributes, selected }) => {
         e.preventDefault();
         isResizing.current = true;
         startX.current = e.clientX;
-        startW.current = parseInt(width) || 400;
+        // Always parse as integer to avoid "400px" string issues
+        startW.current = parseInt(width, 10) || 400;
 
         const onMove = (ev) => {
             if (!isResizing.current) return;
             const delta = ev.clientX - startX.current;
             const newW = Math.max(80, Math.min(900, startW.current + delta));
-            updateAttributes({ width: newW });
+            updateAttributes({ width: newW }); // store as number
         };
         const onUp = () => {
             isResizing.current = false;
@@ -64,6 +65,7 @@ const ResizableImageView = ({ node, updateAttributes, selected }) => {
         window.addEventListener('mouseup', onUp);
     }, [width, updateAttributes]);
 
+    const w = parseInt(width, 10) || 400;
     const alignStyle = align === 'left'
         ? { float: 'left', marginRight: 16, marginBottom: 8 }
         : align === 'right'
@@ -71,7 +73,7 @@ const ResizableImageView = ({ node, updateAttributes, selected }) => {
         : { display: 'block', margin: '12px auto' };
 
     return (
-        <NodeViewWrapper style={{ ...alignStyle, width: width || 'auto', position: 'relative', display: align === 'center' ? 'block' : 'inline-block' }}>
+        <NodeViewWrapper style={{ ...alignStyle, width: w, position: 'relative', display: align === 'center' ? 'block' : 'inline-block' }}>
             {/* Alignment toolbar — shows on select */}
             {selected && (
                 <div className="img-toolbar">
@@ -106,21 +108,32 @@ const ResizableImage = Node.create({
         return {
             src:   { default: null },
             alt:   { default: '' },
-            width: { default: 400 },
-            align: { default: 'center' },
+            // Store width as number, parse it back from data-width attribute
+            width: {
+                default: 400,
+                parseHTML: el => parseInt(el.getAttribute('data-width') || el.style.width || '400', 10),
+                renderHTML: attrs => ({ 'data-width': attrs.width }),
+            },
+            align: {
+                default: 'center',
+                parseHTML: el => el.getAttribute('data-align') || 'center',
+                renderHTML: attrs => ({ 'data-align': attrs.align }),
+            },
         };
     },
     parseHTML() {
-        return [{ tag: 'img[src]' }, { tag: 'img[data-resizable]' }];
+        return [{ tag: 'img[data-resizable]' }];
     },
     renderHTML({ HTMLAttributes }) {
-        const { align, width, ...rest } = HTMLAttributes;
+        const w = parseInt(HTMLAttributes['data-width'] || 400, 10);
+        const align = HTMLAttributes['data-align'] || 'center';
         const style = align === 'left'
-            ? `float:left;margin-right:16px;margin-bottom:8px;width:${width}px;`
+            ? `float:left;margin-right:16px;margin-bottom:8px;width:${w}px;height:auto;`
             : align === 'right'
-            ? `float:right;margin-left:16px;margin-bottom:8px;width:${width}px;`
-            : `display:block;margin:12px auto;width:${width}px;`;
-        return ['img', mergeAttributes(rest, { 'data-resizable': '', style, 'data-align': align })];
+            ? `float:right;margin-left:16px;margin-bottom:8px;width:${w}px;height:auto;`
+            : `display:block;margin:12px auto;width:${w}px;height:auto;`;
+        const { src, alt } = HTMLAttributes;
+        return ['img', { src, alt: alt || '', 'data-resizable': '', 'data-width': w, 'data-align': align, style }];
     },
     addNodeView() {
         return ReactNodeViewRenderer(ResizableImageView);
