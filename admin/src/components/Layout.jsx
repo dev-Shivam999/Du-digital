@@ -40,7 +40,7 @@ const Layout = () => {
     { name: "Gallery", href: "/gallery", icon: Images, requiredPermission: "manage_gallery" },
     { name: "Videos", href: "/videos", icon: Play, requiredPermission: "manage_videos" },
     { name: "Travel Packages", href: "/travel-packages", icon: Plane, requiredPermission: "manage_travel" },
-    { name: "Travel Inquiries", href: "/travel-inquiries", icon: MessageSquare, requiredPermission: "manage_travel" },
+    // { name: "Travel Inquiries", href: "/travel-inquiries", icon: MessageSquare, requiredPermission: "manage_travel" },
     { name: "Business Management", type: "section" },
     { name: "Investor Relations", href: "/investor-relations", icon: FileText, requiredPermission: "manage_investors" },
     { name: "Offices", href: "/offices", icon: Building2, requiredPermission: "manage_offices" },
@@ -50,11 +50,11 @@ const Layout = () => {
     { name: "Team Members", href: "/team-members", icon: UserCheck, requiredPermission: "manage_team" },
     { name: "Sales Experts", href: "/sales-experts", icon: Users, requiredPermission: "manage_sales" },
     { name: "Communication", type: "section" },
-    { name: "Form Submissions", href: "/form-submissions", icon: MessageSquare, requiredPermission: "manage_forms" },
-    { name: "Inquiries", href: "/contacts", icon: MessageSquare, requiredPermission: "manage_contacts" },
+    // { name: "Form Submissions", href: "/form-submissions", icon: MessageSquare, requiredPermission: "manage_forms" },
+    // { name: "Inquiries", href: "/contacts", icon: MessageSquare, requiredPermission: "manage_contacts" },
     { name: "Applicants", href: "/applicants", icon: UserCheck, requiredPermission: "manage_applicants" },
     { name: "System", type: "section" },
-    { name: "User Management", href: "/users", icon: UserCheck, requiredPermission: "manage_users" }, // Handled by admin check in backend usually, but for UI hiding
+    // { name: "User Management", href: "/users", icon: UserCheck, requiredPermission: "manage_users" }, // Handled by admin check in backend usually, but for UI hiding
     { name: "Pages", href: "/forms", icon: FileText, requiredPermission: "manage_forms" },
     { name: "Documents", href: "/documents", icon: FileText, requiredPermission: "manage_documents" },
     { name: "FAQs", href: "/faqs", icon: MessageSquare, requiredPermission: "manage_faqs" },

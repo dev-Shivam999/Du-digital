@@ -102,9 +102,9 @@ function App() {
           <Route path="blogs/new" element={<BlogEditor />} />
           <Route path="blogs/edit/:id" element={<BlogEditor />} />
           <Route path="team-members" element={<TeamMemberManager />} />
-          <Route path="users" element={<UserManager />} />
+          {/* <Route path="users" element={<UserManager />} /> */}
           <Route path="travel-packages" element={<TravelPackageManager />} />
-          <Route path="travel-inquiries" element={<TravelInquiryManager />} />
+          {/* <Route path="travel-inquiries" element={<TravelInquiryManager />} /> */}
           <Route path="forms" element={<FormManager />} />
           <Route path="documents" element={<DocumentManager />} />
           <Route path="faqs" element={<FAQManager />} />
@@ -114,7 +114,7 @@ function App() {
           <Route path="pricing-plans" element={<PricingPlanManager />} />
           <Route path="form-images" element={<FormImageManager />} />
           <Route path="form-employees-addresses" element={<FormEmployeesAddressManager />} />
-          <Route path="form-submissions" element={<FormSubmissionManager />} />
+          {/* <Route path="form-submissions" element={<FormSubmissionManager />} /> */}
         </Route>
       </Routes>
     </Router>
