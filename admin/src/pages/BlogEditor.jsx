@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { getBlog, createBlog, updateBlog } from "../services/api";
 import { PageHeader, Button, FormGroup, Input } from "../components/UI";
 import { useToast, ToastContainer } from "../components/Toast";
-import { Save, X, Eye, Image, Tag, User, FileText, ArrowLeft } from "lucide-react";
+import { Save, X, Image, FileText, ArrowLeft } from "lucide-react";
 import TipTapEditor from "./editor";
 
 const BlogEditor = () => {
@@ -12,6 +12,8 @@ const BlogEditor = () => {
   const isEditMode = !!id;
   const { toasts, removeToast, showSuccess, showError } = useToast();
   const editorRef = useRef(null);
+  const isDirty = useRef(false);   // true when user has unsaved changes
+  const isSaved = useRef(false);   // true after successful submit
 
   const BackendImagesURL = import.meta.env.VITE_BACKEND_IMAGES_URL || 'http://localhost:5000';
 
@@ -39,6 +41,23 @@ const BlogEditor = () => {
     if (isEditMode) fetchBlogDetails();
   }, [id]);
 
+  // ── Warn before tab close / refresh if there are unsaved changes ────────────
+  useEffect(() => {
+    const handler = (e) => {
+      if (!isDirty.current || isSaved.current) return;
+      e.preventDefault();
+      e.returnValue = ''; // triggers browser's native "Leave site?" dialog
+    };
+    window.addEventListener('beforeunload', handler);
+    return () => window.removeEventListener('beforeunload', handler);
+  }, []);
+
+  // ── Warn on React Router navigation (back button, sidebar links) ────────────
+  useEffect(() => {
+    if (!isDirty.current || isSaved.current) return;
+    // Mark dirty so the effect re-runs when formData changes
+  }, [formData]);
+
   const fetchBlogDetails = async () => {
     try {
       const data = await getBlog(id);
@@ -59,10 +78,23 @@ const BlogEditor = () => {
     }
   };
 
+  // Mark dirty on any field change
+  const markDirty = () => { isDirty.current = true; };
+
+  // Safe navigate — warns if unsaved changes
+  const safeNavigate = (path) => {
+    if (isDirty.current && !isSaved.current) {
+      const ok = window.confirm('You have unsaved changes. Leave without saving?');
+      if (!ok) return;
+    }
+    navigate(path);
+  };
+
   const handleFeaturedImage = (e) => {
     const file = e.target.files?.[0];
     if (!file) return;
-    (file);
+    markDirty();
+    setFeaturedImageFile(file);
     setFeaturedPreview(URL.createObjectURL(file));
   };
 
@@ -107,6 +139,8 @@ const BlogEditor = () => {
         await createBlog(submitData);
         showSuccess("Blog created successfully!");
       }
+      isSaved.current = true;   // clear dirty flag — safe to navigate
+      isDirty.current = false;
       setTimeout(() => navigate("/blogs"), 800);
     } catch (error) {
       showError("Failed to save blog. Please try again.");
@@ -133,7 +167,7 @@ const BlogEditor = () => {
         description="Write and publish engaging content for your audience"
         actions={
           <div className="d-flex gap-2">
-            <Button variant="secondary" onClick={() => navigate("/blogs")}>
+            <Button variant="secondary" onClick={() => safeNavigate("/blogs")}>
               <ArrowLeft size={16} />
               Back to Blogs
             </Button>
@@ -238,7 +272,7 @@ const BlogEditor = () => {
             <TipTapEditor
               ref={editorRef}
               value={formData.content}
-              onChange={(html) => setFormData((prev) => ({ ...prev, content: html }))}
+              onChange={(html) => { markDirty(); setFormData((prev) => ({ ...prev, content: html })); }}
               placeholder="Start writing your blog content..."
             />
           </div>
@@ -246,7 +280,7 @@ const BlogEditor = () => {
 
         {/* Submit */}
         <div className="d-flex justify-content-end gap-3" style={{ marginBottom: 32 }}>
-          <Button type="button" variant="secondary" onClick={() => navigate("/blogs")}>
+          <Button type="button" variant="secondary" onClick={() => safeNavigate("/blogs")}>
             <X size={16} /> Cancel
           </Button>
           <Button
