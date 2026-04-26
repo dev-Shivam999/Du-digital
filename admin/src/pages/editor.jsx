@@ -5,6 +5,8 @@ import Underline from '@tiptap/extension-underline';
 import Link from '@tiptap/extension-link';
 import Placeholder from '@tiptap/extension-placeholder';
 import TextAlign from '@tiptap/extension-text-align';
+import { Table, TableCell, TableHeader } from '@tiptap/extension-table';
+import { TableRow } from '@tiptap/extension-table-row';
 import './editor.css';
 
 // ─── FontSize Mark — change size of selected text only (inline) ───────────────
@@ -266,11 +268,32 @@ const Toolbar = ({ editor, onImages, onCta }) => {
             <Btn
                 onClick={() => editor.chain().focus().toggleMark('inlineLabel').run()}
                 active={editor.isActive('inlineLabel')}
-                title="Inline label — bold red text, stays on same line (use instead of H3 for labels)"
+                title="Inline label"
                 style={editor.isActive('inlineLabel') ? { background: '#FF1033', color: '#fff', borderRadius: 4, padding: '2px 8px', fontSize: 12, fontWeight: 700 } : { color: '#FF1033', borderRadius: 4, padding: '2px 8px', fontSize: 12, fontWeight: 700, border: '1px solid #FF1033' }}
             >
                 Label
             </Btn>
+            <Sep />
+            {/* Table controls */}
+            <Btn
+                onClick={() => editor.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()}
+                active={false}
+                title="Insert table (3×3)"
+            >
+                <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M3 14h18M10 3v18M14 3v18M3 6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3H6a3 3 0 01-3-3V6z"/>
+                </svg>
+            </Btn>
+            {editor.isActive('table') && (
+                <>
+                    <Btn onClick={() => editor.chain().focus().addColumnAfter().run()} active={false} title="Add column after">+Col</Btn>
+                    <Btn onClick={() => editor.chain().focus().addRowAfter().run()} active={false} title="Add row after">+Row</Btn>
+                    <Btn onClick={() => editor.chain().focus().deleteColumn().run()} active={false} title="Delete column" style={{ color: '#dc2626' }}>-Col</Btn>
+                    <Btn onClick={() => editor.chain().focus().deleteRow().run()} active={false} title="Delete row" style={{ color: '#dc2626' }}>-Row</Btn>
+                    <Btn onClick={() => editor.chain().focus().deleteTable().run()} active={false} title="Delete table" style={{ color: '#dc2626', fontWeight: 700 }}>✕Tbl</Btn>
+                    <Btn onClick={() => editor.chain().focus().toggleHeaderRow().run()} active={false} title="Toggle header row">H.Row</Btn>
+                </>
+            )}
             <Sep />
             <Btn onClick={() => editor.chain().focus().undo().run()} disabled={!editor.can().undo()} active={false} title="Undo">
                 <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"/></svg>
@@ -298,6 +321,10 @@ const TipTapEditor = forwardRef(({ value, onChange, placeholder = 'Start writing
             CtaButton,
             InlineLabel,
             FontSize,
+            Table.configure({ resizable: true }),
+            TableRow,
+            TableHeader,
+            TableCell,
         ],
         content: value || '',
         onUpdate: ({ editor }) => onChange(editor.getHTML()),

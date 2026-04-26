@@ -1,10 +1,8 @@
-import { useEffect, lazy, Suspense } from "react";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchSingleBlog } from "../redux/slices/BlogsSlice";
 import SEO from "../components/reusable/SEO";
-
-const MarkdownPreview = lazy(() => import("@uiw/react-markdown-preview"));
 
 const SingleBlog = () => {
   const { slug } = useParams()
@@ -69,13 +67,8 @@ const SingleBlog = () => {
           </div>
 
           {/* Content */}
-          <section
-            className="blog-content"
-            data-color-mode="light"
-          >
-            <Suspense fallback={<div>Loading content...</div>}>
-              <MarkdownPreview source={SingleBlog.content} style={{ background: 'transparent' }} />
-            </Suspense>
+          <section className="blog-content" data-color-mode="light">
+            <div dangerouslySetInnerHTML={{ __html: SingleBlog.content }} />
           </section>
         </article>
       }

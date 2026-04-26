@@ -309,3 +309,74 @@
     line-height: 1.3;
     display: inline;
 }
+
+/* ── Table ───────────────────────────────────────────────────────────────── */
+
+/* Reset any global td/th styles inside the editor */
+.tiptap-editor-wrapper .ProseMirror table,
+.tiptap-editor-wrapper .ProseMirror table td,
+.tiptap-editor-wrapper .ProseMirror table th {
+    border-color: #374151 !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.tiptap-editor-wrapper .ProseMirror table {
+    border-collapse: collapse !important;
+    width: 100%;
+    margin: 1rem 0;
+    border: 2px solid #374151 !important;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.tiptap-editor-wrapper .ProseMirror td,
+.tiptap-editor-wrapper .ProseMirror th {
+    border: 1px solid #374151 !important;
+    border-bottom: 1px solid #374151 !important;
+    padding: 8px 12px !important;
+    min-width: 80px;
+    vertical-align: top;
+    position: relative;
+    font-size: 14px;
+    background: transparent;
+}
+
+.tiptap-editor-wrapper .ProseMirror th {
+    background: #e5e7eb !important;
+    font-weight: 600 !important;
+    color: #111827 !important;
+    text-align: left !important;
+    border-bottom: 2px solid #374151 !important;
+}
+
+.tiptap-editor-wrapper .ProseMirror td p,
+.tiptap-editor-wrapper .ProseMirror th p {
+    margin: 0;
+}
+
+/* Selected cell highlight */
+.tiptap-editor-wrapper .ProseMirror .selectedCell::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(79, 70, 229, 0.08);
+    pointer-events: none;
+}
+
+/* Column resize handle */
+.tiptap-editor-wrapper .ProseMirror .column-resize-handle {
+    position: absolute;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #4f46e5;
+    cursor: col-resize;
+    z-index: 20;
+}
+
+.tiptap-editor-wrapper .ProseMirror .tableWrapper {
+    overflow-x: auto;
+    margin: 1rem 0;
+}

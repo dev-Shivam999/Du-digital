@@ -307,6 +307,47 @@ body {
     margin: 20px 0;
 }
 
+/* Tables in blog content */
+.blog-content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5rem 0;
+    border: 2px solid #374151;
+    font-size: 15px;
+}
+
+.blog-content th,
+.blog-content td {
+    border: 1px solid #374151;
+    padding: 10px 14px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.blog-content th {
+    background: #e5e7eb;
+    font-weight: 600;
+    color: #111827;
+    border-bottom: 2px solid #374151;
+}
+
+.blog-content tr:nth-child(even) td {
+    background: #fafafa;
+}
+
+/* CTA buttons in blog content */
+.blog-content a[data-cta-button] {
+    display: inline-block;
+    background: #FF1033;
+    color: #fff !important;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none !important;
+    font-size: 15px;
+    margin: 12px 0;
+}
+
 .swiper-pagination-bullet {
     background: #ff1033 !important;
     /* red */
