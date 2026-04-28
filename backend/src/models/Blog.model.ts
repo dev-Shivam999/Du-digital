@@ -42,7 +42,18 @@ const blogSchema = new mongoose.Schema(
                 trim: true,
                 default: "DU Digital Global"
             },
-
+            designation: {
+                type: String,
+                trim: true,
+            },
+            bio: {
+                type: String,
+                trim: true,
+            },
+            linkedin: {
+                type: String,
+                trim: true,
+            },
         },
 
         category: {

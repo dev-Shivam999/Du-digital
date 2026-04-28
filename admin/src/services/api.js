@@ -248,7 +248,7 @@ export const getBlogs = async (page = 1, limit = 10) => {
 };
 
 export const getBlog = async (id) => {
-    const response = await axios.get(`${API_URL_BLOGS}/${id}`);
+    const response = await axios.get(`${API_URL_BLOGS}/${id}?nocache=1`);
     return response.data;
 };
 

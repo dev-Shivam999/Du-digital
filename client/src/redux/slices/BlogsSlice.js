@@ -51,7 +51,11 @@ const initialState = {
 const BlogsSlice = createSlice({
     name: 'blogs',
     initialState,
-    reducers: {},
+    reducers: {
+        clearSingleBlog: (state) => {
+            state.SingleBlog = null;
+        }
+    },
     extraReducers: (builder) => {
         builder
             .addCase(fetchBlogs.pending, (state) => {
@@ -88,5 +92,6 @@ const BlogsSlice = createSlice({
     }
 })
 
+export const { clearSingleBlog } = BlogsSlice.actions;
 export default BlogsSlice.reducer;
 

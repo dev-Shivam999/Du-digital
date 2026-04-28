@@ -50,11 +50,14 @@ export const getBlogs = async (req: Request, res: Response) => {
 export const getBlogById = async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
+        const noCache = req.query.nocache === '1';
         const cacheKey = `blog_${id}`;
 
-        const cachedBlog = getCache(cacheKey);
-        if (cachedBlog) {
-            return res.status(200).json(cachedBlog);
+        if (!noCache) {
+            const cachedBlog = getCache(cacheKey);
+            if (cachedBlog) {
+                return res.status(200).json(cachedBlog);
+            }
         }
 
         // Support lookup by slug OR MongoDB _id
@@ -67,7 +70,10 @@ export const getBlogById = async (req: Request, res: Response) => {
             return res.status(404).json({ message: "Blog not found" });
         }
 
-        setCache(cacheKey, blog, 300);
+        // Cache under both id and slug so invalidation hits both
+        setCache(`blog_${blog._id}`, blog, 60); // 1 min TTL — short to avoid stale author data
+        if (blog.slug) setCache(`blog_${blog.slug}`, blog, 60);
+
         res.status(200).json(blog);
     } catch (error) {
         res.status(500).json({ message: "Error fetching blog", error });
@@ -98,12 +104,20 @@ export const createBlog = async (req: Request, res: Response) => {
         const existing = await Blog.findOne({ slug });
         if (existing) slug = `${slug}_${Date.now()}`;
 
+        // Resolve author — multer may give nested object or flat bracket-notation keys
+        const resolvedAuthor = (author && typeof author === 'object') ? author : {
+            name: req.body['author[name]'],
+            designation: req.body['author[designation]'],
+            bio: req.body['author[bio]'],
+            linkedin: req.body['author[linkedin]'],
+        };
+
         const newBlog = new Blog({
             title,
             slug,
             content,
             featuredImage: featuredImageUrl,
-            author,
+            author: resolvedAuthor,
             category,
             tags: processedTags,
             seoTitle,
@@ -126,34 +140,59 @@ export const createBlog = async (req: Request, res: Response) => {
 export const updateBlog = async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
-        let updateData: any = { ...req.body };
+        const { title, author, category, tags, seoTitle, seoDescription, focusKeyword, slug: rawSlug } = req.body;
+        
+        const updateData: any = {};
 
+        if (title !== undefined) updateData.title = title;
+        if (category !== undefined) updateData.category = category;
+        if (tags !== undefined) updateData.tags = Array.isArray(tags) ? tags.join(",") : tags;
+        if (seoTitle !== undefined) updateData.seoTitle = seoTitle;
+        if (seoDescription !== undefined) updateData.seoDescription = seoDescription;
+        if (focusKeyword !== undefined) updateData.focusKeyword = focusKeyword;
+        if (req.body.content !== undefined) updateData.content = req.body.content;
+
+        // Handle author fields — multer parses bracket notation as flat strings
+        const authorName = (author && typeof author === 'object' ? author.name : req.body['author[name]']) ?? undefined;
+        const authorDesignation = (author && typeof author === 'object' ? author.designation : req.body['author[designation]']) ?? undefined;
+        const authorBio = (author && typeof author === 'object' ? author.bio : req.body['author[bio]']) ?? undefined;
+        const authorLinkedin = (author && typeof author === 'object' ? author.linkedin : req.body['author[linkedin]']) ?? undefined;
+
+        if (authorName !== undefined) updateData['author.name'] = authorName;
+        if (authorDesignation !== undefined) updateData['author.designation'] = authorDesignation;
+        if (authorBio !== undefined) updateData['author.bio'] = authorBio;
+        if (authorLinkedin !== undefined) updateData['author.linkedin'] = authorLinkedin;
+
+        // Handle featured image
         if (req.file) {
-            updateData.featuredImage = `/uploads/${req.file.filename}`;
+            updateData.featuredImage = `/api/uploads/${req.file.filename}`;
+        } else if (req.body.featuredImage) {
+            updateData.featuredImage = req.body.featuredImage;
         }
 
-        // If a manual slug was provided, use it; otherwise regenerate from title
-        if (updateData.slug) {
-            let slug = generateSlug(updateData.slug);
+        // Slug handling
+        if (rawSlug) {
+            let slug = generateSlug(rawSlug);
             const existing = await Blog.findOne({ slug, _id: { $ne: id } });
             if (existing) slug = `${slug}_${Date.now()}`;
             updateData.slug = slug;
-        } else if (updateData.title) {
-            let slug = generateSlug(updateData.title);
+        } else if (title) {
+            let slug = generateSlug(title);
             const existing = await Blog.findOne({ slug, _id: { $ne: id } });
             if (existing) slug = `${slug}_${Date.now()}`;
             updateData.slug = slug;
         }
 
-        const updatedBlog = await Blog.findByIdAndUpdate(id, updateData, { new: true });
+        const updatedBlog = await Blog.findByIdAndUpdate(id, { $set: updateData }, { new: true });
 
         if (!updatedBlog) {
             return res.status(404).json({ message: "Blog not found" });
         }
 
-        // Invalidate list cache and specific blog cache
+        // Invalidate ALL possible cache keys for this blog
+        deleteCacheByPattern(`blog_${id}`);
+        if (updatedBlog.slug) deleteCacheByPattern(`blog_${updatedBlog.slug}`);
         deleteCacheByPattern('blogs_');
-        deleteCache(`blog_${id}`);
 
         res.status(200).json(updatedBlog);
     } catch (error) {

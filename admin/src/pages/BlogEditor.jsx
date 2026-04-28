@@ -32,6 +32,9 @@ const BlogEditor = () => {
     category: "",
     tags: "",
     authorName: "DU Digital Global",
+    authorDesignation: "",
+    authorBio: "",
+    authorLinkedin: "",
     seoTitle: "",
     seoDescription: "",
     focusKeyword: "",
@@ -88,6 +91,9 @@ const BlogEditor = () => {
         category: data.category || "",
         tags: data.tags || "",
         authorName: data.author?.name || "DU Digital Global",
+        authorDesignation: data.author?.designation || "",
+        authorBio: data.author?.bio || "",
+        authorLinkedin: data.author?.linkedin || "",
         seoTitle: data.seoTitle || "",
         seoDescription: data.seoDescription || "",
         focusKeyword: data.focusKeyword || "",
@@ -148,6 +154,9 @@ const BlogEditor = () => {
     submitData.append("category", formData.category);
     submitData.append("tags", formData.tags);
     submitData.append("author[name]", formData.authorName);
+    submitData.append("author[designation]", formData.authorDesignation);
+    submitData.append("author[bio]", formData.authorBio);
+    submitData.append("author[linkedin]", formData.authorLinkedin);
     submitData.append("seoTitle", formData.seoTitle);
     submitData.append("seoDescription", formData.seoDescription);
     submitData.append("focusKeyword", formData.focusKeyword);
@@ -295,6 +304,21 @@ const BlogEditor = () => {
                   <FormGroup label="Author Name">
                     <Input type="text" value={formData.authorName} onChange={(e) => { markDirty(); setFormData({ ...formData, authorName: e.target.value }); }} placeholder="Author name" />
                   </FormGroup>
+                  <FormGroup label="Author Designation">
+                    <Input type="text" value={formData.authorDesignation} onChange={(e) => { markDirty(); setFormData({ ...formData, authorDesignation: e.target.value }); }} placeholder="e.g. Senior Manager – Sales at DU Global" />
+                  </FormGroup>
+                  <FormGroup label="Author Bio">
+                    <textarea
+                      value={formData.authorBio}
+                      onChange={(e) => { markDirty(); setFormData({ ...formData, authorBio: e.target.value }); }}
+                      placeholder="Short bio about the author..."
+                      rows={3}
+                      style={{ width: '100%', padding: '8px 12px', border: '1px solid #d1d5db', borderRadius: 6, fontSize: 14, resize: 'vertical', fontFamily: 'inherit' }}
+                    />
+                  </FormGroup>
+                  <FormGroup label="Author LinkedIn URL">
+                    <Input type="url" value={formData.authorLinkedin} onChange={(e) => { markDirty(); setFormData({ ...formData, authorLinkedin: e.target.value }); }} placeholder="https://linkedin.com/in/username" />
+                  </FormGroup>
                 </div>
               </div>
 
@@ -353,7 +377,7 @@ const BlogEditor = () => {
                   value={formData.seoTitle}
                   onChange={(e) => { markDirty(); setFormData({ ...formData, seoTitle: e.target.value }); }}
                   placeholder={formData.title || "Enter SEO title..."}
-                  maxLength={70}
+                
                 />
                 <div style={{ fontSize: 12, color: formData.seoTitle.length > 60 ? '#dc2626' : '#6b7280', marginTop: 4 }}>
                   {formData.seoTitle.length}/60 characters {formData.seoTitle.length > 60 ? '— too long' : ''}
@@ -401,13 +425,11 @@ const BlogEditor = () => {
                   value={formData.seoDescription}
                   onChange={(e) => { markDirty(); setFormData({ ...formData, seoDescription: e.target.value }); }}
                   placeholder="Write a compelling description that makes users want to click..."
-                  maxLength={200}
+                  
                   rows={4}
                   style={{ width: '100%', padding: '8px 12px', border: '1px solid #d1d5db', borderRadius: 6, fontSize: 14, resize: 'vertical', fontFamily: 'inherit' }}
                 />
-                <div style={{ fontSize: 12, color: formData.seoDescription.length > 160 ? '#dc2626' : '#6b7280', marginTop: 4 }}>
-                  {formData.seoDescription.length}/160 characters {formData.seoDescription.length > 160 ? '— too long' : ''}
-                </div>
+               
               </FormGroup>
 
               {/* Google preview */}
