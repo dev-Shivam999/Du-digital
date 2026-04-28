@@ -10,7 +10,7 @@ import mongoose from "mongoose";
 // Create Event
 export const createEvent = async (req: Request, res: Response) => {
     try {
-        const { title, date, location, description } = req.body;
+        const { title, date, location, description, slug: rawSlug } = req.body;
         const file = req.file;
 
         if (!title || !date) {
@@ -22,8 +22,8 @@ export const createEvent = async (req: Request, res: Response) => {
             imageUrl = `/uploads/${file.filename}`;
         }
 
-        // Generate unique slug from title
-        let slug = generateSlug(title);
+        // Use manually supplied slug if provided, otherwise auto-generate from title
+        let slug = rawSlug ? generateSlug(rawSlug) : generateSlug(title);
         const existing = await Event.findOne({ slug });
         if (existing) slug = `${slug}_${Date.now()}`;
 
@@ -157,7 +157,7 @@ export const getEventById = async (req: Request, res: Response) => {
 export const updateEvent = async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
-        const { title, date, location, description } = req.body;
+        const { title, date, location, description, slug: rawSlug } = req.body;
         const file = req.file;
 
         const event = await Event.findById(id);
@@ -170,8 +170,13 @@ export const updateEvent = async (req: Request, res: Response) => {
         event.location = location || event.location;
         event.description = description || event.description;
 
-        // Regenerate slug if title changed
-        if (title && title !== event.title) {
+        // If a manual slug was provided, use it; otherwise regenerate when title changed
+        if (rawSlug) {
+            let slug = generateSlug(rawSlug);
+            const existing = await Event.findOne({ slug, _id: { $ne: id } });
+            if (existing) slug = `${slug}_${Date.now()}`;
+            (event as any).slug = slug;
+        } else if (title && title !== event.title) {
             let slug = generateSlug(title);
             const existing = await Event.findOne({ slug, _id: { $ne: id } });
             if (existing) slug = `${slug}_${Date.now()}`;

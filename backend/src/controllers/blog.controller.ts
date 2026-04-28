@@ -77,7 +77,7 @@ export const getBlogById = async (req: Request, res: Response) => {
 // Create a new blog
 export const createBlog = async (req: Request, res: Response) => {
     try {
-        const { title, content, featuredImage, author, category, tags, seoTitle, seoDescription, focusKeyword } = req.body;
+        const { title, content, featuredImage, author, category, tags, seoTitle, seoDescription, focusKeyword, slug: rawSlug } = req.body;
 
         let processedTags = tags;
         if (Array.isArray(tags)) {
@@ -93,8 +93,8 @@ export const createBlog = async (req: Request, res: Response) => {
             featuredImageUrl = `/api/uploads/${req.file.filename}`;
         }
 
-        // Generate unique slug from title
-        let slug = generateSlug(title);
+        // Use manually supplied slug if provided, otherwise auto-generate from title
+        let slug = rawSlug ? generateSlug(rawSlug) : generateSlug(title);
         const existing = await Blog.findOne({ slug });
         if (existing) slug = `${slug}_${Date.now()}`;
 
@@ -132,8 +132,13 @@ export const updateBlog = async (req: Request, res: Response) => {
             updateData.featuredImage = `/uploads/${req.file.filename}`;
         }
 
-        // Regenerate slug if title changed
-        if (updateData.title) {
+        // If a manual slug was provided, use it; otherwise regenerate from title
+        if (updateData.slug) {
+            let slug = generateSlug(updateData.slug);
+            const existing = await Blog.findOne({ slug, _id: { $ne: id } });
+            if (existing) slug = `${slug}_${Date.now()}`;
+            updateData.slug = slug;
+        } else if (updateData.title) {
             let slug = generateSlug(updateData.title);
             const existing = await Blog.findOne({ slug, _id: { $ne: id } });
             if (existing) slug = `${slug}_${Date.now()}`;

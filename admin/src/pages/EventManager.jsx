@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import {
   Calendar,
   Plus,
@@ -32,11 +32,24 @@ const EventManager = () => {
   const [loading, setLoading] = useState(true);
   const [formData, setFormData] = useState({
     title: "",
+    slug: "",
     date: "",
     location: "",
     description: "",
     image: null,
   });
+  const slugManuallyEdited = useRef(false);
+
+  // Helper: mirrors backend generateSlug logic
+  const toSlug = (str) =>
+    str
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9\s_-]/g, '')
+      .replace(/\s+/g, '_')
+      .replace(/-+/g, '_')
+      .replace(/_+/g, '_')
+      .replace(/^_|_$/g, '');
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [isEventModalOpen, setIsEventModalOpen] = useState(false);
   const [isGalleryModalOpen, setIsGalleryModalOpen] = useState(false);
@@ -97,6 +110,7 @@ const EventManager = () => {
 
     const data = new FormData();
     data.append("title", formData.title);
+    if (formData.slug.trim()) data.append("slug", toSlug(formData.slug));
     data.append("date", formData.date);
     data.append("location", formData.location);
     data.append("description", formData.description);
@@ -150,26 +164,30 @@ const EventManager = () => {
   const resetForm = () => {
     setFormData({
       title: "",
+      slug: "",
       date: "",
       location: "",
       description: "",
       image: null,
     });
+    slugManuallyEdited.current = false;
     setImagePreview(null);
     setSelectedEvent(null);
   };
 
   const handleEdit = (event) => {
     setSelectedEvent(event);
+    slugManuallyEdited.current = true; // treat existing slug as manually set
     setFormData({
       title: event.title,
+      slug: event.slug || "",
       date: event.date ? event.date.split("T")[0] : "",
       location: event.location || "",
       description: event.description || "",
       image: null,
     });
     if (event.imageUrl) {
-      setImagePreview(`${ApiUrl}${event.imageUrl.replace("/api","")}`);
+      setImagePreview(`${ApiUrl}${event.imageUrl.replace("/api", "")}`);
     } else {
       setImagePreview(null);
     }
@@ -326,7 +344,7 @@ const EventManager = () => {
                 {event.imageUrl && (
                   <div className="image-upload-preview has-image mb-3">
                     <img
-                      src={`${ApiUrl}${event.imageUrl.replace("/api","")}`}
+                      src={`${ApiUrl}${event.imageUrl.replace("/api", "")}`}
                       alt={event.title}
                       style={{
                         width: "100%",
@@ -429,7 +447,14 @@ const EventManager = () => {
                       type="text"
                       name="title"
                       value={formData.title}
-                      onChange={handleInputChange}
+                      onChange={(e) => {
+                        const newTitle = e.target.value;
+                        setFormData((prev) => ({
+                          ...prev,
+                          title: newTitle,
+                          slug: slugManuallyEdited.current ? prev.slug : toSlug(newTitle),
+                        }));
+                      }}
                       placeholder="Enter event title..."
                       required
                     />
@@ -454,6 +479,31 @@ const EventManager = () => {
                     onChange={handleInputChange}
                     placeholder="Event location..."
                   />
+                </FormGroup>
+
+                <FormGroup label="Slug (URL)">
+                  <div style={{ position: 'relative' }}>
+                    <div style={{
+                      position: 'absolute', left: 10, top: '50%', transform: 'translateY(-50%)',
+                      fontSize: 12, color: '#9ca3af', pointerEvents: 'none', whiteSpace: 'nowrap'
+                    }}>
+                      /events/
+                    </div>
+                    <Input
+                      type="text"
+                      value={formData.slug}
+                      onBlur={() => setFormData((p) => ({ ...p, slug: toSlug(p.slug) }))}
+                      onChange={(e) => {
+                        slugManuallyEdited.current = true;
+                        setFormData((p) => ({ ...p, slug: e.target.value }));
+                      }}
+                      placeholder="auto-generated-from-title"
+                      style={{ paddingLeft: 60 }}
+                    />
+                  </div>
+                  <div style={{ fontSize: 11, color: '#6b7280', marginTop: 3 }}>
+                    Shown in URL: <code style={{ background: '#f3f4f6', padding: '1px 4px', borderRadius: 3 }}>dudigitalglobal.com/events/{formData.slug || 'event-slug'}</code>
+                  </div>
                 </FormGroup>
 
                 <FormGroup label="Description">

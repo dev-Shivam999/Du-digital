@@ -26,6 +26,7 @@ const BlogEditor = () => {
 
   const [formData, setFormData] = useState({
     title: "",
+    slug: "",
     content: "",
     featuredImage: "",
     category: "",
@@ -35,7 +36,20 @@ const BlogEditor = () => {
     seoDescription: "",
     focusKeyword: "",
   });
+  const slugManuallyEdited = useRef(false);
+
+  // Helper: generate slug from title (mirrors backend logic)
+  const toSlug = (str) =>
+    str
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9\s_-]/g, '')
+      .replace(/\s+/g, '_')
+      .replace(/-+/g, '_')
+      .replace(/_+/g, '_')
+      .replace(/^_|_$/g, '');
   const [activeTab, setActiveTab] = useState('content'); // 'content' | 'seo-title' | 'seo-desc'
+  const [slugFocused, setSlugFocused] = useState(false);
   const [featuredImageFile, setFeaturedImageFile] = useState(null);
   const [featuredPreview, setFeaturedPreview] = useState("");
   const [loading, setLoading] = useState(false);
@@ -65,8 +79,10 @@ const BlogEditor = () => {
   const fetchBlogDetails = async () => {
     try {
       const data = await getBlog(id);
+      slugManuallyEdited.current = true; // treat existing slug as manually set
       setFormData({
         title: data.title || "",
+        slug: data.slug || "",
         content: data.content || "",
         featuredImage: data.featuredImage || "",
         category: data.category || "",
@@ -127,6 +143,7 @@ const BlogEditor = () => {
     // Step 2: build FormData with clean HTML (no base64)
     const submitData = new FormData();
     submitData.append("title", formData.title);
+    if (formData.slug.trim()) submitData.append("slug", toSlug(formData.slug));
     submitData.append("content", finalContent);
     submitData.append("category", formData.category);
     submitData.append("tags", formData.tags);
@@ -188,9 +205,9 @@ const BlogEditor = () => {
       {/* ── Tab Navigation ─────────────────────────────────────────────────── */}
       <div style={{ display: 'flex', gap: 0, marginBottom: 16, borderBottom: '2px solid #e5e7eb' }}>
         {[
-          { key: 'content',  label: '1. Content' },
+          { key: 'content', label: '1. Content' },
           { key: 'seo-title', label: '2. SEO Title' },
-          { key: 'seo-desc',  label: '3. SEO Description' },
+          { key: 'seo-desc', label: '3. SEO Description' },
         ].map(tab => (
           <button
             key={tab.key}
@@ -226,7 +243,48 @@ const BlogEditor = () => {
                 </div>
                 <div className="card-body">
                   <FormGroup label="Title *">
-                    <Input type="text" value={formData.title} onChange={(e) => { markDirty(); setFormData({ ...formData, title: e.target.value }); }} placeholder="Enter blog title..." required />
+                    <Input
+                      type="text"
+                      value={formData.title}
+                      onChange={(e) => {
+                        markDirty();
+                        const newTitle = e.target.value;
+                        setFormData((prev) => ({
+                          ...prev,
+                          title: newTitle,
+                          // Auto-fill slug only if user hasn't manually edited it
+                          slug: slugManuallyEdited.current ? prev.slug : toSlug(newTitle),
+                        }));
+                      }}
+                      placeholder="Enter blog title..."
+                      required
+                    />
+                  </FormGroup>
+                  <FormGroup label="Slug (URL)">
+                    <div style={{ position: 'relative' }}>
+                      <div style={{
+                        position: 'absolute', left: 10, top: '50%', transform: 'translateY(-50%)',
+                        fontSize: 12, color: '#9ca3af', pointerEvents: 'none', whiteSpace: 'nowrap'
+                      }}>
+                        /blog/
+                      </div>
+                      <Input
+                        type="text"
+                        value={formData.slug}
+                        onFocus={() => setSlugFocused(true)}
+                        onBlur={() => { setSlugFocused(false); setFormData((p) => ({ ...p, slug: toSlug(p.slug) })); }}
+                        onChange={(e) => {
+                          markDirty();
+                          slugManuallyEdited.current = true;
+                          setFormData((p) => ({ ...p, slug: e.target.value }));
+                        }}
+                        placeholder="auto-generated-from-title"
+                        style={{ paddingLeft: 44 }}
+                      />
+                    </div>
+                    <div style={{ fontSize: 11, color: '#6b7280', marginTop: 3 }}>
+                      Shown in URL: <code style={{ background: '#f3f4f6', padding: '1px 4px', borderRadius: 3 }}>dudigitalglobal.com/blog/{formData.slug || 'your-blog-slug'}</code>
+                    </div>
                   </FormGroup>
                   <FormGroup label="Category">
                     <Input type="text" value={formData.category} onChange={(e) => { markDirty(); setFormData({ ...formData, category: e.target.value }); }} placeholder="e.g. Visa, Business, Travel" />
@@ -319,7 +377,7 @@ const BlogEditor = () => {
                 <div style={{ fontSize: 18, color: '#1a0dab', marginBottom: 2 }}>
                   {formData.seoTitle || formData.title || 'Blog Title'}
                 </div>
-                <div style={{ fontSize: 13, color: '#006621' }}>dudigitalglobal.com › blog › {formData.title?.toLowerCase().replace(/\s+/g, '-') || 'blog-slug'}</div>
+                <div style={{ fontSize: 13, color: '#006621' }}>dudigitalglobal.com › blog › {formData.slug || formData.title?.toLowerCase().replace(/\s+/g, '-') || 'blog-slug'}</div>
                 <div style={{ fontSize: 13, color: '#545454', marginTop: 4 }}>
                   {formData.seoDescription || formData.tags || 'Meta description will appear here...'}
                 </div>
@@ -358,7 +416,7 @@ const BlogEditor = () => {
                 <div style={{ fontSize: 18, color: '#1a0dab', marginBottom: 2 }}>
                   {formData.seoTitle || formData.title || 'Blog Title'}
                 </div>
-                <div style={{ fontSize: 13, color: '#006621' }}>dudigitalglobal.com › blog › {formData.title?.toLowerCase().replace(/\s+/g, '-') || 'blog-slug'}</div>
+                <div style={{ fontSize: 13, color: '#006621' }}>dudigitalglobal.com › blog › {formData.slug || formData.title?.toLowerCase().replace(/\s+/g, '-') || 'blog-slug'}</div>
                 <div style={{ fontSize: 13, color: '#545454', marginTop: 4 }}>
                   {formData.seoDescription || 'Meta description will appear here...'}
                 </div>
