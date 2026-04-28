@@ -350,7 +350,7 @@ Sitemap: ${SITE}/sitemap.xml`
             { path: '/duverify',                          priority: '0.7', changefreq: 'monthly' },
             { path: '/tenant-and-domestic-help-verification', priority: '0.7', changefreq: 'monthly' },
             { path: '/our-capabilities',                  priority: '0.6', changefreq: 'monthly' },
-            { path: '/swifttravels',                      priority: '0.7', changefreq: 'weekly' },
+            { path: '/du-travel-services',                      priority: '0.7', changefreq: 'weekly' },
             { path: '/tnh-magazine',                      priority: '0.6', changefreq: 'monthly' },
             { path: '/terms-and-conditions',              priority: '0.3', changefreq: 'yearly' },
             { path: '/cookie-policy',                     priority: '0.3', changefreq: 'yearly' },

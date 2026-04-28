@@ -76,7 +76,7 @@ const App = () => {
                                         <Route path="/video-gallery" element={<VideoGallery />} />
                                         <Route path="/blogs" element={<Blogs />} />
                                         <Route path="/blog/:slug" element={<SingleBlog />} />
-                                        <Route path="/swifttravels" element={<Swifttravels />} />
+                                        <Route path="/du-travel-services" element={<Swifttravels />} />
                                         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
                                         <Route path="/duverify" element={<Duverify />} />
                                         <Route path="/our-capabilities" element={<OurCapabilities />} />

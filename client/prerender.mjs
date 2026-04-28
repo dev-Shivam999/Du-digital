@@ -32,7 +32,7 @@ const ROUTES = [
     '/careers',
     '/video-gallery',
     '/blogs',
-    '/swifttravels',
+    '/du-travel-services',
     '/terms-and-conditions',
     '/duverify',
     '/our-capabilities',
